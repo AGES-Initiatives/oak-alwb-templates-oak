@@ -1,6 +1,6 @@
 Template bk.liturgy.chrysostom.oak 
 
-Status Review
+Status Final
 
 	import client_gr_GR_cog.*
 	import eu.lichrysbasil_gr_GR_cog.*
@@ -306,7 +306,7 @@ Status Review
 		Actor sid Choir End-Actor
 				Rubric sid AlleluiaAndItsVerses End-Rubric
 		Hymn sid hoLI.GospelAlleluia.text End-Hymn
-		Rubric sid AlleluiaModes End-Rubric
+//		Rubric sid AlleluiaModes End-Rubric
 /* 
 		Title sid Asterisks End-Title
 		Insert_section bk.ap.da.d1.m1 End-Insert
