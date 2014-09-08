@@ -6,6 +6,8 @@ Status Review
 	import ho.s07_gr_GR_cog.* // antiphon refrains
 	import ho.s21_gr_GR_cog.* //for pre-communion prayers
 	import oc.m6.d2_gr_GR_cog.*
+	import oc.m4.d4_gr_GR_cog.*
+	import me.m10.d28a_gr_GR_cog.*
 
 	import me.*
 	import pe.*
@@ -74,10 +76,10 @@ Status Review
 		Dialog sid res04 End-Dialog
 		
 		Actor sid Priest End-Actor
-		Dialog sid ocMA.Kathisma21.text End-Dialog
+		Dialog sid oc.m6.d2_gr_GR_cog.ocMA.Kathisma21.text End-Dialog
 		Actor sid Deacon End-Actor
 		Dialog sid DoxaPatri.text End-Dialog
-		Dialog sid ocMA.Kathisma22.text End-Dialog
+		Dialog sid oc.m6.d2_gr_GR_cog.ocMA.Kathisma22.text End-Dialog
 		Actor sid Priest End-Actor
 		Dialog sid KaiNynKaiAei.text End-Dialog
 		Dialog sid li.preparation.tisefsplanknis End-Dialog
@@ -114,6 +116,142 @@ Status Review
 		
 		Rubric sid li.rubric.sticharionpriest End-Rubric
 		Dialog sid enarxis01 End-Dialog
+		Rubric sid li.rubric.wearsticharion End-Rubric
+		Dialog sid li.preparation.agalliasetai End-Dialog
+		
+		Rubric sid li.rubric.blessvestments End-Rubric
+		Rubric sid li.rubric.epitrachilion End-Rubric
+		Dialog sid li.preparation.blessepitrachilion.p1 sid psa132.v2.text End-Dialog
+		Rubric sid li.rubric.orarion End-Rubric
+		Actor sid Deacon End-Actor 
+		Dialog sid li.preparation.estaidiakonos End-Dialog
+		Rubric sid li.rubric.zoni End-Rubric
+		Dialog sid li.preparation.blesszoni.p1 sid psa17.v33.text End-Dialog
+		Rubric sid li.rubric.rightcuff End-Rubric
+		Dialog sid li.preparation.blessrightcuff End-Dialog
+		Rubric sid li.rubric.leftcuff End-Rubric
+		Dialog sid psa118.v73.text End-Dialog
+		Rubric sid li.rubric.epigonation End-Rubric
+		Dialog sid psa44.v4.text sid psa44.v5.text End-Dialog
+		Rubric sid li.rubric.felonion End-Rubric
+		Dialog sid li.preparation.blessfelonion End-Dialog
+		Rubric sid li.rubric.cross End-Rubric
+		Dialog sid li.preparation.blesscross End-Dialog
+		Rubric sid li.rubric.washhands End-Rubric
+		Dialog sid psa25.v6.text sid psa25.v7.text sid psa25.v8.text sid psa25.v9.text sid psa25.v10.text sid psa25.v11.text sid psa25.v12.text End-Dialog
+	
+		Rubric sid li.rubric.tableofpreparation End-Rubric
+		Rubric sid li.rubric.bowthrice End-Rubric
+		Dialog sid li.preparation.mercy2 End-Dialog
+		
+		Rubric sid li.rubric.raiselance End-Rubric
+		Dialog sid oc.m4.d4_gr_GR_cog.ocMA.Kathisma11.text End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid res08 End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid enarxis01 End-Dialog
+		
+		Rubric sid li.rubric.crossprosfora End-Rubric
+		Dialog sid li.preparation.inmemory <r> sid Thrice </> End-Dialog
+		
+		Rubric sid li.rubric.pierce End-Rubric
+		Dialog sid li.preparation.pierce End-Dialog
+		Rubric sid li.rubric.cutleft End-Rubric
+		Dialog sid li.preparation.cutleft End-Dialog
+		Rubric sid li.rubric.cuttop End-Rubric
+		Dialog sid li.preparation.cuttop End-Dialog
+		Rubric sid li.rubric.cutbottom End-Rubric
+		Dialog sid li.preparation.cutbottom End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid euLI.Key1107.text End-Dialog
+		Rubric sid li.rubric.removelamb End-Rubric
+		Dialog sid li.preparation.removelamb End-Dialog
+		
+		Rubric sid li.rubric.invertlamb End-Rubric
+		Actor sid Deacon End-Actor
+		Dialog sid li.preparation.sacrifice End-Dialog
+		Rubric sid li.rubric.cutlamb End-Rubric
+		Dialog sid li.preparation.cutlamb End-Dialog
+		
+		Rubric sid li.rubric.revertlamb End-Rubric
+		Actor sid Deacon End-Actor
+		Dialog sid li.preparation.pierce2 End-Dialog
+		Rubric sid li.rubric.pierce2 End-Rubric
+		Dialog sid li.preparation.pierce3 End-Dialog
+		
+		Rubric sid li.rubric.mixchalice End-Rubric
+		Dialog sid li.preparation.holyunion End-Dialog
+		Rubric sid li.rubric.blesswinewater End-Rubric
+		Dialog sid li.preparation.blessunion End-Dialog
+		Rubric sid li.rubric.coverchalice End-Rubric
+		
+		Rubric sid li.rubric.anotherprosfora End-Rubric
+		Dialog sid li.preparation.anotherprosfora End-Dialog
+		
+		Rubric sid li.rubric.theotokosparticle End-Rubric
+		Dialog sid me.m10.d28a_gr_GR_cog.meLI.Antiphon1Verse1.text End-Dialog
+		
+		Rubric sid li.rubric.saintparticles End-Rubric
+		Rubric sid li.rubric.rank1 End-Rubric
+		Dialog sid li.preparation.rank1 End-Dialog
+		Rubric sid li.rubric.rank2 End-Rubric
+		Dialog sid li.preparation.rank2 End-Dialog
+		
+		Dialog sid Asterisks End-Dialog
+		Rubric sid li.rubric.altorder End-Rubric
+		Dialog sid li.preparation.altrank1 End-Dialog
+		Dialog sid li.preparation.altrank2 End-Dialog
+		Dialog sid Asterisks End-Dialog
+		
+		Rubric sid li.rubric.rank3 End-Rubric
+		Dialog sid li.preparation.rank3 End-Dialog
+		Rubric sid li.rubric.rank4 End-Rubric
+		Dialog sid li.preparation.rank4 End-Dialog
+		Rubric sid li.rubric.rank5 End-Rubric
+		Dialog sid li.preparation.rank5 End-Dialog
+		Rubric sid li.rubric.rank6 End-Rubric
+		Dialog sid li.preparation.rank6 End-Dialog
+		Rubric sid li.rubric.rank7 End-Rubric
+		Dialog sid li.preparation.rank7 End-Dialog
+		Rubric sid li.rubric.rank8 End-Rubric
+		Dialog sid li.preparation.rank8 End-Dialog
+		Rubric sid li.rubric.rank9 End-Rubric
+		Dialog sid li.preparation.rank9 End-Dialog
+		
+		Rubric sid li.rubric.particlebishop End-Rubric
+		Dialog sid li.preparation.particlebishop End-Dialog
+		
+		Rubric sid li.rubric.particlesliving End-Rubric
+		Dialog sid li.preparation.remember End-Dialog
+		
+		Rubric sid li.rubric.particlesfounders End-Rubric
+		Dialog sid li.preparation.particlesfounders End-Dialog
+		
+		Rubric sid li.rubric.particlesdeparted End-Rubric
+		Dialog sid li.preparation.remember End-Dialog
+		Rubric sid li.rubric.particlesdeparted2 End-Rubric
+		Dialog sid li.preparation.particlesdeparted2 End-Dialog
+		
+		Rubric sid li.rubric.deaconcommemmorates End-Rubric
+		Rubric sid li.rubric.particlepriest End-Rubric
+		Dialog sid li.preparation.particlepriest End-Dialog
+		
+		Rubric sid li.rubric.takecenser End-Rubric
+		Dialog sid li.preparation.blessincense End-Dialog
+		Rubric sid li.rubric.blessincense End-Rubric
+		Dialog sid li.preparation.prayerincense End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.preparation.makefirm End-Dialog
+		Rubric sid li.rubric.placestar End-Rubric
+		Dialog sid psa32.v6.text End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.preparation.makemajestic End-Dialog
+		Rubric sid li.rubric.placeveil End-Rubric
+		Dialog sid psa92.v1b.text sid psa92.v1c.text End-Dialog
 	End-Section
 	
 	Section Section01
