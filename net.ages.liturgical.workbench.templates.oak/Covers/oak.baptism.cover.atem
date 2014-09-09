@@ -1,0 +1,21 @@
+Template oak.baptism.cover
+
+Status Review
+
+	import ematinscovers_en_US_ematins.*
+	import template.titles_gr_GR_cog.*
+	import roles.*
+
+	import pub.priest.servicebook_gr_GR_cog.*
+	
+	Switch-Version L2 End-Switch-Version
+
+	Section Normal	
+		Title role cover1 sid psb.pdf.cover End-Title 	//Service
+	End-Section
+	
+	Title role cover5 sid pref.generation_public.cover.version End-Title // e.g. GE or E
+	
+	Switch-Version Both End-Switch-Version	
+
+End-Template
