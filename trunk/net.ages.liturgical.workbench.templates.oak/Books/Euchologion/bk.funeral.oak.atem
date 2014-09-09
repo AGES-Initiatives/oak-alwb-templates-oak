@@ -200,7 +200,20 @@ End_Head
 	Title role mixed sid KaiNyn<Tmode>sid euFUN.Key0813.mode</> End-Title
 	Hymn sid euFUN.Key0813.text End-Hymn
 
+	Title role desig sid euFUN.Key0900.title End-Title
+	Title role mode sid euFUN.Key0900.mode rid misc_gr_GR_cog.Mode6 End-Title
+//	euFUN.Key0900.melody = he.h.m6_gr_GR_cog.OiOsioiSouPaides.name
+	Hymn sid euFUN.Key0901.text End-Hymn
+	Hymn sid euFUN.Key0902.text End-Hymn
+	Hymn sid euFUN.Key0903.text End-Hymn
+	Hymn sid euFUN.Key0904.text End-Hymn
+	Hymn sid euFUN.Key0905.text End-Hymn
+	Hymn sid euFUN.Key0906.text End-Hymn
+	Hymn sid euFUN.Key0907.text End-Hymn
+	Hymn sid euFUN.Key0908.text End-Hymn
+	
 	Title role mixed <Tdesig>sid Prokeimenon</> <Tmode>sid Mode3</>End-Title
+	Rubric sid Fun.ReaderAndPeopleChant End-Rubric
 	Para role chant sid euFUN.EpistleProkeimenon.text End-Para
 
 	Section Epistle

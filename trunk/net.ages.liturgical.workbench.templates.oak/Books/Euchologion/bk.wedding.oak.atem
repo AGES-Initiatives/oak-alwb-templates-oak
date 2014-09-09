@@ -129,9 +129,9 @@ Status Final
 	Dialog sid enarxis02 End-Dialog
 	Dialog <i>sid res04p</> <Trubric> sid Rub.Pascha </> End-Dialog
 	Rubric sid Wed.Lit02 End-Rubric
+	Actor sid Priest End-Actor
 	Dialog sid pet01 End-Dialog
 	Dialog <i>sid res01p</> End-Dialog
-	Dialog sid pet01 End-Dialog
 	Dialog sid pet02 End-Dialog
 	Dialog sid pet03 End-Dialog
 	Dialog sid pet04 End-Dialog
