@@ -8,6 +8,8 @@ Status Review
 	import oc.m6.d2_gr_GR_cog.*
 	import oc.m4.d4_gr_GR_cog.*
 	import me.m10.d28a_gr_GR_cog.*
+	import oc.m4.d1_gr_GR_cog.*
+	import ho.s03_gr_GR_cog.*
 
 	import me.*
 	import pe.*
@@ -20,6 +22,7 @@ Status Review
 	import template.titles_gr_GR_cog.*
 	import titles_gr_GR_cog.*
 	import ps_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
 	
 	import iTags.*
 	import bTags.*
@@ -134,7 +137,7 @@ Status Review
 		Rubric sid li.rubric.epigonation End-Rubric
 		Dialog sid psa44.v4.text sid psa44.v5.text End-Dialog
 		Rubric sid li.rubric.felonion End-Rubric
-		Dialog sid li.preparation.blessfelonion End-Dialog
+		Dialog sid psa131.v9alt.text End-Dialog
 		Rubric sid li.rubric.cross End-Rubric
 		Dialog sid li.preparation.blesscross End-Dialog
 		Rubric sid li.rubric.washhands End-Rubric
@@ -239,7 +242,7 @@ Status Review
 		Dialog sid li.preparation.particlepriest End-Dialog
 		
 		Rubric sid li.rubric.takecenser End-Rubric
-		Dialog sid li.preparation.blessincense End-Dialog
+		Dialog sid EvlogisonThymiama.text End-Dialog
 		Rubric sid li.rubric.blessincense End-Rubric
 		Dialog sid li.preparation.prayerincense End-Dialog
 		
@@ -252,6 +255,72 @@ Status Review
 		Dialog sid li.preparation.makemajestic End-Dialog
 		Rubric sid li.rubric.placeveil End-Rubric
 		Dialog sid psa92.v1b.text sid psa92.v1c.text End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.preparation.cover End-Dialog
+		Rubric sid li.rubric.coverchalice End-Rubric
+		Dialog sid li.preparation.coverchalice End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.preparation.shelter End-Dialog
+		Rubric sid li.rubric.coverboth End-Rubric
+		Dialog sid li.preparation.coverboth End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid res08 End-Dialog
+		Rubric sid li.rubric.censegifts End-Rubric
+		Dialog sid li.preparation.wellpleased <r> sid Thrice </> End-Dialog
+		Rubric sid li.rubric.wellpleasedresponse End-Rubric
+		Dialog sid PantoteNyn.text End-Dialog
+		
+		Rubric sid li.rubric.bowgifts End-Rubric
+		Dialog sid li.preparation.praygifts End-Dialog
+		Title sid li.preparation.protheseos.title End-Title
+		Actor sid Priest End-Actor
+		Dialog sid li.preparation.protheseosprayer End-Dialog
+		
+		Rubric sid li.rubric.dismissal End-Rubric
+		Dialog sid DoxaSoiChriste2 End-Dialog
+		Actor sid Deacon End-Actor
+		Dialog sid li.preparation.doxapatrikainyn sid res01 <r> sid Thrice </> sid res13 End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid dis00.resurrection sid dis01 sid dis02 sid li.preparation.commemmorationchrysostom sid dis10 sid dis88 End-Dialog
+		Actor sid Deacon End-Actor
+		Dialog sid res04 End-Dialog
+		
+		Rubric sid li.rubric.censeholytable End-Rubric
+		Dialog sid oc.m4.d1_gr_GR_cog.ocMA.OdeS1C12.text End-Dialog
+		Rubric sid li.rubric.psalm50 End-Rubric
+		Dialog sid psa50.text End-Dialog
+		Rubric sid li.rubric.censeall End-Rubric
+		
+		Title sid li.preparation.preliminaries.title End-Title
+		Rubric sid li.rubric.startliturgy End-Rubric
+		Dialog sid VasilefOuranie.text End-Dialog
+		
+		Rubric sid li.rubric.bowthrice End-Rubric
+		Dialog sid ho.s03_gr_GR_cog.hoMA.DoxologyVerse01.text <r> sid Thrice </> End-Dialog
+		Dialog sid euLI.Key0107.text <r> sid Twice </> End-Dialog
+		
+		Rubric sid li.rubric.kairos End-Rubric
+		Dialog sid euLI.Key0101.text End-Dialog
+		Rubric sid li.rubric.blessdeacon End-Rubric
+		Dialog sid EvlogitosOTheosImon.text sid PantoteNyn.text End-Dialog
+		Actor sid Deacon End-Actor
+		Dialog sid euLI.Key0103.text End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid euLI.Key0104.text End-Dialog
+		Actor sid Deacon End-Actor
+		Dialog sid euLI.Key0105.text End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid euLI.Key0106.text End-Dialog
+		Actor sid Deacon End-Actor
+		Dialog sid res04 End-Dialog
+		
+		Rubric sid li.rubric.venerate End-Rubric
+		Actor sid Deacon End-Actor
+		Dialog sid res08 End-Dialog
+		Rubric sid li.rubric.liturgybegins End-Rubric
 	End-Section
 	
 	Section Section01

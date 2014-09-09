@@ -34,8 +34,8 @@ lectionary.text.prophetologion.v2.fallback = "en_US_saas"
 // Liturgical
 liturgical.text.v1.preferred = "gr_KE_oak"
 liturgical.text.v1.fallback = "gr_GR_cog"
-liturgical.text.v2.preferred = "en_KE_oak"
-liturgical.text.v2.fallback = "en_US_constantinides"
+liturgical.text.v2.preferred = "en_UK_lash"
+liturgical.text.v2.fallback = "en_KE_oak"
 
 // Psalter
 psalter.text.v1.preferred = "gr_GR_cog"
