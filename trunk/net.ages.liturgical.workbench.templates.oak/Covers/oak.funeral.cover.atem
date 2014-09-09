@@ -1,4 +1,4 @@
-Template oak.baptism.cover
+Template oak.funeral.cover
 
 Status Review
 
@@ -9,7 +9,7 @@ Status Review
 	Switch-Version L2 End-Switch-Version
 
 	Section Normal	
-		Title role cover1 sid bap.pdf.cover End-Title 	//Service
+		Title role cover1 sid fun.pdf.cover End-Title 	//Service
 	End-Section
 	
 	Title role cover5 sid pref.generation_public.cover.version End-Title // e.g. GE or E
