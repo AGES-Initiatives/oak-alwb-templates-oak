@@ -1,0 +1,39 @@
+Template bk.priests.service.book.oak 
+
+	import pub.priest.servicebook_gr_GR_cog.*
+	
+	Head 
+			Template_Title @lookup sid psb.html.tab lang L2 End_Title
+		
+			Page_Header_Even
+				center @lookup sid psb.pdf.header lang L1 
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @lookup sid psb.pdf.header lang L2
+			End_Page_Header_Odd
+			Page_Footer_Even
+				center @pageNbr
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				center @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	Preface Covers
+		Insert_template ematins.cover.ma End-Insert
+		Insert_template ematins.credits End-Insert
+	End-Preface
+
+/**
+	Insert_section bk.baptism.oak.Baptism End-Insert
+	Insert_section bk.wedding.oak.Wedding End-Insert
+	Insert_section bk.funeral.oak.Funeral End-Insert
+ * 
+ */
+ 
+ 
+ 	Insert_template bk.baptism.oak End-Insert
+ 	Insert_template bk.wedding.oak End-Insert
+ 	Insert_template bk.funeral.oak End-Insert
+End-Template
