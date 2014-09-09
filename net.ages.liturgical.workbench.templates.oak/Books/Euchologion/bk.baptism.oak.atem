@@ -301,13 +301,13 @@ Break line End_Break
 	Rubric sid Baptism.AnnointChild End-Rubric
 	Break line End_Break
 	Dialog <Trubric> sid Baptism.Nose </> sid euBAP.Key0309.text  End-Dialog
-	Dialog <Trubric> sid Baptism.Ears </> sid euBAP.Key0309.text  End-Dialog
-	Dialog <Trubric> sid Baptism.Mouth </> sid euBAP.Key0309.text  End-Dialog
-	Dialog <Trubric> sid Baptism.Chest </> sid euBAP.Key0309.text  End-Dialog
-	Dialog <Trubric> sid Baptism.Legs </> sid euBAP.Key0309.text  End-Dialog
-	Dialog <Trubric> sid Baptism.Feet </> sid euBAP.Key0309.text  End-Dialog
-	Dialog <Trubric> sid Baptism.Hands </> sid euBAP.Key0309.text  End-Dialog
-	Dialog <Trubric> sid Baptism.Back </> sid euBAP.Key0309.text  End-Dialog
+	Dialog <Trubric> sid Baptism.Ears </> sid euBAP.Key0306.text  End-Dialog
+	Dialog <Trubric> sid Baptism.Mouth </> sid euBAP.Key0310.text  End-Dialog
+	Dialog <Trubric> sid Baptism.Chest </> sid euBAP.Key0305.text  End-Dialog
+	Dialog <Trubric> sid Baptism.Legs </> sid euBAP.Key0307.text  End-Dialog
+	Dialog <Trubric> sid Baptism.Feet </> sid euBAP.Key0311.text  End-Dialog
+	Dialog <Trubric> sid Baptism.Hands </> sid euBAP.Key0308.text  End-Dialog
+	Dialog <Trubric> sid Baptism.Back </> sid euBAP.Key0312.text  End-Dialog
 	Break line End_Break
 	Rubric sid Baptism.Immersion End-Rubric
 	Rubric sid Baptism.Immersion1 End-Rubric 
