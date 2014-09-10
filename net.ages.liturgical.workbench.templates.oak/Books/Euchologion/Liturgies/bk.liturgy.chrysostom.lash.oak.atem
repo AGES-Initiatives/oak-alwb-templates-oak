@@ -144,7 +144,7 @@ Status Review
 		Dialog sid psa25.v6.text sid psa25.v7.text sid psa25.v8.text sid psa25.v9.text sid psa25.v10.text sid psa25.v11.text sid psa25.v12.text End-Dialog
 	
 		Rubric sid li.rubric.tableofpreparation End-Rubric
-		Rubric sid li.rubric.bowthrice End-Rubric
+		Rubric sid li.rubric.bowthriceprothesis End-Rubric
 		Dialog sid li.preparation.mercy2 End-Dialog
 		
 		Rubric sid li.rubric.raiselance End-Rubric
@@ -321,6 +321,42 @@ Status Review
 		Actor sid Deacon End-Actor
 		Dialog sid res08 End-Dialog
 		Rubric sid li.rubric.liturgybegins End-Rubric
+	End-Section
+	
+	Section Section_greatdoxology
+//		Actor sid Choir End-Actor
+		Title sid hoMA.DoxologyGreat.title End-Title
+		Dialog sid hoMA.DoxologyGreatIntro.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse01.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse02.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse03.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse04.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse05.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse06.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse07.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse08.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse09.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse10.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse11a.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse11b.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse11d.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse12.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse13.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse14.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse15.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse16.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse17.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse18.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse19.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse20.text End-Dialog
+		
+		// add rubrics concerning resurrection apolytikia here
+		
+		Rubric sid misc_gr_GR_cog.Mode4 End-Rubric
+		Dialog sid hoMA.SunTroparion1.text End-Dialog
+		
+		Rubric sid misc_gr_GR_cog.Mode8 End-Rubric
+		Dialog sid hoMA.SunTroparion2.text End-Dialog
 	End-Section
 	
 	Section Section01
