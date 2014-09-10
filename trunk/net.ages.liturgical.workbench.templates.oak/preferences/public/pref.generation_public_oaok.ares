@@ -1,7 +1,7 @@
 A_Resource_Whose_Name = pref.generation_public_oaok 
 
 // --- Convenient Settings for HTML--- these values go to pref.website
-	website.root = "public/dcs"   //must be lowercase
+	website.root = "liml/public"   //must be lowercase
 	media.copy = "no"  
 
 // !!! CHECK MEDIA PATH  !!!
@@ -28,9 +28,9 @@ A_Resource_Whose_Name = pref.generation_public_oaok
 	
 // --- Convenient Settings for PDF-- these values go topref.pdf
 
-	cover.version = covers_en_KE_oaok.E.text //this value (GE or E) goes to eMatins Covers
+	cover.version = covers_en_KE_oaok.EnSwh.text //this value (GE or E) goes to eMatins Covers
 	pss.stylesheet = "ematins" 
-	page.columns.quantity = "2" //2 for English, 1 for GE. 
+	page.columns.quantity = "1" //2 for English, 1 for GE. 
 	page.columns.gap = ".1in" //.1in for English, 0 for GE. 
 	
 
