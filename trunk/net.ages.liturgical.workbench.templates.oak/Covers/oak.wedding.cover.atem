@@ -2,17 +2,20 @@ Template oak.wedding.cover
 
 Status Review
 
-	import ematinscovers_en_US_ematins.*
+	import covers_en_KE_oaok.*
 	import template.titles_gr_GR_cog.*
+	import template.titles_gr_KE_oak.*
 	import roles.*
 	
-	Switch-Version L2 End-Switch-Version
+	Switch-Version L1 End-Switch-Version
 
 	Section Normal	
+		Title role cover0 sid logo.text End-Title 	//Service
 		Title role cover1 sid wed.pdf.cover End-Title 	//Service
+		Title role cover2 sid status.draft End-Title
 	End-Section
 	
-	Title role cover5 sid pref.generation_public.cover.version End-Title // e.g. GE or E
+	Title role cover5 sid pref.generation_public_oaok.cover.version End-Title // e.g. GE or E
 	
 	Switch-Version Both End-Switch-Version	
 
