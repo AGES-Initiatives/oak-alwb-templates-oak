@@ -339,11 +339,11 @@ Status Review
 		Dialog sid psa32.v22.text End-Dialog
 		Dialog sid psa118.v12.text End-Dialog
 		Dialog sid hoMA.DoxologyVerse11b.text End-Dialog
-		Dialog sid hoMA.DoxologyVerse11d.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse11c.text End-Dialog
 		Dialog sid psa89.v1.text sid psa40.v5.text End-Dialog
-		Dialog sid hoMA.DoxologyVerse13.text End-Dialog
+		Dialog sid psa142.v10alt.text End-Dialog
 		Dialog sid psa35.v10.text End-Dialog
-		Dialog sid hoMA.DoxologyVerse15.text End-Dialog
+		Dialog sid psa35.v11a.text End-Dialog
 		Dialog sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
 		Dialog sid DoxaPatri.text End-Dialog
 		Dialog sid KaiNynKaiAei.text End-Dialog
@@ -409,79 +409,172 @@ Status Review
 		Rubric sid li.rubric.sundayantifon1 End-Rubric
 		Rubric sid li.rubric.verseantifon1 End-Rubric
 		
-		Dialog <r> sid li.rubric.verse1 </> sid psa102.v1.text <r> sid li.rubric.a1v1attribution </> End-Dialog
+		Dialog <r> sid li.rubric.verse1 </> sid psa102.v1.text <r> sid psa102.v1.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon1.text media-off End-Hymn
 		
-		Dialog <r> sid li.rubric.verse2 </> sid psa102.v2.text <r> sid li.rubric.a1v2attribution </> End-Dialog
+		Dialog <r> sid li.rubric.verse2 </> sid psa102.v2.text <r> sid psa102.v2.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon1.text media-off End-Hymn
 		
-		Dialog <r> sid li.rubric.verse3 </> sid psa102.v19.text <r> sid li.rubric.a1v3attribution </> End-Dialog
+		Dialog <r> sid li.rubric.verse3 </> sid psa102.v19.text <r> sid psa102.v19.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon1.text media-off End-Hymn
 		
-		Dialog <r> sid li.rubric.verse4 </> sid psa102.v22.text <r> sid li.rubric.a1v4attribution </> End-Dialog
+		Dialog <r> sid li.rubric.verse4 </> sid psa102.v22.text <r> sid psa102.v22.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon1.text media-off End-Hymn
 		
 		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog
+		Hymn sid hoLI.Antiphon1.text media-off End-Hymn
+		
+		Rubric sid li.rubric.deaconpositionantifon1 End-Rubric
 	End-Section
 
 	Section Section04
+		Rubric sid li.rubric.deaconlitany End-Rubric
+		Title sid li.smalllitany.title End-Title
+		
 		Actor sid Deacon End-Actor
-		Insert_section ShortLitany01 End-Insert
+		Dialog sid pet14 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet12 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet13 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res03 End-Dialog
+		
+		Title sid li.prayerantifon2.title End-Title
 		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
 		Para role inaudible sid euLI.Key0301.text End-Para
 		Actor sid Priest End-Actor
 		Dialog sid exc02 End-Dialog
-		Dialog <i>sid res04p</> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
 	End-Section
 	
 	Section Section05 //antiphon 2
-		Title role desig sid Antifonon2 End-Title
-		Rubric sid cl.eu.lichrysbasil.R002 End-Rubric
-		Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off <Trubric>sid cl.eu.lichrysbasil.R003</> sid hoLI.Antiphon22.text media-offEnd-Hymn
-		Verse sid DoxaPatri.text End-Verse
-		Verse sid KaiNynKaiAei.text End-Verse
+		Title role desig sid li.antifon2.title End-Title
+		Rubric sid li.rubric.sundayantifon2 End-Rubric
+		Rubric sid li.rubric.verseantifon2 End-Rubric
+		
+		Dialog <r> sid li.rubric.verse1 </> sid psa145.v1.text sid psa145.v2.text <r> sid psa145.v1.number </> End-Dialog
+		Actor sid People End-Actor
+		Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
+		
+		Dialog sid Asterisks End-Dialog
+		Rubric sid li.rubric.notsunday End-Rubric
+		Hymn sid me.m10.d28a_gr_GR_cog.meLI.Antiphon2.text End-Hymn
+		Dialog sid Asterisks End-Dialog
+		
+		Dialog <r> sid li.rubric.verse2 </> sid psa145.v5.text <r> sid psa145.v5.number </> End-Dialog
+		Actor sid People End-Actor
+		Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
+		
+		Dialog <r> sid li.rubric.verse3 </> sid psa145.v6.text <r> sid psa145.v6.number </> End-Dialog
+		Actor sid People End-Actor
+		Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
+		
+		Dialog <r> sid li.rubric.verse4 </> sid psa145.v10.text <r> sid psa145.v10.number </> End-Dialog
+		Actor sid People End-Actor
+		Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
+		
+		Dialog sid DoxaPatri.text End-Dialog
+		Rubric sid li.rubric.alldays End-Rubric
+		Dialog sid KaiNynKaiAei.text End-Dialog
 		Hymn sid hoLI.OnlyBegotten.text End-Hymn
 	End-Section
 
 	Section Section06
+		Rubric sid li.rubric.deaconpositionantifon2 End-Rubric
+		Title sid li.smalllitany.title End-Title
+		
 		Actor sid Deacon End-Actor
-		Insert_section ShortLitany01 End-Insert
+		Dialog sid pet14 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet12 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet13 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res03 End-Dialog
+		
+		Title sid li.prayerantifon3.title End-Title
+		
 		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
 		Para role inaudible sid euLI.Key0401.text End-Para
 		Actor sid Priest End-Actor
 		Dialog sid exc03 End-Dialog
-		Dialog <i>sid res04p</> End-Dialog
+		Dialog sid res04 End-Dialog
+		
+		Rubric sid li.rubric.entersouth End-Rubric
 	End-Section
 	
-	Section Section07 //antiphon 3
-		Title role desig sid Antifonon3 End-Title
-		Rubric sid cl.eu.lichrysbasil.R004 End-Rubric
-		Break line End_Break
-	End-Section
+	Section Section07 // antiphon 3 and small entrance
+		Title role desig sid li.antifon3.title End-Title
+		Title role desig sid li.kai.title End-Title
+		Title role desig sid li.smallentrance.title End-Title
+		Rubric sid li.rubric.sundayantifon3 End-Rubric
+		Rubric sid li.rubric.verseantifon3 End-Rubric
 		
-	Section Section08 //entrance
-		Title role desig sid SmallEntrance End-Title
-		Rubric sid cl.eu.lichrysbasil.R005 End-Rubric
+		Dialog <r> sid li.rubric.verse1 </> sid psa117.v1.text <r> sid psa117.v1.number </> End-Dialog
+		Rubric sid li.rubric.resurrectionmode End-Rubric
+		
+		Dialog <r> sid li.rubric.verse2 </> sid psa117.v4.text <r> sid psa117.v4.number </> End-Dialog
+		Rubric sid li.rubric.resurrection End-Rubric
+		
+		Dialog <r> sid li.rubric.verse3 </> sid psa117.v24.text <r> sid psa117.v24.number </> End-Dialog
+		Rubric sid li.rubric.resurrection End-Rubric
+		Break line End_Break
+		
+		Rubric sid li.rubric.smallentrance End-Rubric
+		
+		Rubric sid li.rubric.deaconquietly End-Rubric
+		Para role inaudible sid pet00 End-Para
+		
+		Title sid li.prayerentrance.title End-Title
 		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
 		Para role inaudible sid euLI.Key0501.text sid exc01 End-Para
-		Actor sid Deacon <Trubric>sid InALowVoice</> End-Actor
+		
+		Rubric sid li.rubric.deaconquietly2 End-Rubric
 		Para role inaudible sid euLI.Key0502.text End-Para
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor
+		Rubric sid li.rubric.blessentrance End-Rubric
 		Para role inaudible sid euLI.Key0503.text sid res04 End-Para
+		
+		Rubric sid li.rubric.kissgospel End-Rubric
 		Actor sid Deacon End-Actor
 		Dialog sid exc17 sid exc18 End-Dialog
 	End-Section
 	
 	Section Section09 //entrance hymn
-		Actor sid Choir End-Actor
+		Actor sid People End-Actor
 		Title role mixed <Tdesig>sid Eisodikon</><Tmode>sid Mode2</> End-Title
 		Hymn sid hoLI.EntranceHymn.text media-off sid hoLI.Antiphon21.text media-off sid hoLI.EntranceHymn2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
-		Rubric sid cl.eu.lichrysbasil.R006 End-Rubric
-		Rubric sid cl.eu.lichrysbasil.R007 End-Rubric
+		
+		Dialog sid Asterisks End-Dialog
+		Rubric sid li.rubric.notsunday End-Rubric
+		Hymn sid me.m10.d28a_gr_GR_cog.meLI.Antiphon2.text End-Hymn
+		Rubric sid li.rubric.sundaysofpascha End-Rubric
+		Hymn sid psa67.v27.text sid hoLI.Antiphon21.text media-off sid hoLI.EntranceHymn2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
+		Dialog sid Asterisks End-Dialog
+		
+		Rubric sid li.rubric.kontakion1 End-Rubric
+		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog
+		Rubric sid li.rubric.kontakion2 End-Rubric
+		
+		Rubric sid li.rubric.theotokoskontakion End-Rubric
+		Hymn sid ho.s07_gr_GR_cog.hoTY.Key0408.text End-Hymn
 		Break line End_Break
 	End-Section	
 
@@ -489,33 +582,42 @@ Status Review
 		Section prayer
 			Actor sid Deacon End-Actor
 			Dialog sid pet00 End-Dialog
-			Dialog <i> sid res01p </> End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res01 End-Dialog
+			
+			Title sid li.trisagionprayer.title End-Title
 			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
 			Para role inaudible sid euLI.Key0601.text End-Para
 			Actor sid Priest End-Actor
 			Dialog sid exc05a End-Dialog
-			Actor sid Deacon End-Actor
+			Rubric sid li.rubric.deaconkainyn End-Rubric
 			Dialog sid exc05b End-Dialog
-			Actor sid Choir End-Actor
+			Actor sid People End-Actor
 			Dialog sid res04 End-Dialog	
 		End-Section
 		Section holygod	
-			Title role desig sid hoLI.TrisagiosHymn.title End-Title
-			Hymn sid hoLI.TrisagiosHymn.text <r>sid Thrice media-off</> End-Hymn	
+			Hymn sid hoLI.TrisagiosHymn.text End-Hymn
+			Hymn sid hoLI.TrisagiosHymn.text End-Hymn
+			Hymn sid hoLI.TrisagiosHymn.text End-Hymn
 			Verse sid DoxaPatri.text sid KaiNynKaiAei.text End-Verse	
 			Para role hymnlinelast sid hoLI.TrisagiosHymn3.text sid hoLI.TrisagiosHymn4.text End-Para
 			Actor sid Deacon End-Actor
-			Dialog sid euLI.Key0602.text End-Dialog		
-			Actor sid Deacon <Trubric>sid InALowVoice</> End-Actor
+			Dialog sid euLI.Key0602.text End-Dialog	
+			Actor sid People End-Actor
+			Hymn sid hoLI.TrisagiosHymn.text End-Hymn
+			
+			Rubric sid li.rubric.trisagionclergy End-Rubric
+			Rubric sid li.rubric.command End-Rubric
 			Para role inaudible sid euLI.Key0603.text End-Para
+			
+			Rubric sid li.rubric.approachthrone End-Rubric	
 			Actor sid Priest End-Actor
-			Para role inaudible sid euLI.Key0604.text End-Para
+			Para role inaudible sid psa117.v26a.text End-Para
+			
 			Actor sid Deacon End-Actor
 			Para role inaudible sid euLI.Key0605.text End-Para
 			Actor sid Priest End-Actor
-			Para role inaudible sid euLI.Key0606.text End-Para
-			Actor sid Choir End-Actor
-			Hymn sid euLI.Key0602.text sid hoLI.TrisagiosHymn.text media-off End-Hymn	
+			Para role inaudible sid euLI.Key0606.text End-Para	
 		End-Section
 	End-Section	
 
