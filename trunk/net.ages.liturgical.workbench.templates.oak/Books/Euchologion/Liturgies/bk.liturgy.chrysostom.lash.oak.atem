@@ -621,20 +621,27 @@ Status Review
 		End-Section
 	End-Section	
 
-	Section Section14 //prayer before gospel
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-		Para role inaudible sid euLI.Key0704.text End-Para
-	End-Section 
-
 	Section Epistle
-		Title role desig sid TaAnagnosmata End-Title
-		Title role desig sid OApostolos End-Title
+		Title role desig sid li.readings.title End-Title
+
 		Actor sid Deacon End-Actor
 		Dialog sid exc19 End-Dialog
-		Actor sid Reader End-Actor
-		Rubric sid cl.eu.lichrysbasil.R008 End-Rubric
+		Actor sid Priest End-Actor
+		Dialog sid pet31 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res05 End-Dialog
 		Actor sid Deacon End-Actor
-		Dialog sid exc17 End-Dialog		
+		Dialog sid exc17 End-Dialog
+		
+		Rubric sid li.rubric.prokimenontitle End-Rubric
+		Dialog sid li.prokimenonmode End-Dialog
+		Actor sid Deacon End-Actor
+		Dialog sid exc19 End-Dialog
+		Rubric sid li.rubric.readprokimenon End-Rubric
+		Actor sid Deacon End-Actor
+		Dialog sid exc17 End-Dialog
+		
+		
 		Actor sid Reader End-Actor
 		Dialog sid cl.eu.lichrysbasil.R009 End-Dialog
 		Actor sid Deacon End-Actor
@@ -646,162 +653,276 @@ Status Review
 	End-Section	
 	
 	Section Gospel
-		Actor sid Choir End-Actor
-		Hymn sid hoLI.GospelAlleluia.text End-Hymn
-		Insert_section eu.li.chrysbasil.Section14 End-Insert
-		Title role desig sid ToEvangelion End-Title
-		Actor sid Deacon End-Actor
-		Dialog sid exc17 sid exc18 sid gos02 End-Dialog
+		Actor sid People End-Actor
+		Hymn sid hoLI.GospelAlleluia.text <r> sid li.rubric.withverses </> End-Hymn
+		Rubric sid li.rubric.censeapostolos End-Rubric
+		
+		Section Section14 // prayer before gospel
+		Title sid li.gospelprayer.title End-Title
+		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+		Para role inaudible sid euLI.Key0704.text End-Para
+		
+		Rubric sid li.rubric.blessreader End-Rubric
+		Dialog sid li.blessreader End-Dialog
+		Rubric sid li.rubric.blessreader2 End-Rubric
+		Dialog sid li.blessreader2 End-Dialog
+		Rubric sid li.rubric.givegospel End-Rubric
+		Dialog sid res04 End-Dialog
+		Rubric sid li.rubric.gospelambon End-Rubric // and if the deacon is to read from the bishop's throne or a stationary pulpit?
+	End-Section 
+	
+		Title role desig sid li.gospel.title End-Title
 		Actor sid Priest End-Actor
-		Dialog sid pet31 End-Dialog
-		Dialog <i>sid res05p </>End-Dialog
+		Dialog sid exc17 sid exc18 sid gos02 sid pet31 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res05 End-Dialog
 		Actor sid Deacon End-Actor
-		Dialog sid cl.eu.lichrysbasil.R011 End-Dialog		
+		Dialog sid cl.eu.lichrysbasil.R011 End-Dialog	
+		Actor sid People End-Actor
+		Dialog sid DoxaSoiKyrie End-Dialog	
 		Actor sid Priest End-Actor
 		Dialog sid exc19 End-Dialog
-		Dialog <i> sid DoxaSoiKyrieP </>End-Dialog	
+			
 		Actor sid Deacon End-Actor
-		Rubric sid cl.eu.lichrysbasil.R012 End-Rubric
-		Actor sid Priest End-Actor
+		Rubric sid li.rubric.readgospel End-Rubric
 		Dialog sid euLI.Key0705.text End-Dialog
-		Actor sid Choir End-Actor						
+		Actor sid People End-Actor						
 		Dialog sid DoxaSoiKyrie End-Dialog	
-		Rubric sid cl.eu.lichrysbasil.R013 End-Rubric
+		Rubric sid li.rubric.blesswithgospel End-Rubric
+		
+		Title sid li.kerygma.title End-Title
+		Rubric sid li.rubric.preach End-Rubric
 		Break line End_Break
 	End-Section
 
 	Section Section15 
+		Rubric sid li.rubric.beginlitany End-Rubric
+		Title sid li.greatlitany.title End-Title
+		
 		Actor sid Deacon End-Actor
 		Dialog sid pet15 End-Dialog
-		Dialog <i> sid res01p </> End-Dialog
-		Break line End_Break 
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor 
 		Dialog sid pet16 End-Dialog
-		Dialog <i> sid res01p </> End-Dialog
-		Break line End_Break 
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor 
 		Dialog sid pet17 End-Dialog
-		Dialog <i> sid res06p </> End-Dialog
-		Break line End_Break 
-		Dialog sid pet18 End-Dialog
-		Dialog sid pet19a <r>sid cl.bishop1.rank sid cl.bishop1.name_p</> End-Dialog
-		Dialog sid pet20 End-Dialog
-		Dialog sid pet21 End-Dialog
-		Dialog sid pet22 End-Dialog
+		Dialog sid res01 <r> sid li.rubric.thriceeach </> End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.pet19lash End-Dialog
+		Dialog sid li.pet21lash End-Dialog
+		Dialog sid li.pet22lash End-Dialog
 		Dialog sid pet23 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Title sid li.ekteniaprayer.title End-Title
 		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
 		Para role inaudible sid euLI.Key0801.text End-Para
 		Actor sid Priest End-Actor
 		Dialog sid exc11 End-Dialog
-		Dialog <i> sid res04p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
 	End-Section	
 
 	Section Section16
+		Rubric sid li.rubric.catechumens End-Rubric
+		
 		Actor sid Deacon End-Actor
 		Dialog sid euLI.Key0901.text End-Dialog	
-		Dialog <i> sid res01p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 <r> sid li.rubric.eachpetition </> End-Dialog
+		
+		Actor sid Deacon End-Actor
 		Dialog sid euLI.Key0902.text End-Dialog	
-		Dialog <i> sid res01p </> End-Dialog
 		Dialog sid euLI.Key0903.text End-Dialog	
-		Dialog <i> sid res01p </> End-Dialog
 		Dialog sid euLI.Key0904.text End-Dialog	
-		Dialog <i> sid res01p </> End-Dialog
 		Dialog sid euLI.Key0905.text End-Dialog	
-		Dialog <i> sid res01p </> End-Dialog
 		Dialog sid euLI.Key0906.text End-Dialog	
-		Dialog <i> sid res01p </> End-Dialog
 		Dialog sid euLI.Key0907.text End-Dialog	
-		Dialog <i> sid res01p </> End-Dialog
 		Dialog sid euLI.Key0908.text End-Dialog	
-		Dialog <i> sid res03p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res03 End-Dialog
+		
+		Title sid li.prayercatechumens.title End-Title
+		Title sid li.beforeantimension.title End-Title
 		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
 		Para role inaudible sid euLI.Key0909.text End-Para
 		Actor sid Priest End-Actor
 		Dialog sid euLI.Key0910.text End-Dialog
-		Dialog <i> sid res04p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
+		
 		Actor sid Deacon End-Actor
-		Dialog sid euLI.Key0911.text sid euLI.Key0912.text End-Dialog	
+		Dialog sid euLI.Key0911.text End-Dialog	
 	End-Section
 	
-	Section Section17
-		Dialog sid pet14 End-Dialog
-		Dialog <i> sid res01p </> End-Dialog
+	Section Section17 // liturgy of the faithful
+	
+		Title sid li.liturgyfaithful.title End-Title
+	
+		Actor sid Deacon End-Actor
+		Dialog sid euLI.Key0912.text sid pet14 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
 		Dialog sid pet12 End-Dialog
-		Dialog <i> sid res01p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
 		Dialog sid exc17 End-Dialog
-		Title role desig sid euLI.Key1001.title End-Title
+		
+		Title role desig sid li.prayer1faithful.title End-Title
+		Title role desig sid li.afterantimension.title End-Title
+		
 		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
 		Para role inaudible sid euLI.Key1001.text End-Para
 		Actor sid Priest  End-Actor 
 		Dialog sid exc01 End-Dialog
-		Dialog <i>sid res04p</> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
 	End-Section
 		
 	Section Section18
 		Actor sid Deacon End-Actor
 		Dialog sid pet14 End-Dialog
-		Dialog <i> sid res01p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
 		Dialog sid pet12 End-Dialog
-		Dialog <i> sid res01p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
 		Dialog sid exc17 End-Dialog
+		Rubric sid li.rubric.prayer2faithful End-Rubric
 	End-Section
 	
 	Section Section19
-		Title role desig sid euLI.Key1002.title End-Title
+		Title role desig sid li.prayer2faithful.title End-Title
 		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
 		Para role inaudible sid euLI.Key1002.text End-Para
 		Actor sid Priest  End-Actor 
 		Dialog sid euLI.Key1003.text End-Dialog
-		Dialog <i>sid res04p</> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
 	End-Section 
 		
-	Section Section20
-		Title role desig sid euLI.Key1100.title End-Title
+	Section Section20 // great entrance
+		Title role desig sid li.cherubic.title End-Title
+		Title role desig sid li.withgifts.title End-Title
+		Title role desig sid li.greatentrance.title End-Title
+		
+		Rubric sid li.rubric.cherubic End-Rubric
 		Actor sid Choir End-Actor
-		Title role desig sid euLI.Key1102.title End-Title
 		Media sid euLI.Key1102.text End-Media
 		Hymn sid euLI.Key1102.text media-off sid euLI.Key1103.text End-Hymn	
-//		Rubric End-Rubric
+		
+		Rubric sid li.rubric.prayercherubic End-Rubric 
+		Title sid li.prayercherubic.title End-Title
 		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
 		Para role inaudible sid euLI.Key1101.text End-Para
-//		Rubric End-Rubric
+		
+		Rubric sid li.rubric.prayercherubicsecret End-Rubric
+		Actor sid Priest End-Actor
+		Dialog sid euLI.Key1102.text End-Dialog
 		Actor sid Deacon End-Actor
+		Dialog sid li.cherubic2 End-Dialog
+		
+		Rubric sid li.rubric.censeatcherubikon End-Rubric
+		Rubric sid li.rubric.anastasin End-Rubric
+		Dialog sid hoMA.SunPostGospel.text End-Dialog
+		Rubric sid li.rubric.andpsalmor End-Rubric
+		Dialog sid hoLI.EntranceHymn.text sid me.m10.d28a_gr_GR_cog.meLI.Antiphon2.text <r> sid Thrice </> End-Dialog
+		// check if this is the right hymn
+		Rubric sid li.rubric.forgive End-Rubric
+		Dialog sid li.forgive <r> sid li.rubric.orsimilar </> End-Dialog
+		
+		Rubric sid li.rubric.approachprothesis End-Rubric
+	    Dialog sid li.preparation.mercy End-Dialog
+	    
+	    Rubric sid li.rubric.eparon End-Rubric
+	    Dialog sid euLI.Key1107.text End-Dialog // the english translation has changed
+		Rubric sid li.rubric.wearaer End-Rubric
+		Dialog sid psa133.v2.text <r> sid li.rubric.psa133.v2.fullattribution </> End-Dialog // need alt key without 'in the nights'
+		Rubric sid li.rubric.takegifts End-Rubric
+		
+		Break line End_Break
+		
+		Rubric sid li.rubric.procession End-Rubric
 		Dialog sid euLI.Key1110.text End-Dialog		
-		Actor sid Choir End-Actor
+		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
-//		Rubric End-Rubric
-		Actor sid Choir End-Actor
-		Hymn sid euLI.Key1123.text End-Hymn		
-//		Rubric End-Rubric
+		Rubric sid li.rubric.completehymn End-Rubric
+		Hymn sid li.cherubic2 End-Hymn	
+		
+		Rubric sid li.rubric.enteraltar	End-Rubric
+		Rubric sid li.rubric.deaconright End-Rubric
+		Actor sid Deacon End-Actor
+		Dialog sid euLI.Key1114.text End-Dialog
+		Rubric sid li.rubric.priestresponse End-Rubric
+		Dialog sid li.holydiaconate End-Dialog
+		
+		Rubric sid li.rubric.placegiftsaltar End-Rubric
+		Dialog sid li.noblejoseph End-Dialog
+		Rubric sid li.rubric.covergiftsaer End-Rubric
+		Dialog sid euLI.Key1116.text End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid psa50.v20.text sid psa50.v21a.text sid psa50.v21b.text <r> sid li.rubric.psa50.v20.v21.fullattribution </> End-Dialog
+		
+		Rubric sid li.rubric.rememberpriest End-Rubric
+		Dialog sid euLI.Key1118.text End-Dialog
+		Actor sid Deacon End-Actor
+		Dialog sid euLI.Key1114.text End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid li.praypriest End-Dialog
+		Actor sid Deacon End-Actor
+		Dialog sid euLI.Key1120.text End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid euLI.Key1121.text End-Dialog
+		
+		Rubric sid li.rubric.rememberdeacon End-Rubric
+		Dialog sid euLI.Key1122.text End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid euLI.Key0106.text End-Dialog
+		
+		Rubric sid li.rubric.andsaying End-Rubric
+		Dialog sid res04 End-Dialog
+		Rubric sid li.rubric.beginlitanygifts End-Rubric
 	End-Section
 	
 	Section Section21
 		Section chrys
-			Title role desig sid euLI.Key1200.title End-Title
+			Title role desig sid li.litanygifts.title End-Title
 			Media sid euLI.Key1200.text End-Media
 			Actor sid Deacon End-Actor
 			Dialog sid pet24 End-Dialog
-			Dialog <i> sid res01p </> End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res01 <r> sid li.rubric.eachpetition </> End-Dialog
+			
 			Dialog sid euLI.Key1201.text End-Dialog
-			Dialog <i> sid res01p </> End-Dialog
 			Dialog sid pet04 End-Dialog
-			Dialog <i> sid res01p </> End-Dialog
 			Dialog sid pet11 End-Dialog 
-			Dialog <i> sid res01p </> End-Dialog
 			Dialog sid pet12 End-Dialog
-			Dialog <i> sid res01p </> End-Dialog
 			Dialog sid pet25m End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res02 <r> sid li.rubric.eachpetition </> End-Dialog
+			
 			Dialog sid pet26 End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
 			Dialog sid pet27 End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
 			Dialog sid pet28 End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
 			Dialog sid pet29 End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
 			Dialog sid pet30 End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
 			Dialog sid pet13 End-Dialog
-			Dialog <i> sid res03p </> End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res03 End-Dialog
+			
 			Title role desig sid euLI.Key1202.title End-Title
 			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
 			Para role inaudible sid euLI.Key1202.text End-Para			
