@@ -928,16 +928,26 @@ Status Review
 			Para role inaudible sid euLI.Key1202.text End-Para			
 			Actor sid Priest  End-Actor 
 			Dialog sid euLI.Key1203.text End-Dialog
-			Actor sid Choir End-Actor
+			Actor sid People End-Actor
 			Dialog sid res04 End-Dialog
+			
 			Actor sid Priest End-Actor
 			Dialog sid pet31 End-Dialog
-			Actor sid Choir End-Actor
+			Actor sid People End-Actor
 			Dialog sid res05 End-Dialog
 			Actor sid Deacon End-Actor
 			Dialog sid euLI.Key1204.text End-Dialog
-			Actor sid Choir End-Actor
-			Hymn sid euLI.Key1205.text End-Hymn				
+			Actor sid People End-Actor
+			Hymn sid euLI.Key1205.text End-Hymn	
+			
+			Rubric sid li.rubric.agapwse End-Rubric
+			Dialog sid psa17.v2.text sid psa17.v3a.text End-Dialog
+			Rubric sid li.rubric.kissofpeace End-Rubric
+			Dialog sid li.christmidst1 sid li.christmidst2 End-Dialog
+			Rubric sid li.rubric.deaconkiss End-Rubric
+			
+			Title sid li.creed.title End-Title
+						
 			Actor sid Deacon End-Actor
 			Dialog sid euLI.Key1208.text End-Dialog				
 			Actor sid People End-Actor
