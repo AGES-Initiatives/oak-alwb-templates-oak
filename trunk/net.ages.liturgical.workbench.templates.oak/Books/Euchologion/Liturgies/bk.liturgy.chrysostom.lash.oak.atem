@@ -1375,21 +1375,9 @@ Status Review
 		Para role inaudible sid li.zesis End-Para 			
 	End-Section
 	
-	Section Section26
-		Actor sid People End-Actor
-		Title role desig sid hoPCPrayer.title End-Title
-		Reading sid hoPCPrayer.PistevoKyrie.text End-Reading
-		Reading sid hoPCPrayer.EnTaisLambrotisi.text End-Reading
-		Reading sid hoPCPrayer.DespotaFilanthrope.text End-Reading
-		Reading sid hoPCPrayer.TouDeipnouSou.text End-Reading
-	End-Section
 	
-	
-
-
-
-
 	Section Section29
+		Rubric sid li.rubric.seepage End-Rubric
 		Rubric sid InALowVoice End-Rubric
 		Actor sid Priest End-Actor
 		Para role inaudible sid euLI.Key1508.text End-Para				
@@ -1570,6 +1558,35 @@ Status Review
 			Dialog sid DiEfchonPateron.text End-Dialog
 			Dialog <i> sid res04p</> End-Dialog
 		End-Section  */
+	End-Section
+	
+	Section Section26
+		Title role desig sid li.prepcommunion.title End-Title
+		Rubric sid li.rubric.beforeapproach End-Rubric
+		Reading sid li.vadizou End-Reading
+		
+		Rubric sid li.rubric.eita End-Rubric
+		Reading sid hoPCPrayer.TouDeipnouSou.text End-Reading
+		
+		Rubric sid li.rubric.andtheverses End-Rubric
+		Reading sid hoPCPrayer.Theourgon.text End-Reading
+		
+		Rubric sid li.rubric.andtroparia End-Rubric
+		Reading sid me.m08.d06_gr_GR_cog.meMA.Ode9C23.text End-Reading
+		
+		Rubric sid li.rubric.ofkosmas End-Rubric
+		Reading sid hoPCPrayer.EnTaisLambrotisi.text End-Reading
+		
+		Rubric sid li.rubric.followingprayer End-Rubric
+		Reading sid hoPCPrayer.DespotaFilanthrope.text End-Reading
+		
+		Rubric sid li.rubric.andagain End-Rubric
+		Reading sid hoPCPrayer.TouDeipnouSou.text End-Reading
+		
+//		Reading sid hoPCPrayer.PistevoKyrie.text End-Reading
+// WHY is this prayer omitted in Lash?
+// discuss the format of the communion prayers; this is not the order Kenyans are used to reading in church
+		
 	End-Section
 	
 End-Template
