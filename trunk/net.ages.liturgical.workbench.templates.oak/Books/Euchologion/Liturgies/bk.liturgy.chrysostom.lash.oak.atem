@@ -1377,86 +1377,145 @@ Status Review
 	
 	
 	Section Section29
-		Rubric sid li.rubric.seepage End-Rubric
+		Rubric sid li.rubric.seepage End-Rubric // will the people notice to read the prayers if the notice is here?
+		Rubric sid li.rubric.approachbody End-Rubric
 		Rubric sid InALowVoice End-Rubric
-		Actor sid Priest End-Actor
-		Para role inaudible sid euLI.Key1508.text End-Para				
-		Para role inaudible sid euLI.Key1509.text End-Para				
-		Para role inaudible sid euLI.Key1510.text End-Para				
-		Para role inaudible sid euLI.Key1511.text End-Para				
+		Actor sid Priest End-Actor				
+		Para role inaudible sid euLI.Key1509.text End-Para
+		
+		Rubric sid li.rubric.xc End-Rubric				
+		Para role inaudible sid euLI.Key1510.text End-Para	
+		Rubric sid li.rubric.wipehand End-Rubric			
+		Para role inaudible sid li.deaconcommune End-Para
+		
+		Rubric sid li.rubric.deaconcommune End-Rubric				
 		Actor sid Deacon End-Actor
-		Para role inaudible sid euLI.Key1512.text End-Para				
+		Para role inaudible sid euLI.Key1512.text End-Para	
+		
+		Rubric sid li.rubric.deaconcommune2 End-Rubric			
 		Actor sid Priest End-Actor
-		Para role inaudible sid euLI.Key1513.text End-Para				
+		Para role inaudible sid euLI.Key1513.text End-Para	
+		Rubric sid li.rubric.deaconcommune3 End-Rubric
+		
+		Rubric sid li.rubric.chaliceandcloth End-Rubric			
 		Para role inaudible sid euLI.Key1515.text End-Para				
-		Para role inaudible sid euLI.Key1516.text End-Para				
-		Para role inaudible sid euLI.Key1517.text End-Para				
+		Para role inaudible sid euLI.Key1516.text End-Para	
+		
+		Rubric sid li.rubric.drinkthrice End-Rubric
+		Para role inaudible sid li.mylips End-Para
+		Rubric sid li.rubric.deaconcommune4 End-Rubric			
+		Para role inaudible sid li.deaconcommune2 End-Para
+		
+		Rubric sid li.rubric.deaconcommune5 End-Rubric				
 		Actor sid Deacon End-Actor
-		Para role inaudible sid euLI.Key1518.text End-Para				
+		Para role inaudible sid li.approachagain sid euLI.Key1518.text End-Para
+		Rubric sid li.rubric.chaliceandcloth End-Rubric				
 		Actor sid Priest End-Actor
-		Para role inaudible sid euLI.Key1519.text End-Para				
-		Para role inaudible sid euLI.Key1520.text End-Para				
-		Actor sid Deacon End-Actor
+		Para role inaudible sid li.etimetadidotai End-Para	
+		Rubric sid li.rubric.deaconcommune6 End-Rubric
+		Actor sid Priest End-Actor			
+		Para role inaudible sid euLI.Key1520.text End-Para
+		
+		Rubric sid li.rubric.nika End-Rubric
+						
+/* 		Actor sid Deacon End-Actor
 		Para role inaudible sid euLI.Key1521.text End-Para				
 		Para role inaudible sid euLI.Key1522.text End-Para				
 		Para role inaudible sid euLI.Key1523.text End-Para				
 		Para role inaudible sid euLI.Key1524.text End-Para	
 		// The following line may be here or after communion of the faithful			
-		Para role inaudible sid euLI.Key1525.text End-Para	
+		Para role inaudible sid euLI.Key1525.text End-Para	*/
 	End-Section
 	
 	Section Section30
+		Title role desig sid li.distribution.title End-Title
+		Rubric sid li.rubric.approach End-Rubric
 		Actor sid Deacon End-Actor
 		Dialog sid euLI.Key1526.text End-Dialog
-		Dialog sid euLI.Key1527.text media-off End-Dialog
+		
+		Rubric sid li.rubric.distributionprayer End-Rubric
+		Dialog sid li.distributionprayershort End-Dialog // in Kenya we use the longer form with the person's name!
+		Rubric sid li.rubric.toudeipnou End-Rubric
+		Actor sid People End-Actor
+		Hymn sid hoPCPrayer.TouDeipnouSou.text End-Hymn
+		Dialog sid Asterisks End-Dialog
+		Rubric sid li.rubric.paschalcommunion End-Rubric
+		Hymn sid pe.d00P_gr_GR_cog.pePA.CommunionHymn.text sid li.alleluia End-Hymn
+		Dialog sid Asterisks End-Dialog
 		Break line End_Break
+		Rubric sid li.rubric.replacechalice End-Rubric // in Kenya the priest blesses the people with the chalice!
+		Rubric sid li.rubric.blesshand End-Rubric // see above
 		Actor sid Priest End-Actor
 		Dialog sid euLI.Key1529.text End-Dialog
 	End-Section
 
 	Section Section31
 		//This hymn changes on feasts of the Lord
-		Actor sid Choir End-Actor
+		Actor sid People End-Actor
 		Title role mode sid Mode2 End-Title
 		Hymn sid euLI.Key1530.text End-Hymn
+		
+		Dialog sid Asterisks End-Dialog
+		Rubric sid li.rubric.iflordsfeast End-Rubric
+		Rubric sid li.rubric.paschal End-Rubric
+		Dialog sid Asterisks End-Dialog
 	End-Section	
 	
 	Section Section32
-		Actor sid Priest End-Actor 
+		Rubric sid li.rubric.wipeparticles End-Rubric
+		Actor sid Deacon End-Actor 
 		Rubric sid InALowVoice End-Rubric
 		Para role inaudible sid euLI.Key1525.text End-Para	
+		Rubric sid li.rubric.exaltmaster End-Rubric
 		Actor sid Deacon End-Actor
-		Para role inaudible sid euLI.Key1601.text End-Para	
+		Para role inaudible sid euLI.Key1601.text End-Para
+		Rubric sid li.rubric.censeexalt End-Rubric	
 		Actor sid Priest End-Actor 
-		Para role inaudible sid euLI.Key1602.text End-Para
+		Para role inaudible sid psa56.v6.text <r> sid Thrice </> End-Para
+		Rubric sid li.rubric.showcoversstar End-Rubric
+		Rubric sid li.rubric.blessed End-Rubric
 		Para role inaudible sid EvlogitosOTheosImon.text End-Para
+		Rubric sid li.rubric.blessed2 End-Rubric
 		Actor sid Priest End-Actor 
 		Dialog sid PantoteNyn.text End-Dialog
-		Dialog <i> sid res04p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
 	End-Section
 
 	Section Section33
-		Actor sid Choir End-Actor
+		Actor sid People End-Actor
 		Hymn sid euLI.Key1603.text End-Hymn	 
 	End-Section   
 
 	Section Section34
 		Section chrys
+			Title role desig sid li.thanksdismissal.title End-Title
+			Rubric sid li.rubric.foldantimension End-Rubric
+			Rubric sid li.rubric.havingpartaken End-Rubric
 			Actor sid Deacon End-Actor
 			Dialog sid euLI.Key1604.text End-Dialog
-			Dialog <i>sid res01p</> End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res01 End-Dialog			
 			Rubric sid Or End-Rubric
-			Dialog <i>sid DoxaSoiKyrieP </> End-Dialog
+			Dialog sid DoxaSoiKyrie End-Dialog // in Kenya this should be Lord have mercy
+			
+			Actor sid Deacon End-Actor
 			Dialog sid pet12 End-Dialog	
-			Dialog <i>sid res01p </> End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res01 End-Dialog
+			
 			Dialog sid euLI.Key1605.text End-Dialog	
-			Dialog <i>sid res03p </> End-Dialog
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Title role desig sid euLI.Key1606.title End-Title
-			Para role inaudible sid euLI.Key1606.text End-Para				
+			Actor sid People End-Actor
+			Dialog sid res03 End-Dialog
+			 
+			Title sid euLI.Key1606.title End-Title
+			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor
+			Para role inaudible sid euLI.Key1606.text End-Para
+			Rubric sid li.rubric.crossantimensiongospel End-Rubric				
 			Actor sid Priest End-Actor 
 			Dialog sid euLI.Key1607.text End-Dialog	
-			Dialog <i>sid res04p </> End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res04 End-Dialog
 		End-Section
 /*		Section basil
 			Actor sid Deacon End-Actor
@@ -1480,30 +1539,42 @@ Status Review
 	Section Section35
 		Section chrys
 			Section part1
-				Title role desig sid euLI.Key1700.title End-Title
+				Title sid euLI.Key1700.title End-Title
 				Actor sid Priest End-Actor
 				Dialog sid euLI.Key1701.text End-Dialog
 				Actor sid Deacon End-Actor
 				Dialog sid pet00 End-Dialog
-				Dialog <i> sid res01p</> End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				Rubric sid li.rubric.ambonprayer End-Rubric
+				Title sid li.ambonprayer.title End-Title
 				Actor sid Priest End-Actor
 				Dialog sid euLI.Key1702.text End-Dialog
-				Dialog <i> sid res04p</> End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
 			End-Section
 			Section part2
-				Actor sid Choir End-Actor
+				Actor sid People End-Actor
 				Media sid euLI.Key1703.text End-Media
-				Hymn sid ps_gr_GR_cog.psa112.v2alt1.text <r>sid Thrice </>  End-Hymn
+				Hymn sid psa112.v2alt1.text <r> sid Thrice </>  End-Hymn
 			End-Section
 			Section part3
+				Rubric sid li.rubric.pliromanomou End-Rubric
 				Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-				Para role inaudible sid euLI.Key1704.text End-Para				
+				Para role inaudible sid euLI.Key1704.text End-Para	
+							
 				Actor sid Deacon End-Actor
-				Dialog sid pet00 End-Dialog		
-				Dialog <i> sid res01p</> End-Dialog
+				Dialog sid pet00 End-Dialog
+				Actor sid People End-Actor		
+				Dialog sid res01 End-Dialog
+				
+				Rubric sid li.rubric.evlogiakyriou End-Rubric
 				Actor sid Priest End-Actor
 				Dialog sid pet37 End-Dialog	
-				Dialog <i> sid res04p</> End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+				
+				Actor sid Priest End-Actor
 				Dialog sid DoxaSoiChriste2 End-Dialog
 			End-Section
 		End-Section
@@ -1543,12 +1614,32 @@ Status Review
 
 	Section Section36
 		Section comyes
-			Insert_section Dismissals.Com_Yes.part1 End-Insert
-			Actor sid Choir End-Actor
+			Actor sid Reader End-Actor
+			Dialog sid li.preparation.doxapatrikainyn sid res06 sid res13 End-Dialog
+			
+			Actor sid Priest End-Actor
+			Dialog sid li.dis.oanastas <r> sid li.rubric.sundaydismissal </> sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid li.dis.fathersmothers sid li.dis.ofsaint <r> sid li.dis.oftemple </> sid li.dis.chrysostom sid dis09 sid li.dis.ofsaint <r> sid li.dis.ofday </> sid li.dis.memory sid dis10 sid dis88 End-Dialog 
+			// should "have mercy on us and save us" etc come before the list of saints?
+			
+			Actor sid People End-Actor
+			Dialog sid res04 End-Dialog
+			
+			Rubric sid li.rubric.finalblessing End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid euLI.Key1707.text End-Dialog
+			
+			Actor sid People End-Actor
 			Hymn sid euLI.Key1706.text End-Hymn
 			Actor sid Priest End-Actor
 			Dialog sid DiEfchonPateron.text End-Dialog
-			Dialog <i> sid res04p</> End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res04 End-Dialog
+			
+			Rubric sid li.rubric.giveantidoron End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid li.blessingmercy End-Dialog
+			
+			Title role desig sid li.end.title End-Title
 		End-Section
 /*		Section comno
 			Insert_section Dismissals.Section01 End-Insert
