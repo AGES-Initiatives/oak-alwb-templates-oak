@@ -555,11 +555,13 @@ Status Review
 		Rubric sid li.rubric.kissgospel End-Rubric
 		Actor sid Deacon End-Actor
 		Dialog sid exc17 sid exc18 End-Dialog
+		
+		Rubric sid li.rubric.completeentrance End-Rubric
 	End-Section
 	
 	Section Section09 //entrance hymn
+		Rubric sid li.rubric.entrancechant End-Rubric
 		Actor sid People End-Actor
-		Title role mixed <Tdesig>sid Eisodikon</><Tmode>sid Mode2</> End-Title
 		Hymn sid hoLI.EntranceHymn.text media-off sid hoLI.Antiphon21.text media-off sid hoLI.EntranceHymn2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
 		
 		Dialog sid Asterisks End-Dialog
@@ -757,6 +759,8 @@ Status Review
 		Dialog sid euLI.Key0910.text End-Dialog
 		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
+		
+		Rubric sid li.rubric.unfoldantimension End-Rubric
 		
 		Actor sid Deacon End-Actor
 		Dialog sid euLI.Key0911.text End-Dialog	
