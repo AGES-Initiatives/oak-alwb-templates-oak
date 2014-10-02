@@ -852,7 +852,7 @@ Status Review
 	    Dialog sid li.preparation.mercy End-Dialog
 	    
 	    Rubric sid li.rubric.eparon End-Rubric
-	    Dialog sid euLI.Key1107.text End-Dialog // the english translation has changed
+	    Dialog sid li.eparon End-Dialog
 		Rubric sid li.rubric.wearaer End-Rubric
 		Dialog sid psa133.v2alt.text <r> sid li.rubric.psa133.v2.fullattribution </> End-Dialog // need alt key without 'in the nights'
 		Rubric sid li.rubric.takegifts End-Rubric
@@ -947,7 +947,9 @@ Status Review
 			Rubric sid li.rubric.agapwse End-Rubric
 			Dialog sid psa17.v2.text sid psa17.v3a.text End-Dialog
 			Rubric sid li.rubric.kissofpeace End-Rubric
-			Dialog sid li.christmidst1 sid li.christmidst2 End-Dialog
+			Dialog sid li.christmidst1 End-Dialog
+			Rubric sid li.rubric.kissofpeace2 End-Rubric
+			Dialog sid li.christmidst2 End-Dialog
 			Rubric sid li.rubric.deaconkiss End-Rubric
 			
 			Title sid li.creed.title End-Title
@@ -1084,13 +1086,15 @@ Status Review
 			Actor sid Deacon End-Actor
 			Rubric sid li.rubric.pointchalice End-Rubric
 			Dialog sid li.changewine End-Dialog
+			Rubric sid li.rubric.blesschalice End-Rubric
 			Actor sid Priest End-Actor				
 			Dialog sid euLI.Key1323.text End-Dialog
 			Actor sid People End-Actor				
 			Dialog sid res04 End-Dialog
 			
-			Actor sid Priest End-Actor
-			Rubric sid li.rubric.epiclesis End-Rubric				
+			Rubric sid li.rubric.blessboth End-Rubric
+			Rubric sid li.rubric.epiclesis End-Rubric
+			Actor sid Priest End-Actor				
 			Dialog sid euLI.Key1325.text End-Dialog
 			Actor sid People End-Actor				
 			Dialog sid res10 End-Dialog
@@ -1381,7 +1385,7 @@ Status Review
 	
 	
 	Section Section29
-		Rubric sid li.rubric.seepage End-Rubric // will the people notice to read the prayers if the notice is here?
+		Rubric sid li.rubric.seepage sid li.rubric.pagenumber End-Rubric // will the people notice to read the prayers if the notice is here?
 		Rubric sid li.rubric.approachbody End-Rubric
 		Rubric sid InALowVoice End-Rubric
 		Actor sid Priest End-Actor				
@@ -1402,11 +1406,10 @@ Status Review
 		Rubric sid li.rubric.deaconcommune3 End-Rubric
 		
 		Rubric sid li.rubric.chaliceandcloth End-Rubric			
-		Para role inaudible sid euLI.Key1515.text End-Para				
-		Para role inaudible sid euLI.Key1516.text End-Para	
+		Para role inaudible sid euLI.Key1515.text End-Para					
 		
 		Rubric sid li.rubric.drinkthrice End-Rubric
-		Para role inaudible sid li.mylips End-Para
+		Para role inaudible sid euLI.Key1516.text End-Para
 		Rubric sid li.rubric.deaconcommune4 End-Rubric			
 		Para role inaudible sid li.deaconcommune2 End-Para
 		
@@ -1546,6 +1549,8 @@ Status Review
 				Title sid euLI.Key1700.title End-Title
 				Actor sid Priest End-Actor
 				Dialog sid euLI.Key1701.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid li.lordsname End-Dialog
 				Actor sid Deacon End-Actor
 				Dialog sid pet00 End-Dialog
 				Actor sid People End-Actor
@@ -1625,6 +1630,8 @@ Status Review
 			Dialog sid li.dis.oanastas <r> sid li.rubric.sundaydismissal </> sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid li.dis.fathersmothers sid li.dis.ofsaint <r> sid li.dis.oftemple </> sid li.dis.chrysostom sid dis09 sid li.dis.ofsaint <r> sid li.dis.ofday </> sid li.dis.memory sid dis10 sid dis88 End-Dialog 
 			// should "have mercy on us and save us" etc come before the list of saints?
 			
+			Dialog sid DiEfchonPateron.text End-Dialog
+			
 			Actor sid People End-Actor
 			Dialog sid res04 End-Dialog
 			
@@ -1635,7 +1642,7 @@ Status Review
 			Actor sid People End-Actor
 			Hymn sid euLI.Key1706.text End-Hymn
 			Actor sid Priest End-Actor
-			Dialog sid DiEfchonPateron.text End-Dialog
+//			Dialog sid DiEfchonPateron.text End-Dialog
 			Actor sid People End-Actor
 			Dialog sid res04 End-Dialog
 			
