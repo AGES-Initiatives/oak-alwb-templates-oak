@@ -23,6 +23,7 @@ Status Review
 	import titles_gr_GR_cog.*
 	import ps_gr_GR_cog.*
 	import dismissals_gr_GR_cog.*
+	import le.go.os_gr_GR_cog.*
 	
 	import iTags.*
 	import bTags.*
@@ -1703,6 +1704,19 @@ Status Review
 		
 		Rubric sid li.rubric.basilgreat End-Rubric
 		Reading sid li.thanksgivingprayer2 End-Reading
+		
+		Rubric sid li.rubric.symeonmetaphrastes End-Rubric
+		Reading sid li.thanksgivingprayer3 End-Reading
+		
+		Rubric sid li.rubric.anonymous End-Rubric
+		Reading sid li.thanksgivingprayer4 End-Reading
+		
+		Rubric sid li.rubric.anonymous sid li.rubric.thanksgivingtheotokos End-Rubric
+		Reading sid li.thanksgivingprayer5 End-Reading
+		Reading sid li.thanksgivingprayer5b <r> sid Thrice </> End-Reading
+		
+		Rubric sid li.rubric.songofsymeon End-Rubric
+		Reading sid leosVE.Prayer_NynApolyeis.text End-Reading
 	End-Section
 	
 End-Template
