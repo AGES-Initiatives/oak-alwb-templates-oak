@@ -1662,7 +1662,7 @@ Status Review
 		End-Section  */
 	End-Section
 	
-	Section Section26
+	Section Section26 // prayers before Communion
 		Title role desig sid li.prepcommunion.title End-Title
 		Rubric sid li.rubric.beforeapproach End-Rubric
 		Reading sid li.vadizou End-Reading
@@ -1689,6 +1689,20 @@ Status Review
 // WHY is this prayer omitted in Lash?
 // discuss the format of the communion prayers; this is not the order Kenyans are used to reading in church
 		
+	End-Section
+	
+	Section Thanksgiving // thanksgiving after Communion
+		Title role desig sid li.thankgsiving.title End-Title
+		
+		Rubric sid li.rubric.admonition End-Rubric
+		Reading sid li.havingreceived End-Reading
+		
+		Rubric sid li.rubric.thanksgivingprayers End-Rubric
+		Rubric sid li.rubric.anonymous End-Rubric
+		Reading sid li.thanksivingprayer1 End-Reading
+		
+		Rubric sid li.rubric.basilgreat End-Rubric
+		Reading sid li.thanksgivingprayer2 End-Reading
 	End-Section
 	
 End-Template
