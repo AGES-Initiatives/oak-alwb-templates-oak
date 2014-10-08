@@ -1717,6 +1717,59 @@ Status Review
 		
 		Rubric sid li.rubric.songofsymeon End-Rubric
 		Reading sid leosVE.Prayer_NynApolyeis.text End-Reading
+		
+		Rubric sid li.rubric.trisagionetc End-Rubric // I want to expand this
+		
+		Rubric sid li.rubric.apolytikionchrysostom End-Rubric
+		Reading sid li.apolytikionchrysostom End-Reading
+		
+		Dialog sid DoxaPatri.text End-Dialog
+		
+		Rubric sid li.rubric.kontakionchrysostom End-Rubric
+		Reading sid li.kontakionchrysostom End-Reading
+		
+		Dialog sid KaiNynKaiAei.text End-Dialog
+		
+		Rubric sid li.rubric.theotokion End-Rubric
+		Reading sid li.theotokion End-Reading
+		
+		Dialog sid res01 <r> sid Thrice </> sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog
+		Reading sid li.uliyewathamani End-Reading
+		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		
+		Rubric sid li.rubric.anddismissal End-Rubric
+		Dialog sid li.dis.oanastas <r> sid li.rubric.sundaydismissal </> sid dis01 sid dis02 sid dis06 sid li.dis.ofsaint <r> sid li.dis.oftemple </> sid li.dis.ofsaint <r> sid li.dis.ofday </> sid li.dis.memory sid li.dis.chrysostom sid dis10 sid dis88 End-Dialog 
+		Dialog sid DiEfchonPateron.text End-Dialog
+	End-Section
+	
+	Section Apolytikia
+		Title role desig sid li.apolytikia.title End-Title
+		Title role desig sid li.intones.title End-Title
+		
+		Rubric sid li.rubric.tone1 End-Rubric
+		Reading sid li.apolytikiontone1 End-Reading
+		
+		Rubric sid li.rubric.tone2 End-Rubric
+		Reading sid li.apolytikiontone2 End-Reading
+		
+		Rubric sid li.rubric.tone3 End-Rubric
+		Reading sid li.apolytikiontone3 End-Reading
+		
+		Rubric sid li.rubric.tone4 End-Rubric
+		Reading sid li.apolytikiontone4 End-Reading
+		
+		Rubric sid li.rubric.tone5 End-Rubric
+		Reading sid li.apolytikiontone5 End-Reading
+		
+		Rubric sid li.rubric.tone6 End-Rubric
+		Reading sid li.apolytikiontone6 End-Reading
+		
+		Rubric sid li.rubric.tone7 End-Rubric
+		Reading sid li.apolytikiontone7 End-Reading
+		
+		Rubric sid li.rubric.tone8 End-Rubric
+		Reading sid li.apolytikiontone8 End-Reading
 	End-Section
 	
 End-Template
