@@ -1770,6 +1770,20 @@ Status Review
 		
 		Rubric sid li.rubric.tone8 End-Rubric
 		Reading sid li.apolytikiontone8 End-Reading
+		
+		Title role desig sid li.apolytikiafeasts.title End-Title
+		
+		Rubric sid li.rubric.nativitytheotokosapolytikion End-Rubric
+		Rubric sid li.rubric.tone4 End-Rubric
+		Reading sid li.nativitytheotokos.apolytikion End-Reading
+		
+		Rubric sid li.rubric.exaltationcrossapolytikion End-Rubric
+		Rubric sid li.rubric.tone1 End-Rubric
+		Reading sid li.exaltationcross.apolytikion End-Reading
+		
+		Rubric sid li.rubric.entrytheotokosapolytikion End-Rubric
+		Rubric sid li.rubric.tone4 End-Rubric
+		Reading sid li.entrytheotokos.apolytikion End-Reading
 	End-Section
 	
 End-Template
