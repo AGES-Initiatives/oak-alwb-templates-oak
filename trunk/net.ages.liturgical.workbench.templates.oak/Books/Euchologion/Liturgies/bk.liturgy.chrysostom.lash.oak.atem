@@ -1784,6 +1784,14 @@ Status Review
 		Rubric sid li.rubric.entrytheotokosapolytikion End-Rubric
 		Rubric sid li.rubric.tone4 End-Rubric
 		Reading sid li.entrytheotokos.apolytikion End-Reading
+		
+		Rubric sid li.rubric.forefathersapolytikion End-Rubric
+		Rubric sid li.rubric.tone2 End-Rubric
+		Reading sid li.forefathers.apolytikion End-Reading
+		
+		Rubric sid li.rubric.beforenativityapolytikion End-Rubric
+		Rubric sid li.rubric.tone2 End-Rubric
+		Reading sid li.beforenativity.apolytikion End-Reading
 	End-Section
 	
 End-Template
