@@ -1792,6 +1792,32 @@ Status Review
 		Rubric sid li.rubric.beforenativityapolytikion End-Rubric
 		Rubric sid li.rubric.tone2 End-Rubric
 		Reading sid li.beforenativity.apolytikion End-Reading
+		
+		Rubric sid li.rubric.nativitychristapolytikion End-Rubric
+		Rubric sid li.rubric.tone4 End-Rubric
+		Reading sid li.nativitychrist.apolytikion End-Reading
+		
+		Rubric sid li.rubric.theophanyapolytikion End-Rubric
+		Rubric sid li.rubric.tone1 End-Rubric
+		Reading sid li.theophany.apolytikion End-Reading
+		
+		Rubric sid li.rubric.meetinglordapolytikion End-Rubric
+		Rubric sid li.rubric.tone1 End-Rubric
+		Reading sid li.meetinglord.apolytikion End-Reading
+		
+		Rubric sid li.rubric.annunciationapolytikion End-Rubric
+		Rubric sid li.rubric.tone4 End-Rubric
+		Reading sid li.annunciation.apolytikion End-Reading
+		
+		Rubric sid li.rubric.transfigurationapolytikion End-Rubric
+		Rubric sid li.rubric.tone7 End-Rubric
+		Reading sid li.transfiguration.apolytikion End-Reading
+		
+		Rubric sid li.rubric.dormitionapolytikion End-Rubric
+		Rubric sid li.rubric.tone1 End-Rubric
+		Reading sid li.dormition.apolytikion End-Reading
+		
+		Title role desig sid li.apolytikiatriodionpentecostarion.title End-Title
 	End-Section
 	
 End-Template
