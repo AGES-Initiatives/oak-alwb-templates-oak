@@ -1818,6 +1818,30 @@ Status Review
 		Reading sid li.dormition.apolytikion End-Reading
 		
 		Title role desig sid li.apolytikiatriodionpentecostarion.title End-Title
+		
+		Rubric sid li.rubric.lent1apolytikion End-Rubric
+		Rubric sid li.rubric.tone2 End-Rubric
+		Reading sid li.lent1.apolytikion End-Reading
+		
+		Rubric sid li.rubric.lent2apolytikion End-Rubric
+		Rubric sid li.rubric.tone8 End-Rubric
+		Reading sid li.lent2.apolytikion End-Reading
+		
+		Rubric sid li.rubric.lent3apolytikion End-Rubric
+		Rubric sid li.rubric.tone1 End-Rubric
+		Reading sid li.exaltationcross.apolytikion End-Reading
+		
+		Rubric sid li.rubric.lent4apolytikion End-Rubric
+		Rubric sid li.rubric.tone8 End-Rubric
+		Reading sid li.lent4.apolytikion End-Reading
+		
+		Rubric sid li.rubric.lent4apolytikion End-Rubric
+		Rubric sid li.rubric.tone8 End-Rubric
+		Reading sid li.lent5.apolytikion End-Reading
+		
+		Rubric sid li.rubric.lazarusapolytikion End-Rubric
+		Rubric sid li.rubric.tone1 End-Rubric
+		Reading sid li.lazarus.apolytikion End-Reading
 	End-Section
 	
 End-Template
