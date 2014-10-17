@@ -24,6 +24,7 @@ Status Review
 	import ps_gr_GR_cog.*
 	import dismissals_gr_GR_cog.*
 	import le.go.os_gr_GR_cog.*
+	import poets_gr_GR_cog.*
 	
 	import iTags.*
 	import bTags.*
@@ -1921,6 +1922,107 @@ Status Review
 		Rubric sid li.rubric.entrancedismissalkontakion End-Rubric
 		Rubric sid li.rubric.tone3 End-Rubric
 		Reading sid li.entrancedismissal.kontakion End-Reading
+		
+		Rubric sid li.rubric.conceptionannekontakion End-Rubric
+		Rubric sid li.rubric.tone4 End-Rubric
+		Reading sid li.conceptionanne.kontakion End-Reading
+		
+		Rubric sid li.rubric.christmaskontakion End-Rubric
+		Rubric sid li.rubric.tone3 sid Automelon sid RomanouTouMelodou End-Rubric
+		Reading sid li.christmas.kontakion End-Reading
+		
+		Rubric sid li.rubric.circumcisionkontakion End-Rubric
+		Rubric sid li.rubric.tone3 End-Rubric
+		Reading sid li.circumcision.kontakion End-Reading
+		
+		Rubric sid li.rubric.jan2kontakion End-Rubric
+		Rubric sid li.rubric.tone4 End-Rubric
+		Reading sid li.jan2.kontakion End-Reading
+		
+		Rubric sid li.rubric.theophanykontakion End-Rubric
+		Rubric sid li.rubric.tone4 sid Automelon sid RomanouTouMelodou End-Rubric
+		Reading sid li.theophany.kontakion End-Reading
+		
+		Rubric sid li.rubric.feb1kontakion End-Rubric
+		Rubric sid li.rubric.tone4 End-Rubric
+		Reading sid li.feb1.kontakion End-Reading
+		
+		Rubric sid li.rubric.dismissaltheophanykontakion End-Rubric
+		Rubric sid li.rubric.tone1 sid Automelon End-Rubric
+		Reading sid li.dismissaltheophany.kontakion End-Reading
+		
+		Rubric sid li.rubric.dismissalmeetingkontakion End-Rubric
+		Reading sid hoTY.Key0408.text End-Reading
+		
+		Rubric sid li.rubric.publicanphariseekontakion End-Rubric
+		Rubric sid li.rubric.tone4 End-Rubric
+		Reading sid li.publicanpharisee.kontakion End-Reading
+		
+		Rubric sid li.rubric.prodigalkontakion End-Rubric
+		Rubric sid li.rubric.tone3 End-Rubric
+		Reading sid li.prodigal.kontakion End-Reading
+		
+		Rubric sid li.rubric.carnivalsaturdaykontakion End-Rubric
+		Rubric sid li.rubric.tone8 End-Rubric
+		Reading sid li.carnivalsaturday.kontakion End-Reading
+		
+		Rubric sid li.rubric.carnivalkontakion End-Rubric
+		Rubric sid li.rubric.tone1 sid Automelon sid RomanouTouMelodou End-Rubric
+		Reading sid li.carnival.kontakion End-Reading
+		
+		Rubric sid li.rubric.cheesefarekontakion End-Rubric
+		Rubric sid li.rubric.tone6 sid Automelon End-Rubric
+		Reading sid li.cheesefare.kontakion End-Reading
+		
+		Rubric sid li.rubric.lenttheotokoskontakion End-Rubric
+		Rubric sid li.rubric.tone8 sid Automelon End-Rubric
+		Reading sid li.lenttheotokos.kontakion End-Reading
+		
+		Rubric sid li.rubric.lenttheotokoskontakion2 End-Rubric
+		Reading sid hoTY.Key0408.text End-Reading
+		
+		Rubric sid li.rubric.march24kontakion End-Rubric
+		Rubric sid li.rubric.tone4 End-Rubric
+		Reading sid li.march24.kontakion End-Reading
+		
+		Rubric sid li.rubric.annunciationkontakion End-Rubric
+		Rubric sid li.rubric.tone8 sid Automelon End-Rubric
+		Reading sid li.lenttheotokos.kontakion End-Reading
+		
+		Rubric sid li.rubric.lazaruskontakion End-Rubric
+		Rubric sid li.rubric.tone2 End-Rubric
+		Reading sid li.lazarus.kontakion End-Reading
+		
+		Rubric sid li.rubric.palmkontakion End-Rubric
+		Rubric sid li.rubric.tone6 sid Automelon sid RomanouTouMelodou End-Rubric
+		Reading sid li.palm.kontakion End-Reading
+		
+		Rubric sid li.rubric.paschakontakion End-Rubric
+		Rubric sid li.rubric.tone8 sid Automelon sid RomanouTouMelodou End-Rubric
+		Reading sid li.pascha.kontakion End-Reading
+		
+		Rubric sid li.rubric.thomaskontakion End-Rubric
+		Rubric sid li.rubric.tone8 sid Automelon sid RomanouTouMelodou End-Rubric
+		Reading sid li.thomas.kontakion End-Reading
+		
+		Rubric sid li.rubric.midpentecostkontakion End-Rubric
+		Rubric sid li.rubric.tone4 End-Rubric
+		Reading sid li.midpentecost.kontakion End-Reading
+		
+		Rubric sid li.rubric.ascensionkontakion End-Rubric
+		Rubric sid li.rubric.tone6 sid Automelon sid RomanouTouMelodou End-Rubric
+		Reading sid li.ascension.kontakion End-Reading
+		
+		Rubric sid li.rubric.pentecostkontakion End-Rubric
+		Rubric sid li.rubric.tone8 sid Automelon sid RomanouTouMelodou End-Rubric
+		Reading sid li.pentecost.kontakion End-Reading
+		
+		Rubric sid li.rubric.allsaintskontakion End-Rubric
+		Rubric sid li.rubric.tone8 sid Automelon End-Rubric
+		Reading sid li.allsaints.kontakion End-Reading
+		
+		Rubric sid li.rubric.theotokoskontakion End-Rubric
+		Reading sid hoTY.Key0408.text End-Reading
 	End-Section
 	
 End-Template
