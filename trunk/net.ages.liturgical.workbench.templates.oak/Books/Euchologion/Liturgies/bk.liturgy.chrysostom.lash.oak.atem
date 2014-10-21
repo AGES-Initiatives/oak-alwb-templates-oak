@@ -1888,11 +1888,11 @@ Status Review
 		Title role desig sid li.kontakia.title End-Title
 		
 		Rubric sid li.rubric.sept1kontakion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.cross End-Rubric
 		Reading sid li.sept1.kontakion End-Reading
 		
 		Rubric sid li.rubric.sept7kontakion End-Rubric
-		Rubric sid li.rubric.tone3 End-Rubric
+		Rubric sid li.rubric.tone3 sid li.melody.virgin End-Rubric
 		Reading sid li.sept7.kontakion End-Reading
 		
 		Rubric sid li.rubric.sept8kontakion End-Rubric
@@ -1900,7 +1900,7 @@ Status Review
 		Reading sid li.sept8.kontakion End-Reading
 		
 		Rubric sid li.rubric.sept13kontakion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
 		Reading sid li.sept13.kontakion End-Reading
 		
 		Rubric sid li.rubric.sept14kontakion End-Rubric
@@ -1912,19 +1912,19 @@ Status Review
 		Reading sid li.exaltationdismissal.kontakion End-Reading
 		
 		Rubric sid li.rubric.nov8kontakion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.cross End-Rubric
 		Reading sid li.nov8.kontakion End-Reading
 		
 		Rubric sid li.rubric.nov20kontakion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
 		Reading sid li.nov20.kontakion End-Reading
 		
 		Rubric sid li.rubric.entrancedismissalkontakion End-Rubric
-		Rubric sid li.rubric.tone3 End-Rubric
+		Rubric sid li.rubric.tone3 sid li.melody.virgin End-Rubric
 		Reading sid li.entrancedismissal.kontakion End-Reading
 		
 		Rubric sid li.rubric.conceptionannekontakion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
 		Reading sid li.conceptionanne.kontakion End-Reading
 		
 		Rubric sid li.rubric.christmaskontakion End-Rubric
@@ -1932,11 +1932,11 @@ Status Review
 		Reading sid li.christmas.kontakion End-Reading
 		
 		Rubric sid li.rubric.circumcisionkontakion End-Rubric
-		Rubric sid li.rubric.tone3 End-Rubric
+		Rubric sid li.rubric.tone3 sid li.melody.virgin End-Rubric
 		Reading sid li.circumcision.kontakion End-Reading
 		
 		Rubric sid li.rubric.jan2kontakion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
 		Reading sid li.jan2.kontakion End-Reading
 		
 		Rubric sid li.rubric.theophanykontakion End-Rubric
@@ -1944,7 +1944,7 @@ Status Review
 		Reading sid li.theophany.kontakion End-Reading
 		
 		Rubric sid li.rubric.feb1kontakion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
 		Reading sid li.feb1.kontakion End-Reading
 		
 		Rubric sid li.rubric.dismissaltheophanykontakion End-Rubric
@@ -1959,7 +1959,7 @@ Status Review
 		Reading sid li.publicanpharisee.kontakion End-Reading
 		
 		Rubric sid li.rubric.prodigalkontakion End-Rubric
-		Rubric sid li.rubric.tone3 End-Rubric
+		Rubric sid li.rubric.tone3 sid li.melody.virgin End-Rubric
 		Reading sid li.prodigal.kontakion End-Reading
 		
 		Rubric sid li.rubric.carnivalsaturdaykontakion End-Rubric
@@ -1982,7 +1982,7 @@ Status Review
 		Reading sid hoTY.Key0408.text End-Reading
 		
 		Rubric sid li.rubric.march24kontakion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
 		Reading sid li.march24.kontakion End-Reading
 		
 		Rubric sid li.rubric.annunciationkontakion End-Rubric
@@ -1990,7 +1990,7 @@ Status Review
 		Reading sid li.lenttheotokos.kontakion End-Reading
 		
 		Rubric sid li.rubric.lazaruskontakion End-Rubric
-		Rubric sid li.rubric.tone2 End-Rubric
+		Rubric sid li.rubric.tone2 sid li.melody.above End-Rubric
 		Reading sid li.lazarus.kontakion End-Reading
 		
 		Rubric sid li.rubric.palmkontakion End-Rubric
@@ -2006,7 +2006,7 @@ Status Review
 		Reading sid li.thomas.kontakion End-Reading
 		
 		Rubric sid li.rubric.midpentecostkontakion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.cross End-Rubric
 		Reading sid li.midpentecost.kontakion End-Reading
 		
 		Rubric sid li.rubric.ascensionkontakion End-Rubric
@@ -2023,6 +2023,137 @@ Status Review
 		
 		Rubric sid li.rubric.theotokoskontakion End-Rubric
 		Reading sid hoTY.Key0408.text End-Reading
+		
+		Rubric sid li.rubric.july2kontakion End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.cross End-Rubric
+		Reading sid li.july2.kontakion End-Reading
+		
+		Rubric sid li.rubric.july25kontakion End-Rubric
+		Rubric sid li.rubric.tone2 sid li.melody.above End-Rubric
+		Reading sid li.july25.kontakion End-Reading
+		
+		Rubric sid li.rubric.july27kontakion End-Rubric
+		Rubric sid li.rubric.tone7 sid Automelon End-Rubric
+		Reading sid li.july27.kontakion End-Reading
+		
+		Rubric sid li.rubric.aug1kontakion End-Rubric
+		Rubric sid li.rubric.tone4 sid Automelon End-Rubric
+		Reading sid li.sept14.kontakion End-Reading
+		
+		Rubric sid li.rubric.aug5kontakion End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
+		Reading sid li.aug5.kontakion End-Reading
+		
+		Rubric sid li.rubric.aug6kontakion End-Rubric
+		Rubric sid li.rubric.tone7 sid Automelon End-Rubric
+		Reading sid li.aug6.kontakion End-Reading
+		
+		Rubric sid li.rubric.aug14kontakion End-Rubric
+		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
+		Reading sid li.aug14.kontakion End-Reading
+		
+		Rubric sid li.rubric.aug15kontakion End-Rubric
+		Rubric sid li.rubric.tone2 sid Automelon End-Rubric
+		Reading sid li.aug15.kontakion End-Reading
+		
+		Rubric sid li.rubric.tilsept12kontakion End-Rubric
+		Rubric sid li.rubric.tone4 sid Automelon End-Rubric
+		Reading sid li.tilsept12.kontakion End-Reading
+		
+		Rubric sid li.rubric.aug31kontakion End-Rubric
+		Rubric sid li.rubric.tone2 sid li.melody.prayers End-Rubric
+		Reading sid li.aug31.kontakion End-Reading
+	End-Section
+	
+	Section Artoclasia
+		Title role desig sid li.artoclasia.title End-Title
+		Title sid li.artoclasiavespers.title End-Title
+		
+		Rubric sid li.rubric.artoclasiapreparation End-Rubric
+		Rubric sid li.rubric.finishtroparion End-Rubric
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.petition End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res06 <r> sid li.rubric.eachpetition </> End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet19 End-Dialog
+		Dialog sid pet07Sa End-Dialog
+		Dialog sid li.petitionartoclasia End-Dialog
+		Dialog sid li.petitionartoclasia2 End-Dialog
+		
+		Rubric sid li.rubric.mercy40a End-Rubric
+		Dialog sid res01 End-Dialog
+		Rubric sid li.rubric.mercy40b End-Rubric
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.petition2 End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res06 End-Dialog
+		
+		Actor sid Priest End-Actor
+		Dialog sid pet35 sid exc11a End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
+		
+		Actor sid Priest End-Actor
+		Dialog sid pet31 End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res05 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet32 End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res03 End-Dialog
+		
+		Actor sid Priest End-Actor
+		Dialog sid sup00a sid sup01 sid sup02 sid sup03 sid sup04 sid sup05 sid dis07 sid li.dis.fathersmothers <r> sid sup13 </> sid sup14 sid li.dis.ofsaint <r> sid li.dis.ofday </> sid li.dis.memory sid sup15 sid pet36 End-Dialog
+		
+		Rubric sid li.rubric.censeloaves End-Rubric
+		Rubric sid li.rubric.censeloaves2 End-Rubric
+		Dialog sid hailmary End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet00 End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Rubric sid li.rubric.artoclasiaprayer End-Rubric
+		Title sid li.artoclasiaprayer.title End-Title
+		Reading sid li.artoclasiaprayer End-Reading
+		
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
+		
+		Rubric sid li.rubric.kissloaves End-Rubric
+		Dialog sid psa33.v11.text End-Dialog
+		Rubric sid li.rubric.repeattwice End-Rubric
+		
+		Title sid li.artoclasiamatins.title End-Title
+		Rubric sid li.rubric.artoclasiamatins End-Rubric
+		
+		Title sid li.artoclasialiturgy.title End-Title
+		Rubric sid li.rubric.artoclasialiturgy End-Rubric
+		
+		Title sid li.artoclasianote.title End-Title
+		Reading sid li.artoclasianote End-Reading
+	End-Section
+	
+	Section TrisagionDeparted
+		Title role desig sid li.trisagion.title End-Title
+		
+		Actor sid Priest End-Actor
+		Dialog sid enarxis01 End-Dialog
+		
+		Actor sid Reader End-Actor
+		Dialog sid res04 sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
 	End-Section
 	
 End-Template
