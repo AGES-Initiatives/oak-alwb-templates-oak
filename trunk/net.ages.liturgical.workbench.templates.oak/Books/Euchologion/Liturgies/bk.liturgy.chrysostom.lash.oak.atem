@@ -10,6 +10,7 @@ Status Review
 	import me.m10.d28a_gr_GR_cog.*
 	import oc.m4.d1_gr_GR_cog.*
 	import ho.s03_gr_GR_cog.*
+	import eu.funeral_gr_GR_cog.*
 
 	import me.*
 	import pe.*
@@ -2154,6 +2155,176 @@ Status Review
 		
 		Actor sid Reader End-Actor
 		Dialog sid res04 sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
+		Dialog sid li.preparation.doxapatrikainyn End-Dialog
+		Dialog sid PanagiaTrias.text End-Dialog
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		Dialog sid PaterImon.text End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid exc20 End-Dialog
+		Actor sid Reader End-Actor
+		Dialog sid res04 End-Dialog
+		
+		Title sid li.evlogitariadeparted.title End-Title
+		
+		Rubric sid li.rubric.tone5 End-Rubric
+		Dialog sid psa118.v12.text End-Dialog
+		Dialog sid hoMA.FuneralEvlog1.text End-Dialog
+		
+		Dialog sid psa118.v12.text End-Dialog
+		Dialog sid hoMA.FuneralEvlog4.text End-Dialog
+		
+		Dialog sid psa118.v12.text End-Dialog
+		Dialog sid hoMA.FuneralEvlog5.text End-Dialog
+		
+		Dialog sid psa118.v12.text End-Dialog
+		Dialog sid hoMA.FuneralEvlog6.text End-Dialog
+		
+		Dialog sid DoxaPatri.text End-Dialog
+		Dialog sid hoMA.FuneralEvlog7.text End-Dialog
+		
+		Dialog sid KaiNynKaiAei.text End-Dialog
+		Dialog sid hoMA.FuneralEvlog8.text End-Dialog
+		
+		Dialog sid Allilouia3Doxa.text <r> sid Thrice </> End-Dialog
+		
+		Rubric sid Kontakion sid li.rubric.tone8 End-Rubric
+		Dialog sid trMA.Kontakion.text End-Dialog
+		
+		Rubric sid li.rubric.thefollowingtroparia sid li.rubric.tone4 End-Rubric
+		Dialog sid li.funeraltroparion1 End-Dialog
+		Dialog sid li.funeraltroparion2 End-Dialog
+		Dialog sid DoxaPatri.text End-Dialog
+		Dialog sid euFUN.Key0103.text End-Dialog
+		Dialog sid KaiNynKaiAei.text End-Dialog
+		Dialog sid li.funeraltheotokion End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.petition End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res06 End-Dialog
+		
+		Dialog sid Asterisks End-Dialog
+		Rubric sid li.rubric.oneperson End-Rubric
+		
+		Actor sid Deacon End-Actor
+		Dialog sid petFuneral01 End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res06 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.petfuneral2a End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res06 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.petfuneral2b End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res02 End-Dialog
+		
+		Dialog sid Asterisks End-Dialog
+		Rubric sid li.rubric.manypeople End-Rubric
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.petfuneral1pl End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res06 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.petfuneral2apl End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res06 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.petfuneral2bpl End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res02 End-Dialog
+		
+		Dialog sid Asterisks End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet00 End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Priest End-Actor
+		Dialog sid euFUN.Key0105.text End-Dialog
+		Dialog sid euFUN.Key0106.text End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
+		
+		Actor sid Priest End-Actor
+		Dialog sid DoxaSoiChriste2 End-Dialog
+		
+		Actor sid Reader End-Actor
+		Dialog sid li.preparation.doxapatrikainyn sid res01 <r> sid Thrice </> sid res12 End-Dialog
+		
+		Rubric sid li.rubric.dodismissal End-Rubric
+		Actor sid Priest End-Actor
+		Dialog sid dis00.deceased sid dis01 sid dis02 sid dis06 sid dis08 sid li.dis.abrahamisaacjacob sid li.dis.friendlazarus sid dis10 sid li.dis.restsoul End-Dialog
+		Dialog sid euFUN.Key0107.text End-Dialog
+		Dialog sid euFUN.Key0108.text End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res16 <r> sid Thrice </> End-Dialog
+		
+		Dialog sid Asterisks End-Dialog
+		Rubric sid li.rubric.soulsat End-Rubric
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.petition End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res06 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid petSouls01 End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res06 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.petsouls2a End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res06 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid li.petsouls2b End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res02 End-Dialog
+		
+		Rubric sid li.rubric.restasabove End-Rubric
+	End-Section
+	
+	Section VariousPrayers
+		Title role desig sid li.variousprayers.title End-Title
+		
+		Title sid li.palmblessing.title End-Title
+		Rubric sid li.rubric.palmkontakion End-Rubric
+		Reading sid li.palmprayer End-Reading
+		
+		Title sid li.grapeblessing.title End-Title
+		Rubric sid li.rubric.aug6 End-Rubric
+		Reading sid li.grapeprayer End-Reading
+		
+		Title sid li.kollyvablessing.title End-Title
+		Rubric sid li.rubric.forsaint End-Rubric
+		Reading sid li.kollyvaprayer End-Reading
+		Reading sid li.kollyvaprayerb End-Reading
+		
+		Title sid li.phanouriousblessing.title End-Title
+		Reading sid li.phanouriosprayer End-Reading
+		Reading sid li.phanouriosprayerb End-Reading
 	End-Section
 	
 End-Template
