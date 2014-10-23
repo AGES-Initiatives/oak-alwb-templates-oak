@@ -1749,139 +1749,139 @@ Status Review
 		Title role desig sid li.apolytikia.title End-Title
 		Title role desig sid li.intones.title End-Title
 		
-		Rubric sid li.rubric.tone1 End-Rubric
+		Rubric sid Mode1 End-Rubric
 		Reading sid li.apolytikiontone1 End-Reading
 		
-		Rubric sid li.rubric.tone2 End-Rubric
+		Rubric sid Mode2 End-Rubric
 		Reading sid li.apolytikiontone2 End-Reading
 		
-		Rubric sid li.rubric.tone3 End-Rubric
+		Rubric sid Mode3 End-Rubric
 		Reading sid li.apolytikiontone3 End-Reading
 		
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid Mode4 End-Rubric
 		Reading sid li.apolytikiontone4 End-Reading
 		
-		Rubric sid li.rubric.tone5 End-Rubric
+		Rubric sid Mode5 End-Rubric
 		Reading sid li.apolytikiontone5 End-Reading
 		
-		Rubric sid li.rubric.tone6 End-Rubric
+		Rubric sid Mode6 End-Rubric
 		Reading sid li.apolytikiontone6 End-Reading
 		
-		Rubric sid li.rubric.tone7 End-Rubric
+		Rubric sid Mode7 End-Rubric
 		Reading sid li.apolytikiontone7 End-Reading
 		
-		Rubric sid li.rubric.tone8 End-Rubric
+		Rubric sid Mode8 End-Rubric
 		Reading sid li.apolytikiontone8 End-Reading
 		
 		Title role desig sid li.apolytikiafeasts.title End-Title
 		
 		Rubric sid li.rubric.nativitytheotokosapolytikion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid Mode4 End-Rubric
 		Reading sid li.nativitytheotokos.apolytikion End-Reading
 		
 		Rubric sid li.rubric.exaltationcrossapolytikion End-Rubric
-		Rubric sid li.rubric.tone1 End-Rubric
+		Rubric sid Mode1 End-Rubric
 		Reading sid li.exaltationcross.apolytikion End-Reading
 		
 		Rubric sid li.rubric.entrytheotokosapolytikion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid Mode4 End-Rubric
 		Reading sid li.entrytheotokos.apolytikion End-Reading
 		
 		Rubric sid li.rubric.forefathersapolytikion End-Rubric
-		Rubric sid li.rubric.tone2 End-Rubric
+		Rubric sid Mode2 End-Rubric
 		Reading sid li.forefathers.apolytikion End-Reading
 		
 		Rubric sid li.rubric.beforenativityapolytikion End-Rubric
-		Rubric sid li.rubric.tone2 End-Rubric
+		Rubric sid Mode2 End-Rubric
 		Reading sid li.beforenativity.apolytikion End-Reading
 		
 		Rubric sid li.rubric.nativitychristapolytikion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid Mode4 End-Rubric
 		Reading sid li.nativitychrist.apolytikion End-Reading
 		
 		Rubric sid li.rubric.theophanyapolytikion End-Rubric
-		Rubric sid li.rubric.tone1 End-Rubric
+		Rubric sid Mode1 End-Rubric
 		Reading sid li.theophany.apolytikion End-Reading
 		
 		Rubric sid li.rubric.meetinglordapolytikion End-Rubric
-		Rubric sid li.rubric.tone1 End-Rubric
+		Rubric sid Mode1 End-Rubric
 		Reading sid li.meetinglord.apolytikion End-Reading
 		
 		Rubric sid li.rubric.annunciationapolytikion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid Mode4 End-Rubric
 		Reading sid li.annunciation.apolytikion End-Reading
 		
 		Rubric sid li.rubric.transfigurationapolytikion End-Rubric
-		Rubric sid li.rubric.tone7 End-Rubric
+		Rubric sid Mode7 End-Rubric
 		Reading sid li.transfiguration.apolytikion End-Reading
 		
 		Rubric sid li.rubric.dormitionapolytikion End-Rubric
-		Rubric sid li.rubric.tone1 End-Rubric
+		Rubric sid Mode1 End-Rubric
 		Reading sid li.dormition.apolytikion End-Reading
 		
 		Title role desig sid li.apolytikiatriodionpentecostarion.title End-Title
 		
 		Rubric sid li.rubric.lent1apolytikion End-Rubric
-		Rubric sid li.rubric.tone2 End-Rubric
+		Rubric sid Mode2 End-Rubric
 		Reading sid li.lent1.apolytikion End-Reading
 		
 		Rubric sid li.rubric.lent2apolytikion End-Rubric
-		Rubric sid li.rubric.tone8 End-Rubric
+		Rubric sid Mode8 End-Rubric
 		Reading sid li.lent2.apolytikion End-Reading
 		
 		Rubric sid li.rubric.lent3apolytikion End-Rubric
-		Rubric sid li.rubric.tone1 End-Rubric
+		Rubric sid Mode1 End-Rubric
 		Reading sid li.exaltationcross.apolytikion End-Reading
 		
 		Rubric sid li.rubric.lent4apolytikion End-Rubric
-		Rubric sid li.rubric.tone8 End-Rubric
+		Rubric sid Mode8 End-Rubric
 		Reading sid li.lent4.apolytikion End-Reading
 		
 		Rubric sid li.rubric.lent4apolytikion End-Rubric
-		Rubric sid li.rubric.tone8 End-Rubric
+		Rubric sid Mode8 End-Rubric
 		Reading sid li.lent5.apolytikion End-Reading
 		
 		Rubric sid li.rubric.lazarusapolytikion End-Rubric
-		Rubric sid li.rubric.tone1 End-Rubric
+		Rubric sid Mode1 End-Rubric
 		Reading sid li.lazarus.apolytikion End-Reading
 		
 		Rubric sid li.rubric.palmapolytikion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid Mode4 End-Rubric
 		Reading sid li.palm.apolytikion End-Reading
 		
 		Rubric sid li.rubric.paschaapolytikion End-Rubric
-		Rubric sid li.rubric.tone5 End-Rubric
+		Rubric sid Mode5 End-Rubric
 		Reading sid li.pascha.apolytikion End-Reading
 		
 		Rubric sid li.rubric.thomasapolytikion End-Rubric
-		Rubric sid li.rubric.tone7 End-Rubric
+		Rubric sid Mode7 End-Rubric
 		Reading sid li.thomas.apolytikion End-Reading
 		
 		Rubric sid li.rubric.myrrhbearersapolytikion End-Rubric
-		Rubric sid li.rubric.tone2 End-Rubric
+		Rubric sid Mode2 End-Rubric
 		Reading sid li.myrrhbearers.apolytikion End-Reading
 		
 		Rubric sid li.rubric.sametone End-Rubric
 		Reading sid li.myrrhbearers2.apolytikion End-Reading
 		
 		Rubric sid li.rubric.midpentecostapolytikion End-Rubric
-		Rubric sid li.rubric.tone8 End-Rubric
+		Rubric sid Mode8 End-Rubric
 		Reading sid li.midpentecost.apolytikion End-Reading
 		
 		Rubric sid li.rubric.ascensionapolytikion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid Mode4 End-Rubric
 		Reading sid li.ascension.apolytikion End-Reading
 		
 		Rubric sid li.rubric.holyfathersapolytikion End-Rubric
-		Rubric sid li.rubric.tone8 End-Rubric
+		Rubric sid Mode8 End-Rubric
 		Reading sid li.holyfathers.apolytikion End-Reading
 		
 		Rubric sid li.rubric.pentecostapolytikion End-Rubric
-		Rubric sid li.rubric.tone8 End-Rubric
+		Rubric sid Mode8 End-Rubric
 		Reading sid li.pentecost.apolytikion End-Reading
 		
 		Rubric sid li.rubric.allsaintsapolytikion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid Mode4 End-Rubric
 		Reading sid li.allsaints.apolytikion End-Reading
 	End-Section
 	
@@ -1889,180 +1889,180 @@ Status Review
 		Title role desig sid li.kontakia.title End-Title
 		
 		Rubric sid li.rubric.sept1kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.cross End-Rubric
+		Rubric sid Mode4 sid li.melody.cross End-Rubric
 		Reading sid li.sept1.kontakion End-Reading
 		
 		Rubric sid li.rubric.sept7kontakion End-Rubric
-		Rubric sid li.rubric.tone3 sid li.melody.virgin End-Rubric
+		Rubric sid Mode3 sid li.melody.virgin End-Rubric
 		Reading sid li.sept7.kontakion End-Reading
 		
 		Rubric sid li.rubric.sept8kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid Automelon End-Rubric
+		Rubric sid Mode4 sid Automelon End-Rubric
 		Reading sid li.sept8.kontakion End-Reading
 		
 		Rubric sid li.rubric.sept13kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
+		Rubric sid Mode4 sid li.melody.appeared End-Rubric
 		Reading sid li.sept13.kontakion End-Reading
 		
 		Rubric sid li.rubric.sept14kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid Automelon End-Rubric
+		Rubric sid Mode4 sid Automelon End-Rubric
 		Reading sid li.sept14.kontakion End-Reading
 		
 		Rubric sid li.rubric.exaltationdismissalkontakion End-Rubric
-		Rubric sid li.rubric.tone2 sid li.rubric.theotokoskontakion End-Rubric
+		Rubric sid Mode2 sid li.rubric.theotokoskontakion End-Rubric
 		Reading sid li.exaltationdismissal.kontakion End-Reading
 		
 		Rubric sid li.rubric.nov8kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.cross End-Rubric
+		Rubric sid Mode4 sid li.melody.cross End-Rubric
 		Reading sid li.nov8.kontakion End-Reading
 		
 		Rubric sid li.rubric.nov20kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
+		Rubric sid Mode4 sid li.melody.appeared End-Rubric
 		Reading sid li.nov20.kontakion End-Reading
 		
 		Rubric sid li.rubric.entrancedismissalkontakion End-Rubric
-		Rubric sid li.rubric.tone3 sid li.melody.virgin End-Rubric
+		Rubric sid Mode3 sid li.melody.virgin End-Rubric
 		Reading sid li.entrancedismissal.kontakion End-Reading
 		
 		Rubric sid li.rubric.conceptionannekontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
+		Rubric sid Mode4 sid li.melody.appeared End-Rubric
 		Reading sid li.conceptionanne.kontakion End-Reading
 		
 		Rubric sid li.rubric.christmaskontakion End-Rubric
-		Rubric sid li.rubric.tone3 sid Automelon sid RomanouTouMelodou End-Rubric
+		Rubric sid Mode3 sid Automelon sid RomanouTouMelodou End-Rubric
 		Reading sid li.christmas.kontakion End-Reading
 		
 		Rubric sid li.rubric.circumcisionkontakion End-Rubric
-		Rubric sid li.rubric.tone3 sid li.melody.virgin End-Rubric
+		Rubric sid Mode3 sid li.melody.virgin End-Rubric
 		Reading sid li.circumcision.kontakion End-Reading
 		
 		Rubric sid li.rubric.jan2kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
+		Rubric sid Mode4 sid li.melody.appeared End-Rubric
 		Reading sid li.jan2.kontakion End-Reading
 		
 		Rubric sid li.rubric.theophanykontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid Automelon sid RomanouTouMelodou End-Rubric
+		Rubric sid Mode4 sid Automelon sid RomanouTouMelodou End-Rubric
 		Reading sid li.theophany.kontakion End-Reading
 		
 		Rubric sid li.rubric.feb1kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
+		Rubric sid Mode4 sid li.melody.appeared End-Rubric
 		Reading sid li.feb1.kontakion End-Reading
 		
 		Rubric sid li.rubric.dismissaltheophanykontakion End-Rubric
-		Rubric sid li.rubric.tone1 sid Automelon End-Rubric
+		Rubric sid Mode1 sid Automelon End-Rubric
 		Reading sid li.dismissaltheophany.kontakion End-Reading
 		
 		Rubric sid li.rubric.dismissalmeetingkontakion End-Rubric
 		Reading sid hoTY.Key0408.text End-Reading
 		
 		Rubric sid li.rubric.publicanphariseekontakion End-Rubric
-		Rubric sid li.rubric.tone4 End-Rubric
+		Rubric sid Mode4 End-Rubric
 		Reading sid li.publicanpharisee.kontakion End-Reading
 		
 		Rubric sid li.rubric.prodigalkontakion End-Rubric
-		Rubric sid li.rubric.tone3 sid li.melody.virgin End-Rubric
+		Rubric sid Mode3 sid li.melody.virgin End-Rubric
 		Reading sid li.prodigal.kontakion End-Reading
 		
 		Rubric sid li.rubric.carnivalsaturdaykontakion End-Rubric
-		Rubric sid li.rubric.tone8 End-Rubric
+		Rubric sid Mode8 End-Rubric
 		Reading sid li.carnivalsaturday.kontakion End-Reading
 		
 		Rubric sid li.rubric.carnivalkontakion End-Rubric
-		Rubric sid li.rubric.tone1 sid Automelon sid RomanouTouMelodou End-Rubric
+		Rubric sid Mode1 sid Automelon sid RomanouTouMelodou End-Rubric
 		Reading sid li.carnival.kontakion End-Reading
 		
 		Rubric sid li.rubric.cheesefarekontakion End-Rubric
-		Rubric sid li.rubric.tone6 sid Automelon End-Rubric
+		Rubric sid Mode6 sid Automelon End-Rubric
 		Reading sid li.cheesefare.kontakion End-Reading
 		
 		Rubric sid li.rubric.lenttheotokoskontakion End-Rubric
-		Rubric sid li.rubric.tone8 sid Automelon End-Rubric
+		Rubric sid Mode8 sid Automelon End-Rubric
 		Reading sid li.lenttheotokos.kontakion End-Reading
 		
 		Rubric sid li.rubric.lenttheotokoskontakion2 End-Rubric
 		Reading sid hoTY.Key0408.text End-Reading
 		
 		Rubric sid li.rubric.march24kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
+		Rubric sid Mode4 sid li.melody.appeared End-Rubric
 		Reading sid li.march24.kontakion End-Reading
 		
 		Rubric sid li.rubric.annunciationkontakion End-Rubric
-		Rubric sid li.rubric.tone8 sid Automelon End-Rubric
+		Rubric sid Mode8 sid Automelon End-Rubric
 		Reading sid li.lenttheotokos.kontakion End-Reading
 		
 		Rubric sid li.rubric.lazaruskontakion End-Rubric
-		Rubric sid li.rubric.tone2 sid li.melody.above End-Rubric
+		Rubric sid Mode2 sid li.melody.above End-Rubric
 		Reading sid li.lazarus.kontakion End-Reading
 		
 		Rubric sid li.rubric.palmkontakion End-Rubric
-		Rubric sid li.rubric.tone6 sid Automelon sid RomanouTouMelodou End-Rubric
+		Rubric sid Mode6 sid Automelon sid RomanouTouMelodou End-Rubric
 		Reading sid li.palm.kontakion End-Reading
 		
 		Rubric sid li.rubric.paschakontakion End-Rubric
-		Rubric sid li.rubric.tone8 sid Automelon sid RomanouTouMelodou End-Rubric
+		Rubric sid Mode8 sid Automelon sid RomanouTouMelodou End-Rubric
 		Reading sid li.pascha.kontakion End-Reading
 		
 		Rubric sid li.rubric.thomaskontakion End-Rubric
-		Rubric sid li.rubric.tone8 sid Automelon sid RomanouTouMelodou End-Rubric
+		Rubric sid Mode8 sid Automelon sid RomanouTouMelodou End-Rubric
 		Reading sid li.thomas.kontakion End-Reading
 		
 		Rubric sid li.rubric.midpentecostkontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.cross End-Rubric
+		Rubric sid Mode4 sid li.melody.cross End-Rubric
 		Reading sid li.midpentecost.kontakion End-Reading
 		
 		Rubric sid li.rubric.ascensionkontakion End-Rubric
-		Rubric sid li.rubric.tone6 sid Automelon sid RomanouTouMelodou End-Rubric
+		Rubric sid Mode6 sid Automelon sid RomanouTouMelodou End-Rubric
 		Reading sid li.ascension.kontakion End-Reading
 		
 		Rubric sid li.rubric.pentecostkontakion End-Rubric
-		Rubric sid li.rubric.tone8 sid Automelon sid RomanouTouMelodou End-Rubric
+		Rubric sid Mode8 sid Automelon sid RomanouTouMelodou End-Rubric
 		Reading sid li.pentecost.kontakion End-Reading
 		
 		Rubric sid li.rubric.allsaintskontakion End-Rubric
-		Rubric sid li.rubric.tone8 sid Automelon End-Rubric
+		Rubric sid Mode8 sid Automelon End-Rubric
 		Reading sid li.allsaints.kontakion End-Reading
 		
 		Rubric sid li.rubric.theotokoskontakion End-Rubric
 		Reading sid hoTY.Key0408.text End-Reading
 		
 		Rubric sid li.rubric.july2kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.cross End-Rubric
+		Rubric sid Mode4 sid li.melody.cross End-Rubric
 		Reading sid li.july2.kontakion End-Reading
 		
 		Rubric sid li.rubric.july25kontakion End-Rubric
-		Rubric sid li.rubric.tone2 sid li.melody.above End-Rubric
+		Rubric sid Mode2 sid li.melody.above End-Rubric
 		Reading sid li.july25.kontakion End-Reading
 		
 		Rubric sid li.rubric.july27kontakion End-Rubric
-		Rubric sid li.rubric.tone7 sid Automelon End-Rubric
+		Rubric sid Mode7 sid Automelon End-Rubric
 		Reading sid li.july27.kontakion End-Reading
 		
 		Rubric sid li.rubric.aug1kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid Automelon End-Rubric
+		Rubric sid Mode4 sid Automelon End-Rubric
 		Reading sid li.sept14.kontakion End-Reading
 		
 		Rubric sid li.rubric.aug5kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
+		Rubric sid Mode4 sid li.melody.appeared End-Rubric
 		Reading sid li.aug5.kontakion End-Reading
 		
 		Rubric sid li.rubric.aug6kontakion End-Rubric
-		Rubric sid li.rubric.tone7 sid Automelon End-Rubric
+		Rubric sid Mode7 sid Automelon End-Rubric
 		Reading sid li.aug6.kontakion End-Reading
 		
 		Rubric sid li.rubric.aug14kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid li.melody.appeared End-Rubric
+		Rubric sid Mode4 sid li.melody.appeared End-Rubric
 		Reading sid li.aug14.kontakion End-Reading
 		
 		Rubric sid li.rubric.aug15kontakion End-Rubric
-		Rubric sid li.rubric.tone2 sid Automelon End-Rubric
+		Rubric sid Mode2 sid Automelon End-Rubric
 		Reading sid li.aug15.kontakion End-Reading
 		
 		Rubric sid li.rubric.tilsept12kontakion End-Rubric
-		Rubric sid li.rubric.tone4 sid Automelon End-Rubric
+		Rubric sid Mode4 sid Automelon End-Rubric
 		Reading sid li.tilsept12.kontakion End-Reading
 		
 		Rubric sid li.rubric.aug31kontakion End-Rubric
-		Rubric sid li.rubric.tone2 sid li.melody.prayers End-Rubric
+		Rubric sid Mode2 sid li.melody.prayers End-Rubric
 		Reading sid li.aug31.kontakion End-Reading
 	End-Section
 	
@@ -2166,7 +2166,7 @@ Status Review
 		
 		Title sid li.evlogitariadeparted.title End-Title
 		
-		Rubric sid li.rubric.tone5 End-Rubric
+		Rubric sid Mode5 End-Rubric
 		Dialog sid psa118.v12.text End-Dialog
 		Dialog sid hoMA.FuneralEvlog1.text End-Dialog
 		
@@ -2187,10 +2187,10 @@ Status Review
 		
 		Dialog sid Allilouia3Doxa.text <r> sid Thrice </> End-Dialog
 		
-		Rubric sid Kontakion sid li.rubric.tone8 End-Rubric
+		Rubric sid Kontakion sid Mode8 End-Rubric
 		Dialog sid trMA.Kontakion.text End-Dialog
 		
-		Rubric sid li.rubric.thefollowingtroparia sid li.rubric.tone4 End-Rubric
+		Rubric sid li.rubric.thefollowingtroparia sid Mode4 End-Rubric
 		Dialog sid li.funeraltroparion1 End-Dialog
 		Dialog sid li.funeraltroparion2 End-Dialog
 		Dialog sid DoxaPatri.text End-Dialog
@@ -2325,6 +2325,9 @@ Status Review
 		Title sid li.phanouriousblessing.title End-Title
 		Reading sid li.phanouriosprayer End-Reading
 		Reading sid li.phanouriosprayerb End-Reading
+		
+		Title sid li.prayerforgiveness.title End-Title
+		Reading sid li.forgivenessprayer End-Reading
 	End-Section
 	
 End-Template
