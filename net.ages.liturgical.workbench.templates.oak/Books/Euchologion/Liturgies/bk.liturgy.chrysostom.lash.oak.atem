@@ -2161,6 +2161,7 @@ Status Review
 		Dialog sid li.preparation.doxapatrikainyn End-Dialog
 		Dialog sid PanagiaTrias.text End-Dialog
 		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		Dialog sid li.preparation.doxapatrikainyn End-Dialog
 		Dialog sid PaterImon.text End-Dialog
 		Actor sid Priest End-Actor
 		Dialog sid exc20 End-Dialog
@@ -2182,10 +2183,10 @@ Status Review
 		Dialog sid psa118.v12.text End-Dialog
 		Dialog sid hoMA.FuneralEvlog6.text End-Dialog
 		
-		Dialog sid DoxaPatri.text End-Dialog
+		Dialog sid DoxaPatri.text <r> sid Triadikon </> End-Dialog
 		Dialog sid hoMA.FuneralEvlog7.text End-Dialog
 		
-		Dialog sid KaiNynKaiAei.text End-Dialog
+		Dialog sid KaiNynKaiAei.text <r> sid Theotokion </> End-Dialog
 		Dialog sid hoMA.FuneralEvlog8.text End-Dialog
 		
 		Dialog sid Allilouia3Doxa.text <r> sid Thrice </> End-Dialog
@@ -2278,6 +2279,12 @@ Status Review
 		
 		Actor sid People End-Actor
 		Dialog sid res16 <r> sid Thrice </> End-Dialog
+		
+		Actor sid Priest End-Actor
+		Dialog sid DiEfchonPateron.text End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
 		
 		Dialog sid Asterisks End-Dialog
 		Rubric sid li.rubric.soulsat End-Rubric
