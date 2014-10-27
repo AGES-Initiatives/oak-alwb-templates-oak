@@ -1443,6 +1443,9 @@ Status Review
 		Actor sid Deacon End-Actor
 		Dialog sid euLI.Key1526.text End-Dialog
 		
+		Actor sid People End-Actor
+		Dialog sid li.godisthelord End-Dialog
+		
 		Rubric sid li.rubric.distributionprayer End-Rubric
 		Dialog sid li.distributionprayershort End-Dialog // in Kenya we use the longer form with the person's name!
 		Rubric sid li.rubric.toudeipnou End-Rubric
@@ -1837,7 +1840,7 @@ Status Review
 		Rubric sid Mode8 End-Rubric
 		Reading sid li.lent4.apolytikion End-Reading
 		
-		Rubric sid li.rubric.lent4apolytikion End-Rubric
+		Rubric sid li.rubric.lent5apolytikion End-Rubric
 		Rubric sid Mode8 End-Rubric
 		Reading sid li.lent5.apolytikion End-Reading
 		
