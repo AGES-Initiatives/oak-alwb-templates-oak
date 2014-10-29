@@ -519,6 +519,7 @@ Status Review
 		Para role inaudible sid euLI.Key0401.text End-Para
 		Actor sid Priest End-Actor
 		Dialog sid exc03 End-Dialog
+		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
 		
 		Rubric sid li.rubric.entersouth End-Rubric
