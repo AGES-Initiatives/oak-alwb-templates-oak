@@ -53,6 +53,12 @@ Status Review
 		Set_Page_Number 1 End_Set_Page_Number
 	End_Head
 
+	Section Book_title
+		Title role desig sid li.servicebook.title End-Title
+		Title role desig sid li.servicebook.title2 End-Title
+		Title role desig sid li.servicebook.title3 End-Title
+	End-Section
+	
 	Section Section_preparation
 		Title sid li.preparation.title End-Title
 		Rubric sid li.rubric1 End-Rubric
@@ -369,6 +375,7 @@ Status Review
 	
 // where to put deacon's part--end of proskomidi or beginning of liturgy?
 	Section Section01
+		Rubric sid li.rubric.beginliturgy End-Rubric
 		Actor sid Priest End-Actor
 		Dialog sid euLI.Key0109.text End-Dialog
 		Actor sid People End-Actor
@@ -691,6 +698,7 @@ Status Review
 			
 		Actor sid Deacon End-Actor
 		Rubric sid li.rubric.readgospel End-Rubric
+		Actor sid Priest End-Actor
 		Dialog sid euLI.Key0705.text End-Dialog
 		Actor sid People End-Actor						
 		Dialog sid DoxaSoiKyrie End-Dialog	
