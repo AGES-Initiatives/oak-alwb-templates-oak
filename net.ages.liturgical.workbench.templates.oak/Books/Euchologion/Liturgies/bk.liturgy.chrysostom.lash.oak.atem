@@ -60,10 +60,10 @@ Status Review
 	End-Section
 	
 	Section Section_preparation
-		Title sid li.preparation.title End-Title
+		Title role desig sid li.preparation.title End-Title
 		Rubric sid li.rubric1 End-Rubric
 		Rubric sid li.rubric.enteringbows End-Rubric
-//		Actor sid Clergy End-Actor
+		Actor sid Clergy End-Actor
 		Dialog sid li.preparation.mercy End-Dialog
 		Actor sid Deacon End-Actor
 		Dialog sid res08 End-Dialog
@@ -153,7 +153,7 @@ Status Review
 		Dialog sid psa25.v6.text sid psa25.v7.text sid psa25.v8.text sid psa25.v9.text sid psa25.v10.text sid psa25.v11.text sid psa25.v12.text End-Dialog
 	
 		Rubric sid li.rubric.tableofpreparation End-Rubric
-		Rubric sid li.rubric.bowthriceprothesis End-Rubric // make sure this change goes up
+		Rubric sid li.rubric.bowthriceprothesis End-Rubric
 		Dialog sid li.preparation.mercy2 End-Dialog
 		
 		Rubric sid li.rubric.raiselance End-Rubric
@@ -405,9 +405,9 @@ Status Review
 		Dialog sid res03 End-Dialog
 		
 		Title role desig sid li.prayerantifon1.title End-Title
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+		Actor sid Priest End-Actor 
 		Para role inaudible sid euLI.Key0201.text End-Para
-		Actor sid Priest End-Actor
+		Actor sid Aloud End-Actor
 		Dialog sid exc01 End-Dialog
 		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
@@ -461,9 +461,9 @@ Status Review
 		Dialog sid res03 End-Dialog
 		
 		Title sid li.prayerantifon2.title End-Title
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+		Actor sid Priest End-Actor 
 		Para role inaudible sid euLI.Key0301.text End-Para
-		Actor sid Priest End-Actor
+		Actor sid Aloud End-Actor
 		Dialog sid exc02 End-Dialog
 		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
@@ -522,9 +522,9 @@ Status Review
 		
 		Title sid li.prayerantifon3.title End-Title
 		
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+		Actor sid Priest End-Actor 
 		Para role inaudible sid euLI.Key0401.text End-Para
-		Actor sid Priest End-Actor
+		Actor sid Aloud End-Actor
 		Dialog sid exc03 End-Dialog
 		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
@@ -555,7 +555,7 @@ Status Review
 		Para role inaudible sid pet00 End-Para
 		
 		Title sid li.prayerentrance.title End-Title
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+		Actor sid Priest End-Actor 
 		Para role inaudible sid euLI.Key0501.text sid exc01 End-Para
 		
 		Rubric sid li.rubric.deaconquietly2 End-Rubric
@@ -599,9 +599,9 @@ Status Review
 			Dialog sid res01 End-Dialog
 			
 			Title sid li.trisagionprayer.title End-Title
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key0601.text End-Para
-			Actor sid Priest End-Actor
+			Actor sid Aloud End-Actor
 			Dialog sid exc05a End-Dialog
 			Rubric sid li.rubric.deaconkainyn End-Rubric
 			Dialog sid exc05b End-Dialog
@@ -672,7 +672,7 @@ Status Review
 		
 		Section Section14 // prayer before gospel
 		Title sid li.gospelprayer.title End-Title
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+		Actor sid Priest End-Actor 
 		Para role inaudible sid euLI.Key0704.text End-Para
 		
 		Rubric sid li.rubric.blessreader End-Rubric
@@ -736,9 +736,9 @@ Status Review
 		Dialog sid res01 End-Dialog
 		
 		Title sid li.ekteniaprayer.title End-Title
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+		Actor sid Priest End-Actor 
 		Para role inaudible sid euLI.Key0801.text End-Para
-		Actor sid Priest End-Actor
+		Actor sid Aloud End-Actor
 		Dialog sid exc11 End-Dialog
 		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
@@ -765,9 +765,9 @@ Status Review
 		
 		Title sid li.prayercatechumens.title End-Title
 		Title sid li.beforeantimension.title End-Title
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+		Actor sid Priest End-Actor 
 		Para role inaudible sid euLI.Key0909.text End-Para
-		Actor sid Priest End-Actor
+		Actor sid Aloud End-Actor
 		Dialog sid euLI.Key0910.text End-Dialog
 		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
@@ -797,9 +797,9 @@ Status Review
 		Title role desig sid li.prayer1faithful.title End-Title
 		Title role desig sid li.afterantimension.title End-Title
 		
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+		Actor sid Priest End-Actor 
 		Para role inaudible sid euLI.Key1001.text End-Para
-		Actor sid Priest  End-Actor 
+		Actor sid Aloud  End-Actor 
 		Dialog sid exc01 End-Dialog
 		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
@@ -822,9 +822,9 @@ Status Review
 	
 	Section Section19
 		Title role desig sid li.prayer2faithful.title End-Title
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+		Actor sid Priest End-Actor 
 		Para role inaudible sid euLI.Key1002.text End-Para
-		Actor sid Priest  End-Actor 
+		Actor sid Aloud  End-Actor 
 		Dialog sid euLI.Key1003.text End-Dialog
 		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
@@ -842,7 +842,7 @@ Status Review
 		
 		Rubric sid li.rubric.prayercherubic End-Rubric 
 		Title sid li.prayercherubic.title End-Title
-		Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+		Actor sid Priest End-Actor 
 		Para role inaudible sid euLI.Key1101.text End-Para
 		
 		Rubric sid li.rubric.prayercherubicsecret End-Rubric
@@ -940,9 +940,9 @@ Status Review
 			Dialog sid res03 End-Dialog
 			
 			Title role desig sid euLI.Key1202.title End-Title
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key1202.text End-Para			
-			Actor sid Priest  End-Actor 
+			Actor sid Aloud End-Actor 
 			Dialog sid euLI.Key1203.text End-Dialog
 			Actor sid People End-Actor
 			Dialog sid res04 End-Dialog
@@ -1048,9 +1048,9 @@ Status Review
 			Dialog sid euLI.Key1307.text End-Dialog
 			Actor sid People End-Actor
 			Dialog sid euLI.Key1308.text End-Dialog
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key1309.text End-Para				
-			Actor sid Priest End-Actor
+			Actor sid Aloud End-Actor
 			Dialog sid euLI.Key1310.text End-Dialog
 			
 			Actor sid People End-Actor
@@ -1058,21 +1058,21 @@ Status Review
 			
 			Rubric sid li.rubric.removestar End-Rubric
 			
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key1312.text End-Para				
-			Actor sid Priest End-Actor
+			Actor sid Aloud End-Actor
 			Dialog sid euLI.Key1313.text End-Dialog
 			Actor sid People End-Actor
 			Dialog sid res04 End-Dialog
 			
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key1314.text End-Para				
-			Actor sid Priest End-Actor
+			Actor sid Aloud End-Actor
 			Dialog sid euLI.Key1315.text End-Dialog
 			Actor sid People End-Actor
 			Dialog sid res04 End-Dialog
 			
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key1316.text End-Para
 			
 			Rubric sid li.rubric.exaltgifts End-Rubric
@@ -1083,11 +1083,11 @@ Status Review
 			Hymn sid li.seimnumen End-Hymn
 			
 			Rubric sid li.rubric.bowinghead End-Rubric
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key1319.text End-Para	
 			
 			Rubric sid li.rubric.pointbread End-Rubric
-			Actor sid Deacon <Trubric> sid InALowVoice </> End-Actor
+			Actor sid Deacon End-Actor
 			Para role inaudible sid li.changebread End-Para
 			Rubric sid li.rubric.changebread End-Rubric
 			Actor sid Priest End-Actor			
@@ -1192,7 +1192,7 @@ Status Review
 	Section Section24
 		Section chrys
 			Rubric sid li.rubric.censecommemmorate End-Rubric
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key1329.text End-Para	
 						
 			Actor sid Clergy End-Actor
@@ -1202,9 +1202,9 @@ Status Review
 			Dialog sid euLI.Key1331.text End-Dialog				
 			Actor sid People End-Actor
 			Dialog sid euLI.Key1332.text End-Dialog		
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key1333.text End-Para				
-			Actor sid Priest End-Actor
+			Actor sid Aloud End-Actor
 			Dialog sid euLI.Key1334.text End-Dialog		
 			Actor sid People End-Actor
 			Dialog sid res04 End-Dialog
@@ -1268,9 +1268,9 @@ Status Review
 			Actor sid People End-Actor		
 			Dialog sid res03 End-Dialog
 			
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key1405.text End-Para				
-			Actor sid Priest End-Actor
+			Actor sid Aloud End-Actor
 			Dialog sid euLI.Key1406.text End-Dialog
 			
 			Title role desig sid KyriakiProsefchi End-Title
@@ -1292,9 +1292,9 @@ Status Review
 			Actor sid People End-Actor
 			Dialog sid res03 End-Dialog
 			
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key1407.text End-Para				
-			Actor sid Priest End-Actor
+			Actor sid Aloud End-Actor
 			Dialog sid euLI.Key1408.text End-Dialog	
 			Actor sid People End-Actor			
 			Dialog sid res04 End-Dialog
@@ -1367,7 +1367,7 @@ Status Review
 	
 	Section Section28
 		Rubric sid li.rubric.crossorarion End-Rubric
-		Actor sid Deacon <Trubric>sid InALowVoice</> End-Actor	
+		Actor sid Deacon End-Actor	
 		Para role inaudible sid euLI.Key1501.text End-Para	
 		Rubric sid li.rubric.breakbread End-Rubric			
 		Actor sid Priest End-Actor
@@ -1486,7 +1486,6 @@ Status Review
 	Section Section32
 		Rubric sid li.rubric.wipeparticles End-Rubric
 		Actor sid Deacon End-Actor 
-		Rubric sid InALowVoice End-Rubric
 		Para role inaudible sid euLI.Key1525.text End-Para	
 		Rubric sid li.rubric.exaltmaster End-Rubric
 		Actor sid Deacon End-Actor
@@ -1531,10 +1530,10 @@ Status Review
 			Dialog sid res03 End-Dialog
 			 
 			Title sid euLI.Key1606.title End-Title
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor
+			Actor sid Priest End-Actor
 			Para role inaudible sid euLI.Key1606.text End-Para
 			Rubric sid li.rubric.crossantimensiongospel End-Rubric				
-			Actor sid Priest End-Actor 
+			Actor sid Aloud End-Actor 
 			Dialog sid euLI.Key1607.text End-Dialog	
 			Actor sid People End-Actor
 			Dialog sid res04 End-Dialog
@@ -1584,7 +1583,7 @@ Status Review
 			End-Section
 			Section part3
 				Rubric sid li.rubric.pliromanomou End-Rubric
-				Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
+				Actor sid Priest End-Actor 
 				Para role inaudible sid euLI.Key1704.text End-Para	
 							
 				Actor sid Deacon End-Actor
@@ -1680,13 +1679,13 @@ Status Review
 	Section Section26 // prayers before Communion
 		Title role desig sid li.prepcommunion.title End-Title
 		Rubric sid li.rubric.beforeapproach End-Rubric
-		Reading sid li.vadizou End-Reading
+		Reading sid li.vadizo End-Reading // version without line breaks for tms
 		
 		Rubric sid li.rubric.eita End-Rubric
 		Reading sid hoPCPrayer.TouDeipnouSou.text End-Reading
 		
 		Rubric sid li.rubric.andtheverses End-Rubric
-		Reading sid hoPCPrayer.Theourgon.text End-Reading
+		Reading sid li.theurgon End-Reading // version without line breaks for tms
 		
 		Rubric sid li.rubric.andtroparia End-Rubric
 		Reading sid me.m08.d06_gr_GR_cog.meMA.Ode9C23.text End-Reading
