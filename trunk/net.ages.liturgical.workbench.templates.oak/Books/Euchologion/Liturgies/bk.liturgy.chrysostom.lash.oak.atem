@@ -1105,6 +1105,8 @@ Status Review
 			Dialog sid res04 End-Dialog
 			
 			Rubric sid li.rubric.blessboth End-Rubric
+			Actor sid Deacon End-Actor
+			Dialog sid li.blessboth End-Dialog
 			Rubric sid li.rubric.epiclesis End-Rubric
 			Actor sid Priest End-Actor				
 			Dialog sid euLI.Key1325.text End-Dialog
@@ -2200,7 +2202,7 @@ Status Review
 		Dialog sid Allilouia3Doxa.text <r> sid Thrice </> End-Dialog
 		
 		Rubric sid Kontakion sid Mode8 End-Rubric
-		Dialog sid trMA.Kontakion.text End-Dialog
+		Dialog sid li.carnivalsaturday.kontakion End-Dialog
 		
 		Rubric sid li.rubric.thefollowingtroparia sid Mode4 End-Rubric
 		Dialog sid li.funeraltroparion1 End-Dialog
