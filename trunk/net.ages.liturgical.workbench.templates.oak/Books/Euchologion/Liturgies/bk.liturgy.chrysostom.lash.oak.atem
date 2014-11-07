@@ -419,19 +419,19 @@ Status Review
 		Rubric sid li.rubric.sundayantifon1 End-Rubric
 		Rubric sid li.rubric.verseantifon1 End-Rubric
 		
-		Dialog <r> sid li.rubric.verse1 </> sid psa102.v1.text <r> sid psa102.v1.number </> End-Dialog
+		Dialog <r> sid vVerse1 </> sid psa102.v1.text <r> sid psa102.v1.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon1.text media-off End-Hymn
 		
-		Dialog <r> sid li.rubric.verse2 </> sid psa102.v2.text <r> sid psa102.v2.number </> End-Dialog
+		Dialog <r> sid vVerse2 </> sid psa102.v2.text <r> sid psa102.v2.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon1.text media-off End-Hymn
 		
-		Dialog <r> sid li.rubric.verse3 </> sid psa102.v19.text <r> sid psa102.v19.number </> End-Dialog
+		Dialog <r> sid vVerse3 </> sid psa102.v19.text <r> sid psa102.v19.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon1.text media-off End-Hymn
 		
-		Dialog <r> sid li.rubric.verse4 </> sid psa102.v22.text <r> sid psa102.v22.number </> End-Dialog
+		Dialog <r> sid vVerse4 </> sid psa102.v22.text <r> sid psa102.v22.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon1.text media-off End-Hymn
 		
@@ -469,12 +469,12 @@ Status Review
 		Dialog sid res04 End-Dialog
 	End-Section
 	
-	Section Section05 //antiphon 2
+	Section Section05 // antiphon 2
 		Title role desig sid li.antifon2.title End-Title
 		Rubric sid li.rubric.sundayantifon2 End-Rubric
 		Rubric sid li.rubric.verseantifon2 End-Rubric
 		
-		Dialog <r> sid li.rubric.verse1 </> sid psa145.v1.text sid psa145.v2.text <r> sid psa145.v1.number </> End-Dialog
+		Dialog <r> sid vVerse1 </> sid psa145.v1.text sid psa145.v2.text <r> sid psa145.v1.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
 		
@@ -483,15 +483,15 @@ Status Review
 		Hymn sid me.m10.d28a_gr_GR_cog.meLI.Antiphon2.text End-Hymn
 		Dialog sid Asterisks End-Dialog
 		
-		Dialog <r> sid li.rubric.verse2 </> sid psa145.v5.text <r> sid psa145.v5.number </> End-Dialog
+		Dialog <r> sid vVerse2 </> sid psa145.v5.text <r> sid psa145.v5.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
 		
-		Dialog <r> sid li.rubric.verse3 </> sid psa145.v6.text <r> sid psa145.v6.number </> End-Dialog
+		Dialog <r> sid vVerse3 </> sid psa145.v6.text <r> sid psa145.v6.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
 		
-		Dialog <r> sid li.rubric.verse4 </> sid psa145.v10.text <r> sid psa145.v10.number </> End-Dialog
+		Dialog <r> sid vVerse4 </> sid psa145.v10.text <r> sid psa145.v10.number </> End-Dialog
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
 		
@@ -539,13 +539,13 @@ Status Review
 		Rubric sid li.rubric.sundayantifon3 End-Rubric
 		Rubric sid li.rubric.verseantifon3 End-Rubric
 		
-		Dialog <r> sid li.rubric.verse1 </> sid psa117.v1.text <r> sid psa117.v1.number </> End-Dialog
+		Dialog <r> sid vVerse1 </> sid psa117.v1.text <r> sid psa117.v1.number </> End-Dialog
 		Rubric sid li.rubric.resurrectionmode End-Rubric
 		
-		Dialog <r> sid li.rubric.verse2 </> sid psa117.v4.text <r> sid psa117.v4.number </> End-Dialog
+		Dialog <r> sid vVerse2 </> sid psa117.v4.text <r> sid psa117.v4.number </> End-Dialog
 		Rubric sid li.rubric.resurrection End-Rubric
 		
-		Dialog <r> sid li.rubric.verse3 </> sid psa117.v24.text <r> sid psa117.v24.number </> End-Dialog
+		Dialog <r> sid vVerse3 </> sid psa117.v24.text <r> sid psa117.v24.number </> End-Dialog
 		Rubric sid li.rubric.resurrection End-Rubric
 		Break line End_Break
 		
@@ -570,7 +570,7 @@ Status Review
 		Rubric sid li.rubric.completeentrance End-Rubric
 	End-Section
 	
-	Section Section09 //entrance hymn
+	Section Section09 // entrance hymn
 		Rubric sid li.rubric.entrancechant End-Rubric
 		Actor sid People End-Actor
 		Hymn sid hoLI.EntranceHymn.text media-off sid hoLI.Antiphon21.text media-off sid hoLI.EntranceHymn2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
@@ -591,7 +591,7 @@ Status Review
 		Break line End_Break
 	End-Section	
 
-	Section Section13 //Trisagion
+	Section Section13 // Trisagion
 		Section prayer
 			Actor sid Deacon End-Actor
 			Dialog sid pet00 End-Dialog
@@ -972,55 +972,7 @@ Status Review
 			Reading sid Pistevo.text	End-Reading
 			
 			Rubric sid li.rubric.waveaer End-Rubric
-		End-Section // LitanyAndCreed
-/*		Section basil
-			Title role desig sid euLI.Key1200.title End-Title
-			Media sid euLI.Key1200.text End-Media
-			Actor sid Deacon End-Actor
-			Dialog sid pet24 End-Dialog
-			Dialog <i> sid res01p </> End-Dialog
-			Dialog sid euLI.Key1201.text End-Dialog
-			Dialog <i> sid res01p </> End-Dialog
-			Dialog sid pet04 End-Dialog
-			Dialog <i> sid res01p </> End-Dialog
-			Dialog sid pet11 End-Dialog 
-			Dialog <i> sid res01p </> End-Dialog
-			Dialog sid pet12 End-Dialog
-			Dialog <i> sid res01p </> End-Dialog
-			Dialog sid pet25m End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
-			Dialog sid pet26 End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
-			Dialog sid pet27 End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
-			Dialog sid pet28 End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
-			Dialog sid pet29 End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
-			Dialog sid pet30 End-Dialog
-			Dialog <i> sid res02p </> End-Dialog
-			Dialog sid pet13 End-Dialog
-			Dialog <i> sid res03p </> End-Dialog
-			Title role desig sid euLI.Key1202.title End-Title
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Para role inaudible sid euLI.Key1202.basil.text End-Para			
-			Actor sid Priest  End-Actor 
-			Dialog sid euLI.Key1203.text End-Dialog
-			Actor sid Choir End-Actor
-			Dialog sid res04 End-Dialog
-			Actor sid Priest End-Actor
-			Dialog sid pet31 End-Dialog
-			Actor sid Choir End-Actor
-			Dialog sid res05 End-Dialog
-			Actor sid Deacon End-Actor
-			Dialog sid euLI.Key1204.text End-Dialog
-			Actor sid Choir End-Actor
-			Hymn sid euLI.Key1205.text End-Hymn				
-			Actor sid Deacon End-Actor
-			Dialog sid euLI.Key1208.text End-Dialog				
-			Actor sid People End-Actor
-			Reading sid Pistevo.text	End-Reading
-		End-Section //LitanyAndCreed  */
+		End-Section // Litany And Creed
 	End-Section				
 
 	Section Section22
@@ -1092,7 +1044,7 @@ Status Review
 			Rubric sid li.rubric.changebread End-Rubric
 			Actor sid Priest End-Actor			
 			Dialog sid euLI.Key1321.text End-Dialog
-			Actor sid People End-Actor	// have changed all of these to have the epiclesis done out loud and the people responding		
+			Actor sid People End-Actor		
 			Dialog sid res04 End-Dialog
 							
 			Actor sid Deacon End-Actor
@@ -1120,61 +1072,6 @@ Status Review
 			Dialog sid euLI.Key1327.text End-Dialog				
 			Actor sid People End-Actor
 		End-Section
-/*		Section basil
-			Title role desig sid euLI.Key1300.title End-Title	
-			Actor sid Deacon End-Actor
-			Dialog sid euLI.Key1301.text End-Dialog
-			Actor sid Choir End-Actor
-			Dialog sid euLI.Key1302.text End-Dialog
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1303.text End-Dialog
-			Actor sid Choir End-Actor
-			Dialog sid euLI.Key1304.text End-Dialog
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1305.text End-Dialog
-			Actor sid Choir End-Actor
-			Dialog sid euLI.Key1306.text End-Dialog
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1307.text End-Dialog
-			Actor sid Choir End-Actor
-			Dialog sid euLI.Key1308.text End-Dialog
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Para role inaudible sid euLI.Key1309.basil.text End-Para				
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1310.text End-Dialog
-			Actor sid Choir End-Actor
-			Hymn sid euLI.Key1311.text End-Hymn	
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Para role inaudible sid euLI.Key1312.basil.text End-Para				
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1313.basil.text End-Dialog
-			Actor sid Choir End-Actor
-			Dialog sid res04 End-Dialog
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Para role inaudible sid euLI.Key1314.basil.text End-Para				
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1315.basil.text End-Dialog
-			Actor sid Choir End-Actor
-			Dialog sid res04 End-Dialog
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Para role inaudible sid euLI.Key1316.basil.text End-Para				
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1317.text End-Dialog
-			Actor sid Choir End-Actor
-			Hymn sid euLI.Key1318.text End-Hymn
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Para role inaudible sid euLI.Key1319.basil.text End-Para				
-			Para role inaudible sid euLI.Key1321.basil.text End-Para				
-			Para role inaudible <i>sid res04p </>End-Para				
-			Para role inaudible sid euLI.Key1323.basil.text End-Para				
-			Para role inaudible <i>sid res04p </>End-Para				
-			Para role inaudible sid euLI.Key1325.basil.text End-Para				
-			Para role inaudible <i>sid res10p </>End-Para				
-			Para role inaudible sid euLI.Key1326.basil.text End-Para				
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1327.text End-Dialog				
-			Actor sid Choir End-Actor
-		End-Section  */
 	End-Section
 
 	Section Section23
@@ -1185,10 +1082,6 @@ Status Review
 			Rubric sid li.rubric.megalynarionfeast End-Rubric
 			Dialog sid Asterisks End-Dialog
 		End-Section
-/*		Section basil
-			Title role desig sid euLI.Key1328.title End-Title
-			Hymn sid euLI.Key1328.basil.text End-Hymn
-		End-Section  */
 	End-Section
 
 	Section Section24
@@ -1216,26 +1109,6 @@ Status Review
 			Actor sid People End-Actor
 			Dialog sid euLI.Key1336.text End-Dialog		
 		End-Section		
-/*		Section basil
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Para role inaudible sid euLI.Key1329.basil.text End-Para				
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1330a.text <r>sid cl.bishop1.rank sid cl.bishop1.name_p</> sid euLI.Key1330b.text End-Dialog				
-			Actor sid Deacon End-Actor
-			Dialog sid euLI.Key1331.text End-Dialog				
-			Actor sid Choir End-Actor
-			Dialog sid euLI.Key1332.text End-Dialog		
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Para role inaudible sid euLI.Key1333.basil.text End-Para				
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1334.text End-Dialog		
-			Actor sid Choir End-Actor
-			Dialog sid res04 End-Dialog
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1335.text End-Dialog		
-			Actor sid Choir End-Actor
-			Dialog sid euLI.Key1336.text End-Dialog		
-		End-Section	 */
 	End-Section
 
 	Section Section25
@@ -1316,47 +1189,6 @@ Status Review
 			Actor sid People End-Actor
 			Hymn sid euLI.Key1411.text End-Hymn	
 		End-Section	
-/*		Section basil
-			Actor sid Deacon End-Actor
-			Dialog sid euLI.Key1401.text End-Dialog
-			Dialog <i>sid res01p </>End-Dialog
-			Dialog sid euLI.Key1402.text End-Dialog			
-			Dialog <i>sid res01p </>End-Dialog
-			Dialog sid euLI.Key1403.text End-Dialog			
-			Dialog <i>sid res01p </>End-Dialog
-			// Optionally insert additional petitions
-			Dialog sid euLI.Key1404.text End-Dialog			
-			Dialog <i>sid res03p </>End-Dialog
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Para role inaudible sid euLI.Key1405.basil.text End-Para				
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1406.text End-Dialog
-			Actor sid People End-Actor
-			Title role desig sid KyriakiProsefchi End-Title
-			Reading sid PaterImon.text End-Reading
-			Actor sid Priest End-Actor
-			Dialog sid exc20 End-Dialog
-			Dialog <i>sid res04p</> End-Dialog
-			Actor sid Priest End-Actor
-			Dialog sid pet31 End-Dialog
-			Dialog <i>sid res05p</> End-Dialog
-			Actor sid Deacon End-Actor
-			Dialog sid pet32 End-Dialog
-			Dialog <i>sid res03p </>End-Dialog
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Para role inaudible sid euLI.Key1407.basil.text End-Para				
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1408.text End-Dialog				
-			Dialog <i>sid res04p</> End-Dialog
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Para role inaudible sid euLI.Key1409.text End-Para				
-			Actor sid Deacon End-Actor
-			Dialog sid exc19 End-Dialog
-			Actor sid Priest End-Actor
-			Dialog sid euLI.Key1410.text End-Dialog				
-			Actor sid Choir End-Actor
-			Hymn sid euLI.Key1411.text End-Hymn	
-		End-Section	 */
 	End-Section
 	
 	Section Section27
@@ -1375,7 +1207,7 @@ Status Review
 		Actor sid Priest End-Actor
 		Para role inaudible sid euLI.Key1502.text End-Para
 		Rubric sid li.rubric.placecrosswise End-Rubric
-		//insert graphic IC XC NI KA crosswise
+		// insert graphic IC XC NI KA crosswise
 		Break line End_Break
 						
 		Rubric sid li.rubric.fillchalice End-Rubric
@@ -1396,7 +1228,6 @@ Status Review
 		Actor sid Deacon End-Actor	
 		Para role inaudible sid li.zesis End-Para 			
 	End-Section
-	
 	
 	Section Section29
 		Rubric sid li.rubric.seepage sid li.rubric.pagenumber End-Rubric // will the people notice to read the prayers if the notice is here?
@@ -1438,14 +1269,6 @@ Status Review
 		Para role inaudible sid euLI.Key1520.text End-Para
 		
 		Rubric sid li.rubric.nika End-Rubric
-						
-/* 		Actor sid Deacon End-Actor
-		Para role inaudible sid euLI.Key1521.text End-Para				
-		Para role inaudible sid euLI.Key1522.text End-Para				
-		Para role inaudible sid euLI.Key1523.text End-Para				
-		Para role inaudible sid euLI.Key1524.text End-Para	
-		// The following line may be here or after communion of the faithful			
-		Para role inaudible sid euLI.Key1525.text End-Para	*/
 	End-Section
 	
 	Section Section30
@@ -1474,7 +1297,7 @@ Status Review
 	End-Section
 
 	Section Section31
-		//This hymn changes on feasts of the Lord
+		// This hymn changes on feasts of the Lord
 		Actor sid People End-Actor
 		Title role mode sid Mode2 End-Title
 		Hymn sid euLI.Key1530.text End-Hymn
@@ -1519,8 +1342,6 @@ Status Review
 			Dialog sid euLI.Key1604.text End-Dialog
 			Actor sid People End-Actor
 			Dialog sid res01 End-Dialog			
-			Rubric sid Or End-Rubric
-			Dialog sid DoxaSoiKyrie End-Dialog // in Kenya this should be Lord have mercy
 			
 			Actor sid Deacon End-Actor
 			Dialog sid pet12 End-Dialog	
@@ -1540,23 +1361,6 @@ Status Review
 			Actor sid People End-Actor
 			Dialog sid res04 End-Dialog
 		End-Section
-/*		Section basil
-			Actor sid Deacon End-Actor
-			Dialog sid euLI.Key1604.text End-Dialog
-			Dialog <i>sid res01p</> End-Dialog
-			Rubric sid Or End-Rubric
-			Dialog <i>sid DoxaSoiKyrieP </> End-Dialog
-			Dialog sid pet12 End-Dialog	
-			Dialog <i>sid res01p </> End-Dialog
-			Dialog sid euLI.Key1605.text End-Dialog	
-			Dialog <i>sid res03p </> End-Dialog
-			Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-			Title role desig sid euLI.Key1606.title End-Title
-			Para role inaudible sid euLI.Key1606.basil.text End-Para				
-			Actor sid Priest End-Actor 
-			Dialog sid euLI.Key1607.text End-Dialog	
-			Dialog <i>sid res04p </> End-Dialog
-		End-Section  */
 	End-Section
 		
 	Section Section35
@@ -1603,38 +1407,6 @@ Status Review
 				Dialog sid DoxaSoiChriste2 End-Dialog
 			End-Section
 		End-Section
-/*		Section basil
-			Section part1
-				Title role desig sid euLI.Key1700.title End-Title
-				Actor sid Priest End-Actor
-				Dialog sid euLI.Key1701.text End-Dialog
-				Actor sid Deacon End-Actor
-				Dialog sid pet00 End-Dialog
-				Dialog <i> sid res01p</> End-Dialog
-				Actor sid Priest End-Actor
-					when-date-is Jan 1 use:
-				Dialog sid euLI.Key1702.basil.text End-Dialog
-					otherwise use:
-				Dialog sid euLI.Key1702.text End-Dialog
-					end-when
-				Dialog <i> sid res04p</> End-Dialog
-			End-Section
-			Section part2
-				Actor sid Choir End-Actor
-				Hymn sid euLI.Key1703.text <r>sid Thrice media-off</> End-Hymn
-			End-Section
-			Section part3
-				Actor sid Priest <Trubric>sid InALowVoice</> End-Actor 
-				Para role inaudible sid euLI.Key1704.basil.text End-Para				
-				Actor sid Deacon End-Actor
-				Dialog sid pet00 End-Dialog		
-				Dialog <i> sid res01p</> End-Dialog
-				Actor sid Priest End-Actor
-				Dialog sid pet37 End-Dialog	
-				Dialog <i> sid res04p</> End-Dialog
-				Dialog sid DoxaSoiChriste2 End-Dialog
-			End-Section
-		End-Section  */
 	End-Section
 
 	Section Section36
@@ -1657,10 +1429,6 @@ Status Review
 			
 			Actor sid People End-Actor
 			Hymn sid euLI.Key1706.text End-Hymn
-			Actor sid Priest End-Actor
-//			Dialog sid DiEfchonPateron.text End-Dialog
-			Actor sid People End-Actor
-			Dialog sid res04 End-Dialog
 			
 			Rubric sid li.rubric.giveantidoron End-Rubric
 			Actor sid Priest End-Actor
@@ -1680,6 +1448,9 @@ Status Review
 	
 	Section Section26 // prayers before Communion
 		Title role desig sid li.prepcommunion.title End-Title
+		
+		Reading sid hoPCPrayer.PistevoKyrie.text End-Reading // this is not in Lash but I have added it
+		
 		Rubric sid li.rubric.beforeapproach End-Rubric
 		Reading sid li.vadizo End-Reading // version without line breaks for tms
 		
@@ -1700,10 +1471,6 @@ Status Review
 		
 		Rubric sid li.rubric.andagain End-Rubric
 		Reading sid hoPCPrayer.TouDeipnouSou.text End-Reading
-		
-//		Reading sid hoPCPrayer.PistevoKyrie.text End-Reading
-// WHY is this prayer omitted in Lash?
-// discuss the format of the communion prayers; this is not the order Kenyans are used to reading in church
 		
 	End-Section
 	
