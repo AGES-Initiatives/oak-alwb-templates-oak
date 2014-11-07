@@ -9,5 +9,5 @@ put.single.media.occurrence.in.dropdown = "yes"
 
 media.v1.preferred = "gr_GR_cog"
 media.v1.fallback = "gr_GR_cog"
-media.v2.preferred = "en_KE_oaok"
-media.v2.fallback = "en_US_dedes"
+media.v2.preferred = "en_UK_lash"
+media.v2.fallback = "en_KE_oak"

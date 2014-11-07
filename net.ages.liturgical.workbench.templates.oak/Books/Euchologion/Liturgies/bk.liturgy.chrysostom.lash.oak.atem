@@ -861,7 +861,7 @@ Status Review
 		Dialog sid li.forgive <r> sid li.rubric.orsimilar </> End-Dialog
 		
 		Rubric sid li.rubric.approachprothesis End-Rubric
-	    Dialog sid li.preparation.mercy End-Dialog
+	    Dialog sid li.preparation.mercy <r> sid Thrice </> End-Dialog // change this key because the Kikuyu is different
 	    
 	    Rubric sid li.rubric.eparon End-Rubric
 	    Dialog sid li.eparon End-Dialog
