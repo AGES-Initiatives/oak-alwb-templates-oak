@@ -54,13 +54,13 @@ Status Review
 	End_Head
 
 	Section Book_title
-		Title role desig sid li.servicebook.title End-Title
-		Title role desig sid li.servicebook.title2 End-Title
-		Title role desig sid li.servicebook.title3 End-Title
+		Title role cover1 sid li.servicebook.title End-Title
+		Title role cover1 sid li.servicebook.title2 End-Title
+		Title role cover1 sid li.servicebook.title3 End-Title
 	End-Section
 	
 	Section Section_preparation
-		Title role desig sid li.preparation.title End-Title
+		Title sid li.preparation.title End-Title
 		Rubric sid li.rubric1 End-Rubric
 		Rubric sid li.rubric.enteringbows End-Rubric
 		Actor sid Clergy End-Actor
@@ -284,7 +284,7 @@ Status Review
 		
 		Rubric sid li.rubric.bowgifts End-Rubric
 		Dialog sid li.preparation.praygifts End-Dialog
-		Title sid li.preparation.protheseos.title End-Title
+		Title role melody sid li.preparation.protheseos.title End-Title
 		Actor sid Priest End-Actor
 		Dialog sid li.preparation.protheseosprayer End-Dialog
 		
@@ -303,6 +303,12 @@ Status Review
 		Dialog sid psa50.text End-Dialog
 		Rubric sid li.rubric.censeall End-Rubric
 		
+		Break line
+		End_Break
+		
+	End-Section
+	
+	Section kairos	
 		Title sid li.preparation.preliminaries.title End-Title
 		Rubric sid li.rubric.startliturgy End-Rubric
 		Dialog sid VasilefOuranie.text End-Dialog
@@ -330,6 +336,9 @@ Status Review
 		Actor sid Deacon End-Actor
 		Dialog sid res08 End-Dialog
 		Rubric sid li.rubric.liturgybegins End-Rubric
+		
+		Break line
+		End_Break
 	End-Section
 	
 	Section Section_greatdoxology
@@ -368,10 +377,15 @@ Status Review
 		Rubric sid li.rubric.altmodes End-Rubric
 		Rubric sid misc_gr_GR_cog.Mode8 End-Rubric
 		Dialog sid hoMA.SunTroparion2.text End-Dialog
+		
+		Break line
+		End_Break
 	End-Section
 
+	Section liturgy_title
 		Title sid li.liturgy.title End-Title
-		Title sid li.liturgycatechumens.title End-Title
+		Title role melody sid li.liturgycatechumens.title End-Title
+	End-Section
 	
 // where to put deacon's part--end of proskomidi or beginning of liturgy?
 	Section Section01
@@ -1444,10 +1458,13 @@ Status Review
 			Dialog sid DiEfchonPateron.text End-Dialog
 			Dialog <i> sid res04p</> End-Dialog
 		End-Section  */
+		
+		Break line
+		End_Break
 	End-Section
 	
 	Section Section26 // prayers before Communion
-		Title role desig sid li.prepcommunion.title End-Title
+		Title sid li.prepcommunion.title End-Title
 		
 		Reading sid hoPCPrayer.PistevoKyrie.text End-Reading // this is not in Lash but I have added it
 		
@@ -1472,10 +1489,12 @@ Status Review
 		Rubric sid li.rubric.andagain End-Rubric
 		Reading sid hoPCPrayer.TouDeipnouSou.text End-Reading
 		
+		Break line
+		End_Break	
 	End-Section
 	
 	Section Thanksgiving // thanksgiving after Communion
-		Title role desig sid li.thankgsiving.title End-Title
+		Title sid li.thankgsiving.title End-Title
 		
 		Rubric sid li.rubric.admonition End-Rubric
 		Reading sid li.havingreceived End-Reading
@@ -1523,11 +1542,14 @@ Status Review
 		Rubric sid li.rubric.anddismissal End-Rubric
 		Dialog sid li.dis.oanastas <r> sid li.rubric.sundaydismissal </> sid dis01 sid dis02 sid dis06 sid li.dis.ofsaint <r> sid li.dis.oftemple </> sid li.dis.ofsaint <r> sid li.dis.ofday </> sid li.dis.memory sid li.dis.chrysostom sid dis10 sid dis88 End-Dialog 
 		Dialog sid DiEfchonPateron.text End-Dialog
+		
+		Break line
+		End_Break
 	End-Section
 	
 	Section Apolytikia
-		Title role desig sid li.apolytikia.title End-Title
-		Title role desig sid li.intones.title End-Title
+		Title sid li.apolytikia.title End-Title
+		Title sid li.intones.title End-Title
 		
 		Rubric sid Mode1 End-Rubric
 		Reading sid li.apolytikiontone1 End-Reading
@@ -1553,7 +1575,7 @@ Status Review
 		Rubric sid Mode8 End-Rubric
 		Reading sid li.apolytikiontone8 End-Reading
 		
-		Title role desig sid li.apolytikiafeasts.title End-Title
+		Title sid li.apolytikiafeasts.title End-Title
 		
 		Rubric sid li.rubric.nativitytheotokosapolytikion End-Rubric
 		Rubric sid Mode4 End-Rubric
@@ -1599,7 +1621,7 @@ Status Review
 		Rubric sid Mode1 End-Rubric
 		Reading sid li.dormition.apolytikion End-Reading
 		
-		Title role desig sid li.apolytikiatriodionpentecostarion.title End-Title
+		Title sid li.apolytikiatriodionpentecostarion.title End-Title
 		
 		Rubric sid li.rubric.lent1apolytikion End-Rubric
 		Rubric sid Mode2 End-Rubric
@@ -1663,10 +1685,13 @@ Status Review
 		Rubric sid li.rubric.allsaintsapolytikion End-Rubric
 		Rubric sid Mode4 End-Rubric
 		Reading sid li.allsaints.apolytikion End-Reading
+		
+		Break line
+		End_Break
 	End-Section
 	
 	Section Kontakia
-		Title role desig sid li.kontakia.title End-Title
+		Title sid li.kontakia.title End-Title
 		
 		Rubric sid li.rubric.sept1kontakion End-Rubric
 		Rubric sid Mode4 sid li.melody.cross End-Rubric
@@ -1844,11 +1869,14 @@ Status Review
 		Rubric sid li.rubric.aug31kontakion End-Rubric
 		Rubric sid Mode2 sid li.melody.prayers End-Rubric
 		Reading sid li.aug31.kontakion End-Reading
+		
+		Break line
+		End_Break
 	End-Section
 	
 	Section Artoclasia
-		Title role desig sid li.artoclasia.title End-Title
-		Title sid li.artoclasiavespers.title End-Title
+		Title sid li.artoclasia.title End-Title
+		Title role melody sid li.artoclasiavespers.title End-Title
 		
 		Rubric sid li.rubric.artoclasiapreparation End-Rubric
 		Rubric sid li.rubric.finishtroparion End-Rubric
@@ -1907,7 +1935,7 @@ Status Review
 		Dialog sid res01 End-Dialog
 		
 		Rubric sid li.rubric.artoclasiaprayer End-Rubric
-		Title sid li.artoclasiaprayer.title End-Title
+		Title role melody sid li.artoclasiaprayer.title End-Title
 		Reading sid li.artoclasiaprayer End-Reading
 		
 		Actor sid People End-Actor
@@ -1917,18 +1945,21 @@ Status Review
 		Dialog sid psa33.v11.text End-Dialog
 		Rubric sid li.rubric.repeattwice End-Rubric
 		
-		Title sid li.artoclasiamatins.title End-Title
+		Title role melody sid li.artoclasiamatins.title End-Title
 		Rubric sid li.rubric.artoclasiamatins End-Rubric
 		
-		Title sid li.artoclasialiturgy.title End-Title
+		Title role melody sid li.artoclasialiturgy.title End-Title
 		Rubric sid li.rubric.artoclasialiturgy End-Rubric
 		
-		Title sid li.artoclasianote.title End-Title
+		Title role melody sid li.artoclasianote.title End-Title
 		Reading sid li.artoclasianote End-Reading
+		
+		Break line
+		End_Break
 	End-Section
 	
 	Section TrisagionDeparted
-		Title role desig sid li.trisagion.title End-Title
+		Title sid li.trisagion.title End-Title
 		
 		Actor sid Priest End-Actor
 		Dialog sid enarxis01 End-Dialog
@@ -1945,7 +1976,7 @@ Status Review
 		Actor sid Reader End-Actor
 		Dialog sid res04 End-Dialog
 		
-		Title sid li.evlogitariadeparted.title End-Title
+		Title role melody sid li.evlogitariadeparted.title End-Title
 		
 		Rubric sid Mode5 End-Rubric
 		Dialog sid psa118.v12.text End-Dialog
@@ -2091,29 +2122,32 @@ Status Review
 		Dialog sid res02 End-Dialog
 		
 		Rubric sid li.rubric.restasabove End-Rubric
+		
+		Break line
+		End_Break
 	End-Section
 	
 	Section VariousPrayers
-		Title role desig sid li.variousprayers.title End-Title
+		Title sid li.variousprayers.title End-Title
 		
-		Title sid li.palmblessing.title End-Title
+		Title role melody sid li.palmblessing.title End-Title
 		Rubric sid li.rubric.palmkontakion End-Rubric
 		Reading sid li.palmprayer End-Reading
 		
-		Title sid li.grapeblessing.title End-Title
+		Title role melody sid li.grapeblessing.title End-Title
 		Rubric sid li.rubric.aug6 End-Rubric
 		Reading sid li.grapeprayer End-Reading
 		
-		Title sid li.kollyvablessing.title End-Title
+		Title role melody sid li.kollyvablessing.title End-Title
 		Rubric sid li.rubric.forsaint End-Rubric
 		Reading sid li.kollyvaprayer End-Reading
 		Reading sid li.kollyvaprayerb End-Reading
 		
-		Title sid li.phanouriousblessing.title End-Title
+		Title role melody sid li.phanouriousblessing.title End-Title
 		Reading sid li.phanouriosprayer End-Reading
 		Reading sid li.phanouriosprayerb End-Reading
 		
-		Title sid li.prayerforgiveness.title End-Title
+		Title role melody sid li.prayerforgiveness.title End-Title
 		Reading sid li.forgivenessprayer End-Reading
 	End-Section
 	
