@@ -880,7 +880,7 @@ Status Review
 	    Rubric sid li.rubric.eparon End-Rubric
 	    Dialog sid li.eparon End-Dialog
 		Rubric sid li.rubric.wearaer End-Rubric
-		Dialog sid psa133.v2alt.text <r> sid li.rubric.psa133.v2.fullattribution </> End-Dialog // need alt key without 'in the nights'
+		Dialog sid psa133.v2alt.text <r> sid li.rubric.psa133.v2.fullattribution </> End-Dialog
 		Rubric sid li.rubric.takegifts End-Rubric
 		
 		Break line End_Break
@@ -1244,7 +1244,7 @@ Status Review
 	End-Section
 	
 	Section Section29
-		Rubric sid li.rubric.seepage sid li.rubric.pagenumber End-Rubric // will the people notice to read the prayers if the notice is here?
+		Rubric sid li.rubric.seepage sid li.rubric.pagenumber End-Rubric // will the people notice to read the prayers if they're not inserted here?
 		Rubric sid li.rubric.approachbody End-Rubric
 		Rubric sid InALowVoice End-Rubric
 		Actor sid Priest End-Actor				
