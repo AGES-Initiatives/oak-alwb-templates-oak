@@ -52,44 +52,63 @@ Head
 End_Head
 	
 
-	Title role desig sid euFUN.title End-Title
+	Title role cover1 sid euFUN.title End-Title
+	
+	Rubric sid fu.rubric.arrivalatchurch End-Rubric
 	
 	Actor sid Priest End-Actor
 	Dialog sid enarxis01 End-Dialog
-	Actor sid Choir End-Actor
+	Actor sid People End-Actor
 	Dialog sid res04 End-Dialog
 	
 	Title role desig sid psa90.title End-Title
+	Actor sid People End-Actor
 	Reading sid psa90.text End-Reading
+	
+	Rubric sid fu.rubric.psalm118 End-Rubric
 	Title role desig sid euFUN.Key0300.title End-Title
 	Title role mode sid euFUN.Key0300.mode End-Title
 	Media sid euFUN.Key0300.text End-Media
-	Para role chant sid psa118.v0.text sid Allilouia sid psa118.v12.text sid Allilouia End-Para
+	Para role chant sid psa118.v0.text sid Allilouia End-Para
+	Para role chant sid psa118.v12.text sid Allilouia End-Para
 	Para role chant sid psa118.v20.text sid Allilouia  End-Para
 	Para role chant sid psa118.v28.text sid Allilouia  End-Para
 	Para role chant sid psa118.v36.text sid Allilouia  End-Para
 	Para role chant sid psa118.v53.text sid Allilouia  End-Para
 	Para role chant sid psa118.v63.text sid Allilouia  End-Para
-	Verse sid DoxaPatri.text sid KaiNynKaiAei.text End-Verse
-	Para role chant sid Allilouia End-Para	
+	Verse sid DoxaPatri.text sid KaiNynKaiAei.text sid Allilouia End-Verse	
 
 	Section Litany01
 		Actor sid Deacon End-Actor
 		Dialog sid pet17 End-Dialog
-		Dialog <i> sid res06p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res06 End-Dialog
+		
+		Actor sid Deacon End-Actor
 		Dialog sid petFuneral01 End-Dialog
-		Dialog <i> sid res06p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res06 End-Dialog
+		
+		Actor sid Deacon End-Actor
 		Dialog sid petFuneral02 End-Dialog
-		Dialog <i> sid res02p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res02 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet00 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
 		Actor sid Priest End-Actor
 		Dialog sid euFUN.Key0106.text End-Dialog
-		Dialog <i> sid res04p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
 	End-Section //Litany01
 
-	Actor sid Choir End-Actor
+	Rubric sid fu.rubric.psalm118.b End-Rubric
 	Title role desig sid euFUN.Key0400.title End-Title
-	Title role mode sid euFUN.Key0400.mode End-Title
+	Rubric sid euFUN.Key0400.mode End-Rubric
 	Media sid euFUN.Key0400.text End-Media
+	Actor sid People End-Actor
 	Para role chant sid psa118.v73.text sid euFUN.Key0400.text  End-Para
 	Para role chant sid psa118.v83.text sid euFUN.Key0400.text  End-Para
 	Para role chant sid psa118.v94.text sid euFUN.Key0400.text  End-Para
@@ -100,14 +119,21 @@ End_Head
 	Para role chant sid euFUN.Key0400.text End-Para
 
 	Section Litany02
+		Rubric sid fu.rubric.litany2 End-Rubric // not sure what this means and if it should stay--MP
+		
 		Actor sid Deacon End-Actor
 		Dialog sid pet00 End-Dialog
-		Dialog <i>sid res01p </>End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
 		Actor sid Priest End-Actor
 		Dialog sid euFUN.Key0106.text End-Dialog
-		Dialog <i> sid res04p </> End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
 	End-Section	
 
+	Rubric sid fu.rubric.psalm118.c End-Rubric
+	
 	Actor sid Choir End-Actor
 	Title role desig sid euFUN.Key0500.title End-Title
 	Title role mode sid euFUN.Key0500.mode End-Title
@@ -147,10 +173,10 @@ End_Head
 		Hymn sid euFUN.Key0607.text End-Hymn
 	End-Section
 
-	Rubric sid Fun.TonePlagIV End-Rubric
+//	Rubric sid Fun.TonePlagIV End-Rubric
 	Title role mixed <Tdesig> sid Kontakion</><Tmode> sid euFUN.Key0700.mode</> End-Title
 	Hymn sid euFUN.Key0700.text End-Hymn
-	Rubric sid Fun.PriestCensing End-Rubric
+//	Rubric sid Fun.PriestCensing End-Rubric
 
 	Section Litany01
 		Actor sid Deacon End-Actor
@@ -213,7 +239,7 @@ End_Head
 	Hymn sid euFUN.Key0908.text End-Hymn
 	
 	Title role mixed <Tdesig>sid Prokeimenon</> <Tmode>sid Mode3</>End-Title
-	Rubric sid Fun.ReaderAndPeopleChant End-Rubric
+//	Rubric sid Fun.ReaderAndPeopleChant End-Rubric
 	Para role chant sid euFUN.EpistleProkeimenon.text End-Para
 
 	Section Epistle
