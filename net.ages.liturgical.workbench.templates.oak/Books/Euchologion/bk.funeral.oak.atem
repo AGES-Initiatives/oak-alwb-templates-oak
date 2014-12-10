@@ -10,6 +10,7 @@ Status Review
 	import le.ep.va.deceased_gr_GR_cog.*
 	import le.go.va.deceased_gr_GR_cog.*
 	import ps_gr_GR_cog.*
+	import misc_gr_GR_cog.*
 
 	//Templates
 	import bk.ap.va.sections.Funeral.*
@@ -134,9 +135,9 @@ End_Head
 
 	Rubric sid fu.rubric.psalm118.c End-Rubric
 	
-	Actor sid Choir End-Actor
 	Title role desig sid euFUN.Key0500.title End-Title
-	Title role mode sid euFUN.Key0500.mode End-Title
+	Rubric sid euFUN.Key0500.mode End-Rubric
+	Actor sid People End-Actor
 	Media sid euFUN.Key0500.text End-Media
 	Para role chant sid psa118.v132.text sid Allilouia  End-Para
 	Para role chant sid psa118.v141.text sid Allilouia  End-Para
@@ -144,22 +145,18 @@ End_Head
 	Para role chant sid psa118.v161.text sid Allilouia  End-Para
 	Para role chant sid psa118.v175.text End-Para
 	Para role chant sid psa118.v176.text End-Para
-	
-		Section Litany02
-		Actor sid Deacon End-Actor
-		Dialog sid pet00 End-Dialog
-		Dialog <i>sid res01p </>End-Dialog
-		Actor sid Priest End-Actor
-		Dialog sid euFUN.Key0106.text End-Dialog
-		Dialog <i> sid res04p </> End-Dialog
-	End-Section	
 
 	Section FuneralEvlogitaria
 		Title role desig sid euFUN.Key0600.title End-Title
 		Title role mode sid euFUN.Key0600.mode End-Title
 		Media sid euFUN.Key0601.text End-Media
+		
 		Verse sid euFUN.Key0600.text End-Verse
 		Hymn sid euFUN.Key0601.text media-off End-Hymn
+		
+		Rubric sid fu.rubric.seenote End-Rubric
+		Rubric sid fu.rubric.tropariaandlitany End-Rubric
+		
 		Verse sid euFUN.Key0600.text End-Verse
 		Hymn sid euFUN.Key0602.text End-Hymn
 		Verse sid euFUN.Key0600.text End-Verse
@@ -172,11 +169,35 @@ End_Head
 		Hymn sid euFUN.Key0606.text End-Hymn
 		Hymn sid euFUN.Key0607.text End-Hymn
 	End-Section
-
-//	Rubric sid Fun.TonePlagIV End-Rubric
-	Title role mixed <Tdesig> sid Kontakion</><Tmode> sid euFUN.Key0700.mode</> End-Title
+	
+	Rubric sid Mode5 End-Rubric
+	Actor sid People End-Actor
 	Hymn sid euFUN.Key0700.text End-Hymn
-//	Rubric sid Fun.PriestCensing End-Rubric
+	Rubric sid fu.rubric.cense End-Rubric
+	
+	Rubric sid Mode1 End-Rubric
+	Hymn sid fu.idiomelon1 End-Hymn
+	
+	Rubric sid Mode2 End-Rubric
+	Hymn sid fu.idiomelon2 End-Hymn
+	
+	Rubric sid fu.rubric.tonealt sid Mode2 End-Rubric
+	Hymn sid fu.idiomelon2alt End-Hymn
+	
+	Rubric sid Mode3 End-Rubric
+	Hymn sid fu.idiomelon3 End-Hymn
+	
+	Rubric sid Mode4 End-Rubric
+	Hymn sid fu.idiomelon4 End-Hymn
+	
+	Rubric sid fu.rubric.tonealt sid Mode4 End-Rubric
+	Hymn sid fu.idiomelon4alt End-Hymn
+	
+	Rubric sid Mode5 End-Rubric
+	Hymn sid fu.idiomelon5 End-Hymn
+	
+	Rubric sid Mode6 End-Rubric
+	Hymn sid fu.idiomelon6 End-Hymn
 
 	Section Litany01
 		Actor sid Deacon End-Actor
