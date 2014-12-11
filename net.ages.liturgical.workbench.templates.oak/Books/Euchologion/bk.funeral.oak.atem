@@ -198,6 +198,41 @@ End_Head
 	
 	Rubric sid Mode6 End-Rubric
 	Hymn sid fu.idiomelon6 End-Hymn
+	
+	Rubric sid Mode7 End-Rubric
+	Hymn sid fu.idiomelon7 End-Hymn
+	
+	Rubric sid fu.rubric.tonealt sid Mode7 End-Rubric
+	Hymn sid fu.idiomelon7alt End-Hymn
+	
+	Rubric sid Mode8 End-Rubric
+	Hymn sid fu.idiomelon8 End-Hymn
+	
+	Verse sid DoxaPatri.text End-Verse
+	Hymn sid fu.idiomelondoxa End-Hymn
+	Verse sid KaiNynKaiAei.text End-Verse
+	Hymn sid fu.idiomelonkainyn End-Hymn
+	
+	Title role desig sid euFUN.Key0900.title End-Title
+	Hymn sid beatitude1 End-Hymn
+	Hymn sid beatitude2 End-Hymn
+	Hymn sid beatitude3 End-Hymn
+	Hymn sid beatitude4 End-Hymn
+	Hymn sid beatitude5 End-Hymn
+	Hymn sid beatitude6 End-Hymn
+	Hymn sid beatitude7 End-Hymn
+	Hymn sid beatitude8 End-Hymn
+	Hymn sid beatitude9 End-Hymn
+	Hymn sid beatitude10 End-Hymn
+	Hymn sid beatitude11 End-Hymn
+	
+	Actor sid People End-Actor
+	Title sid Prokeimenon <r> sid Mode3 </> End-Title
+	Dialog sid fu.prokeimenon End-Dialog
+	
+	Actor sid Priest End-Actor // or should it be deacon?--MP
+	Dialog sid exc19 End-Dialog
+	Actor sid Reader End-Actor
 
 	Section Litany01
 		Actor sid Deacon End-Actor
