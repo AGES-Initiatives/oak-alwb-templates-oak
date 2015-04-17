@@ -6,6 +6,7 @@ Status Draft
 	import eu.lichrysbasil_gr_GR_cog.*
 	import ho.s10_gr_GR_cog.*
 	import ps_gr_GR_cog.*
+	import hi.s01_gr_GR_cog.*
 	
 	import da.*
 	import oc.*
@@ -25,5 +26,129 @@ Status Draft
 	import roles.*
 	
 	Title role desig sid hoVE.title End-Title
+	
+	Actor sid Priest End-Actor
+	Dialog sid EvlogitosOTheosImon.text sid KaiNynKaiAei.text End-Dialog // find one-sentence version
+	Actor sid People End-Actor
+	Dialog sid res04 End-Dialog
+	
+	Actor sid Priest End-Actor
+	Dialog sid DoxaSoiKyrie End-Dialog
+	Dialog sid VasilefOuranie.text End-Dialog
+	
+	Actor sid Reader End-Actor
+	Dialog sid res04 sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
+	Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+	Dialog sid PanagiaTrias.text End-Dialog
+	Dialog sid res01 <r> sid Thrice </> End-Dialog
+	Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+	Dialog sid PaterImon.text End-Dialog
+	
+	Actor sid Priest End-Actor
+	Dialog sid exc20 End-Dialog
+	
+	Actor sid People End-Actor
+	Dialog sid res04 End-Dialog
+	
+	Actor sid Reader End-Actor
+	Dialog sid DefteProskinisomen1 End-Dialog
+	Dialog sid DefteProskinisomen2 End-Dialog
+	Dialog sid DefteProskinisomen3 End-Dialog
+	Reading sid psa103.text End-Reading
+	Rubric sid PalinToAfto End-Rubric
+	Reading sid psa103.v19b.text sid psa103.v20a.text sid psa103.v24a.text End-Reading
+	Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+	Dialog sid Allilouia3Doxa.text <r> sid Thrice </> End-Dialog
+	Dialog sid IElpisImonKyrie End-Dialog
+	
+	Actor sid Priest End-Actor
+	Rubric sid InALowVoice End-Rubric
+	Title sid hiVE.Key0101.title End-Title
+	Reading sid hiVE.Key0101.text End-Reading
+	
+	Title sid hiVE.Key0102.title End-Title
+	Reading sid hiVE.Key0102.text End-Reading
+	
+	Title sid hiVE.Key0103.title End-Title
+	Reading sid hiVE.Key0103.text End-Reading
+	
+	Title sid hiVE.Key0104.title End-Title
+	Reading sid hiVE.Key0104.text End-Reading
+	
+	Title sid hiVE.Key0105.title End-Title
+	Reading sid hiVE.Key0105.text End-Reading
+	
+	Title sid hiVE.Key0106.title End-Title
+	Reading sid hiVE.Key0106.text End-Reading
+	
+	Title sid hiVE.Key0107.title End-Title
+	Reading sid hiVE.Key0107.text End-Reading
+	
+		Section greatlitany 
+		Actor sid Deacon End-Actor
+		Dialog sid pet01 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet02 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet03 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet04 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet06 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet07S End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet08alt End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet09 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet10 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet11 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet12 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet13 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res03 End-Dialog
+		
+		Actor sid Priest End-Actor
+		Dialog sid exc01 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
+		End-Section
 
 End-Template
