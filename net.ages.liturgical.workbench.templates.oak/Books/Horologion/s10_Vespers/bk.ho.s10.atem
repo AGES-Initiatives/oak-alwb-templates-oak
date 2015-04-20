@@ -150,5 +150,100 @@ Status Draft
 		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
 		End-Section
+		
+	Title sid hiVE.Key0109.text End-Title
+	Title sid psa140.title End-Title
+	Actor sid People End-Actor
+	Reading sid psa140.v1alt.text End-Reading
+	Reading sid psa140.v2.text sid psa140.v0.text End-Reading
+	
+	Title sid psa141.title End-Title
+	Actor sid Reader End-Actor
+	Reading sid psa141.v8a.text End-Reading
+	Reading sid psa141.v8b.text End-Reading
+	
+	Title sid psa129.title End-Title
+	Reading sid psa129.v1.text sid psa129.v2a.text End-Reading
+	Reading sid psa129.v2b.text End-Reading
+	Reading sid psa129.v3.text sid psa129.v4.text End-Reading
+	Reading sid psa129.v5.text sid psa129.v6a.text End-Reading
+	Reading sid psa129.v6b.text End-Reading
+	Reading sid psa129.v7.text sid psa129.v8.text End-Reading
+	
+	Title sid psa116.title End-Title
+	Reading sid psa116.v1.text End-Reading
+	Reading sid psa116.v2.text End-Reading
+	
+	Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog
+	
+	Title sid hiVE.Key0108.title End-Title
+	Actor sid Deacon End-Actor
+	Rubric sid InALowVoice End-Rubric // kwa siri or kwa mnong'ono?
+	Dialog sid pet00 End-Dialog
+	
+	Actor sid Priest End-Actor 
+	Rubric sid InALowVoice End-Rubric
+	Dialog sid hiVE.Key0108.text End-Dialog
+	Dialog sid exc01 End-Dialog
+	
+	Actor sid People End-Actor
+	Dialog sid res04 End-Dialog
+	
+	Actor sid Deacon End-Actor
+	Rubric sid InALowVoice End-Rubric
+	Dialog sid euLI.Key0502.text End-Dialog
+	
+	Actor sid Priest End-Actor
+	Rubric sid InALowVoice End-Rubric
+	Dialog sid euLI.Key0503.text End-Dialog
+	
+	Actor sid Deacon End-Actor
+	Rubric sid InALowVoice End-Rubric
+	Dialog sid res04 End-Dialog
+	Dialog sid exc17 sid exc18 End-Dialog
+	
+	Title sid hoVE.FosIlaron.title End-Title
+	Actor sid People End-Actor
+	Hymn sid hoVE.FosIlaron.text End-Hymn
+	
+	Actor sid Deacon End-Actor
+	Dialog sid hiVE.Key0109.text End-Dialog
+	
+	Actor sid Reader End-Actor
+	Title sid hoVE.SundayEvening.title End-Title
+	Hymn sid psa133.v1a.text <r> sid Twice </> End-Hymn
+	Dialog sid psa133.v1b.text End-Dialog
+	Hymn sid psa133.v1a.text End-Hymn
+	
+	Title sid hoVE.MondayEvening.title End-Title
+	Hymn sid psa4.v4b.text <r> sid Twice </> End-Hymn
+	// verse = ???
+	Hymn sid psa4.v4b.text End-Hymn
+	Title sid hoVE.TuesdayEvening.title End-Title
+	Hymn sid psa22.v6alt.text <r> sid Twice </> End-Hymn
+	Dialog sid psa22.v1.text End-Dialog
+	Hymn sid psa22.v6alt.text End-Hymn
+	
+	Title sid hoVE.WednesdayEvening.title End-Title
+	Hymn sid psa53.v3.text <r> sid Twice </> End-Hymn
+	Dialog sid psa53.v4.text End-Dialog
+	Hymn sid psa53.v3.text End-Hymn
+	
+	Title sid hoVE.ThursdayEvening.title End-Title
+	Hymn sid psa120.v2.text <r> sid Twice </> End-Hymn
+	Dialog sid psa120.v1.text End-Dialog
+	Hymn sid psa120.v2.text End-Hymn
+	
+	Title sid hoVE.FridayEvening.title End-Title
+	Hymn sid psa58.v10alt.text sid psa58.v11alt.text <r> sid Twice </> End-Hymn
+	Dialog sid psa58.v2.text End-Dialog
+	Hymn sid psa58.v10alt.text sid psa58.v11alt.text End-Hymn
+	
+	Title sid hoVE.SaturdayEvening.title End-Title
+	Hymn sid psa92.v1b.text End-Hymn
+	Dialog sid psa92.v1c.text End-Dialog
+	Hymn sid psa92.v1b.text End-Hymn
+	Dialog sid psa92.v1d.text End-Dialog
+	Hymn sid psa92.v1b.text End-Hymn
 
 End-Template
