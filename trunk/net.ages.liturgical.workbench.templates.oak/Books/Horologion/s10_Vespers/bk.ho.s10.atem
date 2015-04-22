@@ -32,59 +32,65 @@ Status Draft
 	Actor sid People End-Actor
 	Dialog sid res04 End-Dialog
 	
-	Actor sid Priest End-Actor
-	Dialog sid DoxaSoiKyrie End-Dialog
-	Dialog sid VasilefOuranie.text End-Dialog
+	Section trisagion
+		Actor sid Priest End-Actor
+		Dialog sid DoxaSoiKyrie End-Dialog
+		Dialog sid VasilefOuranie.text End-Dialog
 	
-	Actor sid Reader End-Actor
-	Dialog sid res04 sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
-	Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
-	Dialog sid PanagiaTrias.text End-Dialog
-	Dialog sid res01 <r> sid Thrice </> End-Dialog
-	Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
-	Dialog sid PaterImon.text End-Dialog
+		Actor sid Reader End-Actor
+		Dialog sid res04 sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
+		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+		Dialog sid PanagiaTrias.text End-Dialog
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+		Dialog sid PaterImon.text End-Dialog
 	
-	Actor sid Priest End-Actor
-	Dialog sid exc20 End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid exc20 End-Dialog
 	
-	Actor sid People End-Actor
-	Dialog sid res04 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
+	End-Section
 	
-	Actor sid Reader End-Actor
-	Dialog sid DefteProskinisomen1 End-Dialog
-	Dialog sid DefteProskinisomen2 End-Dialog
-	Dialog sid DefteProskinisomen3 End-Dialog
-	Reading sid psa103.text End-Reading
-	Rubric sid PalinToAfto End-Rubric
-	Reading sid psa103.v19b.text sid psa103.v20a.text sid psa103.v24a.text End-Reading
-	Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
-	Dialog sid Allilouia3Doxa.text <r> sid Thrice </> End-Dialog
-	Dialog sid IElpisImonKyrie End-Dialog
+	Section vesperspsalm	
+		Actor sid Reader End-Actor
+		Dialog sid DefteProskinisomen1 End-Dialog
+		Dialog sid DefteProskinisomen2 End-Dialog
+		Dialog sid DefteProskinisomen3 End-Dialog
+		Reading sid psa103.text End-Reading
+		Rubric sid PalinToAfto End-Rubric
+		Reading sid psa103.v19b.text sid psa103.v20a.text sid psa103.v24a.text End-Reading
+		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+		Dialog sid Allilouia3Doxa.text <r> sid Thrice </> End-Dialog
+		Dialog sid IElpisImonKyrie End-Dialog
+	End-Section
 	
-	Actor sid Priest End-Actor
-	Rubric sid InALowVoice End-Rubric
-	Title sid hiVE.Key0101.title End-Title
-	Reading sid hiVE.Key0101.text End-Reading
+	Section sevenprayers
+		Actor sid Priest End-Actor
+		Rubric sid InALowVoice End-Rubric
+		Title sid hiVE.Key0101.title End-Title
+		Reading sid hiVE.Key0101.text End-Reading
 	
-	Title sid hiVE.Key0102.title End-Title
-	Reading sid hiVE.Key0102.text End-Reading
+		Title sid hiVE.Key0102.title End-Title
+		Reading sid hiVE.Key0102.text End-Reading
 	
-	Title sid hiVE.Key0103.title End-Title
-	Reading sid hiVE.Key0103.text End-Reading
+		Title sid hiVE.Key0103.title End-Title
+		Reading sid hiVE.Key0103.text End-Reading
 	
-	Title sid hiVE.Key0104.title End-Title
-	Reading sid hiVE.Key0104.text End-Reading
+		Title sid hiVE.Key0104.title End-Title
+		Reading sid hiVE.Key0104.text End-Reading
 	
-	Title sid hiVE.Key0105.title End-Title
-	Reading sid hiVE.Key0105.text End-Reading
+		Title sid hiVE.Key0105.title End-Title
+		Reading sid hiVE.Key0105.text End-Reading
 	
-	Title sid hiVE.Key0106.title End-Title
-	Reading sid hiVE.Key0106.text End-Reading
+		Title sid hiVE.Key0106.title End-Title
+		Reading sid hiVE.Key0106.text End-Reading
 	
-	Title sid hiVE.Key0107.title End-Title
-	Reading sid hiVE.Key0107.text End-Reading
+		Title sid hiVE.Key0107.title End-Title
+		Reading sid hiVE.Key0107.text End-Reading
+	End-Section
 	
-		Section greatlitany 
+	Section greatlitany 
 		Actor sid Deacon End-Actor
 		Dialog sid pet01 End-Dialog
 		Actor sid People End-Actor
@@ -149,7 +155,7 @@ Status Draft
 		Dialog sid exc01 End-Dialog
 		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
-		End-Section
+	End-Section
 		
 	Title sid hiVE.Key0109.text End-Title
 	Title sid psa140.title End-Title
@@ -206,44 +212,155 @@ Status Draft
 	Actor sid People End-Actor
 	Hymn sid hoVE.FosIlaron.text End-Hymn
 	
-	Actor sid Deacon End-Actor
-	Dialog sid hiVE.Key0109.text End-Dialog
+	Section eveningprokimenon
+		Actor sid Deacon End-Actor
+		Dialog sid hiVE.Key0109.text End-Dialog
+	
+		Actor sid Reader End-Actor
+		Title sid hoVE.SundayEvening.title End-Title
+		Hymn sid psa133.v1a.text <r> sid Twice </> End-Hymn
+		Dialog sid psa133.v1b.text End-Dialog
+		Hymn sid psa133.v1a.text End-Hymn
+	
+		Title sid hoVE.MondayEvening.title End-Title
+		Hymn sid psa4.v4b.text <r> sid Twice </> End-Hymn
+		// verse = ???
+		Hymn sid psa4.v4b.text End-Hymn
+		Title sid hoVE.TuesdayEvening.title End-Title
+		Hymn sid psa22.v6alt.text <r> sid Twice </> End-Hymn
+		Dialog sid psa22.v1.text End-Dialog
+		Hymn sid psa22.v6alt.text End-Hymn
+	
+		Title sid hoVE.WednesdayEvening.title End-Title
+		Hymn sid psa53.v3.text <r> sid Twice </> End-Hymn
+		Dialog sid psa53.v4.text End-Dialog
+		Hymn sid psa53.v3.text End-Hymn
+	
+		Title sid hoVE.ThursdayEvening.title End-Title
+		Hymn sid psa120.v2.text <r> sid Twice </> End-Hymn
+		Dialog sid psa120.v1.text End-Dialog
+		Hymn sid psa120.v2.text End-Hymn
+	
+		Title sid hoVE.FridayEvening.title End-Title
+		Hymn sid psa58.v10alt.text sid psa58.v11alt.text <r> sid Twice </> End-Hymn
+		Dialog sid psa58.v2.text End-Dialog
+		Hymn sid psa58.v10alt.text sid psa58.v11alt.text End-Hymn
+	
+		Title sid hoVE.SaturdayEvening.title End-Title
+		Hymn sid psa92.v1b.text End-Hymn
+		Dialog sid psa92.v1c.text End-Dialog
+		Hymn sid psa92.v1b.text End-Hymn
+		Dialog sid psa92.v1d.text End-Dialog
+		Hymn sid psa92.v1b.text End-Hymn
+	End-Section
+	
+	Section readings
+		Actor sid Reader End-Actor
+		Dialog sid hoVE.Reading_Intro.text1 sid hoVE.Reading_Intro.text2 End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid exc19 End-Dialog
+	End-Section
+	
+	Section ektenia
+		Actor sid Deacon End-Actor
+		Dialog sid pet15 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet16 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet17 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet19 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet20 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet21 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet22 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet23 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		
+		Actor sid Priest End-Actor
+		Rubric sid InALowVoice End-Rubric
+		// where is this prayer in the greek?
+		Dialog sid exc11 End-Dialog
+	End-Section
 	
 	Actor sid Reader End-Actor
-	Title sid hoVE.SundayEvening.title End-Title
-	Hymn sid psa133.v1a.text <r> sid Twice </> End-Hymn
-	Dialog sid psa133.v1b.text End-Dialog
-	Hymn sid psa133.v1a.text End-Hymn
+	Reading sid hoVE.Prayer_Kataxioson.text End-Reading
 	
-	Title sid hoVE.MondayEvening.title End-Title
-	Hymn sid psa4.v4b.text <r> sid Twice </> End-Hymn
-	// verse = ???
-	Hymn sid psa4.v4b.text End-Hymn
-	Title sid hoVE.TuesdayEvening.title End-Title
-	Hymn sid psa22.v6alt.text <r> sid Twice </> End-Hymn
-	Dialog sid psa22.v1.text End-Dialog
-	Hymn sid psa22.v6alt.text End-Hymn
-	
-	Title sid hoVE.WednesdayEvening.title End-Title
-	Hymn sid psa53.v3.text <r> sid Twice </> End-Hymn
-	Dialog sid psa53.v4.text End-Dialog
-	Hymn sid psa53.v3.text End-Hymn
-	
-	Title sid hoVE.ThursdayEvening.title End-Title
-	Hymn sid psa120.v2.text <r> sid Twice </> End-Hymn
-	Dialog sid psa120.v1.text End-Dialog
-	Hymn sid psa120.v2.text End-Hymn
-	
-	Title sid hoVE.FridayEvening.title End-Title
-	Hymn sid psa58.v10alt.text sid psa58.v11alt.text <r> sid Twice </> End-Hymn
-	Dialog sid psa58.v2.text End-Dialog
-	Hymn sid psa58.v10alt.text sid psa58.v11alt.text End-Hymn
-	
-	Title sid hoVE.SaturdayEvening.title End-Title
-	Hymn sid psa92.v1b.text End-Hymn
-	Dialog sid psa92.v1c.text End-Dialog
-	Hymn sid psa92.v1b.text End-Hymn
-	Dialog sid psa92.v1d.text End-Dialog
-	Hymn sid psa92.v1b.text End-Hymn
+	Section finishinglitany
+		Actor sid Deacon End-Actor
+		Dialog sid pet24v End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet12 End-Dialog // kulinda or kusaidia?
+		Actor sid People End-Actor
+		Dialog sid res01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet25v End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res02 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet26 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res02 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet27 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res02 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet28 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res02 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet29 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res02 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet30 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res02 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid pet13 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res03 End-Dialog
+		
+		Actor sid Priest End-Actor
+		Dialog sid exc11 End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
+	End-Section
 
 End-Template
