@@ -21,6 +21,7 @@ Status Draft
 	import template.titles_gr_GR_cog.*
 	import titles_gr_GR_cog.*
 	import le.go.os_gr_GR_cog.*
+	import pub.priest.servicebook_gr_GR_cog.*
 		
 	import iTags.*
 	import bTags.*
@@ -40,10 +41,10 @@ Status Draft
 	
 		Actor sid Reader End-Actor
 		Dialog sid res04 sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
-		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+		Dialog sid li.preparation.doxapatrikainyn End-Dialog
 		Dialog sid PanagiaTrias.text End-Dialog
 		Dialog sid res01 <r> sid Thrice </> End-Dialog
-		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+		Dialog sid li.preparation.doxapatrikainyn End-Dialog
 		Dialog sid PaterImon.text End-Dialog
 	
 		Actor sid Priest End-Actor
@@ -61,7 +62,7 @@ Status Draft
 		Reading sid psa103.text End-Reading
 		Rubric sid PalinToAfto End-Rubric
 		Reading sid psa103.v19b.text sid psa103.v20a.text sid psa103.v24a.text End-Reading
-		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+		Dialog sid li.preparation.doxapatrikainyn End-Dialog
 		Dialog sid Allilouia3Doxa.text <r> sid Thrice </> End-Dialog
 		Dialog sid IElpisImonKyrie End-Dialog
 	End-Section
@@ -396,10 +397,10 @@ Status Draft
 	Section trisagion
 		Actor sid Reader End-Actor
 		Dialog sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
-		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+		Dialog sid li.preparation.doxapatrikainyn End-Dialog
 		Dialog sid PanagiaTrias.text End-Dialog
 		Dialog sid res01 <r> sid Thrice </> End-Dialog
-		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+		Dialog sid li.preparation.doxapatrikainyn End-Dialog
 		Dialog sid PaterImon.text End-Dialog
 		Actor sid Priest End-Actor
 		Dialog sid exc20 End-Dialog
@@ -433,7 +434,7 @@ Status Draft
 		Actor sid Priest End-Actor
 		Dialog sid DoxaSoiChriste2 End-Dialog
 		Actor sid Reader End-Actor
-		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog // find the one-sentence version
+		Dialog sid li.preparation.doxapatrikainyn End-Dialog
 		Dialog sid res01 <r> sid Thrice </> End-Dialog
 		Dialog sid res12 End-Dialog
 		
