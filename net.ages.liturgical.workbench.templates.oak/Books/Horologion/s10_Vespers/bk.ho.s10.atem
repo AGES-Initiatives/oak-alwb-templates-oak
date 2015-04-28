@@ -1,6 +1,6 @@
 Template bk.ho.s10 
 
-Status Draft
+Status Review
 
 	import client_gr_GR_cog.*
 	import eu.lichrysbasil_gr_GR_cog.*
@@ -226,7 +226,7 @@ Status Draft
 	
 		Title sid hoVE.MondayEvening.title End-Title
 		Hymn sid psa4.v4b.text <r> sid Twice </> End-Hymn
-		// verse = ???
+		Dialog sid psa4.v2a.text End-Dialog
 		Hymn sid psa4.v4b.text End-Hymn
 		Title sid hoVE.TuesdayEvening.title End-Title
 		Hymn sid psa22.v6alt.text <r> sid Twice </> End-Hymn
@@ -306,7 +306,7 @@ Status Draft
 		
 		Actor sid Priest End-Actor
 		Rubric sid InALowVoice End-Rubric
-		// where is this prayer in the greek?
+		Dialog sid euLI.Key0801.text End-Dialog // this is not in vespers in the greek version, should it be here?
 		Dialog sid exc11 End-Dialog
 	End-Section
 	
