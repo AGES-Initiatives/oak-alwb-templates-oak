@@ -1,0 +1,23 @@
+Template prayerbook
+Status Draft
+
+	import prayerbook_gr_KE_oak.*
+
+	Section cover
+		Title sid prbk.cover1 End-Title
+		Title sid prbk.cover2 End-Title
+	End-Section
+	
+	Section maintitle
+		Title sid prbk.title1 End-Title
+		Title sid prbk.title2 End-Title
+		Title sid prbk.title3 End-Title
+	End-Section
+	
+	Section introduction
+		Title sid prbk.introduction.title1 End-Title
+		Title sid prbk.introduction.title1 End-Title
+		Reading sid prbk.introduction.text End-Reading
+	End-Section
+
+End-Template
