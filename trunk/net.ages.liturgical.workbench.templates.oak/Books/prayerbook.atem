@@ -18,6 +18,12 @@ Status Draft
 		Title sid prbk.introduction.title1 End-Title
 		Title sid prbk.introduction.title1 End-Title
 		Reading sid prbk.introduction.text End-Reading
+		
+		Title sid prbk.introduction.title3 End-Title
+		Title sid prbk.introduction.title4 End-Title
+		Reading sid matt77.text End-Reading
+		Reading sid matt66.text End-Reading
+		Reading sid prbk.introduction.text2 End-Reading
 	End-Section
 
 End-Template
