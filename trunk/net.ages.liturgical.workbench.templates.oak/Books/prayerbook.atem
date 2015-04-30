@@ -2,6 +2,10 @@ Template prayerbook
 Status Draft
 
 	import prayerbook_gr_KE_oak.*
+	import titles_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import pub.priest.servicebook_gr_GR_cog.*
 
 	Section cover
 		Title sid prbk.cover1 End-Title
@@ -14,6 +18,8 @@ Status Draft
 		Title sid prbk.title3 End-Title
 	End-Section
 	
+	Reading sid prbk.toc End-Reading
+	
 	Section introduction
 		Title sid prbk.introduction.title1 End-Title
 		Title sid prbk.introduction.title1 End-Title
@@ -21,9 +27,29 @@ Status Draft
 		
 		Title sid prbk.introduction.title3 End-Title
 		Title sid prbk.introduction.title4 End-Title
-		Reading sid matt77.text End-Reading
-		Reading sid matt66.text End-Reading
+		Reading sid matt77.text End-Reading // red?
+		Reading sid matt66.text End-Reading // red?
 		Reading sid prbk.introduction.text2 End-Reading
+	End-Section
+	
+	Section morningprayers
+		Title sid prbk.title.morningprayers End-Title
+		Rubric sid prbk.rubric.morningprayers End-Rubric
+			Section Trisagion
+		Title sid Trisagion End-Title
+		Dialog sid EisToOnoma sid res04 End-Dialog
+		Rubric sid prbk.rubric2.morningprayers End-Rubric
+		Dialog sid prbk.mercy sid prbk.thoughtheprayers sid res04 End-Dialog
+		Dialog sid DoxaSoiChriste1 End-Dialog
+		Dialog sid VasilefOuranie.text End-Dialog
+		Dialog sid AgiosOTheos.text sid Thrice End-Dialog // red?
+		Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
+		Dialog sid PanagiaTrias.text End-Dialog
+		Dialog sid res01 sid Thrice End-Dialog
+		Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
+		Dialog sid PaterImon.text End-Dialog
+		Dialog sid exc20 sid res04 End-Dialog // should it be 'through the prayers' instead?
+			End-Section
 	End-Section
 
 End-Template
