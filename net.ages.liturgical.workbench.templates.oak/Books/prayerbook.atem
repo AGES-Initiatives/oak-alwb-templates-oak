@@ -6,6 +6,8 @@ Status Draft
 	import prayers_gr_GR_cog.*
 	import rubrical_gr_GR_cog.*
 	import pub.priest.servicebook_gr_GR_cog.*
+	import le.go.os_gr_GR_cog.*
+	import ho.s10_gr_GR_cog.*
 
 	Section cover
 		Title sid prbk.cover1 End-Title
@@ -35,21 +37,102 @@ Status Draft
 	Section morningprayers
 		Title sid prbk.title.morningprayers End-Title
 		Rubric sid prbk.rubric.morningprayers End-Rubric
-			Section Trisagion
-		Title sid Trisagion End-Title
-		Dialog sid EisToOnoma sid res04 End-Dialog
-		Rubric sid prbk.rubric2.morningprayers End-Rubric
-		Dialog sid prbk.mercy sid prbk.thoughtheprayers sid res04 End-Dialog
-		Dialog sid DoxaSoiChriste1 End-Dialog
-		Dialog sid VasilefOuranie.text End-Dialog
-		Dialog sid AgiosOTheos.text sid Thrice End-Dialog // red?
-		Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
-		Dialog sid PanagiaTrias.text End-Dialog
-		Dialog sid res01 sid Thrice End-Dialog
-		Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
-		Dialog sid PaterImon.text End-Dialog
-		Dialog sid exc20 sid res04 End-Dialog // should it be 'through the prayers' instead?
-			End-Section
+		
+		Section Trisagion
+			Title sid Trisagion End-Title
+			Dialog sid EisToOnoma sid res04 End-Dialog
+			Rubric sid prbk.rubric2.morningprayers End-Rubric
+			Dialog sid prbk.mercy sid prbk.thoughtheprayers sid res04 End-Dialog
+			Dialog sid DoxaSoiChriste1 End-Dialog
+			Dialog sid VasilefOuranie.text End-Dialog
+			Dialog sid AgiosOTheos.text sid Thrice End-Dialog // red?
+			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn				Dialog sid PanagiaTrias.text End-Dialog
+			Dialog sid res01 sid Thrice End-Dialog
+			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
+			Dialog sid PaterImon.text End-Dialog
+			Dialog sid exc20 sid res04 End-Dialog // should it be 'through the prayers' instead?
+		End-Section
+		
+		Section morningtroparia
+			Title sid TropariaTrinity End-Title
+			Reading sid TropariaTrinity1 End-Reading
+			Dialog sid DoxaPatri.text End-Dialog
+			Reading sid TropariaTrinity2 End-Reading
+			Dialog sid KaiNynKaiAei.text End-Dialog
+			Reading sid TropariaTrinity3 End-Reading
+			Dialog sid res01 sid Twelve End-Dialog // red?
+		End-Section
+			
+		Title sid prbk.trinityprayer.title End-Title
+		Reading sid prbk.trinityprayer.text End-Reading
+			
+		Title sid li.creed.title End-Title
+		Reading sid Pistevo.text End-Reading
+			
+		Title sid prbk.stbasil.title End-Title
+		Reading sid prbk.stbasil.text End-Reading
+			
+		Rubric sid prbk.rubric.privatedevotions End-Rubric
+		Reading sid DiEfchonPateron.text End-Reading		
+	End-Section
+	
+	Section middayprayers
+		Title sid prbk.title.middayprayers End-Title
+		Rubric sid prbk.rubric.firsttrisagion End-Rubric
+		Reading sid prbk.middayprayer End-Reading
+		Rubric sid prbk.rubric.privatedevotions End-Rubric
+		Reading sid DiEfchonPateron.text End-Reading
+	End-Section
+	
+	Section eveningprayers
+		Title sid prbk.title.eveningprayers End-Title
+		Rubric sid prbk.rubric.firsttrisagion End-Rubric
+		
+		Section tropariathanksgiving
+			Title sid TropariaThanksgiving End-Title
+			Reading sid TropariaThanksgiving1 End-Reading
+			Dialog sid DoxaPatri.text End-Dialog
+			Reading sid TropariaThanksgiving2 End-Reading
+			Dialog sid KaiNynKaiAei.text End-Dialog
+			Reading sid TropariaThanksgiving3 End-Reading
+			Dialog sid res01 sid Twelve End-Dialog // red?
+		End-Section
+		
+		Title sid prbk.forgivenessprayer.title End-Title
+		Reading sid prbk.forgivenessprayer.text End-Reading
+		
+		Rubric sid prbk.rubric.firstcreed End-Rubric
+		Reading sid prayerofthehours.text End-Reading
+		
+		Rubric sid prbk.rubric.privatedevotions End-Rubric
+		Reading sid DiEfchonPateron.text End-Reading
+		
+		Rubric sid prbk.rubric.beforesleep End-Rubric
+	End-Section
+	
+	Section occasionalprayers
+		Title sid prbk.title.occasionalprayers End-Title
+		
+		Title sid prbk.enteringchurch.title End-Title
+		Reading sid prbk.enteringchurch.text End-Reading
+		
+		Title sid prbk.leavingchurch.title End-Title
+		Reading sid leosVE.Prayer_NynApolyeis.text End-Reading
+		
+		Title sid prbk.iconchrist.title End-Title
+		Reading sid prbk.iconchrist.text End-Reading
+		
+		Title sid Jesusprayer.title End-Title
+		Reading sid Jesusprayer.text End-Reading
+		
+		Title sid prbk.icontheotokos.title End-Title
+		Reading sid prbk.icontheotokos.text End-Reading
+		
+		Title sid prbk.songtheotokos.title End-Title
+		Reading sid AxionEstin.text End-Reading
+		
+		Title sid prbk.angelicsalutation.title End-Title
+		Reading sid hoVE.LentApolytikion1.text End-Reading
 	End-Section
 
 End-Template
