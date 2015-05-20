@@ -8,6 +8,8 @@ Status Draft
 	import pub.priest.servicebook_gr_GR_cog.*
 	import le.go.os_gr_GR_cog.*
 	import ho.s10_gr_GR_cog.*
+	import ho.s12_gr_GR_cog.*
+	import actors_gr_GR_cog.*
 
 	Section cover
 		Title sid prbk.cover1 End-Title
@@ -133,6 +135,42 @@ Status Draft
 		
 		Title sid prbk.angelicsalutation.title End-Title
 		Reading sid hoVE.LentApolytikion1.text End-Reading
+		
+		Title sid prbk.trinityprayer.title End-Title
+		Reading sid hoCO.Key1104.text End-Reading
+		
+		Title sid prbk.patronsaint.title End-Title
+		Reading sid prbk.patronsaint.text End-Reading
+		
+		Title sid prbk.guardianangel.title End-Title
+		Reading sid prbk.guardianangel.text End-Reading
+		
+		Section tableprayers
+			Title sid prbk.title.tableprayers End-Title
+			
+			Rubric sid prbk.rubric.beforebreakfast End-Rubric
+			Actor sid People End-Actor
+			Dialog sid EisToOnoma sid res04 sid PaterImon.text End-Dialog
+			Rubric sid prbk.rubric.ifpriest End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid exc20 End-Dialog
+			Actor sid People End-Actor
+			Dialog sid li.preparation.doxapatrikainyn sid res01 sid Thrice End-Dialog // change to just doxapatrikainyn // red???
+			Rubric sid prbk.rubric.ifpriest End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid prbk.blessfood End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res04 End-Dialog
+			
+			Rubric sid prbk.rubric.afterbreakfast End-Rubric
+			Reading sid prbk.afterbreakfast.text End-Reading
+			
+			Rubric sid prbk.rubric.beforesupper End-Rubric
+			Reading sid prbk.supper1.text End-Reading
+			
+			Rubric sid Or End-Rubric
+			Reading sid prbk.supper2.text End-Reading
+		End-Section
 	End-Section
 
 End-Template
