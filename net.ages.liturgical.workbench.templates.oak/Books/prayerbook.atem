@@ -170,7 +170,21 @@ Status Draft
 			
 			Rubric sid Or End-Rubric
 			Reading sid prbk.supper2.text End-Reading
+			
+			Rubric sid prbk.rubric.aftersupper End-Rubric
+			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
+			Reading sid prbk.aftersupper.text End-Reading
+			
+			Rubric sid Or End-Rubric
+			Reading sid prbk.aftersupper2.text End-Reading
 		End-Section
+	End-Section
+	
+	Section occasionalprayers2
+		Title sid prbk.title.occasionalprayers2 End-Title
+		
+		Title sid prbk.repentance.title End-Title
+		Reading sid prbk.repentance.text End-Reading
 	End-Section
 
 End-Template
