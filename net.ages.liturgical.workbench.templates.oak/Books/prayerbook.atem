@@ -113,37 +113,39 @@ Status Draft
 	End-Section
 	
 	Section occasionalprayers
-		Title sid prbk.title.occasionalprayers End-Title
+		Section occasionalprayers1
+			Title sid prbk.title.occasionalprayers End-Title
 		
-		Title sid prbk.enteringchurch.title End-Title
-		Reading sid prbk.enteringchurch.text End-Reading
+			Title sid prbk.enteringchurch.title End-Title
+			Reading sid prbk.enteringchurch.text End-Reading
 		
-		Title sid prbk.leavingchurch.title End-Title
-		Reading sid leosVE.Prayer_NynApolyeis.text End-Reading
+			Title sid prbk.leavingchurch.title End-Title
+			Reading sid leosVE.Prayer_NynApolyeis.text End-Reading
 		
-		Title sid prbk.iconchrist.title End-Title
-		Reading sid prbk.iconchrist.text End-Reading
+			Title sid prbk.iconchrist.title End-Title
+			Reading sid prbk.iconchrist.text End-Reading
 		
-		Title sid Jesusprayer.title End-Title
-		Reading sid Jesusprayer.text End-Reading
+			Title sid Jesusprayer.title End-Title
+			Reading sid Jesusprayer.text End-Reading
 		
-		Title sid prbk.icontheotokos.title End-Title
-		Reading sid prbk.icontheotokos.text End-Reading
+			Title sid prbk.icontheotokos.title End-Title
+			Reading sid prbk.icontheotokos.text End-Reading
 		
-		Title sid prbk.songtheotokos.title End-Title
-		Reading sid AxionEstin.text End-Reading
+			Title sid prbk.songtheotokos.title End-Title
+			Reading sid AxionEstin.text End-Reading
 		
-		Title sid prbk.angelicsalutation.title End-Title
-		Reading sid hoVE.LentApolytikion1.text End-Reading
+			Title sid prbk.angelicsalutation.title End-Title
+			Reading sid hoVE.LentApolytikion1.text End-Reading
 		
-		Title sid prbk.trinityprayer.title End-Title
-		Reading sid hoCO.Key1104.text End-Reading
+			Title sid prbk.trinityprayer.title End-Title
+			Reading sid hoCO.Key1104.text End-Reading
 		
-		Title sid prbk.patronsaint.title End-Title
-		Reading sid prbk.patronsaint.text End-Reading
+			Title sid prbk.patronsaint.title End-Title
+			Reading sid prbk.patronsaint.text End-Reading
 		
-		Title sid prbk.guardianangel.title End-Title
-		Reading sid prbk.guardianangel.text End-Reading
+			Title sid prbk.guardianangel.title End-Title
+			Reading sid prbk.guardianangel.text End-Reading
+		End-Section
 		
 		Section tableprayers
 			Title sid prbk.title.tableprayers End-Title
@@ -178,13 +180,25 @@ Status Draft
 			Rubric sid Or End-Rubric
 			Reading sid prbk.aftersupper2.text End-Reading
 		End-Section
-	End-Section
-	
-	Section occasionalprayers2
-		Title sid prbk.title.occasionalprayers2 End-Title
 		
-		Title sid prbk.repentance.title End-Title
-		Reading sid prbk.repentance.text End-Reading
+		Section occasionalprayers2
+			Title sid prbk.title.occasionalprayers2 End-Title
+		
+			Title sid prbk.repentance.title End-Title
+			Reading sid prbk.repentance.text End-Reading
+			
+			Title sid prbk.task.title End-Title
+			Reading sid prbk.task.text End-Reading
+			
+			Title sid prbk.parents.title End-Title
+			Reading sid prbk.parents.text End-Reading
+			
+			Title sid prbk.priesthood.title End-Title
+			Reading sid prbk.priesthood.text End-Reading
+			
+			Title sid prbk.married.title End-Title
+			Reading sid prbk.married.text End-Reading
+		End-Section
 	End-Section
 
 End-Template
