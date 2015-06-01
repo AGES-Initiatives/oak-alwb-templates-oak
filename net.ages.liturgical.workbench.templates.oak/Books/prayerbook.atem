@@ -198,6 +198,20 @@ Status Draft
 			
 			Title sid prbk.married.title End-Title
 			Reading sid prbk.married.text End-Reading
+			
+			Title sid prbk.single.title End-Title
+			Reading sid prbk.single.text End-Reading
+			
+			Title sid prbk.child.title End-Title
+			Reading sid prbk.child.text End-Reading
+			
+			Title sid prbk.journey.title End-Title
+			Reading sid prbk.journey.text End-Reading
+			
+			Title sid prbk.trouble1.title End-Title
+			Reading sid prbk.trouble1.text End-Reading
+			Title sid prbk.trouble2.title End-Title
+			Reading sid prbk.trouble2.text End-Reading
 		End-Section
 	End-Section
 
