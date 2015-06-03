@@ -212,6 +212,16 @@ Status Draft
 			Reading sid prbk.trouble1.text End-Reading
 			Title sid prbk.trouble2.title End-Title
 			Reading sid prbk.trouble2.text End-Reading
+			
+			Title sid prbk.sick1.title End-Title
+			Reading sid prbk.sick1.text End-Reading
+			Title sid prbk.sick2.title End-Title
+			Reading sid prbk.sick2.text End-Reading
+			Title sid prbk.sick3.title End-Title
+			Reading sid prbk.sick3.text End-Reading
+			
+			Title sid prbk.demon.title End-Title
+			Reading sid prbk.demon.text End-Reading
 		End-Section
 	End-Section
 
