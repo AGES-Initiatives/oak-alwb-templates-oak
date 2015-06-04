@@ -222,6 +222,12 @@ Status Draft
 			
 			Title sid prbk.demon.title End-Title
 			Reading sid prbk.demon.text End-Reading
+			
+			Title sid prbk.enemies.title End-Title
+			Reading sid prbk.enemies.text End-Reading
+			
+			Title sid prbk.peace.title End-Title
+			Reading sid prbk.peace.text End-Reading
 		End-Section
 	End-Section
 
