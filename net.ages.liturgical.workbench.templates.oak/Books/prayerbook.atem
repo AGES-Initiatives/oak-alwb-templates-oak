@@ -228,6 +228,30 @@ Status Draft
 			
 			Title sid prbk.peace.title End-Title
 			Reading sid prbk.peace.text End-Reading
+			
+			Title sid prbk.love.title End-Title
+			Reading sid prbk.love.text End-Reading
+		End-Section
+		
+		Section studyprayers
+			Title sid prbk.title.studyprayers End-Title
+			
+			Title sid prbk.student.title End-Title
+			Reading sid prbk.student.text End-Reading
+			
+			Title sid prbk.beforestudy.title End-Title
+			Reading sid prbk.beforestudy1.text End-Reading
+			Reading sid prbk.beforestudy2.text End-Reading
+			Title sid prbk.afterstudy.title End-Title
+			Reading sid prbk.afterstudy.text End-Reading
+		End-Section
+		
+		Section occasionalprayers3
+			Title sid prbk.miscarriage.title End-Title
+			Reading sid prbk.miscarriage.text End-Reading
+			
+			Title sid prbk.dead.title End-Title
+			Reading sid prbk.dead.text End-Reading
 		End-Section
 	End-Section
 
