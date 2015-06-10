@@ -252,6 +252,12 @@ Status Draft
 			
 			Title sid prbk.dead.title End-Title
 			Reading sid prbk.dead.text End-Reading
+			
+			Title sid prbk.newyear.title End-Title
+			Reading sid prbk.newyear.text End-Reading
+			
+			Title sid prbk.generalintercession.title End-Title
+			Reading sid prbk.generalintercession.text End-Reading
 		End-Section
 	End-Section
 
