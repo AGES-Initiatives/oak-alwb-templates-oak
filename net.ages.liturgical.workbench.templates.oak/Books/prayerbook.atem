@@ -44,11 +44,12 @@ Status Draft
 			Title sid Trisagion End-Title
 			Dialog sid EisToOnoma sid res04 End-Dialog
 			Rubric sid prbk.rubric2.morningprayers End-Rubric
-			Dialog sid prbk.mercy sid prbk.thoughtheprayers sid res04 End-Dialog
+			Dialog sid prbk.mercy sid prbk.throughtheprayers sid res04 End-Dialog
 			Dialog sid DoxaSoiChriste1 End-Dialog
 			Dialog sid VasilefOuranie.text End-Dialog
 			Dialog sid AgiosOTheos.text sid Thrice End-Dialog // red?
-			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn				Dialog sid PanagiaTrias.text End-Dialog
+			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
+			Dialog sid PanagiaTrias.text End-Dialog
 			Dialog sid res01 sid Thrice End-Dialog
 			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
 			Dialog sid PaterImon.text End-Dialog
@@ -259,6 +260,34 @@ Status Draft
 			Title sid prbk.generalintercession.title End-Title
 			Reading sid prbk.generalintercession.text End-Reading
 		End-Section
+	End-Section
+	
+	Section communionprayers
+		Title sid prbk.title.communionprayers End-Title
+		
+		Title sid prbk.title.communionprep End-Title
+		
+		Section Trisagion
+			Dialog sid prbk.mercy sid prbk.throughtheprayers sid res04 End-Dialog
+			Dialog sid DoxaSoiChriste1 End-Dialog
+			Dialog sid VasilefOuranie.text End-Dialog
+			Dialog sid AgiosOTheos.text sid Thrice End-Dialog // red?
+			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn				
+			Dialog sid PanagiaTrias.text End-Dialog
+			Dialog sid res01 sid Thrice End-Dialog
+			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
+			Dialog sid PaterImon.text End-Dialog
+			Dialog sid DiEfchonPateron.text End-Dialog
+			Dialog sid res01 sid Twelve End-Dialog
+			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
+		End-Section
+		
+		Rubric sid prbk.rubric.communionprep1 End-Rubric
+		
+		Dialog sid DefteProskinisomen1 End-Dialog
+		Dialog sid DefteProskinisomen2 End-Dialog
+		Dialog sid DefteProskinisomen3 End-Dialog
+		
 	End-Section
 
 End-Template
