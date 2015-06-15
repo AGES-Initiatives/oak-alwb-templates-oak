@@ -10,6 +10,7 @@ Status Draft
 	import ho.s10_gr_GR_cog.*
 	import ho.s12_gr_GR_cog.*
 	import actors_gr_GR_cog.*
+	import ps_gr_GR_cog.*
 
 	Section cover
 		Title sid prbk.cover1 End-Title
@@ -287,6 +288,27 @@ Status Draft
 		Dialog sid DefteProskinisomen1 End-Dialog
 		Dialog sid DefteProskinisomen2 End-Dialog
 		Dialog sid DefteProskinisomen3 End-Dialog
+		
+		// psalms added by MP according to longer prayerbooks
+		Title sid psa22.title End-Title
+		Reading sid psa22.text End-Reading
+		Title sid psa23.title End-Title
+		Reading sid psa23.text End-Reading
+		Title sid psa115.title End-Title
+		Reading sid psa115.text End-Reading
+		
+		// title = ?
+		Reading sid prbk.communiontroparia1.text End-Reading
+		Dialog sid DoxaPatri.text End-Dialog
+		Reading sid prbk.communiontroparia2.text End-Reading
+		Dialog sid KaiNynKaiAei.text End-Dialog
+		Reading sid prbk.communiontroparia3.text End-Reading
+		Dialog sid res01 sid Forty End-Dialog // red???
+		
+		Rubric sid prbk.rubric.communionprep2 End-Rubric
+		
+		Title sid prbk.communion1.title End-Title
+		Reading sid prbk.communion1.text End-Reading
 		
 	End-Section
 
