@@ -494,7 +494,7 @@ Status Review
 		
 		Dialog sid Asterisks End-Dialog
 		Rubric sid li.rubric.notsunday End-Rubric
-		Hymn sid me.m10.d28a_gr_GR_cog.meLI.Antiphon2.text End-Hymn
+//		Hymn sid me.m10.d28a_gr_GR_cog.meLI.Antiphon2.text End-Hymn
 		Dialog sid Asterisks End-Dialog
 		
 		Dialog <r> sid vVerse2 </> sid psa145.v5.text <r> sid psa145.v5.number </> End-Dialog
@@ -591,7 +591,7 @@ Status Review
 		
 		Dialog sid Asterisks End-Dialog
 		Rubric sid li.rubric.notsunday End-Rubric
-		Hymn sid me.m10.d28a_gr_GR_cog.meLI.Antiphon2.text End-Hymn
+//		Hymn sid me.m10.d28a_gr_GR_cog.meLI.Antiphon2.text End-Hymn
 		Rubric sid li.rubric.sundaysofpascha End-Rubric
 		Hymn sid psa67.v27.text sid hoLI.Antiphon21.text media-off sid hoLI.EntranceHymn2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
 		Dialog sid Asterisks End-Dialog
@@ -869,7 +869,7 @@ Status Review
 		Rubric sid li.rubric.anastasin End-Rubric
 		Dialog sid hoMA.SunPostGospel.text End-Dialog
 		Rubric sid li.rubric.andpsalmor End-Rubric
-		Dialog sid hoLI.EntranceHymn.text sid me.m10.d28a_gr_GR_cog.meLI.Antiphon2.text <r> sid Thrice </> End-Dialog
+//		Dialog sid hoLI.EntranceHymn.text sid me.m10.d28a_gr_GR_cog.meLI.Antiphon2.text <r> sid Thrice </> End-Dialog
 		// check if this is the right hymn
 		Rubric sid li.rubric.forgive End-Rubric
 		Dialog sid li.forgive <r> sid li.rubric.orsimilar </> End-Dialog
