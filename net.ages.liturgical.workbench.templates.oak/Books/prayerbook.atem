@@ -11,6 +11,7 @@ Status Draft
 	import ho.s12_gr_GR_cog.*
 	import actors_gr_GR_cog.*
 	import ps_gr_GR_cog.*
+	import ho.s21_gr_GR_cog.*
 
 	Section cover
 		Title sid prbk.cover1 End-Title
@@ -309,6 +310,14 @@ Status Draft
 		
 		Title sid prbk.communion1.title End-Title
 		Reading sid prbk.communion1.text End-Reading
+		
+		Title sid prbk.communion2.title End-Title
+		Reading sid prbk.communion2.text End-Reading
+		
+		Title sid prbk.communion3.title End-Title
+		Reading sid prbk.communion3.text End-Reading
+		
+		Title sid prbk.title.communionprayers2 End-Title
 		
 	End-Section
 
