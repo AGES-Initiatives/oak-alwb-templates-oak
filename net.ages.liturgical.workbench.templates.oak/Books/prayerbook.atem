@@ -318,6 +318,9 @@ Status Draft
 		Reading sid prbk.communion3.text End-Reading
 		
 		Title sid prbk.title.communionprayers2 End-Title
+		Reading sid hoPCPrayer.PistevoKyrie.text End-Reading
+		Reading sid hoPCPrayer.IdouVadizo.text End-Reading
+		Reading sid hoPCPrayer.TouDeipnouSou.text End-Reading
 		
 	End-Section
 
