@@ -10,6 +10,7 @@ Status Draft
 	import ho.s10_gr_GR_cog.*
 	import ho.s12_gr_GR_cog.*
 	import actors_gr_GR_cog.*
+	import actors_gr_KE_oak.*
 	import ps_gr_GR_cog.*
 	import ho.s21_gr_GR_cog.*
 
@@ -364,6 +365,33 @@ Status Draft
 		Dialog sid leosTY.Beatitudes_Intro.text End-Dialog
 		Reading sid leosTY.Beatitudes_v10.text End-Reading
 		Dialog sid leosTY.Beatitudes_Intro.text End-Dialog
+	End-Section
+	
+	Section childservices
+		Title sid prbk.title.child End-Title
+		
+		Section newborn
+			Title sid prbk.title.newborn End-Title
+			
+			Actor sid Priest End-Actor
+			Dialog sid enarxis01 End-Dialog
+			Actor sid Mother End-Actor // find in gr_KE_oak--MP
+			Dialog sid res04 End-Dialog
+			Dialog sid AgiosOTheos.text sid Thrice End-Dialog // red?
+			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
+			Dialog sid PanagiaTrias.text End-Dialog
+			Dialog sid res01 sid Thrice End-Dialog
+			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
+			Dialog sid PaterImon.text End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid exc20 End-Dialog
+			Actor sid Mother End-Actor
+			Dialog sid res04 End-Dialog
+		End-Section
+		
+		Section namechild
+			Title sid prbk.title.name End-Title
+		End-Section
 	End-Section
 
 End-Template
