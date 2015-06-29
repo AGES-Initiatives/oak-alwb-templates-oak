@@ -387,6 +387,11 @@ Status Draft
 			Dialog sid exc20 End-Dialog
 			Actor sid Mother End-Actor
 			Dialog sid res04 End-Dialog
+			
+			Actor sid Priest End-Actor
+			Dialog sid prbk.newborn1 End-Dialog
+			Actor sid Mother End-Actor
+			Dialog sid res04 End-Dialog
 		End-Section
 		
 		Section namechild
