@@ -34,6 +34,7 @@ Status Review
 //	OAK Imports
 	import bk.psalter.*
 	import pub.priest.servicebook_gr_GR_cog.*
+	import pub.priest.servicebook_en_US_constantinides.*
 
 Head
 	Template_Title @text"Funeral" End_Title
@@ -53,7 +54,7 @@ Head
 End_Head
 	
 
-	Title role cover1 sid euFUN.title End-Title
+//	Title role cover1 sid euFUN.title End-Title // unable to resolve error
 	
 	Rubric sid fu.rubric.arrivalatchurch End-Rubric
 	
@@ -67,7 +68,7 @@ End_Head
 	Reading sid psa90.text End-Reading
 	
 	Rubric sid fu.rubric.psalm118 End-Rubric
-	Title role desig sid euFUN.Key0300.title End-Title
+//	Title role desig sid euFUN.KEY0300.title End-Title // unable to resolve error
 	Title role mode sid euFUN.Key0300.mode End-Title
 	Media sid euFUN.Key0300.text End-Media
 	Para role chant sid psa118.v0.text sid Allilouia End-Para
@@ -215,16 +216,16 @@ End_Head
 	
 	Title role desig sid euFUN.Key0900.title End-Title
 	Hymn sid beatitude1 End-Hymn
-	Hymn sid beatitude2 End-Hymn
-	Hymn sid beatitude3 End-Hymn
-	Hymn sid beatitude4 End-Hymn
-	Hymn sid beatitude5 End-Hymn
-	Hymn sid beatitude6 End-Hymn
-	Hymn sid beatitude7 End-Hymn
-	Hymn sid beatitude8 End-Hymn
-	Hymn sid beatitude9 End-Hymn
-	Hymn sid beatitude10 End-Hymn
-	Hymn sid beatitude11 End-Hymn
+	Hymn sid matt5v3 End-Hymn
+	Hymn sid matt5v4 End-Hymn
+	Hymn sid matt5v5 End-Hymn
+	Hymn sid matt5v6 End-Hymn
+	Hymn sid matt5v7 End-Hymn
+	Hymn sid matt5v8 End-Hymn
+	Hymn sid matt5v9 End-Hymn
+	Hymn sid matt5v10 End-Hymn
+	Hymn sid matt5v11 End-Hymn
+	Hymn sid matt5v12 End-Hymn
 	
 	Actor sid People End-Actor
 	Title sid Prokeimenon <r> sid Mode3 </> End-Title
