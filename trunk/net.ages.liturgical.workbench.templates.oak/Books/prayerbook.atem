@@ -13,6 +13,8 @@ Status Draft
 	import actors_gr_KE_oak.*
 	import ps_gr_GR_cog.*
 	import ho.s21_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import oc.m1.d2_gr_GR_cog.*
 
 	Section cover
 		Title sid prbk.cover1 End-Title
@@ -392,11 +394,76 @@ Status Draft
 			Dialog sid prbk.newborn1 End-Dialog
 			Actor sid Mother End-Actor
 			Dialog sid res04 End-Dialog
+			
+			Actor sid Priest End-Actor
+			Dialog sid pet00 End-Dialog
+			Actor sid Mother End-Actor
+			Dialog sid res01 End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid prbk.newborn2 End-Dialog
+			Actor sid Mother End-Actor
+			Dialog sid res04 End-Dialog
+			
+			Actor sid Priest End-Actor
+			Dialog sid DoxaSoiChriste2 End-Dialog
+			Dialog sid dis01 sid dis00.christmas sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08 sid dis09 sid dis10 sid dis89 End-Dialog
+			Dialog sid DiEfchonPateron.text End-Dialog
+			Actor sid Mother End-Actor
+			Dialog sid res04 End-Dialog
 		End-Section
 		
 		Section namechild
 			Title sid prbk.title.name End-Title
+			
+			Actor sid Priest End-Actor
+			Dialog sid enarxis01 End-Dialog
+			Actor sid Mother End-Actor // find in gr_KE_oak--MP
+			Dialog sid res04 End-Dialog
+			Dialog sid AgiosOTheos.text sid Thrice End-Dialog // red?
+			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
+			Dialog sid PanagiaTrias.text End-Dialog
+			Dialog sid res01 sid Thrice End-Dialog
+			Dialog sid li.preparation.doxapatrikainyn End-Dialog // change to just doxapatrikainyn
+			Dialog sid PaterImon.text End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid exc20 End-Dialog
+			Actor sid Mother End-Actor
+			Dialog sid res04 End-Dialog
+			
+			Rubric sid prbk.rubric.thentroparion End-Rubric
+			Dialog sid ocVE.Aposticha3.text End-Dialog
+			
+			Actor sid Priest End-Actor
+			Dialog sid pet00 End-Dialog
+			Actor sid Mother End-Actor
+			Dialog sid res01 End-Dialog
+			
+			Rubric sid prbk.rubric.sealchild End-Rubric
+			Dialog sid prbk.naming End-Dialog
+			Dialog sid exc07a End-Dialog
+			Actor sid Mother End-Actor
+			Dialog sid res04 End-Dialog
+			
+			Rubric sid ThenSingSlowly End-Rubric
+			Hymn sid li.meetinglord.apolytikion End-Hymn
+			
+			Dialog sid ocVE.Aposticha3.text End-Dialog
+			Actor sid Mother End-Actor
+			Dialog sid res04 End-Dialog
 		End-Section
+	End-Section
+	
+	Section confession
+	Title sid prbk.title.confession End-Title
+	Reading sid prbk.confession.text End-Reading
+	Title sid prbk.title.confession2 End-Title
+	Reading sid prbk.confession2.text End-Reading
+	Title sid prbk.title.confession3 End-Title
+	Reading sid prbk.confession3.text End-Reading
+	Title sid prbk.title.confession4 End-Title
+	Reading sid prbk.confession4.text End-Reading
+	Title sid prbk.title.confession5 End-Title
+	Reading sid prbk.checklist1.text End-Reading
 	End-Section
 
 End-Template
