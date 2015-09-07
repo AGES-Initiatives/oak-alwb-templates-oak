@@ -472,6 +472,8 @@ Status Draft
 	Title sid prbk.commandments.title End-Title
 	Reading sid prbk.commandments.text1 End-Reading
 	Reading sid prbk.commandments.text End-Reading
+	
+	
 	End-Section
 
 End-Template
