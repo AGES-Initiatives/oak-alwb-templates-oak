@@ -464,6 +464,14 @@ Status Draft
 	Reading sid prbk.confession4.text End-Reading
 	Title sid prbk.title.confession5 End-Title
 	Reading sid prbk.checklist1.text End-Reading
+	Title sid prbk.checklist2.title End-Title
+	Reading sid prbk.checklist2.text End-Reading
+	Title sid prbk.checklist3.title End-Title
+	Reading sid prbk.checklist3.text End-Reading
+	
+	Title sid prbk.commandments.title End-Title
+	Reading sid prbk.commandments.text1 End-Reading
+	Reading sid prbk.commandments.text End-Reading
 	End-Section
 
 End-Template
