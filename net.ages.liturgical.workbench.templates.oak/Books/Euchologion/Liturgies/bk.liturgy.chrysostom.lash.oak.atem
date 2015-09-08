@@ -77,10 +77,10 @@ Status Review
 		Dialog sid VasilefOuranie.text End-Dialog
 		Actor sid Deacon End-Actor
 		Dialog sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
-		Dialog sid li.preparation.doxapatrikainyn End-Dialog
+		Dialog sid doxapatrikainyn End-Dialog
 		Dialog sid PanagiaTrias.text End-Dialog
 		Dialog sid res01 <r> sid Thrice </> End-Dialog
-		Dialog sid li.preparation.doxapatrikainyn End-Dialog
+		Dialog sid doxapatrikainyn End-Dialog
 		Dialog sid PaterImon.text End-Dialog
 		Actor sid Priest End-Actor
 		Dialog sid exc20 End-Dialog
@@ -291,7 +291,7 @@ Status Review
 		Rubric sid li.rubric.dismissal End-Rubric
 		Dialog sid DoxaSoiChriste2 End-Dialog
 		Actor sid Deacon End-Actor
-		Dialog sid li.preparation.doxapatrikainyn sid res01 <r> sid Thrice </> sid res13 End-Dialog
+		Dialog sid doxapatrikainyn sid res01 <r> sid Thrice </> sid res13 End-Dialog
 		Actor sid Priest End-Actor
 		Dialog sid dis00.resurrection sid dis01 sid dis02 sid li.preparation.commemmorationchrysostom sid dis10 sid dis88 End-Dialog
 		Actor sid Deacon End-Actor
@@ -1426,7 +1426,7 @@ Status Review
 	Section Section36
 		Section comyes
 			Actor sid Reader End-Actor
-			Dialog sid li.preparation.doxapatrikainyn sid res06 sid res13 End-Dialog
+			Dialog sid doxapatrikainyn sid res06 sid res13 End-Dialog
 			
 			Actor sid Priest End-Actor
 			Dialog sid li.dis.oanastas <r> sid li.rubric.sundaydismissal </> sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid li.dis.fathersmothers sid li.dis.ofsaint <r> sid li.dis.oftemple </> sid li.dis.chrysostom sid dis09 sid li.dis.ofsaint <r> sid li.dis.ofday </> sid li.dis.memory sid dis10 sid dis88 End-Dialog 
@@ -1966,10 +1966,10 @@ Status Review
 		
 		Actor sid Reader End-Actor
 		Dialog sid res04 sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
-		Dialog sid li.preparation.doxapatrikainyn End-Dialog
+		Dialog sid doxapatrikainyn End-Dialog
 		Dialog sid PanagiaTrias.text End-Dialog
 		Dialog sid res01 <r> sid Thrice </> End-Dialog
-		Dialog sid li.preparation.doxapatrikainyn End-Dialog
+		Dialog sid doxapatrikainyn End-Dialog
 		Dialog sid PaterImon.text End-Dialog
 		Actor sid Priest End-Actor
 		Dialog sid exc20 End-Dialog
@@ -2077,7 +2077,7 @@ Status Review
 		Dialog sid DoxaSoiChriste2 End-Dialog
 		
 		Actor sid Reader End-Actor
-		Dialog sid li.preparation.doxapatrikainyn sid res01 <r> sid Thrice </> sid res12 End-Dialog
+		Dialog sid doxapatrikainyn sid res01 <r> sid Thrice </> sid res12 End-Dialog
 		
 		Rubric sid li.rubric.dodismissal End-Rubric
 		Actor sid Priest End-Actor
