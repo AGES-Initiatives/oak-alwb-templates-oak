@@ -17,6 +17,7 @@ Status Draft
 	import oc.m1.d2_gr_GR_cog.*
 	import prayers_gr_KE_oak.*
 	import oc.m6.d2.gr_GR_cog.*
+	import oc.m6.d5.gr_GR_cog.*
 
 	Section cover
 		Title sid prbk.cover1 End-Title
@@ -433,7 +434,7 @@ Status Draft
 			Dialog sid res04 End-Dialog
 			
 			Rubric sid prbk.rubric.thentroparion End-Rubric
-			Dialog sid ocVE.Aposticha3.text End-Dialog // correct to oc.m1.d2
+			Dialog sid oc.m1.d2_gr_GR_cog.ocVE.Aposticha3.text End-Dialog
 			
 			Actor sid Priest End-Actor
 			Dialog sid pet00 End-Dialog
@@ -449,7 +450,7 @@ Status Draft
 			Rubric sid ThenSingSlowly End-Rubric
 			Hymn sid li.meetinglord.apolytikion End-Hymn
 			
-			Dialog sid ocVE.Aposticha3.text End-Dialog // correct to oc.m1.d2
+			Dialog sid oc.m1.d2_gr_GR_cog.ocVE.Aposticha3.text End-Dialog
 			Actor sid Mother End-Actor
 			Dialog sid res04 End-Dialog
 		End-Section
@@ -559,7 +560,41 @@ Status Draft
 				End-Section
 				
 			Rubric sid prbk.rubric.thentroparion2 End-Rubric
-			Reading sid ocMA.Kathisma21.text End-Reading // correct to oc.m6.d2
+			Reading sid oc.m6.d2_gr_GR_cog.ocMA.Kathisma21.text End-Reading
+			Dialog sid DoxaPatri.text End-Dialog
+			Reading sid oc.m6.d2_gr_GR_cog.ocMA.Kathisma22.text End-Reading
+			Dialog sid KaiNynKaiAei.text End-Dialog
+			Reading sid oc.m6.d5_gr_GR_cog.ocMA.Kathisma13.text End-Reading
+			
+			Rubric sid prbk.rubric.confessional3 End-Rubric
+			Actor sid Penitent End-Actor
+			Dialog sid prbk.beginconfession End-Dialog
+			
+			Actor sid Priest End-Actor
+			Dialog sid pet00 End-Dialog
+			Actor sid Penitent End-Actor
+			Dialog sid res01 End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid prbk.confessionprayer2 End-Dialog
+			Dialog sid exc01 End-Dialog
+			Actor sid Penitent End-Actor
+			Dialog sid res04 End-Dialog
+			
+			Rubric sid prbk.rubric.confessional4 End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid prbk.beginconfession2 End-Dialog
+			
+			Rubric sid prbk.rubric.confessional5 End-Rubric
+			Actor sid Priest End-Actor
+			Reading sid prbk.confessionprayer3 End-Reading
+			
+			Rubric sid prbk.rubric.confessional6 End-Rubric
+			Actor sid Priest End-Actor
+			Reading sid prbk.confessionprayer4 End-Reading
+			Reading sid DiEfchonPateron.text End-Reading
+			
+			Title sid prbk.confessionprayer5.title End-Title
+			Title sid prbk.confessionprayer5.title.b End-Title
 		End-Section
 	End-Section
 
