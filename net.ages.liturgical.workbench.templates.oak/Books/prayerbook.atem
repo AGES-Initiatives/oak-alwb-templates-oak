@@ -18,6 +18,7 @@ Status Draft
 	import prayers_gr_KE_oak.*
 	import oc.m6.d2.gr_GR_cog.*
 	import oc.m6.d5.gr_GR_cog.*
+	import misc_gr_GR_cog.*
 
 	Section cover
 		Title sid prbk.cover1 End-Title
@@ -595,7 +596,39 @@ Status Draft
 			
 			Title sid prbk.confessionprayer5.title End-Title
 			Title sid prbk.confessionprayer5.title.b End-Title
+			Reading sid prbk.confessionprayer5 End-Reading
+			
+			Title sid prbk.title.anotherprayer End-Title
+			Reading sid prbk.confessionprayer6 End-Reading
+			
+			Title sid prbk.penanceprayer.title End-Title
+			Reading sid prbk.penanceprayer.text End-Reading
+			Reading sid exc03 End-Reading
 		End-Section
+	End-Section
+	
+	Section apolytikia
+		Title sid li.apolytikia.title End-Title
+		Title sid li.intones.title End-Title
+		
+		Rubric sid Mode1 End-Rubric
+		Hymn sid li.apolytikiontone1 End-Hymn
+		Rubric sid Mode2 End-Rubric
+		Hymn sid li.apolytikiontone2 End-Hymn
+		Rubric sid Mode3 End-Rubric
+		Hymn sid li.apolytikiontone3 End-Hymn
+		Rubric sid Mode4 End-Rubric
+		Hymn sid li.apolytikiontone4 End-Hymn
+		Rubric sid Mode5 End-Rubric
+		Hymn sid li.apolytikiontone5 End-Hymn
+		Rubric sid Mode6 End-Rubric
+		Hymn sid li.apolytikiontone6 End-Hymn
+		Rubric sid Mode7 End-Rubric
+		Hymn sid li.apolytikiontone7 End-Hymn
+		Rubric sid Mode8 End-Rubric
+		Hymn sid li.apolytikiontone8 End-Hymn
+		
+		Reading sid prbk.apolytikianote End-Reading
 	End-Section
 
 End-Template
