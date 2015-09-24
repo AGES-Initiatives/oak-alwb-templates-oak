@@ -409,7 +409,7 @@ Status Review
 		Dialog sid pet04 End-Dialog
 		Dialog sid pet06 End-Dialog
 		Dialog sid pet07S End-Dialog
-		Dialog sid pet08alt End-Dialog
+//		Dialog sid pet08alt End-Dialog
 		Dialog sid pet09 End-Dialog
 		Dialog sid pet10 End-Dialog
 		Dialog sid pet11 End-Dialog
@@ -1208,7 +1208,7 @@ Status Review
 	Section Section27
 		Rubric sid li.rubric.communionhymn End-Rubric
 		Rubric sid li.rubric.communionhymnsunday End-Rubric
-		Hymn sid psa148.v1.text sid li.alleluia <r> sid li.rubric.communionhymnfullattribution </> End-Hymn
+		Hymn sid psa148.v1.text sid Allilouia3.text <r> sid li.rubric.communionhymnfullattribution </> End-Hymn
 		Rubric sid li.rubric.communionhymnotherdays End-Rubric
 		Break line End_Break
 	End-Section
