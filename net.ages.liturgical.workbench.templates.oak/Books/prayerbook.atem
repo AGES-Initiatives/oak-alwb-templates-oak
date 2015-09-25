@@ -19,6 +19,8 @@ Status Draft
 	import oc.m6.d2.gr_GR_cog.*
 	import oc.m6.d5.gr_GR_cog.*
 	import misc_gr_GR_cog.*
+	import oc.m2.d4_gr_GR_cog.*
+	import he.a.m2_gr_GR_cog.*
 
 	Section cover
 		Title sid prbk.cover1 End-Title
@@ -133,13 +135,13 @@ Status Draft
 			Reading sid leosVE.Prayer_NynApolyeis.text End-Reading
 		
 			Title sid prbk.iconchrist.title End-Title
-			Reading sid prbk.iconchrist.text End-Reading
+			Reading sid oc.m2.d4_gr_GR_cog.ocMA.Kathisma21.text End-Reading
 		
 			Title sid Jesusprayer.title End-Title
 			Reading sid Jesusprayer.text End-Reading
 		
 			Title sid prbk.icontheotokos.title End-Title
-			Reading sid prbk.icontheotokos.text End-Reading
+			Reading sid EfsplagchniasYparchousa.text End-Reading
 		
 			Title sid prbk.songtheotokos.title End-Title
 			Reading sid AxionEstin.text End-Reading

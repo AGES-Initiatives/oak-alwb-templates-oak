@@ -1,0 +1,133 @@
+Template bk.liturgy.slavonicstyle
+Status Draft
+
+import client_gr_GR_cog.*
+	import eu.lichrysbasil_gr_GR_cog.*
+	import ho.s07_gr_GR_cog.* // antiphon refrains
+	import ho.s21_gr_GR_cog.* //for pre-communion prayers
+	import oc.m6.d2_gr_GR_cog.*
+	import oc.m4.d4_gr_GR_cog.*
+	import me.m10.d28a_gr_GR_cog.*
+	import oc.m4.d1_gr_GR_cog.*
+	import ho.s03_gr_GR_cog.*
+	import eu.funeral_gr_GR_cog.*
+
+	import me.*
+	import pe.*
+	import tr.*
+
+	import actors_gr_GR_cog.*
+	import misc_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+	import ps_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import le.go.os_gr_GR_cog.*
+	import poets_gr_GR_cog.*
+	import oc.m6.d2_gr_GR_cog.*
+	import oc.m6.d5_gr_GR_cog.*
+	import oc.m2.d4_gr_GR_cog.*
+	import prayerbook_gr_KE_oak.*
+	import prayers_gr_KE_oak.*
+	import he.a.m2_gr_GR_cog.*
+	
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	//templates	
+	import bk.ap.da.sections.*
+	import Litanies.*
+	import pub.priest.servicebook_gr_GR_cog.*
+	
+	Head 
+//		Set_Date month  day  End_Date
+			Page_Header_Even
+				center @text "Divine Liturgy of St. John Chrysostom"
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @text "Divine Liturgy of St. John Chrysostom"
+			End_Page_Header_Odd
+			Page_Footer_Even
+				center @pageNbr
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				center @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+	
+	Section Book_title
+		Title role cover1 sid li.servicebook.title End-Title
+		Title role cover1 sid li.servicebook.title2 End-Title
+		Title role cover1 sid li.servicebook.title3 End-Title
+	End-Section
+	
+	Section Section_preparation
+		Title sid li.preparation.preliminaries.title End-Title
+		Rubric sid li.rubric.part1 End-Rubric
+		Title sid li.priestpreparation.title End-Title
+		Title sid li.holydoors.title End-Title
+		Rubric sid li.rubric.enteringbows End-Rubric
+		
+		Actor sid Priest End-Actor
+		Dialog sid li.preparation.mercy2 End-Dialog
+		Dialog sid enarxis01 End-Dialog
+		
+		Actor sid Deacon End-Actor
+		Dialog sid res04 End-Dialog
+		
+		Actor sid Priest End-Actor
+		Dialog sid DoxaSoiOTheosImon.text End-Dialog
+		Dialog sid VasilefOuranie.text End-Dialog
+		
+		Section Trisagion 
+			Actor sid Deacon End-Actor
+			Dialog sid AgiosOTheos.text sid Thrice End-Dialog
+			Dialog sid doxapatrikainyn End-Dialog
+			Dialog sid PanagiaTrias.text End-Dialog
+			Dialog sid res01 sid Thrice End-Dialog
+			Dialog sid doxapatrikainyn End-Dialog
+			Dialog sid PaterImon.text End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid exc20 End-Dialog
+			Actor sid Deacon End-Actor
+			Dialog sid res01 sid Thrice End-Dialog
+			Dialog sid doxapatrikainyn End-Dialog
+		End-Section
+		
+		Actor sid Priest End-Actor
+		Dialog sid oc.m6.d2_gr_GR_cog.ocMA.Kathisma21.text End-Dialog
+		Actor sid Deacon End-Actor
+		Dialog sid DoxaPatri.text End-Dialog
+		Dialog sid oc.m6.d2_gr_GR_cog.ocMA.Kathisma22.text End-Dialog
+		Rubric sid li.rubric.open End-Rubric
+		Dialog sid KaiNynKaiAei.text End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid oc.m6.d5_gr_GR_cog.ocMA.Kathisma13.text End-Dialog
+		
+		Title sid li.iconprayers.title End-Title
+		Rubric sid li.rubric.iconchrist End-Rubric
+		Rubric sid prbk.iconchrist.title End-Rubric
+		Actor sid Priest End-Actor
+		Reading sid oc.m2.d4_gr_GR_cog.ocMA.Kathisma21.text End-Reading
+		
+		Rubric sid prbk.icontheotokos.title End-Rubric
+		Reading sid EfsplagchniasYparchousa.text End-Reading
+		
+		Rubric sid li.rubric.aftervenerating End-Rubric
+		Reading sid li.preparation.kyrieexaposteilon End-Reading
+		
+		Rubric sid li.rubric.entrance End-Rubric
+		Dialog sid psa5.v8.text End-Dialog
+		Rubric sid li.rubric.veneratealtar End-Rubric
+		
+		Section vesting
+			Title sid li.vesting.title End-Title
+			Rubric sid li.rubric.boweast End-Rubric
+			Dialog sid li.preparation.mercy2 sid Thrice End-Dialog
+		End-Section
+	End-Section
+End-Template

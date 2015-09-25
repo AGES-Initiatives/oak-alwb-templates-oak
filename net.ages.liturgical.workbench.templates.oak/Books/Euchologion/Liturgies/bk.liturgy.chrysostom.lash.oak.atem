@@ -26,6 +26,10 @@ Status Review
 	import dismissals_gr_GR_cog.*
 	import le.go.os_gr_GR_cog.*
 	import poets_gr_GR_cog.*
+	import oc.m6.d5_gr_GR_cog.*
+	import oc.m2.d4_gr_GR_cog.*
+	import prayers_gr_KE_oak.*
+	import he.a.m2_gr_GR_cog.*
 	
 	import iTags.*
 	import bTags.*
@@ -94,15 +98,15 @@ Status Review
 		Dialog sid oc.m6.d2_gr_GR_cog.ocMA.Kathisma22.text End-Dialog
 		Actor sid Priest End-Actor
 		Dialog sid KaiNynKaiAei.text End-Dialog
-		Dialog sid li.preparation.tisefsplanknis End-Dialog
+		Dialog sid oc.m6.d5_gr_GR_cog.ocMA.Kathisma13.text End-Dialog
 		Actor sid Deacon End-Actor
 		Dialog sid res01 <r> sid Twelve </> End-Dialog
 		
 		Rubric sid li.rubric.iconchrist End-Rubric
-		Dialog sid li.preparation.tinahranton End-Dialog
+		Dialog sid oc.m2.d4_gr_GR_cog.ocMA.Kathisma21.text End-Dialog
 		
 		Rubric sid li.rubric.icontheotokos End-Rubric
-		Dialog sid li.preparation.efsplankniaspigi End-Dialog
+		Dialog sid EfsplagchniasYparchousa.text End-Dialog
 		
 		Rubric sid li.rubric.iconforerunner End-Rubric
 		Dialog sid li.preparation.mnimidikaiou End-Dialog
