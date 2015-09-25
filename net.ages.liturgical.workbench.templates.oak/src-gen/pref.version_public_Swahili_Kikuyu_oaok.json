@@ -1,0 +1,28 @@
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|date|locale|language|v1', 'text' : 'el'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|date|locale|country|v1', 'text' : 'GR'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|date|locale|language|v2', 'text' : 'en'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|date|locale|country|v2', 'text' : 'KE'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|date|format|v1', 'text' : 'EEE, d MMM'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|date|format|v2', 'text' : 'EEEE, MMMM d'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|date|format|ldp', 'text' : 'EEEE, MMMM d, yyyy'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|epistle|v1|preferred', 'text' : 'gr_GR_cog'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|epistle|v1|fallback', 'text' : 'gr_GR_cog'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|epistle|v2|preferred', 'text' : 'en_US_rsv'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|epistle|v2|fallback', 'text' : 'en_US_rsv'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|gospel|v1|preferred', 'text' : 'en_US_rsv'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|gospel|v1|fallback', 'text' : 'en_US_nkjv'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|gospel|v2|preferred', 'text' : 'swh_KE_oak'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|gospel|v2|fallback', 'text' : 'en_US_nkjv'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|prophetologion|v1|preferred', 'text' : 'gr_GR_cog'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|prophetologion|v1|fallback', 'text' : 'gr_GR_cog'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|prophetologion|v2|preferred', 'text' : 'en_UK_lash'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|lectionary|text|prophetologion|v2|fallback', 'text' : 'en_US_saas'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|liturgical|text|v1|preferred', 'text' : 'swh_KE_oak'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|liturgical|text|v1|fallback', 'text' : 'en_US_constantinides'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|liturgical|text|v2|preferred', 'text' : 'kik_KE_oak'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|liturgical|text|v2|fallback', 'text' : 'en_US_constantinides'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|psalter|text|v1|preferred', 'text' : 'en_US_saas'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|psalter|text|v1|fallback', 'text' : 'en_US_rsv'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|psalter|text|v2|preferred', 'text' : 'swh_KE_oak'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|psalter|text|v2|fallback', 'text' : 'en_US_rsv'}
+{'id_' : 'pref|version_public_Swahili_Kikuyu_oaok|template|keys', 'text' : 'gr_GR_cog'}

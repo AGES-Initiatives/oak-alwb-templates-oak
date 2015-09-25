@@ -1,0 +1,25 @@
+{'id_' : 'pref|website_public_oaok|generated|website|folder|root', 'text' : 'liml/public'}
+{'id_' : 'pref|website_public_oaok|generated|website|folder|services', 'text' : 's'}
+{'id_' : 'pref|website_public_oaok|generated|website|folder|books', 'text' : 'b'}
+{'id_' : 'pref|website_public_oaok|generated|website|folder|custom', 'text' : 'c'}
+{'id_' : 'pref|website_public_oaok|media|copy', 'text' : 'no'}
+{'id_' : 'pref|website_public_oaok|media|copy|from|folder', 'text' : 'm'}
+{'id_' : 'pref|website_public_oaok|include|merged|pdf|in|site|index', 'text' : 'no'}
+{'id_' : 'pref|website_public_oaok|generate|services|index', 'text' : 'yes'}
+{'id_' : 'pref|website_public_oaok|generate|books|index', 'text' : 'yes'}
+{'id_' : 'pref|website_public_oaok|generate|custom|index', 'text' : 'yes'}
+{'id_' : 'pref|website_public_oaok|index|version|preferred', 'text' : 'en_US_alwb'}
+{'id_' : 'pref|website_public_oaok|index|version|fallback', 'text' : 'en_US_alwb'}
+{'id_' : 'pref|website_public_oaok|index|include|file|timestamp', 'text' : 'no'}
+{'id_' : 'pref|website_public_oaok|index|timestamp|format', 'text' : 'MMM d, HH:mm'}
+{'id_' : 'pref|website_public_oaok|index|timestamp|description|prefix', 'text' : ''}
+{'id_' : 'pref|website_public_oaok|index|timestamp|description|suffix', 'text' : ''}
+{'id_' : 'pref|website_public_oaok|index|link|delimiter', 'text' : ' | '}
+{'id_' : 'pref|website_public_oaok|index|link|target|html', 'text' : '_self'}
+{'id_' : 'pref|website_public_oaok|index|link|target|pdf', 'text' : '_blank'}
+{'id_' : 'pref|website_public_oaok|assets|copy|css', 'text' : 'yes'}
+{'id_' : 'pref|website_public_oaok|assets|copy|css|from|folder', 'text' : 'css'}
+{'id_' : 'pref|website_public_oaok|assets|copy|javascript', 'text' : 'yes'}
+{'id_' : 'pref|website_public_oaok|assets|copy|javascript|from|folder', 'text' : 'js'}
+{'id_' : 'pref|website_public_oaok|assets|copy|root|files', 'text' : 'yes'}
+{'id_' : 'pref|website_public_oaok|assets|copy|root|files|from|folder', 'text' : 'root'}

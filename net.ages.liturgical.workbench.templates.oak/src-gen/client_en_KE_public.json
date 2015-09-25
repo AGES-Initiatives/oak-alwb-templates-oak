@@ -1,0 +1,108 @@
+{'id_' : 'client_en_KE_public|cl|name', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|address', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|city', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|state', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|zipcode', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|bishop0|rank', 'text' : 'Archbishop'}
+{'id_' : 'client_en_KE_public|cl|bishop0|name_c', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|bishop0|name_p', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|bishop0|fimi|text', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|bishop1|rank', 'text' : '(episcopal rank)'}
+{'id_' : 'client_en_KE_public|cl|bishop1|name_c', 'text' : '(name),'}
+{'id_' : 'client_en_KE_public|cl|bishop1|name_p', 'text' : '(name).'}
+{'id_' : 'client_en_KE_public|cl|bishop1|fimi|text', 'text' : '(The text of the appropriate episcopal anthem goes here.)'}
+{'id_' : 'client_en_KE_public|cl|bishop2|rank', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|bishop2|name_c', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|bishop2|name_p', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|bishop2|fimi|text', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|localpatronsaint1|supplication', 'text' : '(local patron saint);'}
+{'id_' : 'client_en_KE_public|cl|localpatronsaint1|dismissal', 'text' : '(local patron saint);'}
+{'id_' : 'client_en_KE_public|cl|localpatronsaint1|greatcompline', 'text' : '(local patron saint), intercede for us sinners.'}
+{'id_' : 'client_en_KE_public|cl|Apolytikion1|title', 'text' : 'For the Parish Church'}
+{'id_' : 'client_en_KE_public|cl|Apolytikion1|mode', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|Apolytikion1|melody', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|Apolytikion1|text', 'text' : '(The text of the hymn for the local church goes here.)'}
+{'id_' : 'client_en_KE_public|cl|consecration|name', 'text' : '(name of the church being consecrated);'}
+{'id_' : 'client_en_KE_public|cl|relics|saint1', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint1|Apolytikion|title', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint1|Apolytikion|mode', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint1|Apolytikion|melody', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint1|Apolytikion|text', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint2', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint2|Apolytikion|title', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint2|Apolytikion|mode', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint2|Apolytikion|melody', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint2|Apolytikion|text', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint3', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint3|Apolytikion|title', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint3|Apolytikion|mode', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint3|Apolytikion|melody', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|relics|saint3|Apolytikion|text', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R001', 'text' : '(The designated verses from the Psalms are sung with the hymn:)'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R002', 'text' : '(The designated verses from the Psalms are sung with the hymn:)'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R003', 'text' : '(On weekdays we sing: ("who are wondrous in the saints"; the Feasts of the Lord have their own refrain.)'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R004', 'text' : '(The designated verses of the Psalms are sung with the Apolytikion.)'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R005', 'text' : '(While the Apolytikion is sung, the priest carrying the holy Gospel Book comes in procession before the Beautiful Gate of the ikonostasis offering in a low voice the following prayer:)'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R006', 'text' : '(On weekdays we sing: ("who are wondrous in the saints"), while the Feasts of the Lord have their own Entrance Hymns.)'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R007', 'text' : '(The priest enters the sanctuary. The Apolytikion is repeated and the Troparion of the church and the Kontakion of the day are sung.)'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R008', 'text' : '(The Reader reads the verses from the Psalms.)'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R009', 'text' : 'The reading is from (the name of the book of the New Testament from which the Apostolic reading is taken).'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R010', 'text' : '(The Reader reads the designated Apostolic pericope.)'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R011', 'text' : 'The reading is from the Holy Gospel according to (Name). Let us be attentive.'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R012', 'text' : '(The Deacon reads the designated pericope of the holy Gospel.)'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R013', 'text' : '(Following the readings, it is customary for the priest to preach the sermon.)'}
+{'id_' : 'client_en_KE_public|cl|eu|lichrysbasil|R014', 'text' : '(The Communion Hymn changes according to the Feast Day.)'}
+{'id_' : 'client_en_KE_public|cl|ho|s23|R001', 'text' : 'In many monasteries and churches, the Canon of the Paraklesis is chanted without the Heirmoi (except perhaps in Ode ix of Small Paraklesis, in order to make an even number of troparia and thus to avoid repeating one.)'}
+{'id_' : 'client_en_KE_public|cl|ho|s23|R002', 'text' : '(The Heirmos may be omitted.)'}
+{'id_' : 'client_en_KE_public|cl|hw|synaxarion|rubric', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|me|m09|d01|R001', 'text' : 'There are a number of options for the content of the services for September 1. The Patriarchal Hemerologion, which we aspire to follow, describes the Patriarchate's added special commemorations of an Icon of the Theotokos as well as the Environment, and then indicates that, presumably for the rest of us, the service should be celebrated according to the Menaion.'}
+{'id_' : 'client_en_KE_public|cl|me|m09|d14|R001', 'text' : 'The Doxology follows immediately.'}
+{'id_' : 'client_en_KE_public|cl|me|m09|d14|R002', 'text' : '(Mode 2 is preferred for today.)'}
+{'id_' : 'client_en_KE_public|cl|me|m09|d14|R003', 'text' : 'If  the Service of the Elevation of the Cross will occur at the end of Liturgy then sing the following. Otherwise, see below.'}
+{'id_' : 'client_en_KE_public|cl|me|m09|d14|R004', 'text' : 'Special Service of the Elevation'}
+{'id_' : 'client_en_KE_public|cl|me|m09|d14|R005', 'text' : '(The procession with the cross takes place during singing of the Asmatic Holy God.)'}
+{'id_' : 'client_en_KE_public|cl|me|m09|d14|R006', 'text' : 'For each petition, the choir sings "Lord, have mercy," 3-10-3 times.'}
+{'id_' : 'client_en_KE_public|cl|me|m09|d14|R007', 'text' : '(As the people venerate the cross, sing the following hymn:)'}
+{'id_' : 'client_en_KE_public|cl|me|m10|d26|R001', 'text' : 'Use the verses in the text if they differ from those in the scores.'}
+{'id_' : 'client_en_KE_public|cl|me|m11|d14|R001', 'text' : 'The rubrics for this day say to sing the Kathismata of the Mode and day of the week from the Parakletike (Octoechos). Since most parishes are not familiar with these hymns, and since they change from year to year, we have not included them here.'}
+{'id_' : 'client_en_KE_public|cl|me|m11|d14|R002', 'text' : 'The rubrics for this day say to sing the Heirmoi of Odes 3, 6, 8, and 9 of the Canon of the Menaion. Most parishes would not be familiar with this, so we have inserted Katavasias instead.'}
+{'id_' : 'client_en_KE_public|cl|pe|d078|R001', 'text' : 'According to the Patriarchal Hemerologion:'}
+{'id_' : 'client_en_KE_public|cl|pe|d078|R002', 'text' : 'According to common practice:'}
+{'id_' : 'client_en_KE_public|cl|pe|d119|R001', 'text' : 'The Patriarchal Typikon indicates, as usual, that the entire canon be sung. Typically in parishes only the Katavasias are used. This day does not present festal Katavasias, but rather the Heirmoi of the canon are used, which thematically have nothing to do with the Saturday of the Souls. I have therefore included Ode ix in its entirety, edited for the enrichment and edification of both chanters and listeners. Since Saturday of the Souls is not a great feast, Ode ix is, as usual, preceded by the Magnificat.'}
+{'id_' : 'client_en_KE_public|cl|sb|vo|sun|R001', 'text' : '(Go to insert: Vespers Stichera)'}
+{'id_' : 'client_en_KE_public|cl|sb|vo|sun|R002', 'text' : '(Return to booklet: Entrance)'}
+{'id_' : 'client_en_KE_public|cl|sb|vo|sun|R003', 'text' : '(Go to insert: Readings)'}
+{'id_' : 'client_en_KE_public|cl|sb|vo|sun|R004', 'text' : '(Return to booklet: Litanies)'}
+{'id_' : 'client_en_KE_public|cl|sb|vo|sun|R005', 'text' : '(Go to insert: Aposticha)'}
+{'id_' : 'client_en_KE_public|cl|sb|vo|sun|R006', 'text' : '(Return to booklet: Prayer of St. Symeon)'}
+{'id_' : 'client_en_KE_public|cl|sb|vo|sun|R007', 'text' : '(Go to insert: Apolytikia)'}
+{'id_' : 'client_en_KE_public|cl|sb|vo|sun|R008', 'text' : '(Return to booklet: Dismissal)'}
+{'id_' : 'client_en_KE_public|cl|se|R001', 'text' : 'Use the verses in the text if they differ from those in the scores.'}
+{'id_' : 'client_en_KE_public|cl|tr|d014|R001', 'text' : 'The Patriarchal Typikon indicates, as usual, that the entire canon be sung. Typically in parishes only the Katavasias are chanted. This day does not present normal Katavasias, and the Heirmoi/Katavasias of the canon are so obscure that most of them do not appear in the published Heirmologia. Therefore, rather than present the texts of those Heirmoi, which thematically have nothing to do with the Saturday of the Souls, I have chosen instead to present Ode ix in its entirety, edited for the enrichment and edification of both chanters and listeners. Since Saturday of the Souls is not a great feast, Ode ix is, as usual, preceded by the Magnificat.'}
+{'id_' : 'client_en_KE_public|cl|tr|d014|R002', 'text' : 'Each of the next five troparia may be preceded by the verse: "Glory to You, our God, glory to You."'}
+{'id_' : 'client_en_KE_public|cl|tr|d021|R001', 'text' : 'The Patriarchal Typikon indicates, as usual, that the entire canon be sung. Typically in parishes only the Katavasias are chanted. This day does not present normal Katavasias, but rather Heirmoi chanted again at the end of each ode as Katavasias. These Heirmoi thematically have nothing to do with today's commemoration of the Ascetic Fathers, so I have chosen instead to present Ode ix in its entirety, for the enrichment and edification of both chanters and listeners. Since this Saturday of Cheesefare week is not a great feast, Ode ix is, as usual, preceded by the Magnificat.'}
+{'id_' : 'client_en_KE_public|cl|tr|d043|R001', 'text' : 'As the choirs sing the Holy God for the Great Doxology, the priest processes to the solea or around the nave of the church holding the tray with the cross. On the solea he circles the table three times before placing it on the table. When the Doxology is finished, he says:'}
+{'id_' : 'client_en_KE_public|cl|tr|d043|R002', 'text' : 'The  clergy venerate the cross first, followed by the faithful. While they are venerating, the following Idiomela may be chanted.'}
+{'id_' : 'client_en_KE_public|cl|tr|d043|R003', 'text' : 'When the veneration is finished, the priest returns the cross to the holy altar.'}
+{'id_' : 'client_en_KE_public|cl|tr|d069|ma|R001', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|tr|d069|gh|R001', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|tr|d069|gh|R002', 'text' : ''}
+{'id_' : 'client_en_KE_public|cl|tr|d070|R301', 'text' : 'The clergy come out of the sanctuary and stand in front of the Epitaphion, censing and beginning each stanza.'}
+{'id_' : 'client_en_KE_public|cl|tr|d070|R302', 'text' : '(End with the first one again.)'}
+{'id_' : 'client_en_KE_public|cl|tr|d070|R303', 'text' : 'Repeat the following verse several times, as the priest sprinkles the tomb and the people.'}
+{'id_' : 'client_en_KE_public|cl|tr|d070|R304', 'text' : 'The procession of the canopied Epitaphion around the Sanctuary takes place.'}
+{'id_' : 'client_en_KE_public|cl|tr|d070|R305', 'text' : 'As the Clergy with the canopied Epitaphion enter the Sanctuary:'}
+{'id_' : 'client_en_KE_public|cl|tr|d071|mo|R701', 'text' : 'The Synaxarion from the Menaion is read here, so that at Matins only the Synaxarion for Pascha will be read.'}
+{'id_' : 'client_en_KE_public|cl|tr|d065|ma|mergedscore|text', 'text' : 'Bridegroom Service on Sunday Evening '}
+{'id_' : 'client_en_KE_public|cl|tr|d066|ma|mergedscore|text', 'text' : 'Bridegroom Service on Monday Evening '}
+{'id_' : 'client_en_KE_public|cl|tr|d067|ma|mergedscore|text', 'text' : 'Bridegroom Service on Tuesday Evening'}
+{'id_' : 'client_en_KE_public|cl|tr|d068|ma|mergedscore|text', 'text' : 'Bridegroom Service on Wednesday Evening '}
+{'id_' : 'client_en_KE_public|cl|tr|d069|vl|mergedscore|text', 'text' : 'Vesperal Liturgy on Thursday Morning'}
+{'id_' : 'client_en_KE_public|cl|tr|d069|ma|mergedscore|text', 'text' : 'Twelve Passion Gospels on Thursday Evening'}
+{'id_' : 'client_en_KE_public|cl|tr|d069|gh|mergedscore|text', 'text' : 'Great Hours on Friday Morning'}
+{'id_' : 'client_en_KE_public|cl|tr|d070|ve|mergedscore|text', 'text' : 'Removal from the Cross on Friday Afternoon'}
+{'id_' : 'client_en_KE_public|cl|tr|d070|ma|mergedscore|text', 'text' : 'Graveside Lamentation on Friday Evening'}
+{'id_' : 'client_en_KE_public|cl|tr|d071|vl|mergedscore|text', 'text' : 'Vesperal Liturgy on Saturday Morning'}
+{'id_' : 'client_en_KE_public|cl|pe|d071|ma|mergedscore|text', 'text' : 'Resurrection and Matins of Pascha'}
+{'id_' : 'client_en_KE_public|cl|pe|d071|li|mergedscore|text', 'text' : 'Divine Liturgy of Pascha'}
+{'id_' : 'client_en_KE_public|cl|pe|d072|ve|mergedscore|text', 'text' : 'Agape Vespers'}

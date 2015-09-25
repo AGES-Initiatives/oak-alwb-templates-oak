@@ -1,0 +1,9 @@
+{'id_' : 'pref|html_public_oaok|include|media|links|audio', 'text' : 'yes'}
+{'id_' : 'pref|html_public_oaok|include|media|links|score|byzantine', 'text' : 'yes'}
+{'id_' : 'pref|html_public_oaok|include|media|links|score|western', 'text' : 'yes'}
+{'id_' : 'pref|html_public_oaok|include|media|links|text', 'text' : 'yes'}
+{'id_' : 'pref|html_public_oaok|put|single|media|occurrence|in|dropdown', 'text' : 'yes'}
+{'id_' : 'pref|html_public_oaok|media|v1|preferred', 'text' : 'gr_GR_cog'}
+{'id_' : 'pref|html_public_oaok|media|v1|fallback', 'text' : 'gr_GR_cog'}
+{'id_' : 'pref|html_public_oaok|media|v2|preferred', 'text' : 'en_UK_lash'}
+{'id_' : 'pref|html_public_oaok|media|v2|fallback', 'text' : 'en_KE_oak'}
