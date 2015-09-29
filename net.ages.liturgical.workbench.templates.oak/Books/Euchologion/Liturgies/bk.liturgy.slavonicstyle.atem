@@ -32,6 +32,7 @@ import client_gr_GR_cog.*
 	import prayerbook_gr_KE_oak.*
 	import prayers_gr_KE_oak.*
 	import he.a.m2_gr_GR_cog.*
+	import oc.m4.d4_gr_GR_cog.*
 	
 	import iTags.*
 	import bTags.*
@@ -128,6 +129,102 @@ import client_gr_GR_cog.*
 			Title sid li.vesting.title End-Title
 			Rubric sid li.rubric.boweast End-Rubric
 			Dialog sid li.preparation.mercy2 sid Thrice End-Dialog
+			Rubric sid li.rubric.wearsticharion End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid enarxis01 End-Dialog
+			Rubric sid li.rubric.prayereachvestment End-Rubric
+			Rubric sid li.rubric.sticharionpriest End-Rubric
+			Dialog sid li.preparation.agalliasetai End-Dialog
+			Rubric sid li.rubric.epitrachilion End-Rubric
+			Dialog sid li.preparation.blessepitrachilion.p1 sid psa132.v2.text End-Dialog
+			Rubric sid li.rubric.zoni End-Rubric
+			Dialog sid li.preparation.blesszoni.p1 sid psa17.v33.text End-Dialog
+			Rubric sid li.rubric.rightcuff End-Rubric
+			Dialog sid li.preparation.blessrightcuff End-Dialog
+			Rubric sid li.rubric.leftcuff End-Rubric
+			Dialog sid psa118.v73.text End-Dialog
+			Rubric sid li.rubric.epigonation End-Rubric
+			Dialog sid psa44.v4.text sid psa44.v5.text End-Dialog
+			Rubric sid li.rubric.felonion End-Rubric
+			Dialog sid psa131.v9alt.text End-Dialog
+			Rubric sid li.rubric.washhands End-Rubric
+			Dialog sid psa25.v6.text sid psa25.v7.text sid psa25.v8.text sid psa25.v9.text sid psa25.v10.text sid psa25.v11.text sid psa25.v12.text End-Dialog
+			Dialog sid doxapatrikainyn End-Dialog
+		End-Section
+		
+		Section proskomidi
+			Title sid li.proskomidi.title End-Title
+			Title sid li.proskomidi.title2 End-Title
+			Rubric sid li.rubric.tableofpreparation sid li.rubric.bowthriceprothesis End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.mercy2 End-Dialog
+			Rubric sid li.rubric.liftinghands End-Rubric
+			Dialog sid oc.m4.d4_gr_GR_cog.ocMA.Kathisma11.text sid res04 End-Dialog
+			
+			Actor sid Deacon End-Actor
+			Dialog sid res08 End-Dialog
+			
+			Actor sid Priest End-Actor
+			Dialog sid enarxis01 End-Dialog
+			
+			Actor sid Deacon End-Actor
+			Dialog sid res04 sid pet00 sid res01 End-Dialog
+			
+			Rubric sid li.rubric.crossprosfora End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.inmemory End-Dialog
+			
+			Actor sid Deacon End-Actor
+			Dialog sid KaiNynKaiAei.text End-Dialog
+			
+			Rubric sid li.rubric.pierce End-Rubric
+			Actor sid Deacon End-Actor
+			Dialog sid res04 sid pet00 sid res01 End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.pierce End-Dialog
+			
+			Rubric sid li.rubric.cutleft End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.cutleft End-Dialog
+			
+			Rubric sid li.rubric.cuttop End-Rubric
+			Actor sid Deacon End-Actor
+			Dialog sid pet00 sid res01 End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.cuttop End-Dialog
+			
+			Rubric sid li.rubric.cutbottom End-Rubric
+			Actor sid Deacon End-Actor
+			Dialog sid pet00 sid res01 End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.cutbottom End-Dialog
+			
+			Actor sid Deacon End-Actor
+			Dialog sid li.preparation.lift End-Dialog
+			Rubric sid li.rubric.removelamb sid li.rubric.invertlamb End-Rubric
+			Actor sid Deacon End-Actor
+			Dialog sid li.preparation.sacrifice End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.removelamb End-Dialog
+			
+			Rubric sid li.rubric.cutlamb End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.cutlamb End-Dialog
+			
+			Rubric sid li.rubric.revertlamb sid li.rubric.pierce2 End-Rubric
+			Actor sid Deacon End-Actor
+			Dialog sid li.preparation.pierce2 End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.pierce3 End-Dialog
+			
+			Title sid li.wineandwater.title End-Title
+			Rubric sid li.rubric.mixchalice End-Rubric
+			Actor sid Deacon End-Actor
+			Dialog sid li.preparation.holyunion End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.blessunion End-Dialog
+			Actor sid Deacon End-Actor
+			Dialog sid KaiNynKaiAei.text End-Dialog
 		End-Section
 	End-Section
 End-Template
