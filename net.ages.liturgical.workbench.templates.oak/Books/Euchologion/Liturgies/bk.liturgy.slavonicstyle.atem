@@ -225,6 +225,66 @@ import client_gr_GR_cog.*
 			Dialog sid li.preparation.blessunion End-Dialog
 			Actor sid Deacon End-Actor
 			Dialog sid KaiNynKaiAei.text End-Dialog
+			
+			Section commemmoration 
+				Title sid li.commemoration.title End-Title
+				Rubric sid li.rubric.anotherprosfora End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid li.preparation.anotherprosfora End-Dialog
+				Rubric sid li.rubric.theotokosparticle End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid psa44.v10b.text End-Dialog
+				
+				Rubric sid li.rubric.saintparticles End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid li.preparation.rank1 End-Dialog
+				Dialog sid li.preparation.rank2 End-Dialog
+				Dialog sid li.preparation.rank3 End-Dialog
+				Dialog sid li.preparation.rank4 End-Dialog // this is missing in the Portuguese text
+				Dialog sid li.preparation.rank5 End-Dialog
+				Dialog sid li.preparation.rank6 End-Dialog
+				Dialog sid li.preparation.rank7 End-Dialog
+				Dialog sid li.preparation.rank8 End-Dialog
+				Dialog sid li.preparation.rank9 End-Dialog
+				
+				Rubric sid li.rubric.particlebishop End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid li.preparation.particlebishop End-Dialog
+				Dialog sid li.remembercountry End-Dialog
+				
+				Rubric sid li.rubric.particlesall End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid li.preparation.particlesfounders sid li.preparation.particlesdeparted2 End-Dialog
+				
+				Rubric sid li.rubric.particlepriest End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid li.preparation.particlepriest End-Dialog
+			End-Section
+			
+			Title sid li.incense.title End-Title
+			Rubric sid li.rubric.takecenser End-Rubric
+			Actor sid Deacon End-Actor
+			Dialog sid EvlogisonThymiama.text End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.prayerincense End-Dialog
+			
+			Title sid li.cover.title End-Title
+			Actor sid Deacon End-Actor
+			Dialog sid pet00 sid res01 End-Dialog
+			Rubric sid li.rubric.placestar End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.placestar End-Dialog
+			
+			Rubric sid li.rubric.placeveil End-Rubric
+			Actor sid Deacon End-Actor
+			Dialog sid pet00 sid res01 sid li.preparation.cover End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid psa92.v1b.text sid psa92.v1c.text End-Dialog
+			
+			Rubric sid li.rubric.coverchalice End-Rubric
+			Dialog sid pet00 sid res01 sid li.preparation.cover End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.coverchalice End-Dialog
 		End-Section
 	End-Section
 End-Template
