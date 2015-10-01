@@ -22,6 +22,7 @@ Status Review
 	import titles_gr_GR_cog.*
 	import le.go.os_gr_GR_cog.*
 	import pub.priest.servicebook_gr_GR_cog.*
+	import prayers_gr_KE_oak.*
 		
 	import iTags.*
 	import bTags.*
