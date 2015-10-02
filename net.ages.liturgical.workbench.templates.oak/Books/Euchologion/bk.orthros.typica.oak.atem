@@ -51,6 +51,7 @@ import client_gr_GR_cog.*
 		Actor sid Reader End-Actor
 		Dialog sid DiEfchonPateron.text End-Dialog
 		Dialog sid DoxaSoiOTheosImon.text End-Dialog
+		Dialog sid VasilefOuranie.text End-Dialog
 		
 		Section Trisagion
 			Dialog sid AgiosOTheos.text sid Thrice End-Dialog
@@ -62,6 +63,43 @@ import client_gr_GR_cog.*
 			Dialog sid PaterImon.text End-Dialog
 			Actor sid Reader End-Actor
 			Dialog sid DiEfchonPateron.text End-Dialog
+		End-Section
+		
+		Dialog sid res01 sid Twelve End-Dialog
+		Dialog sid doxapatrikainyn End-Dialog
+		Dialog sid DefteProskinisomen1 End-Dialog
+		Dialog sid DefteProskinisomen2 End-Dialog
+		Dialog sid DefteProskinisomen3 End-Dialog
+		
+		Title sid psa19.title End-Title
+		Reading sid psa19.text End-Reading
+		Title sid psa20.title End-Title
+		Reading sid psa20.text End-Reading
+		
+		Dialog sid doxapatrikainyn End-Dialog
+		Section Trisagion
+			Dialog sid AgiosOTheos.text sid Thrice End-Dialog
+			Dialog sid doxapatrikainyn End-Dialog
+			Dialog sid PanagiaTrias.text End-Dialog
+			Dialog sid res01 sid Thrice End-Dialog
+			Dialog sid doxapatrikainyn End-Dialog
+			Actor sid People End-Actor
+			Dialog sid PaterImon.text End-Dialog
+			Actor sid Reader End-Actor
+			Dialog sid DiEfchonPateron.text End-Dialog
+		End-Section
+		
+		Reading sid li.exaltationcross.apolytikion End-Reading
+		Dialog sid DoxaPatri.text End-Dialog
+		Reading sid li.sept14.kontakion End-Reading
+		Dialog sid KaiNynKaiAei.text End-Dialog
+		Reading sid awesomeintercession.text End-Reading
+		Dialog sid res01 sid Twelve End-Dialog
+		Dialog sid DiEfchonPateron.text End-Dialog
+		
+		Section hexapsalm
+			Dialog sid leosMA.GreatDoxology.v01.text sid Thrice End-Dialog
+			Dialog sid psa50.v17.text sid Twice End-Dialog
 		End-Section
 	End-Section
 
