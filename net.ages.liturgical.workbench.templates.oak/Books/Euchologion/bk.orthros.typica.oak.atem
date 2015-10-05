@@ -30,6 +30,8 @@ import client_gr_GR_cog.*
 	import prayers_gr_KE_oak.*
 	import he.a.m2_gr_GR_cog.*
 	import orthros.typica_gr_KE_oak.*
+	import misc_gr_GR_cog.*
+	import oc.m1.d1_gr_GR_cog.*
 	
 	import iTags.*
 	import bTags.*
@@ -100,6 +102,106 @@ import client_gr_GR_cog.*
 		Section hexapsalm
 			Dialog sid leosMA.GreatDoxology.v01.text sid Thrice End-Dialog
 			Dialog sid psa50.v17.text sid Twice End-Dialog
+			
+			Title sid psa3.title End-Title
+			Reading sid psa3.text End-Reading
+			Title sid psa37.title End-Title
+			Reading sid psa37.text End-Reading
+			Title sid psa62.title End-Title
+			Reading sid psa62.text End-Reading
+			
+			Rubric sid rubric.without End-Rubric
+			Dialog sid doxapatrikainyn End-Dialog
+			Dialog sid Allilouia3Doxa.text sid Thrice End-Dialog
+			Dialog sid res01 sid Thrice End-Dialog
+			Dialog sid doxapatrikainyn End-Dialog
+			
+			Title sid psa87.title End-Title
+			Reading sid psa87.text End-Reading
+			Title sid psa102.title End-Title
+			Reading sid psa102.text End-Reading
+			Title sid psa142.title End-Title
+			Reading sid psa142.text End-Reading
+			
+			Dialog sid doxapatrikainyn End-Dialog
+			Dialog sid Allilouia3Doxa.text sid Thrice End-Dialog
+			Dialog sid IElpisImonKyrie End-Dialog
+			
+			Dialog sid res01 sid Forty End-Dialog
+			Dialog sid DiEfchonPateron.text End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res04 End-Dialog
+		End-Section
+		
+		Section Godisthelord
+			Actor sid People End-Actor
+			Hymn sid psa117.v27a.text sid psa117.v26a.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Verse<bnr>sid vVerse1</>sid psa104.v1alt.text End-Verse
+			
+			Actor sid People End-Actor
+			Hymn sid psa117.v27a.text sid psa117.v26a.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Verse<bnr>sid vVerse2</>sid psa117.v10.text End-Verse
+			
+			Actor sid People End-Actor
+			Hymn sid psa117.v27a.text sid psa117.v26a.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Verse<bnr>sid vVerse3</>sid psa117.v23.text End-Verse
+			
+			Actor sid People End-Actor
+			Hymn sid psa117.v27a.text sid psa117.v26a.text End-Hymn
+			
+			Dialog sid DoxaPatri.text End-Dialog
+			Rubric sid rubric.apolytikion End-Rubric
+			Dialog sid KaiNynKaiAei.text End-Dialog
+			Rubric sid rubric.theotokion End-Rubric
+			
+			Section apolytikia
+				Title sid Mode1 End-Title
+				Title sid Apolytikion End-Title
+				Hymn sid li.apolytikiontone1 End-Hymn
+				Title sid Theotokion End-Title
+				Hymn sid oc.m1.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
+				Title sid Mode2 End-Title
+				Title sid Apolytikion End-Title
+				Hymn sid li.apolytikiontone2 End-Hymn
+				Title sid Theotokion End-Title
+				Hymn sid oc.m2.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
+				Title sid Mode3 End-Title
+				Title sid Apolytikion End-Title
+				Hymn sid li.apolytikiontone3 End-Hymn
+				Title sid Theotokion End-Title
+				Hymn sid oc.m3.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
+				Title sid Mode4 End-Title
+				Title sid Apolytikion End-Title
+				Hymn sid li.apolytikiontone4 End-Hymn
+				Title sid Theotokion End-Title
+				Hymn sid oc.m4.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
+				Title sid Mode5 End-Title
+				Title sid Apolytikion End-Title
+				Hymn sid li.apolytikiontone5 End-Hymn
+				Title sid Theotokion End-Title
+				Hymn sid oc.m5.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
+				Title sid Mode6 End-Title
+				Title sid Apolytikion End-Title
+				Hymn sid li.apolytikiontone6 End-Hymn
+				Title sid Theotokion End-Title
+				Hymn sid oc.m6.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
+				Title sid Mode7 End-Title
+				Title sid Apolytikion End-Title
+				Hymn sid li.apolytikiontone7 End-Hymn
+				Title sid Theotokion End-Title	
+				Hymn sid oc.m7.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
+				Title sid Mode8 End-Title
+				Title sid Apolytikion End-Title
+				Hymn sid li.apolytikiontone8 End-Hymn
+				Title sid Theotokion End-Title
+				Hymn sid oc.m8.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
+			End-Section
 		End-Section
 	End-Section
 
