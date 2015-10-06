@@ -21,6 +21,7 @@ import client_gr_GR_cog.*
 	import rubrical_gr_GR_cog.*
 	import template.titles_gr_GR_cog.*
 	import titles_gr_GR_cog.*
+	import titles_gr_KE_oak.*
 	import ps_gr_GR_cog.*
 	import dismissals_gr_GR_cog.*
 	import le.go.os_gr_GR_cog.*
@@ -201,8 +202,82 @@ import client_gr_GR_cog.*
 				Hymn sid li.apolytikiontone8 End-Hymn
 				Title sid Theotokion End-Title
 				Hymn sid oc.m8.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
+				
+				Actor sid Reader End-Actor
+				Dialog sid res01 sid Twelve End-Dialog
+				Dialog sid DiEfchonPateron.text End-Dialog
 			End-Section
 		End-Section
+		
+		Section evlogitaria
+			Title sid hoMA.ResEvlog.title1 End-Title
+			
+			Actor sid People End-Actor
+			Hymn sid psa118.v12.text End-Hymn
+			Actor sid Reader End-Actor
+			Hymn sid hoMA.ResEvlog1.text End-Hymn
+			
+			Actor sid People End-Actor
+			Hymn sid psa118.v12.text End-Hymn
+			Actor sid Reader End-Actor
+			Hymn sid hoMA.ResEvlog2.text End-Hymn
+			
+			Actor sid People End-Actor
+			Hymn sid psa118.v12.text End-Hymn
+			Actor sid Reader End-Actor
+			Hymn sid hoMA.ResEvlog3.text End-Hymn
+			
+			Actor sid People End-Actor
+			Hymn sid psa118.v12.text End-Hymn
+			Actor sid Reader End-Actor
+			Hymn sid hoMA.ResEvlog4.text End-Hymn
+			
+			Actor sid People End-Actor
+			Hymn sid psa118.v12.text End-Hymn
+			Actor sid Reader End-Actor
+			Hymn sid hoMA.ResEvlog5.text End-Hymn
+			
+			Actor sid People End-Actor
+			Hymn sid psa118.v12.text End-Hymn
+			Actor sid Reader End-Actor
+			Hymn sid hoMA.ResEvlog6.text End-Hymn
+			
+			Actor sid People End-Actor
+			Hymn sid Allilouia3Doxa.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Dialog sid res01 sid Twelve End-Dialog
+			Dialog sid DiEfchonPateron.text End-Dialog
+		End-Section
+		
+		Section hypakoi
+			Title sid titles_gr_KE_oak.Ypakoi End-Title
+			Rubric sid rubric.hypakoe End-Rubric
+			
+			Title sid Mode1 End-Title
+			Reading sid oc.m1.d1_gr_GR_cog.ocMA.Hypakoe.text End-Reading
+			Title sid Mode2 End-Title
+			Reading sid oc.m2.d1_gr_GR_cog.ocMA.Hypakoe.text End-Reading
+			Title sid Mode3 End-Title
+			Reading sid oc.m3.d1_gr_GR_cog.ocMA.Hypakoe.text End-Reading
+			Title sid Mode4 End-Title
+			Reading sid oc.m4.d1_gr_GR_cog.ocMA.Hypakoe.text End-Reading
+			Title sid Mode5 End-Title
+			Reading sid oc.m5.d1_gr_GR_cog.ocMA.Hypakoe.text End-Reading
+			Title sid Mode6 End-Title
+			Reading sid oc.m6.d1_gr_GR_cog.ocMA.Hypakoe.text End-Reading
+			Title sid Mode7 End-Title
+			Reading sid oc.m7.d1_gr_GR_cog.ocMA.Hypakoe.text End-Reading
+			Title sid Mode8 End-Title
+			Reading sid oc.m8.d1_gr_GR_cog.ocMA.Hypakoe.text End-Reading
+		End-Section
+		
+		Section Anavathmi
+			Title sid OiAnavathmoi End-Title
+		End-Section
+	End-Section
+	
+	Section typika
 	End-Section
 
 End-Template
