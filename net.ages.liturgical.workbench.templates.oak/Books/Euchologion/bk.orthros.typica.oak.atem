@@ -274,6 +274,185 @@ import client_gr_GR_cog.*
 		
 		Section Anavathmi
 			Title sid OiAnavathmoi End-Title
+			Rubric sid rubric.anavathmi End-Rubric
+			
+			Rubric sid vVerse1 End-Rubric
+			Rubric sid vVerse2 End-Rubric
+			Dialog sid doxapatrikainyn End-Dialog
+			Rubric sid vVerse3 End-Rubric
+			
+			Title sid Mode1 End-Title
+			Title sid Antifonon1 End-Title
+			Hymn sid oc.m1.d1_gr_GR_cog.ocMA.Antiphon11.text End-Hymn
+			Hymn sid oc.m1.d1_gr_GR_cog.ocMA.Antiphon12.text End-Hymn
+			Hymn sid oc.m1.d1_gr_GR_cog.ocMA.Antiphon13.text End-Hymn
+			Title sid Antifonon2 End-Title
+			Hymn sid oc.m1.d1_gr_GR_cog.ocMA.Antiphon21.text End-Hymn
+			Hymn sid oc.m1.d1_gr_GR_cog.ocMA.Antiphon22.text End-Hymn
+			Hymn sid oc.m1.d1_gr_GR_cog.ocMA.Antiphon23.text End-Hymn
+			Title sid Antifonon3 End-Title
+			Hymn sid oc.m1.d1_gr_GR_cog.ocMA.Antiphon31.text End-Hymn
+			Hymn sid oc.m1.d1_gr_GR_cog.ocMA.Antiphon32.text End-Hymn
+			Hymn sid oc.m1.d1_gr_GR_cog.ocMA.Antiphon33.text End-Hymn
+			
+			Title sid Mode2 End-Title
+			Title sid Antifonon1 End-Title
+			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.Antiphon11.text End-Hymn
+			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.Antiphon12.text End-Hymn
+			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.Antiphon13.text End-Hymn
+			Title sid Antifonon2 End-Title
+			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.Antiphon21.text End-Hymn
+			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.Antiphon22.text End-Hymn
+			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.Antiphon23.text End-Hymn
+			Title sid Antifonon3 End-Title
+			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.Antiphon31.text End-Hymn
+			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.Antiphon32.text End-Hymn
+			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.Antiphon33.text End-Hymn
+			
+			Title sid Mode3 End-Title
+			Title sid Antifonon1 End-Title
+			Hymn sid oc.m3.d1_gr_GR_cog.ocMA.Antiphon11.text End-Hymn
+			Hymn sid oc.m3.d1_gr_GR_cog.ocMA.Antiphon12.text End-Hymn
+			Hymn sid oc.m3.d1_gr_GR_cog.ocMA.Antiphon13.text End-Hymn
+			Title sid Antifonon2 End-Title
+			Hymn sid oc.m3.d1_gr_GR_cog.ocMA.Antiphon21.text End-Hymn
+			Hymn sid oc.m3.d1_gr_GR_cog.ocMA.Antiphon22.text End-Hymn
+			Hymn sid oc.m3.d1_gr_GR_cog.ocMA.Antiphon23.text End-Hymn
+			Title sid Antifonon3 End-Title
+			Hymn sid oc.m3.d1_gr_GR_cog.ocMA.Antiphon31.text End-Hymn
+			Hymn sid oc.m3.d1_gr_GR_cog.ocMA.Antiphon32.text End-Hymn
+			Hymn sid oc.m3.d1_gr_GR_cog.ocMA.Antiphon33.text End-Hymn
+			
+			Title sid Mode4 End-Title
+			Title sid Antifonon1 End-Title
+			Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon11.text End-Hymn
+			Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon12.text End-Hymn
+			Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon13.text End-Hymn
+			Title sid Antifonon2 End-Title
+			Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon21.text End-Hymn
+			Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon22.text End-Hymn
+			Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon23.text End-Hymn
+			Title sid Antifonon3 End-Title
+			Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon31.text End-Hymn
+			Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon32.text End-Hymn
+			Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon33.text End-Hymn
+			
+			Title sid Mode5 End-Title
+			Title sid Antifonon1 End-Title
+			Hymn sid oc.m5.d1_gr_GR_cog.ocMA.Antiphon11.text End-Hymn
+			Hymn sid oc.m5.d1_gr_GR_cog.ocMA.Antiphon12.text End-Hymn
+			Hymn sid oc.m5.d1_gr_GR_cog.ocMA.Antiphon13.text End-Hymn
+			Title sid Antifonon2 End-Title
+			Hymn sid oc.m5.d1_gr_GR_cog.ocMA.Antiphon21.text End-Hymn
+			Hymn sid oc.m5.d1_gr_GR_cog.ocMA.Antiphon22.text End-Hymn
+			Hymn sid oc.m5.d1_gr_GR_cog.ocMA.Antiphon23.text End-Hymn
+			Title sid Antifonon3 End-Title
+			Hymn sid oc.m5.d1_gr_GR_cog.ocMA.Antiphon31.text End-Hymn
+			Hymn sid oc.m5.d1_gr_GR_cog.ocMA.Antiphon32.text End-Hymn
+			Hymn sid oc.m5.d1_gr_GR_cog.ocMA.Antiphon33.text End-Hymn
+			
+			Title sid Mode6 End-Title
+			Title sid Antifonon1 End-Title
+			Hymn sid oc.m6.d1_gr_GR_cog.ocMA.Antiphon11.text End-Hymn
+			Hymn sid oc.m6.d1_gr_GR_cog.ocMA.Antiphon12.text End-Hymn
+			Hymn sid oc.m6.d1_gr_GR_cog.ocMA.Antiphon13.text End-Hymn
+			Title sid Antifonon2 End-Title
+			Hymn sid oc.m6.d1_gr_GR_cog.ocMA.Antiphon21.text End-Hymn
+			Hymn sid oc.m6.d1_gr_GR_cog.ocMA.Antiphon22.text End-Hymn
+			Hymn sid oc.m6.d1_gr_GR_cog.ocMA.Antiphon23.text End-Hymn
+			Title sid Antifonon3 End-Title
+			Hymn sid oc.m6.d1_gr_GR_cog.ocMA.Antiphon31.text End-Hymn
+			Hymn sid oc.m6.d1_gr_GR_cog.ocMA.Antiphon32.text End-Hymn
+			Hymn sid oc.m6.d1_gr_GR_cog.ocMA.Antiphon33.text End-Hymn
+			
+			Title sid Mode7 End-Title
+			Title sid Antifonon1 End-Title
+			Hymn sid oc.m7.d1_gr_GR_cog.ocMA.Antiphon11.text End-Hymn
+			Hymn sid oc.m7.d1_gr_GR_cog.ocMA.Antiphon12.text End-Hymn
+			Hymn sid oc.m7.d1_gr_GR_cog.ocMA.Antiphon13.text End-Hymn
+			Title sid Antifonon2 End-Title
+			Hymn sid oc.m7.d1_gr_GR_cog.ocMA.Antiphon21.text End-Hymn
+			Hymn sid oc.m7.d1_gr_GR_cog.ocMA.Antiphon22.text End-Hymn
+			Hymn sid oc.m7.d1_gr_GR_cog.ocMA.Antiphon23.text End-Hymn
+			Title sid Antifonon3 End-Title
+			Hymn sid oc.m7.d1_gr_GR_cog.ocMA.Antiphon31.text End-Hymn
+			Hymn sid oc.m7.d1_gr_GR_cog.ocMA.Antiphon32.text End-Hymn
+			Hymn sid oc.m7.d1_gr_GR_cog.ocMA.Antiphon33.text End-Hymn
+			
+			Title sid Mode8 End-Title
+			Title sid Antifonon1 End-Title
+			Hymn sid oc.m8.d1_gr_GR_cog.ocMA.Antiphon11.text End-Hymn
+			Hymn sid oc.m8.d1_gr_GR_cog.ocMA.Antiphon12.text End-Hymn
+			Hymn sid oc.m8.d1_gr_GR_cog.ocMA.Antiphon13.text End-Hymn
+			Title sid Antifonon2 End-Title
+			Hymn sid oc.m8.d1_gr_GR_cog.ocMA.Antiphon21.text End-Hymn
+			Hymn sid oc.m8.d1_gr_GR_cog.ocMA.Antiphon22.text End-Hymn
+			Hymn sid oc.m8.d1_gr_GR_cog.ocMA.Antiphon23.text End-Hymn
+			Title sid Antifonon3 End-Title
+			Hymn sid oc.m8.d1_gr_GR_cog.ocMA.Antiphon31.text End-Hymn
+			Hymn sid oc.m8.d1_gr_GR_cog.ocMA.Antiphon32.text End-Hymn
+			Hymn sid oc.m8.d1_gr_GR_cog.ocMA.Antiphon33.text End-Hymn
+		End-Section
+		
+		Section orthrosGospel // is the Gospel supposed to be read in a readers' service?--MP
+			Title sid ToTheionEvangelion End-Title
+			
+			Actor sid Reader End-Actor
+			Dialog sid gos03a End-Dialog
+			Actor sid People End-Actor
+			Dialog sid DoxaSoiKyrie End-Dialog
+			Rubric sid rubric.orthrosgospel End-Rubric
+			Actor sid People End-Actor
+			Dialog sid DoxaSoiKyrie End-Dialog
+			
+			Actor sid Reader End-Actor
+			Reading sid hoMA.SunPostGospel.text End-Reading
+			Actor sid People End-Actor
+			Reading sid psa50.text End-Reading
+			Reading sid DoxaPatri.text End-Reading
+			Reading sid hoMA.PostGospelApostles.text End-Reading
+			Reading sid KaiNynKaiAei.text End-Reading
+			Reading sid hoMA.PostGospelTheotokos.text End-Reading
+			Reading sid psa50.v3.text End-Reading
+			Reading sid hoMA.SunPostGospelIdiomelon.text End-Reading
+			
+			Actor sid Reader End-Actor
+			Dialog sid res01 sid Forty End-Dialog
+			Dialog sid DiEfchonPateron.text End-Dialog
+		End-Section
+		
+		Section kontakion
+			Rubric sid rubric.kontakion End-Rubric
+			
+			Title sid Mode1 End-Title
+			Hymn sid oc.m1.d1_gr_GR_cog.ocMA.Kontakion.text End-Hymn
+			Title sid Mode2 End-Title
+			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.Kontakion.text End-Hymn
+			Title sid Mode3 End-Title
+			Hymn sid oc.m3.d1_gr_GR_cog.ocMA.Kontakion.text End-Hymn
+			Title sid Mode4 End-Title
+			Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Kontakion.text End-Hymn
+			Title sid Mode5 End-Title
+			Hymn sid oc.m5.d1_gr_GR_cog.ocMA.Kontakion.text End-Hymn
+			Title sid Mode6 End-Title
+			Hymn sid oc.m6.d1_gr_GR_cog.ocMA.Kontakion.text End-Hymn
+			Title sid Mode7 End-Title
+			Hymn sid oc.m7.d1_gr_GR_cog.ocMA.Kontakion.text End-Hymn
+			Title sid Mode8 End-Title
+			Hymn sid oc.m8.d1_gr_GR_cog.ocMA.Kontakion.text End-Hymn
+			
+			Rubric sid rubric.synaxarion End-Rubric
+			Actor sid Reader End-Actor
+			Dialog sid trPresveiaisTonAgion End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res04 End-Dialog
+		End-Section
+		
+		Section katavasia
+			Title sid Katavasia End-Title
+			Actor sid People End-Actor
+			Hymn sid he.h.m4_gr_GR_cog.AnoixoToStomaMou.text End-Hymn
+			Hymn sid he.h.m4_gr_GR_cog.TousSousYmnologous.text End-Hymn
 		End-Section
 	End-Section
 	
