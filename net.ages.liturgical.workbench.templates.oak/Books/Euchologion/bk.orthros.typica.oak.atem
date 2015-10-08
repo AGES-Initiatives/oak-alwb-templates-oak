@@ -33,6 +33,7 @@ import client_gr_GR_cog.*
 	import orthros.typica_gr_KE_oak.*
 	import misc_gr_GR_cog.*
 	import oc.m1.d1_gr_GR_cog.*
+	import ps.bodes_gr_GR_cog.*
 	
 	import iTags.*
 	import bTags.*
@@ -453,6 +454,60 @@ import client_gr_GR_cog.*
 			Actor sid People End-Actor
 			Hymn sid he.h.m4_gr_GR_cog.AnoixoToStomaMou.text End-Hymn
 			Hymn sid he.h.m4_gr_GR_cog.TousSousYmnologous.text End-Hymn
+			Hymn sid he.h.m4_gr_GR_cog.TinAnexichniaston.text End-Hymn
+			Hymn sid he.h.m4_gr_GR_cog.ExestiTaSympanta.text End-Hymn
+			Hymn sid he.h.m4_gr_GR_cog.TinTheianTaftin.text End-Hymn
+			Hymn sid he.h.m4_gr_GR_cog.OukElatrefsan.text End-Hymn
+			Hymn sid bode8.v19.text End-Hymn
+			Hymn sid he.h.m4_gr_GR_cog.PaidasEvageis.text End-Hymn
+		End-Section
+		// or do the Gospel and Psalm 50 belong here?--MP
+		Section magnificat
+			Title sid magnificat.title End-Title
+			
+			Actor sid Reader End-Actor
+			Verse sid bode9_mag.v1.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid he.h.m6_gr_GR_cog.TinTimioteran.text End-Hymn
+		
+			Actor sid Reader End-Actor
+			Verse sid bode9_mag.v2.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid he.h.m6_gr_GR_cog.TinTimioteran.text End-Hymn
+		
+			Actor sid Reader End-Actor
+			Verse sid bode9_mag.v3.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid he.h.m6_gr_GR_cog.TinTimioteran.text End-Hymn
+		
+			Actor sid Reader End-Actor
+			Verse sid bode9_mag.v4.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid he.h.m6_gr_GR_cog.TinTimioteran.text End-Hymn
+		
+			Actor sid Reader End-Actor
+			Verse sid bode9_mag.v5.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid he.h.m6_gr_GR_cog.TinTimioteran.text End-Hymn
+		
+			Actor sid Reader End-Actor
+			Verse sid bode9_mag.v6.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid he.h.m6_gr_GR_cog.TinTimioteran.text End-Hymn
+		
+			Hymn sid he.h.m4_gr_GR_cog.ApasGigenis.text End-Hymn
+		
+			Actor sid Reader End-Actor
+			Dialog sid res01 sid Twelve End-Dialog
+			Dialog sid DiEfchonPateron.text End-Dialog
+		End-Section
+		
+		Section praises
+			Actor sid People End-Actor
+			Hymn sid psa98.v9balt.text sid Thrice End-Hymn
+			Hymn sid psa98.v5.text End-Hymn
+			Hymn sid he.a.m2_gr_GR_cog.ToisMathitaisSynelthomen.text End-Hymn
+			Dialog sid doxapatrikainyn End-Dialog
 		End-Section
 	End-Section
 	

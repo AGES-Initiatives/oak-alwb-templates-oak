@@ -1539,7 +1539,7 @@ Status Review
 		Reading sid li.theotokion End-Reading
 		
 		Dialog sid res01 <r> sid Thrice </> sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog
-		Reading sid li.uliyewathamani End-Reading
+		Reading sid he.h.m6_gr_GR_cog.TinTimioteran.text End-Reading
 		Dialog sid DoxaPatri.text sid KaiNynKaiAei.text End-Dialog
 		Dialog sid res01 <r> sid Thrice </> End-Dialog
 		
