@@ -508,6 +508,43 @@ import client_gr_GR_cog.*
 			Hymn sid psa98.v5.text End-Hymn
 			Hymn sid he.a.m2_gr_GR_cog.ToisMathitaisSynelthomen.text End-Hymn
 			Dialog sid doxapatrikainyn End-Dialog
+			Hymn sid exapostilarion.theotokion.text End-Hymn
+			Hymn sid psa150.v6a.text sid psa148.v1alt.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Verse sid psa149.v9.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid psa150.v6a.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Verse sid psa150.v1a.text sid psa150.v1b.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid psa150.v6a.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Verse sid psa150.v2.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid psa150.v6a.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Verse sid psa150.v3.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid psa150.v6a.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Verse sid psa150.v4.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid psa150.v6a.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Verse sid psa150.v5.text sid psa150.v6a.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid psa150.v6a.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Verse sid psa9.v33.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid psa150.v6a.text End-Hymn
 		End-Section
 	End-Section
 	
