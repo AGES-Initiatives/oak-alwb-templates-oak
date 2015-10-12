@@ -545,6 +545,26 @@ import client_gr_GR_cog.*
 			Verse sid psa9.v33.text End-Verse
 			Actor sid People End-Actor
 			Hymn sid psa150.v6a.text End-Hymn
+			
+			Actor sid Reader End-Actor
+			Verse sid psa9.v2.text End-Verse
+			Actor sid People End-Actor
+			Hymn sid psa150.v6a.text End-Hymn
+			Hymn sid doxapatrikainyn End-Hymn
+			
+			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.Kathisma23.text End-Hymn
+		End-Section
+		
+		Section doxology
+			Title sid hoMA.DoxologyGreat.title End-Title
+			Actor sid People End-Actor
+			Hymn sid hoMA.DoxologyGreatIntro.text End-Hymn
+			Hymn sid hoMA.DoxologyVerse01.text End-Hymn
+			Hymn sid hoMA.DoxologyVerse02.text End-Hymn
+			Hymn sid hoMA.DoxologyVerse03.text End-Hymn
+			Hymn sid hoMA.DoxologyVerse04.text End-Hymn
+			Hymn sid hoMA.DoxologyVerse05.text End-Hymn
+			Hymn sid hoMA.DoxologyVerse06.text End-Hymn
 		End-Section
 	End-Section
 	
