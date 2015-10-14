@@ -575,10 +575,41 @@ import client_gr_GR_cog.*
 			Hymn sid hoMA.DoxologyVerse13.text End-Hymn
 			Hymn sid hoMA.DoxologyVerse14.text End-Hymn
 			Hymn sid hoMA.DoxologyVerse15.text End-Hymn
+			Hymn sid AgiosOTheos.text sid Thrice End-Hymn
+			Hymn sid doxapatrikainyn End-Hymn
+			Hymn sid hoMA.DoxologyVerse19.text End-Hymn
+			Hymn sid AgiosOTheos.text End-Hymn
+			
+			Title sid tropres.title End-Title
+			Hymn sid hoMA.SunTroparion1.text End-Hymn
+		End-Section
+		
+		Section orthrosdismissal
+			Actor sid Reader End-Actor
+			Dialog sid res01 sid Forty End-Dialog
+			Dialog sid DiEfchonPateron.text End-Dialog
+			Dialog sid StereosaiKyrios.text End-Dialog
+			Dialog sid TinTimioteran.text End-Dialog
+			Dialog sid res01 sid Thrice End-Dialog
+			Dialog sid DiEfchonPateron.text End-Dialog
+			
+			Rubric sid rubric.begintypika End-Rubric
 		End-Section
 	End-Section
 	
+	// do I add sixth hour?--MP
+	
 	Section typika
+		Title sid typica.title End-Title
+		Rubric sid rubric.opencurtain End-Rubric
+		
+		Actor sid Reader End-Actor
+		Dialog sid EisToOnoma End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 sid res01 sid Twelve End-Dialog
+		
+		Section antiphon1
+		End-Section
 	End-Section
 
 End-Template
