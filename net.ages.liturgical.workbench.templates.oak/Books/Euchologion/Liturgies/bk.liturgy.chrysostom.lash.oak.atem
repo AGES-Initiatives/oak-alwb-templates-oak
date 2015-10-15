@@ -413,7 +413,7 @@ Status Review
 		Dialog sid pet04 End-Dialog
 		Dialog sid pet06 End-Dialog
 		Dialog sid pet07S End-Dialog
-//		Dialog sid pet08alt End-Dialog
+		Dialog sid pet08 End-Dialog
 		Dialog sid pet09 End-Dialog
 		Dialog sid pet10 End-Dialog
 		Dialog sid pet11 End-Dialog
