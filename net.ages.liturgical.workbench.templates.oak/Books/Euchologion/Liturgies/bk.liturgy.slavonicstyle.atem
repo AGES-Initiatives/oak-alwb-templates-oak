@@ -266,7 +266,7 @@ import client_gr_GR_cog.*
 			Actor sid Deacon End-Actor
 			Dialog sid EvlogisonThymiama.text End-Dialog
 			Actor sid Priest End-Actor
-			Dialog sid li.preparation.prayerincense End-Dialog
+			Dialog sid Thymiama.text End-Dialog
 			
 			Title sid li.cover.title End-Title
 			Actor sid Deacon End-Actor

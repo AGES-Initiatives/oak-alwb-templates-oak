@@ -257,7 +257,7 @@ Status Review
 		Rubric sid li.rubric.takecenser End-Rubric
 		Dialog sid EvlogisonThymiama.text End-Dialog
 		Rubric sid li.rubric.blessincense End-Rubric
-		Dialog sid li.preparation.prayerincense End-Dialog
+		Dialog sid Thymiama.text End-Dialog
 		
 		Actor sid Deacon End-Actor
 		Dialog sid li.preparation.makefirm End-Dialog
@@ -513,9 +513,8 @@ Status Review
 		Actor sid People End-Actor
 		Hymn sid hoLI.Antiphon21.text media-off sid hoLI.Antiphon2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
 		
-		Dialog sid DoxaPatri.text End-Dialog
+		Dialog sid doxapatrikainyn End-Dialog
 		Rubric sid li.rubric.alldays End-Rubric
-		Dialog sid KaiNynKaiAei.text End-Dialog
 		Hymn sid hoLI.OnlyBegotten.text End-Hymn
 	End-Section
 
@@ -630,7 +629,7 @@ Status Review
 			Hymn sid hoLI.TrisagiosHymn.text End-Hymn
 			Hymn sid hoLI.TrisagiosHymn.text End-Hymn
 			Hymn sid hoLI.TrisagiosHymn.text End-Hymn
-			Verse sid DoxaPatri.text sid KaiNynKaiAei.text End-Verse	
+			Verse sid doxapatrikainyn End-Verse	
 			Para role hymnlinelast sid hoLI.TrisagiosHymn3.text sid hoLI.TrisagiosHymn4.text End-Para
 			Actor sid Deacon End-Actor
 			Dialog sid euLI.Key0602.text End-Dialog	
@@ -708,11 +707,11 @@ Status Review
 		Actor sid People End-Actor
 		Dialog sid res05 End-Dialog
 		Actor sid Deacon End-Actor
-		Dialog sid cl.eu.lichrysbasil.R011 End-Dialog	
+		Dialog sid cl.eu.lichrysbasil.R011 End-Dialog
+		Actor sid Priest End-Actor
+		Dialog sid exc19 End-Dialog	
 		Actor sid People End-Actor
 		Dialog sid DoxaSoiKyrie End-Dialog	
-		Actor sid Priest End-Actor
-		Dialog sid exc19 End-Dialog
 			
 		Actor sid Deacon End-Actor
 		Rubric sid li.rubric.readgospel End-Rubric
