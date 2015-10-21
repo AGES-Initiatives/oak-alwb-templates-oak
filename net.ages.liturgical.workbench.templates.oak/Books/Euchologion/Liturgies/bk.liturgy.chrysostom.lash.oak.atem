@@ -257,7 +257,7 @@ Status Review
 		Rubric sid li.rubric.takecenser End-Rubric
 		Dialog sid EvlogisonThymiama.text End-Dialog
 		Rubric sid li.rubric.blessincense End-Rubric
-		Dialog sid Thymiama.text End-Dialog
+		Dialog sid prayers_gr_GR_cog.Thymiama.text End-Dialog
 		
 		Actor sid Deacon End-Actor
 		Dialog sid li.preparation.makefirm End-Dialog
@@ -855,7 +855,7 @@ Status Review
 		Rubric sid li.rubric.cherubic End-Rubric
 		Actor sid Choir End-Actor
 		Media sid euLI.Key1102.text End-Media
-		Hymn sid euLI.Key1102.text media-off sid euLI.Key1103.text End-Hymn	
+		Hymn sid euLI.Key1102.text media-off sid euLI.Key1103.text End-Hymn
 		
 		Rubric sid li.rubric.prayercherubic End-Rubric 
 		Title sid li.prayercherubic.title End-Title
@@ -879,12 +879,14 @@ Status Review
 		
 		Rubric sid li.rubric.approachprothesis End-Rubric
 	    Dialog sid li.preparation.mercy <r> sid Thrice </> End-Dialog // change this key because the Kikuyu is different
+	    Dialog sid li.forgivebrothers End-Dialog
 	    
 	    Rubric sid li.rubric.eparon End-Rubric
 	    Dialog sid li.eparon End-Dialog
 		Rubric sid li.rubric.wearaer End-Rubric
 		Dialog sid psa133.v2alt.text <r> sid li.rubric.psa133.v2.fullattribution </> End-Dialog
 		Rubric sid li.rubric.takegifts End-Rubric
+		Dialog sid psa47.v5.text End-Dialog
 		
 		Break line End_Break
 		
@@ -893,14 +895,14 @@ Status Review
 		Actor sid People End-Actor
 		Dialog sid res04 End-Dialog
 		Rubric sid li.rubric.completehymn End-Rubric
-		Hymn sid li.cherubic2 End-Hymn	
+		Hymn sid li.cherubic2 End-Hymn
 		
 		Rubric sid li.rubric.enteraltar	End-Rubric
 		Rubric sid li.rubric.deaconright End-Rubric
 		Actor sid Deacon End-Actor
-		Dialog sid euLI.Key1114.text End-Dialog
+		Para role inaudible sid euLI.Key1114.text End-Para
 		Rubric sid li.rubric.priestresponse End-Rubric
-		Dialog sid li.holydiaconate End-Dialog
+		Para role inaudible sid li.holydiaconate End-Para
 		
 		Rubric sid li.rubric.placegiftsaltar End-Rubric
 		Dialog sid li.noblejoseph End-Dialog
@@ -910,15 +912,15 @@ Status Review
 		Dialog sid psa50.v20.text sid psa50.v21a.text sid psa50.v21b.text <r> sid li.rubric.psa50.v20.v21.fullattribution </> End-Dialog
 		
 		Rubric sid li.rubric.rememberpriest End-Rubric
-		Dialog sid euLI.Key1118.text End-Dialog
+		Para role inaudible sid euLI.Key1118.text End-Para
 		Actor sid Deacon End-Actor
-		Dialog sid euLI.Key1114.text End-Dialog
+		Para role inaudible sid euLI.Key1114.text End-Para
 		Actor sid Priest End-Actor
-		Dialog sid li.praypriest End-Dialog
+		Para role inaudible sid li.praypriest End-Para
 		Actor sid Deacon End-Actor
-		Dialog sid euLI.Key1120.text End-Dialog
+		Para role inaudible sid euLI.Key1120.text End-Para
 		Actor sid Priest End-Actor
-		Dialog sid euLI.Key1121.text End-Dialog
+		Para role inaudible sid euLI.Key1121.text End-Para
 		
 		Rubric sid li.rubric.rememberdeacon End-Rubric
 		Dialog sid euLI.Key1122.text End-Dialog
