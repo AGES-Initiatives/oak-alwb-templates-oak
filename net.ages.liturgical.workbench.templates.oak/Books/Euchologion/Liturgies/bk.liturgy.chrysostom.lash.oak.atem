@@ -923,12 +923,12 @@ Status Review
 		Para role inaudible sid euLI.Key1121.text End-Para
 		
 		Rubric sid li.rubric.rememberdeacon End-Rubric
-		Dialog sid euLI.Key1122.text End-Dialog
+		Para role inaudible sid euLI.Key1122.text End-Para
 		Actor sid Priest End-Actor
-		Dialog sid euLI.Key0106.text End-Dialog
+		Para role inaudible sid euLI.Key0106.text End-Para
 		
 		Rubric sid li.rubric.andsaying End-Rubric
-		Dialog sid res04 End-Dialog
+		Para role inaudible sid res04 End-Para
 		Rubric sid li.rubric.beginlitanygifts End-Rubric
 	End-Section
 	
@@ -988,7 +988,7 @@ Status Review
 			Actor sid Deacon End-Actor
 			Dialog sid euLI.Key1208.text End-Dialog				
 			Actor sid People End-Actor
-			Reading sid Pistevo.text	End-Reading
+			Reading sid Pistevo.text End-Reading
 			
 			Rubric sid li.rubric.waveaer End-Rubric
 		End-Section // Litany And Creed
@@ -1089,12 +1089,12 @@ Status Review
 			Para role inaudible sid euLI.Key1326.text End-Para
 			Rubric sid li.rubric.censemegalynarion End-Rubric				
 			Dialog sid euLI.Key1327.text End-Dialog				
-			Actor sid People End-Actor
 		End-Section
 	End-Section
 
 	Section Section23
 		Section chrys
+			Actor sid People End-Actor
 			// The following megalynarion may change on a feast
 			Hymn sid euLI.Key1328.text End-Hymn
 			Dialog sid Asterisks End-Dialog
