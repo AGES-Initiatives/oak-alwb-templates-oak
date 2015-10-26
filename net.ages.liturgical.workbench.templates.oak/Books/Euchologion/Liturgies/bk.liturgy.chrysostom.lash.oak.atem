@@ -1399,11 +1399,13 @@ Status Review
 				Actor sid People End-Actor
 				Dialog sid res04 End-Dialog
 			End-Section
+			
 			Section part2
 				Actor sid People End-Actor
 				Media sid euLI.Key1703.text End-Media
 				Hymn sid psa112.v2alt1.text <r> sid Thrice </>  End-Hymn
 			End-Section
+			
 			Section part3
 				Rubric sid li.rubric.pliromanomou End-Rubric
 				Actor sid Priest End-Actor 
