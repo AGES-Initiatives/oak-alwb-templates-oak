@@ -1965,6 +1965,7 @@ Status Review
 	
 	Section TrisagionDeparted
 		Title sid li.trisagion.title End-Title
+		Rubric sid li.rubric.beginning1 End-Rubric
 		
 		Actor sid Priest End-Actor
 		Dialog sid enarxis01 End-Dialog
@@ -1985,6 +1986,7 @@ Status Review
 		
 		Rubric sid Mode5 End-Rubric
 		Dialog sid psa118.v12.text End-Dialog
+		Rubric sid li.rubric.beginning2 End-Rubric
 		Dialog sid hoMA.FuneralEvlog1.text End-Dialog
 		
 		Dialog sid psa118.v12.text End-Dialog
@@ -2008,8 +2010,8 @@ Status Review
 		Dialog sid li.carnivalsaturday.kontakion End-Dialog
 		
 		Rubric sid li.rubric.thefollowingtroparia sid Mode4 End-Rubric
-		Dialog sid li.funeraltroparion1 End-Dialog
-		Dialog sid li.funeraltroparion2 End-Dialog
+		Dialog sid li.funeraltroparion1 End-Dialog // change to oc.m4.d7 ... ocVE.Aposticha4.text
+		Dialog sid li.funeraltroparion2 End-Dialog // change to oc.m4.d7 ... ocMA.Lauds4.text
 		Dialog sid DoxaPatri.text End-Dialog
 		Dialog sid euFUN.Key0103.text End-Dialog
 		Dialog sid KaiNynKaiAei.text End-Dialog
