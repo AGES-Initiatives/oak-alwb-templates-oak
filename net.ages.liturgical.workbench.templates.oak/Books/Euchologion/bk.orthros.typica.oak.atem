@@ -606,9 +606,25 @@ import client_gr_GR_cog.*
 		Actor sid Reader End-Actor
 		Dialog sid EisToOnoma End-Dialog
 		Actor sid People End-Actor
-		Dialog sid res04 sid res01 sid Twelve End-Dialog
+		Dialog sid res04 End-Dialog
+		Dialog sid res01 sid Twelve End-Dialog
 		
 		Section antiphon1
+			Title sid Antifonon1 End-Title
+			Title sid psa102.title End-Title
+			Actor sid People End-Actor
+			Reading sid psa102.text End-Reading
+			Dialog sid res01 <r> sid Thrice </> End-Dialog
+			Dialog sid DoxaPatri.text End-Dialog
+		End-Section
+		
+		Section antiphon2
+			Title sid Antifonon2 End-Title
+			Title sid psa145.title End-Title
+			Actor sid People End-Actor
+			Reading sid psa145.text End-Reading
+			Dialog sid KaiNynKaiAei.text End-Dialog
+			Hymn sid hoLI.OnlyBegotten.text End-Hymn
 		End-Section
 	End-Section
 
