@@ -34,6 +34,7 @@ import client_gr_GR_cog.*
 	import misc_gr_GR_cog.*
 	import oc.m1.d1_gr_GR_cog.*
 	import ps.bodes_gr_GR_cog.*
+	import eu.smallwaterblessing_gr_GR_cog.*
 	
 	import iTags.*
 	import bTags.*
@@ -395,7 +396,7 @@ import client_gr_GR_cog.*
 			Hymn sid oc.m8.d1_gr_GR_cog.ocMA.Antiphon33.text End-Hymn
 		End-Section
 		
-		Section orthrosGospel // is the Gospel supposed to be read in a readers' service?--MP
+		Section orthrosGospel
 			Title sid ToTheionEvangelion End-Title
 			
 			Actor sid Reader End-Actor
@@ -609,12 +610,25 @@ import client_gr_GR_cog.*
 		Dialog sid res04 End-Dialog
 		Dialog sid res01 sid Twelve End-Dialog
 		
+		Section trisagion
+			Actor sid People End-Actor
+			Dialog sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
+			Dialog sid doxapatrikainyn End-Dialog
+			Dialog sid PanagiaTrias.text End-Dialog
+			Dialog sid res01 <r> sid Thrice </> End-Dialog
+			Dialog sid doxapatrikainyn End-Dialog
+			Reading sid PaterImon.text End-Reading
+			Actor sid Reader End-Actor
+			Dialog sid DiEfchonPateron.text End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res04 End-Dialog
+		End-Section
+		
 		Section antiphon1
 			Title sid Antifonon1 End-Title
 			Title sid psa102.title End-Title
 			Actor sid People End-Actor
 			Reading sid psa102.text End-Reading
-			Dialog sid res01 <r> sid Thrice </> End-Dialog
 			Dialog sid DoxaPatri.text End-Dialog
 		End-Section
 		
@@ -626,6 +640,115 @@ import client_gr_GR_cog.*
 			Dialog sid KaiNynKaiAei.text End-Dialog
 			Hymn sid hoLI.OnlyBegotten.text End-Hymn
 		End-Section
+		
+		Section antiphon3
+			Title sid Antifonon3 End-Title
+			Title sid OiMakarismoi End-Title
+			Actor sid People End-Actor
+			Hymn sid leosTY.Beatitudes_Intro.text End-Hymn
+			Hymn sid leosTY.Beatitudes_v01.text End-Hymn
+			Hymn sid leosTY.Beatitudes_v02.text End-Hymn
+			Hymn sid leosTY.Beatitudes_v03.text End-Hymn
+			Hymn sid leosTY.Beatitudes_v04.text End-Hymn
+			Hymn sid leosTY.Beatitudes_v05.text End-Hymn
+			Hymn sid leosTY.Beatitudes_v06.text End-Hymn
+			Hymn sid leosTY.Beatitudes_v07.text End-Hymn
+			Hymn sid leosTY.Beatitudes_v08.text End-Hymn
+			Hymn sid leosTY.Beatitudes_v09.text End-Hymn
+			Hymn sid leosTY.Beatitudes_v10.text End-Hymn
+		End-Section
+		
+		Section hymns
+			Title sid Eisodikon End-Title
+			Actor sid People End-Actor
+			Hymn sid hoLI.EntranceHymn.text sid hoLI.Antiphon21.text End-Hymn
+			
+				Rubric sid rubric.apolytikion End-Rubric
+				Actor sid People End-Actor
+				Title sid Mode1 End-Title
+				Hymn sid li.apolytikiontone1 End-Hymn
+				Title sid Mode2 End-Title
+				Hymn sid li.apolytikiontone2 End-Hymn
+				Title sid Mode3 End-Title
+				Hymn sid li.apolytikiontone3 End-Hymn
+				Title sid Mode4 End-Title
+				Hymn sid li.apolytikiontone4 End-Hymn
+				Title sid Mode5 End-Title
+				Hymn sid li.apolytikiontone5 End-Hymn
+				Title sid Mode6 End-Title
+				Hymn sid li.apolytikiontone6 End-Hymn
+				Title sid Mode7 End-Title
+				Hymn sid li.apolytikiontone7 End-Hymn
+				Title sid Mode8 End-Title
+				Hymn sid li.apolytikiontone8 End-Hymn
+				
+			Rubric sid euSWB.R102 End-Rubric
+			
+			Actor sid Reader End-Actor
+			Dialog sid DiEfchonPateron.text End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res04 End-Dialog
+		End-Section
+		
+		Section Trisagionhymn
+			Title sid hoLI.TrisagiosHymn.title End-Title
+			Actor sid People End-Actor
+			Hymn sid AgiosOTheos.text <r> sid Thrice </> End-Hymn
+			Hymn sid doxapatrikainyn End-Hymn
+			Hymn sid hoLI.TrisagiosHymn3.text sid hoLI.TrisagiosHymn4.text End-Hymn
+			Hymn sid AgiosOTheos.text End-Hymn
+		End-Section
+		
+		Section readings
+			Section prokimenon
+				Title sid Prokeimenon End-Title
+				Rubric sid rubric.prokeimenon End-Rubric
+				Title sid Mode1 End-Title
+				Actor sid Reader End-Actor
+				Actor sid People End-Actor
+				
+				Title sid Mode2 End-Title
+				Title sid Mode3 End-Title
+				Title sid Mode4 End-Title
+				Title sid Mode5 End-Title
+				Title sid Mode6 End-Title
+				Title sid Mode7 End-Title
+				Title sid Mode8 End-Title
+			End-Section
+			
+			Title sid readings.title End-Title
+			
+			Actor sid Reader End-Actor
+			Dialog sid cl.eu.lichrysbasil.R009 End-Dialog
+			Rubric sid cl.eu.lichrysbasil.R010 End-Rubric
+			
+			// do they do Alleluia and Glory or not?
+			
+			Actor sid People End-Actor
+			Hymn sid Allilouia <r> sid Thrice </> End-Hymn
+			// where are the alleluia verses?
+			
+			Actor sid Reader End-Actor
+			Dialog sid gos03a sid gos03b End-Dialog
+			Actor sid People End-Actor
+			Hymn sid DoxaSoiKyrie End-Hymn
+			Actor sid Reader End-Actor
+			Rubric sid cl.eu.lichrysbasil.R012 End-Rubric
+			Actor sid People End-Actor
+			Hymn sid DoxaSoiKyrie End-Hymn
+		End-Section
+		
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		
+		Actor sid Reader End-Actor
+		Dialog sid doxapatrikainyn End-Dialog
+		Dialog sid leosTY.Beatitudes_Refrain1.text End-Dialog
+		Dialog sid leosTY.Beatitudes_Refrain2.text End-Dialog
+		Dialog sid leosTY.Beatitudes_Refrain3.text End-Dialog
+		Dialog sid heavenlychoir.a End-Dialog
+		
+		Actor sid People End-Actor
+		Hymn sid heavenlychoir.b End-Hymn
 	End-Section
 
 End-Template
