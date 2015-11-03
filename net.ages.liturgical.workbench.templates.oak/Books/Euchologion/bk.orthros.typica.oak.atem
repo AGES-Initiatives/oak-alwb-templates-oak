@@ -22,7 +22,7 @@ import client_gr_GR_cog.*
 	import template.titles_gr_GR_cog.*
 	import titles_gr_GR_cog.*
 	import titles_gr_KE_oak.*
-	import ps_gr_GR_cog.*
+	import ps_gr_KE_oak.*
 	import dismissals_gr_GR_cog.*
 	import le.go.os_gr_GR_cog.*
 	import poets_gr_GR_cog.*
@@ -52,6 +52,7 @@ import client_gr_GR_cog.*
 	
 	Section orthros
 		Title sid hoMA.title End-Title
+		Rubric sid rubric.bell End-Rubric
 		
 		Actor sid Reader End-Actor
 		Dialog sid DiEfchonPateron.text End-Dialog
@@ -98,6 +99,7 @@ import client_gr_GR_cog.*
 		Dialog sid DoxaPatri.text End-Dialog
 		Reading sid li.sept14.kontakion End-Reading
 		Dialog sid KaiNynKaiAei.text End-Dialog
+		Rubric sid rubric.bell End-Rubric
 		Reading sid awesomeintercession.text End-Reading
 		Dialog sid res01 sid Twelve End-Dialog
 		Dialog sid DiEfchonPateron.text End-Dialog
@@ -168,41 +170,49 @@ import client_gr_GR_cog.*
 				Title sid Apolytikion End-Title
 				Hymn sid li.apolytikiontone1 End-Hymn
 				Title sid Theotokion End-Title
+				Rubric sid rubric.bell End-Rubric
 				Hymn sid oc.m1.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
 				Title sid Mode2 End-Title
 				Title sid Apolytikion End-Title
 				Hymn sid li.apolytikiontone2 End-Hymn
 				Title sid Theotokion End-Title
+				Rubric sid rubric.bell End-Rubric
 				Hymn sid oc.m2.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
 				Title sid Mode3 End-Title
 				Title sid Apolytikion End-Title
 				Hymn sid li.apolytikiontone3 End-Hymn
 				Title sid Theotokion End-Title
+				Rubric sid rubric.bell End-Rubric
 				Hymn sid oc.m3.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
 				Title sid Mode4 End-Title
 				Title sid Apolytikion End-Title
 				Hymn sid li.apolytikiontone4 End-Hymn
 				Title sid Theotokion End-Title
+				Rubric sid rubric.bell End-Rubric
 				Hymn sid oc.m4.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
 				Title sid Mode5 End-Title
 				Title sid Apolytikion End-Title
 				Hymn sid li.apolytikiontone5 End-Hymn
 				Title sid Theotokion End-Title
+				Rubric sid rubric.bell End-Rubric
 				Hymn sid oc.m5.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
 				Title sid Mode6 End-Title
 				Title sid Apolytikion End-Title
 				Hymn sid li.apolytikiontone6 End-Hymn
 				Title sid Theotokion End-Title
+				Rubric sid rubric.bell End-Rubric
 				Hymn sid oc.m6.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
 				Title sid Mode7 End-Title
 				Title sid Apolytikion End-Title
 				Hymn sid li.apolytikiontone7 End-Hymn
-				Title sid Theotokion End-Title	
+				Title sid Theotokion End-Title
+				Rubric sid rubric.bell End-Rubric
 				Hymn sid oc.m7.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
 				Title sid Mode8 End-Title
 				Title sid Apolytikion End-Title
 				Hymn sid li.apolytikiontone8 End-Hymn
 				Title sid Theotokion End-Title
+				Rubric sid rubric.bell End-Rubric
 				Hymn sid oc.m8.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
 				
 				Actor sid Reader End-Actor
@@ -452,6 +462,7 @@ import client_gr_GR_cog.*
 		
 		Section katavasia
 			Title sid Katavasia End-Title
+			Rubric sid rubric.bell End-Rubric
 			Actor sid People End-Actor
 			Hymn sid he.h.m4_gr_GR_cog.AnoixoToStomaMou.text End-Hymn
 			Hymn sid he.h.m4_gr_GR_cog.TousSousYmnologous.text End-Hymn
@@ -465,6 +476,7 @@ import client_gr_GR_cog.*
 		// or do the Gospel and Psalm 50 belong here?--MP
 		Section magnificat
 			Title sid magnificat.title End-Title
+			Rubric sid rubric.bell End-Rubric
 			
 			Actor sid Reader End-Actor
 			Verse sid bode9_mag.v1.text End-Verse
@@ -590,6 +602,7 @@ import client_gr_GR_cog.*
 			Dialog sid res01 sid Forty End-Dialog
 			Dialog sid DiEfchonPateron.text End-Dialog
 			Dialog sid StereosaiKyrios.text End-Dialog
+			Rubric sid rubric.bell End-Rubric
 			Dialog sid TinTimioteran.text End-Dialog
 			Dialog sid res01 sid Thrice End-Dialog
 			Dialog sid DiEfchonPateron.text End-Dialog
@@ -706,57 +719,57 @@ import client_gr_GR_cog.*
 				
 				Title sid Mode1 End-Title
 				Actor sid Reader End-Actor
-		//		Hymn sid psa32.v22a.text End-Hymn
+				Hymn sid psa32.v22a.text End-Hymn
 				Actor sid People End-Actor
-		//		Hymn sid psa32.v22a.text End-Hymn
+				Hymn sid psa32.v22a.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa32.v1a.text End-Dialog
+				Dialog sid psa32.v1a.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa32.v22a.text End-Hymn
+				Hymn sid psa32.v22a.text End-Hymn
 				Actor sid Reader End-Actor
 				Dialog sid psa17.v48.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa32.v22a.text End-Hymn
+				Hymn sid psa32.v22a.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa17.v51a.text End-Dialog
+				Dialog sid psa17.v51a.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa32.v22a.text End-Hymn
+				Hymn sid psa32.v22a.text End-Hymn
 				
 				Title sid Mode2 End-Title
 				Actor sid Reader End-Actor
-		//		Hymn sid psa117.v14a.text End-Hymn
+				Hymn sid psa117.v14.text End-Hymn
 				Actor sid People End-Actor
-		//		Hymn sid psa117.v14a.text End-Hymn
+				Hymn sid psa117.v14.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa117.v18a.text End-Dialog
+				Dialog sid psa117.v18.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa117.v14a.text End-Hymn
+				Hymn sid psa117.v14.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa19.v2a.text End-Dialog
+				Dialog sid psa19.v2.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa117.v14a.text End-Hymn
+				Hymn sid psa117.v14.text End-Hymn
 				Actor sid Reader End-Actor
 				Dialog sid psa19.v10.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa117.v14a.text End-Hymn
+				Hymn sid psa117.v14.text End-Hymn
 		
 				Title sid Mode3 End-Title
 				Actor sid Reader End-Actor
-		//		Hymn sid psa46.v7a.text End-Hymn
+				Hymn sid psa46.v7.text End-Hymn
 				Actor sid People End-Actor
-		//		Hymn sid psa46.v7a.text End-Hymn
+				Hymn sid psa46.v7.text End-Hymn
 				Actor sid Reader End-Actor
 				Dialog sid psa46.v2a.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa46.v7a.text End-Hymn
+				Hymn sid psa46.v7.text End-Hymn
 				Actor sid Reader End-Actor
 				Dialog sid psa70.v1.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa46.v7a.text End-Hymn
+				Hymn sid psa46.v7.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa30.v3balt.text End-Dialog
+				Dialog sid psa30.v3balt.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa46.v7a.text End-Hymn
+				Hymn sid psa46.v7.text End-Hymn
 		
 				Title sid Mode4 End-Title
 				Actor sid Reader End-Actor
@@ -764,11 +777,11 @@ import client_gr_GR_cog.*
 				Actor sid People End-Actor
 				Hymn sid psa103.v24a.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa103.v1a.text End-Dialog
+				Dialog sid psa103.v1aalt.text End-Dialog
 				Actor sid People End-Actor
 				Hymn sid psa103.v24a.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa44.v5a.text End-Dialog
+				Dialog sid psa44.v5a.text End-Dialog
 				Actor sid People End-Actor
 				Hymn sid psa103.v24a.text End-Hymn
 				Actor sid Reader End-Actor
@@ -782,71 +795,71 @@ import client_gr_GR_cog.*
 				Actor sid People End-Actor
 				Hymn sid psa11.v8.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa11.v2a.text End-Dialog
+				Dialog sid psa11.v2a.text End-Dialog
 				Actor sid People End-Actor
 				Hymn sid psa11.v8.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa88.v2a.text End-Dialog
+				Dialog sid psa88.v2.text End-Dialog
 				Actor sid People End-Actor
 				Hymn sid psa11.v8.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa88.v3a.text End-Dialog
+				Dialog sid psa88.v3a.text End-Dialog
 				Actor sid People End-Actor
 				Hymn sid psa11.v8.text End-Hymn
 				
 				Title sid Mode6 End-Title
 				Actor sid Reader End-Actor
-		//		Hymn sid psa27.v9a.text End-Hymn
+				Hymn sid psa27.v9aalt.text End-Hymn
 				Actor sid People End-Actor
-		//		Hymn sid psa27.v9a.text End-Hymn
+				Hymn sid psa27.v9aalt.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa27.v1a.text End-Dialog
+				Dialog sid psa27.v1a.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa27.v9a.text End-Hymn
+				Hymn sid psa27.v9aalt.text End-Hymn
 				Actor sid Reader End-Actor
 				Dialog sid psa90.v1.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa27.v9a.text End-Hymn
+				Hymn sid psa27.v9aalt.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa90.v2a.text End-Dialog
+				Dialog sid psa90.v2.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa27.v9a.text End-Hymn
+				Hymn sid psa27.v9aalt.text End-Hymn
 				
 				Title sid Mode7 End-Title
 				Actor sid Reader End-Actor
-		//		Hymn sid psa28.v11a.text End-Hymn
+				Hymn sid psa28.v11.text End-Hymn
 				Actor sid People End-Actor
-		//		Hymn sid psa28.v11a.text End-Hymn
+				Hymn sid psa28.v11.text End-Hymn
 				Actor sid Reader End-Actor
 				Dialog sid psa28.v1.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa28.v11a.text End-Hymn
+				Hymn sid psa28.v11.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa91.v2a.text End-Dialog
+				Dialog sid psa91.v2.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa28.v11a.text End-Hymn
+				Hymn sid psa28.v11.text End-Hymn
 				Actor sid Reader End-Actor
 				Dialog sid psa91.v3.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa28.v11a.text End-Hymn
+				Hymn sid psa28.v11.text End-Hymn
 		
 				Title sid Mode8 End-Title
 				Actor sid Reader End-Actor
-		//		Hymn sid psa75.v12a.text End-Hymn
+				Hymn sid psa75.v12a.text End-Hymn
 				Actor sid People End-Actor
-		//		Hymn sid psa75.v12a.text End-Hymn
+				Hymn sid psa75.v12a.text End-Hymn
 				Actor sid Reader End-Actor
 				Dialog sid psa75.v12.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa75.v12a.text End-Hymn
+				Hymn sid psa75.v12a.text End-Hymn
 				Actor sid Reader End-Actor
 				Dialog sid psa94.v1.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa75.v12a.text End-Hymn
+				Hymn sid psa75.v12a.text End-Hymn
 				Actor sid Reader End-Actor
-		//		Dialog sid psa94.v2a.text End-Dialog
+				Dialog sid psa94.v2.text End-Dialog
 				Actor sid People End-Actor
-		//		Hymn sid psa75.v12a.text End-Hymn
+				Hymn sid psa75.v12a.text End-Hymn
 			End-Section
 			
 			Title sid readings.title End-Title
@@ -935,6 +948,29 @@ import client_gr_GR_cog.*
 		
 		Actor sid Reader End-Actor
 		Dialog sid res01 <r> sid Forty </> End-Dialog
+		Dialog sid TY0501 End-Dialog
+		
+		Actor sid People End-Actor
+		Hymn sid euLI.Key1411.text <r> sid Thrice </> End-Hymn
+		Hymn sid psa112.v2alt1.text <r> sid Thrice </> End-Hymn
+		
+		Actor sid Reader End-Actor
+		Dialog sid doxapatrikainyn End-Dialog
+		Title sid psa33.title End-Title
+		Reading sid psa33.text End-Reading
+		Dialog sid doxapatrikainyn End-Dialog
+		
+		Actor sid People End-Actor
+		Dialog sid res01 <r> sid Thrice </> End-Dialog
+		Rubric sid rubric.bell End-Rubric
+		Dialog sid AxionEstin.text End-Dialog
+		
+		Actor sid Reader End-Actor
+		Dialog sid DiEfchonPateron.text End-Dialog
+		Actor sid People End-Actor
+		Dialog sid res04 End-Dialog
+		
+		Rubric sid rubric.icon End-Rubric
 	End-Section
 
 End-Template
