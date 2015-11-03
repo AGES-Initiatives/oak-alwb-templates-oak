@@ -266,7 +266,7 @@ import client_gr_GR_cog.*
 			Actor sid Deacon End-Actor
 			Dialog sid EvlogisonThymiama.text End-Dialog
 			Actor sid Priest End-Actor
-			Dialog sid Thymiama.text End-Dialog
+			Dialog sid prayers_gr_GR_cog.Thymiama.text End-Dialog
 			
 			Title sid li.cover.title End-Title
 			Actor sid Deacon End-Actor
@@ -285,6 +285,14 @@ import client_gr_GR_cog.*
 			Dialog sid pet00 sid res01 sid li.preparation.cover End-Dialog
 			Actor sid Priest End-Actor
 			Dialog sid li.preparation.coverchalice End-Dialog
+			Rubric sid li.rubric.coverboth End-Rubric
+			Actor sid Deacon End-Actor
+			Dialog sid li.preparation.shelter End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid li.preparation.coverboth End-Dialog
+			
+			Rubric sid li.rubric.censegifts End-Rubric
+			Dialog sid li.preparation.wellpleased End-Dialog
 		End-Section
 	End-Section
 End-Template
