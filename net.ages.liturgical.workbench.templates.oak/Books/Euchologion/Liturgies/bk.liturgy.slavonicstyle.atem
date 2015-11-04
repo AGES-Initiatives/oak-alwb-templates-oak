@@ -293,6 +293,47 @@ import client_gr_GR_cog.*
 			
 			Rubric sid li.rubric.censegifts End-Rubric
 			Dialog sid li.preparation.wellpleased End-Dialog
+			
+			Title sid li.preparation.protheseos.title End-Title
+			Rubric sid li.rubric.bowgifts End-Rubric
+			Actor sid Priest End-Actor
+			Reading sid li.preparation.protheseosprayer End-Reading
+			
+			Title sid li.rubric.dismissal End-Title
+			
+			Actor sid Priest End-Actor
+			Dialog sid DoxaSoiChriste2 End-Dialog
+			Dialog sid doxapatrikainyn End-Dialog
+			Dialog sid res01 <r> sid Thrice </> End-Dialog
+			Dialog sid dis01 sid dis00.resurrection sid dis02 sid li.preparation.commemmorationchrysostom sid dis10 sid dis88 End-Dialog
 		End-Section
+	End-Section
+	
+	Section great_doxology
+		Title sid hoMA.DoxologyGreat.title End-Title
+		Actor sid People End-Actor
+		Dialog sid hoMA.DoxologyGreatIntro.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse01.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse02.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse03.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse04.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse05.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse06.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse07.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse08.text End-Dialog
+		Dialog sid hoMA.DoxologyVerse09.text End-Dialog
+		Dialog sid psa32.v22.text End-Dialog
+		Dialog sid psa118.v12.text <r> sid Thrice </> End-Dialog
+		Dialog sid psa89.v1.text sid psa40.v5.text End-Dialog
+		Dialog sid psa142.v10alt.text End-Dialog
+		Dialog sid psa35.v10.text End-Dialog
+		Dialog sid psa35.v11a.text End-Dialog
+		Dialog sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
+		Dialog sid doxapatrikainyn End-Dialog
+		Dialog sid hoMA.DoxologyVerse19.text End-Dialog
+		Dialog sid AgiosOTheos.text End-Dialog
+		
+		Rubric sid li.rubric.ifsunday End-Rubric
+		Hymn sid hoMA.SunTroparion1.text End-Hymn
 	End-Section
 End-Template

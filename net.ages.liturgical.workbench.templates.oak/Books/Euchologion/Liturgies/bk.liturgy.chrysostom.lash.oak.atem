@@ -365,8 +365,7 @@ Status Review
 		Dialog sid psa35.v10.text End-Dialog
 		Dialog sid psa35.v11a.text End-Dialog
 		Dialog sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
-		Dialog sid DoxaPatri.text End-Dialog
-		Dialog sid KaiNynKaiAei.text End-Dialog
+		Dialog sid doxapatrikainyn End-Dialog
 		Dialog sid hoMA.DoxologyVerse19.text End-Dialog
 		Dialog sid AgiosOTheos.text End-Dialog
 		
@@ -374,11 +373,11 @@ Status Review
 		
 		Rubric sid li.rubric.firstmodes End-Rubric
 		Rubric sid misc_gr_GR_cog.Mode4 End-Rubric
-		Dialog sid hoMA.SunTroparion1.text End-Dialog
+		Hymn sid hoMA.SunTroparion1.text End-Hymn
 		
 		Rubric sid li.rubric.altmodes End-Rubric
 		Rubric sid misc_gr_GR_cog.Mode8 End-Rubric
-		Dialog sid hoMA.SunTroparion2.text End-Dialog
+		Hymn sid hoMA.SunTroparion2.text End-Hymn
 		
 		Break line
 		End_Break
