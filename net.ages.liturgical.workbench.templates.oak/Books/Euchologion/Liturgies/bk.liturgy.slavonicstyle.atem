@@ -335,5 +335,206 @@ import client_gr_GR_cog.*
 		
 		Rubric sid li.rubric.ifsunday End-Rubric
 		Hymn sid hoMA.SunTroparion1.text End-Hymn
+		
+		Rubric sid li.rubric.apolysis End-Rubric
+		
+		Break line
+		End_Break
+	End-Section
+	
+	Section liturgychrysostom
+		Title sid li.liturgy.title End-Title
+		
+		Section preliminaries
+			Title sid li.preparation.preliminaries.title End-Title
+			
+			Title sid li.censing.title End-Title
+			Rubric sid li.rubric.cense End-Rubric
+			Actor sid Priest End-Actor
+			Dialog sid oc.m4.d1_gr_GR_cog.ocMA.OdeS1C12.text End-Dialog
+			Rubric sid li.rubric.cense2 End-Rubric
+			Reading sid psa50.text End-Reading
+			
+			Title sid li.altar.title End-Title
+			Rubric sid li.rubric.heavenlyking End-Rubric
+			Dialog sid VasilefOuranie.text End-Dialog
+			
+			Rubric sid li.rubric.bowthricealtar End-Rubric
+			Dialog sid hoMA.DoxologyVerse01.text <r> sid Twice </> End-Dialog
+			Dialog sid psa50.v17.text End-Dialog
+		End-Section
+		
+		Section liturgycatechumens
+			Title sid li.liturgycatechumens.title End-Title
+			Rubric sid li.rubric.beginliturgy End-Rubric
+			Actor sid Deacon End-Actor
+			Dialog sid res08 End-Dialog
+			Actor sid Priest End-Actor
+			Dialog sid euLI.Key0109.text End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res04 End-Dialog
+			
+			Section litanypeace
+				Title role desig sid li.litanypeace.title End-Title
+				Actor sid Deacon End-Actor
+				Dialog sid pet01 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+			
+				Actor sid Deacon End-Actor
+				Dialog sid pet02 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+			
+				Actor sid Deacon End-Actor
+				Dialog sid pet03 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+			
+				Actor sid Deacon End-Actor
+				Dialog sid pet04 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+			
+				Actor sid Deacon End-Actor
+				Dialog sid pet06 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+			
+				Actor sid Deacon End-Actor
+				Dialog sid pet07S End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+			
+				Actor sid Deacon End-Actor
+				Dialog sid pet08 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+			
+				Actor sid Deacon End-Actor
+				Dialog sid pet09 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+			
+				Actor sid Deacon End-Actor
+				Dialog sid pet10 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+			
+				Actor sid Deacon End-Actor
+				Dialog sid pet11 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+			
+				Actor sid Deacon End-Actor
+				Dialog sid pet12 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+			
+				Actor sid Deacon End-Actor
+				Dialog sid pet13 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res03 End-Dialog
+				
+				Actor sid Priest End-Actor 
+				Para role inaudible sid euLI.Key0201.text End-Para
+				Actor sid Aloud End-Actor
+				Dialog sid exc01 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+			End-Section
+			
+			Section antifon1
+				Title role desig sid li.antifon1.title End-Title
+				Rubric sid li.rubric.deaconpositionantifon1 End-Rubric
+				Title sid psa102.title End-Title
+				Actor sid People End-Actor
+				Hymn sid psa102.text End-Hymn
+			End-Section
+			
+			Section smalllitany
+				Title sid li.smalllitany.title End-Title
+				Rubric sid li.rubric.deaconlitany End-Rubric
+				
+				Actor sid Deacon End-Actor
+				Dialog sid pet14 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+		
+				Actor sid Deacon End-Actor
+				Dialog sid pet12 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+		
+				Actor sid Deacon End-Actor
+				Dialog sid pet13 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res03 End-Dialog
+				
+				Actor sid Priest End-Actor 
+				Para role inaudible sid euLI.Key0301.text End-Para
+				Actor sid Aloud End-Actor
+				Dialog sid exc02 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+			End-Section
+			
+			Section antifon2
+				Title role desig sid li.antifon2.title End-Title
+				Rubric sid li.rubric.deaconpositionantifon2 End-Rubric
+				
+				Title sid psa145.title End-Title
+				Actor sid People End-Actor
+				Hymn sid DoxaPatri.text End-Hymn
+				Hymn sid psa145.text End-Hymn
+				
+				Hymn sid KaiNynKaiAei.text End-Hymn
+				Hymn sid hoLI.OnlyBegotten.text End-Hymn
+			End-Section
+			
+			Section smalllitany
+				Title sid li.smalllitany.title End-Title
+				Rubric sid li.rubric.deaconlitany End-Rubric
+				
+				Actor sid Deacon End-Actor
+				Dialog sid pet14 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+		
+				Actor sid Deacon End-Actor
+				Dialog sid pet12 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+		
+				Actor sid Deacon End-Actor
+				Dialog sid pet13 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res03 End-Dialog
+				
+				Rubric sid li.rubric.entersouth End-Rubric
+				
+				Actor sid Priest End-Actor 
+				Para role inaudible sid euLI.Key0401.text End-Para
+				Actor sid Aloud End-Actor
+				Dialog sid exc03 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+			End-Section
+			
+			Section antifon3
+				Actor sid People End-Actor
+				Hymn sid leosTY.Beatitudes_Intro.text End-Hymn
+				Hymn sid leosTY.Beatitudes_v01.text End-Hymn
+				Hymn sid leosTY.Beatitudes_v02.text End-Hymn
+				Hymn sid leosTY.Beatitudes_v03.text End-Hymn
+				Hymn sid leosTY.Beatitudes_v04.text End-Hymn
+				Hymn sid leosTY.Beatitudes_v05.text End-Hymn
+				Hymn sid leosTY.Beatitudes_v06.text End-Hymn
+				Hymn sid leosTY.Beatitudes_v07.text End-Hymn
+				Hymn sid leosTY.Beatitudes_v08.text End-Hymn
+				Hymn sid leosTY.Beatitudes_v09.text End-Hymn
+				Hymn sid leosTY.Beatitudes_v10.text End-Hymn
+			End-Section
+		End-Section
 	End-Section
 End-Template
