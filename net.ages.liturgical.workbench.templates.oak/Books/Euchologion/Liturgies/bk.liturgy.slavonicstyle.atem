@@ -535,6 +535,125 @@ import client_gr_GR_cog.*
 				Hymn sid leosTY.Beatitudes_v09.text End-Hymn
 				Hymn sid leosTY.Beatitudes_v10.text End-Hymn
 			End-Section
+			
+			Section smallentrance
+				Title role desig sid li.smallentrance.title End-Title
+				Rubric sid li.rubric.smallentrance End-Rubric
+				Actor sid Priest End-Actor 
+				Para role inaudible sid euLI.Key0501.text sid exc01 End-Para
+				
+				Actor sid Deacon End-Actor
+				Para role inaudible sid euLI.Key0502.text End-Para
+				Actor sid Priest End-Actor
+				Para role inaudible sid euLI.Key0503.text sid res04 End-Para
+				
+				Rubric sid li.rubric.kissgospel End-Rubric
+				Actor sid Deacon End-Actor
+				Dialog sid exc17 sid exc18 End-Dialog
+				
+				Actor sid People End-Actor
+				Hymn sid hoLI.EntranceHymn.text media-off sid hoLI.Antiphon21.text media-off sid hoLI.EntranceHymn2s.text media-off sid hoLI.Antiphon22.text media-off End-Hymn
+				Rubric sid li.rubric.notsunday End-Rubric
+				Rubric sid li.rubric.kontakion1 End-Rubric
+				Hymn sid hoTY.Key0408.text End-Hymn
+				Rubric sid li.rubric.kontakion2 End-Rubric
+				Hymn sid li.allsaints.kontakion End-Hymn
+			End-Section
+			
+			Section trisagion
+				Title sid Trisagion End-Title
+				
+				Actor sid Priest End-Actor 
+				Para role inaudible sid euLI.Key0601.text End-Para
+				Actor sid Deacon End-Actor
+				Dialog sid pet00 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				Actor sid Priest End-Actor
+				Dialog sid exc05a End-Dialog
+				Actor sid Deacon End-Actor
+				Dialog sid exc05b End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+				
+				Rubric sid li.rubric.trisagionclergy End-Rubric
+				Actor sid People End-Actor
+				Hymn sid hoLI.TrisagiosHymn.text <r> sid Thrice </> End-Hymn
+				Verse sid doxapatrikainyn End-Verse	
+				Para role hymnlinelast sid hoLI.TrisagiosHymn3.text sid hoLI.TrisagiosHymn4.text End-Para
+			End-Section
+			
+			Section epistle
+				Title role desig sid OApostolos End-Title
+				
+				Actor sid Priest End-Actor
+				Dialog sid pet31 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res05 End-Dialog
+				
+				Rubric sid li.rubric.approachthrone End-Rubric
+				Actor sid Deacon End-Actor
+				Para role inaudible sid euLI.Key0605.text End-Para
+				Actor sid Priest End-Actor
+				Para role inaudible sid psa117.v26a.text sid euLI.Key0606.text End-Para
+				Actor sid Deacon End-Actor
+				Para role inaudible sid res04 End-Para
+				Dialog sid exc19 sid exc17 End-Dialog
+				
+				Actor sid Reader End-Actor
+				Dialog sid li.prokimenonmode End-Dialog
+				Actor sid People End-Actor
+				Rubric sid li.rubric.readprokimenon End-Rubric
+				
+				Actor sid Deacon End-Actor
+				Dialog sid exc17 End-Dialog
+				
+				Actor sid Reader End-Actor
+				Dialog sid cl.eu.lichrysbasil.R009 End-Dialog
+				Actor sid Deacon End-Actor
+				Dialog sid exc19 End-Dialog
+				Actor sid Reader End-Actor
+				Rubric sid cl.eu.lichrysbasil.R010 End-Rubric
+				
+				Rubric sid li.rubric.censeapostolos End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid epi02 End-Dialog	
+				Actor sid Reader End-Actor
+				Dialog sid res05 End-Dialog
+				
+				Rubric sid li.rubric.withverses End-Rubric
+				Actor sid People End-Actor
+				Hymn sid hoLI.GospelAlleluia.text End-Hymn
+			End-Section
+			
+			Section gospel
+				Title role desig sid li.gospel.title End-Title
+				Rubric sid li.gospelprayer.title End-Rubric
+				Actor sid Priest End-Actor 
+				Para role inaudible sid euLI.Key0704.text End-Para
+				Dialog sid li.exclight End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid li.blessreader End-Dialog
+				Actor sid Priest End-Actor
+				Dialog sid li.blessreader2 End-Dialog
+				Actor sid Deacon End-Actor
+				Dialog sid res04 End-Dialog
+				
+				Rubric sid li.rubric.gospelambon End-Rubric
+				
+				Actor sid Priest End-Actor
+				Dialog sid exc17 sid exc18 sid gos02 sid pet31 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res05 End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid cl.eu.lichrysbasil.R011 sid exc19 End-Dialog
+				Actor sid People End-Actor
+				Hymn sid DoxaSoiKyrie End-Hymn
+			End-Section
 		End-Section
 	End-Section
 End-Template

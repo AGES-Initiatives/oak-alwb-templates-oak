@@ -573,8 +573,10 @@ Status Review
 		Para role inaudible sid euLI.Key0501.text sid exc01 End-Para
 		
 		Rubric sid li.rubric.deaconquietly2 End-Rubric
+		Actor sid Deacon End-Actor
 		Para role inaudible sid euLI.Key0502.text End-Para
 		Rubric sid li.rubric.blessentrance End-Rubric
+		Actor sid Priest End-Actor
 		Para role inaudible sid euLI.Key0503.text sid res04 End-Para
 		
 		Rubric sid li.rubric.kissgospel End-Rubric
