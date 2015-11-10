@@ -653,6 +653,181 @@ import client_gr_GR_cog.*
 				Dialog sid cl.eu.lichrysbasil.R011 sid exc19 End-Dialog
 				Actor sid People End-Actor
 				Hymn sid DoxaSoiKyrie End-Hymn
+				Actor sid Deacon End-Actor
+				Rubric sid li.rubric.readgospel End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid euLI.Key0705.text End-Dialog
+				Actor sid People End-Actor						
+				Dialog sid DoxaSoiKyrie End-Dialog
+			End-Section
+			
+			Section greatlitany
+				Title sid li.greatlitany.title End-Title
+				
+				Actor sid Deacon End-Actor
+				Dialog sid pet15 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				
+				Actor sid Deacon End-Actor 
+				Dialog sid pet16 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				
+				Actor sid Deacon End-Actor 
+				Dialog sid pet17 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 <r> sid Thrice </> End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid li.pet19lash End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 <r> sid Thrice </> End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid pet07Sa End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 <r> sid Thrice </> End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid pet20 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 <r> sid Thrice </> End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid li.pet22lash End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 <r> sid Thrice </> End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid pet23 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 <r> sid Thrice </> End-Dialog
+				
+				Actor sid Priest End-Actor
+				Dialog sid exc11 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+			End-Section
+			
+			Section catechumens
+				Title sid li.rubric.catechumens End-Title
+				
+				Actor sid Deacon End-Actor
+				Dialog sid euLI.Key0901.text End-Dialog	
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				
+				
+				Actor sid Deacon End-Actor
+				Dialog sid euLI.Key0902.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid euLI.Key0903.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid euLI.Key0904.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid euLI.Key0905.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid euLI.Key0906.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid euLI.Key0907.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid euLI.Key0908.text End-Dialog	
+				Actor sid People End-Actor
+				Dialog sid res03 End-Dialog
+				
+				Actor sid Priest End-Actor
+				Dialog sid euLI.Key0910.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+			End-Section
+		End-Section
+		
+		Section liturgyfaithful
+			Title sid li.liturgyfaithful.title End-Title
+			
+			Actor sid Deacon End-Actor
+			Dialog sid euLI.Key0911.text sid euLI.Key0912.text sid pet14 End-Dialog
+			
+			Actor sid Deacon End-Actor
+			Dialog sid pet12 End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res01 End-Dialog
+			
+			Actor sid Deacon End-Actor
+			Dialog sid exc17 End-Dialog
+			
+			Actor sid Priest End-Actor
+			Dialog sid exc01 End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res04 End-Dialog
+			
+			Actor sid Deacon End-Actor
+			Dialog sid pet14 End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res01 End-Dialog
+			
+			Actor sid Deacon End-Actor
+			Dialog sid pet12 End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res01 End-Dialog
+			
+			Actor sid Deacon End-Actor
+			Dialog sid exc17 End-Dialog
+			
+			Actor sid Priest End-Actor
+			Dialog sid euLI.Key1003.text End-Dialog
+			Actor sid People End-Actor
+			Dialog sid res04 End-Dialog
+			
+			Section cherubic
+				Title role desig sid li.cherubic.title End-Title
+				
+				Actor sid Choir End-Actor
+				Hymn sid euLI.Key1102.text End-Hymn
+				
+				Rubric sid li.rubric.prayercherubic End-Rubric
+				Actor sid Priest End-Actor 
+				Para role inaudible sid euLI.Key1101.text End-Para
+				Dialog sid li.Key1101b End-Dialog
+				
+				Rubric sid li.rubric.prayercherubicsecret End-Rubric
+				Actor sid Priest End-Actor
+				Para role inaudible sid euLI.Key1102.text End-Para
+				Actor sid Deacon End-Actor
+				Para role inaudible sid li.cherubic2 End-Para
+				
+				Rubric sid li.rubric.censeatcherubikon End-Rubric
+				Actor sid Priest End-Actor
+				Para role inaudible sid li.preparation.mercy2 <r> sid Thrice </> End-Para
+				
+				Rubric sid li.rubric.wearaer End-Rubric
+				Actor sid Deacon End-Actor
+				Para role inaudible sid li.eparon End-Para
+				Actor sid Priest End-Actor
+				Para role inaudible sid psa133.v2alt.text End-Para
+			End-Section
+			
+			Section greatentrance
+				Title role desig sid li.greatentrance.title End-Title
 			End-Section
 		End-Section
 	End-Section

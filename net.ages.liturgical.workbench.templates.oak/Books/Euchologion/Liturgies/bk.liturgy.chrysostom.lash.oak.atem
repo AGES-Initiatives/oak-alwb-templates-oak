@@ -741,6 +741,7 @@ Status Review
 		
 		Actor sid Deacon End-Actor 
 		Dialog sid pet17 End-Dialog
+		Actor sid People End-Actor
 		Dialog sid res01 <r> sid li.rubric.thriceeach </> End-Dialog
 		
 		Actor sid Deacon End-Actor
@@ -827,6 +828,7 @@ Status Review
 		Actor sid People End-Actor
 		Dialog sid res01 End-Dialog
 		
+		Actor sid Deacon End-Actor
 		Dialog sid pet12 End-Dialog
 		Actor sid People End-Actor
 		Dialog sid res01 End-Dialog
@@ -856,16 +858,16 @@ Status Review
 		Media sid euLI.Key1102.text End-Media
 		Hymn sid euLI.Key1102.text media-off sid euLI.Key1103.text End-Hymn
 		
-		Rubric sid li.rubric.prayercherubic End-Rubric 
+		Rubric sid li.rubric.prayercherubic End-Rubric
 		Title sid li.prayercherubic.title End-Title
 		Actor sid Priest End-Actor 
 		Para role inaudible sid euLI.Key1101.text End-Para
 		
 		Rubric sid li.rubric.prayercherubicsecret End-Rubric
 		Actor sid Priest End-Actor
-		Dialog sid euLI.Key1102.text End-Dialog
+		Para role inaudible sid euLI.Key1102.text End-Para
 		Actor sid Deacon End-Actor
-		Dialog sid li.cherubic2 End-Dialog
+		Para role inaudible sid li.cherubic2 End-Para
 		
 		Rubric sid li.rubric.censeatcherubikon End-Rubric
 		Rubric sid li.rubric.anastasin End-Rubric
