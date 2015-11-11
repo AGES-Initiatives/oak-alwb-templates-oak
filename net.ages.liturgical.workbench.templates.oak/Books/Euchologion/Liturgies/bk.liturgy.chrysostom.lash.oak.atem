@@ -906,11 +906,11 @@ Status Review
 		Para role inaudible sid li.holydiaconate End-Para
 		
 		Rubric sid li.rubric.placegiftsaltar End-Rubric
-		Dialog sid li.noblejoseph End-Dialog
+		Para role inaudible sid li.noblejoseph End-Para
 		Rubric sid li.rubric.covergiftsaer End-Rubric
 		Dialog sid euLI.Key1116.text End-Dialog
 		Actor sid Priest End-Actor
-		Dialog sid psa50.v20.text sid psa50.v21a.text sid psa50.v21b.text <r> sid li.rubric.psa50.v20.v21.fullattribution </> End-Dialog
+		Para role inaudible sid psa50.v20.text sid psa50.v21a.text sid psa50.v21b.text <r> sid li.rubric.psa50.v20.v21.fullattribution </> End-Para
 		
 		Rubric sid li.rubric.rememberpriest End-Rubric
 		Para role inaudible sid euLI.Key1118.text End-Para
@@ -974,10 +974,10 @@ Status Review
 			Actor sid Deacon End-Actor
 			Dialog sid euLI.Key1204.text End-Dialog
 			Actor sid People End-Actor
-			Hymn sid euLI.Key1205.text End-Hymn	
+			Hymn sid euLI.Key1205.text End-Hymn
 			
 			Rubric sid li.rubric.agapwse End-Rubric
-			Dialog sid psa17.v2.text sid psa17.v3a.text End-Dialog
+			Para role inaudible sid psa17.v2.text sid psa17.v3a.text End-Para
 			Rubric sid li.rubric.kissofpeace End-Rubric
 			Dialog sid li.christmidst1 End-Dialog
 			Rubric sid li.rubric.kissofpeace2 End-Rubric
