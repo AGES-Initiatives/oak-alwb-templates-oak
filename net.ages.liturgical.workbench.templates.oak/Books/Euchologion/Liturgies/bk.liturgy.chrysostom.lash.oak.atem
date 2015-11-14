@@ -1067,9 +1067,9 @@ Status Review
 			Actor sid People End-Actor		
 			Dialog sid res04 End-Dialog
 							
-			Actor sid Deacon End-Actor
 			Rubric sid li.rubric.pointchalice End-Rubric
-			Dialog sid li.changewine End-Dialog
+			Actor sid Deacon End-Actor
+			Para role inaudible sid li.changewine End-Para
 			Rubric sid li.rubric.blesschalice End-Rubric
 			Actor sid Priest End-Actor				
 			Dialog sid euLI.Key1323.text End-Dialog
@@ -1078,7 +1078,7 @@ Status Review
 			
 			Rubric sid li.rubric.blessboth End-Rubric
 			Actor sid Deacon End-Actor
-			Dialog sid li.blessboth End-Dialog
+			Para role inaudible sid li.blessboth End-Para
 			Rubric sid li.rubric.epiclesis End-Rubric
 			Actor sid Priest End-Actor				
 			Dialog sid euLI.Key1325.text End-Dialog
@@ -1111,12 +1111,12 @@ Status Review
 			Para role inaudible sid euLI.Key1329.text End-Para
 						
 			Actor sid Clergy End-Actor
-			Dialog sid euLI.Key1330a.text <r> sid cl.bishop1.rank sid cl.bishop1.name_p </> sid euLI.Key1330b.text End-Dialog				
+			Dialog sid euLI.Key1330a.text <r> sid cl.bishop1.rank sid cl.bishop1.name_p sid cl.bishop2.rank </> sid euLI.Key1330b.text End-Dialog				
 			Rubric sid li.rubric.wote End-Rubric
 			Actor sid Deacon End-Actor
 			Dialog sid euLI.Key1331.text End-Dialog				
 			Actor sid People End-Actor
-			Dialog sid euLI.Key1332.text End-Dialog		
+			Dialog sid euLI.Key1332.text End-Dialog	
 			Actor sid Priest End-Actor 
 			Para role inaudible sid euLI.Key1333.text End-Para				
 			Actor sid Aloud End-Actor

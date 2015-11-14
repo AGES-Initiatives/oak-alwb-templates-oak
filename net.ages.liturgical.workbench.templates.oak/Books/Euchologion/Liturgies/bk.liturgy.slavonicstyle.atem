@@ -33,6 +33,7 @@ import client_gr_GR_cog.*
 	import prayers_gr_KE_oak.*
 	import he.a.m2_gr_GR_cog.*
 	import oc.m4.d4_gr_GR_cog.*
+	import ho.s05_gr_GR_cog.*
 	
 	import iTags.*
 	import bTags.*
@@ -1020,8 +1021,81 @@ import client_gr_GR_cog.*
 				Para role inaudible sid euLI.Key1319.text End-Para
 				
 				Rubric sid li.rubric.thirdhour End-Rubric
+				Actor sid Priest End-Actor
+				Para role inaudible sid hoH3.LentTroparion.text End-Para
+				Actor sid Deacon End-Actor
+				Para role inaudible sid psa50.v12.text End-Para
+				Actor sid Priest End-Actor
+				Para role inaudible sid hoH3.LentTroparion.text End-Para
+				Actor sid Deacon End-Actor
+				Para role inaudible sid psa50.v13.text End-Para
+				Actor sid Priest End-Actor
+				Para role inaudible sid hoH3.LentTroparion.text End-Para
+				
+				Rubric sid li.rubric.changebread End-Rubric
+				Actor sid Deacon End-Actor
+				Para role inaudible sid li.changebread End-Para
+				Actor sid Priest End-Actor			
+				Dialog sid euLI.Key1321.text End-Dialog
+				Actor sid People End-Actor		
+				Dialog sid res04 End-Dialog
+				
+				Rubric sid li.rubric.blesschalice End-Rubric
+				Actor sid Deacon End-Actor
+				Para role inaudible sid li.changewine End-Para
+				Actor sid Priest End-Actor				
+				Dialog sid euLI.Key1323.text End-Dialog
+				Actor sid People End-Actor				
+				Dialog sid res04 End-Dialog
+				
+				Rubric sid li.rubric.epiclesis End-Rubric
+				Actor sid Deacon End-Actor
+				Para role inaudible sid li.blessboth End-Para
+				Actor sid Priest End-Actor				
+				Dialog sid euLI.Key1325.text End-Dialog
+				Actor sid People End-Actor				
+				Dialog sid res10 End-Dialog
+				
+				Rubric sid li.rubric.allbow3 End-Rubric
+				Actor sid Priest End-Actor				
+				Para role inaudible sid euLI.Key1326.text End-Para
+				
+				Title sid Megalynarion End-Title
+				Rubric sid li.rubric.censemegalynarion End-Rubric				
+				Dialog sid euLI.Key1327.text End-Dialog
+				Rubric sid li.rubric.censecommemmorate End-Rubric
+				Actor sid People End-Actor
+				Hymn sid euLI.Key1328.text End-Hymn
+				Actor sid Priest End-Actor 
+				Para role inaudible sid euLI.Key1329.text End-Para
+				Actor sid Priest End-Actor
+				Dialog sid euLI.Key1330a.text <r> sid cl.bishop1.rank sid cl.bishop1.name_p sid cl.bishop2.name_c </> sid euLI.Key1330b.text End-Dialog
+			
+				// missing deacon's part
+				Actor sid People End-Actor
+				Dialog sid euLI.Key1332.text End-Dialog
+				
+				Actor sid Priest End-Actor 
+				Para role inaudible sid euLI.Key1333.text End-Para
+				Dialog sid euLI.Key1334.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+				
+				Rubric sid li.rubric.blessmercy End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid euLI.Key1335.text End-Dialog		
+				Actor sid People End-Actor
+				Dialog sid euLI.Key1336.text End-Dialog
 			End-Section
 			
+			Section litany
+				Title sid li.litanylordsprayer.title End-Title
+				
+				Actor sid Deacon End-Actor
+				Dialog sid euLI.Key1401.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				End-Section
 		End-Section
 	End-Section
 End-Template
