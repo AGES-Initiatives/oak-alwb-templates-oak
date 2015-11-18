@@ -1256,7 +1256,7 @@ Status Review
 		Actor sid Priest End-Actor				
 		Para role inaudible sid euLI.Key1509.text End-Para
 		
-		Rubric sid li.rubric.xc End-Rubric				
+		Rubric sid li.rubric.xc End-Rubric			
 		Para role inaudible sid euLI.Key1510.text End-Para	
 		Rubric sid li.rubric.wipehand End-Rubric			
 		Para role inaudible sid li.deaconcommune End-Para
@@ -1270,7 +1270,7 @@ Status Review
 		Para role inaudible sid euLI.Key1513.text End-Para	
 		Rubric sid li.rubric.deaconcommune3 End-Rubric
 		
-		Rubric sid li.rubric.chaliceandcloth End-Rubric			
+		Rubric sid li.rubric.chaliceandcloth End-Rubric		
 		Para role inaudible sid euLI.Key1515.text End-Para					
 		
 		Rubric sid li.rubric.drinkthrice End-Rubric

@@ -34,6 +34,8 @@ import client_gr_GR_cog.*
 	import he.a.m2_gr_GR_cog.*
 	import oc.m4.d4_gr_GR_cog.*
 	import ho.s05_gr_GR_cog.*
+	import pe.d00P_gr_GR_cog.*
+	import he.h.m1_gr_GR_cog.*
 	
 	import iTags.*
 	import bTags.*
@@ -1213,6 +1215,58 @@ import client_gr_GR_cog.*
 				Actor sid Priest End-Actor
 				Para role inaudible sid li.pliroma End-Para
 				Para role inaudible sid euLI.Key1506.text End-Para
+				Rubric sid li.rubric.pourzeon End-Rubric
+				Actor sid Priest End-Actor	
+				Para role inaudible sid li.zesis End-Para
+				
+				Rubric sid li.rubric.communionhymn End-Rubric
+				Actor sid People End-Actor
+				Hymn sid psa148.v1.text sid Allilouia3.text <r> sid Thrice </> End-Hymn
+				
+				Rubric sid li.rubric.seepage End-Rubric
+				Reading sid hoPCPrayer.PistevoKyrie.text End-Reading
+				Reading sid hoPCPrayer.TouDeipnouSou.text End-Reading
+				Reading sid li.reception End-Reading
+				
+				Rubric sid li.rubric.xc End-Rubric
+				Para role inaudible sid euLI.Key1510.text End-Para
+				
+				Rubric sid li.rubric.chaliceandcloth End-Rubric
+				Para role inaudible sid euLI.Key1515.text End-Para
+				
+				Rubric sid li.rubric.drinkthrice End-Rubric
+				Para role inaudible sid euLI.Key1516.text End-Para
+				
+				Rubric sid li.rubric.nika End-Rubric
+				
+				Rubric sid li.rubric.approach End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid euLI.Key1526.text End-Dialog
+				
+				Actor sid People End-Actor
+				Hymn sid li.godisthelord End-Hymn
+				
+				Rubric sid li.rubric.distributionprayer End-Rubric
+				Dialog sid li.distributionprayershort End-Dialog
+				Rubric sid li.rubric.toudeipnou End-Rubric
+				Actor sid People End-Actor
+				Hymn sid pePA.CommunionHymn.text sid psa33.v9a.text sid Allilouia3.text End-Hymn
+				
+				Rubric sid li.rubric.blesshand End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid euLI.Key1529.text End-Dialog
+				
+				Actor sid People End-Actor
+				Hymn sid euLI.Key1530.text End-Hymn
+				
+				Rubric sid li.rubric.wipeparticles End-Rubric
+				Actor sid Priest End-Actor
+				Para role inaudible sid hoMA.SunPostGospel.text End-Para
+				Para role inaudible sid FotizouFotizou.text End-Para
+				Para role inaudible sid pe.d00P_gr_GR_cog.pePA.Ode92.text End-Para
+				Rubric sid li.rubric.wipeparticles2 End-Rubric
+				Actor sid Priest End-Actor 
+				Para role inaudible sid euLI.Key1525.text End-Para
 			End-Section
 		End-Section
 	End-Section
