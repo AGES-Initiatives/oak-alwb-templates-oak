@@ -1361,7 +1361,7 @@ Status Review
 			Actor sid Deacon End-Actor
 			Dialog sid euLI.Key1604.text End-Dialog
 			Actor sid People End-Actor
-			Dialog sid res01 End-Dialog			
+			Dialog sid res01 End-Dialog		
 			
 			Actor sid Deacon End-Actor
 			Dialog sid pet12 End-Dialog	
@@ -1406,7 +1406,7 @@ Status Review
 			Section part2
 				Actor sid People End-Actor
 				Media sid euLI.Key1703.text End-Media
-				Hymn sid psa112.v2alt1.text <r> sid Thrice </>  End-Hymn
+				Hymn sid psa112.v2alt1.text <r> sid Thrice </> End-Hymn
 			End-Section
 			
 			Section part3

@@ -1265,8 +1265,90 @@ import client_gr_GR_cog.*
 				Para role inaudible sid FotizouFotizou.text End-Para
 				Para role inaudible sid pe.d00P_gr_GR_cog.pePA.Ode92.text End-Para
 				Rubric sid li.rubric.wipeparticles2 End-Rubric
-				Actor sid Priest End-Actor 
+				Actor sid Priest End-Actor
 				Para role inaudible sid euLI.Key1525.text End-Para
+				Rubric sid li.rubric.censeexalt End-Rubric
+				Actor sid Priest End-Actor 
+				Para role inaudible sid psa56.v6.text End-Para
+				Rubric sid li.rubric.showcoversstar End-Rubric
+				Actor sid Priest End-Actor 
+				Para role inaudible sid EvlogitosOTheosImon.text End-Para
+				Dialog sid PantoteNyn.text End-Dialog
+				Rubric sid li.rubric.blessed End-Rubric
+				
+				Actor sid People End-Actor
+				Hymn sid res04 sid euLI.Key1603.text End-Hymn	
+			End-Section
+			
+			Section thanksgiving
+				Title role desig sid li.thanksdismissal.title End-Title
+				
+				Actor sid Deacon End-Actor
+				Dialog sid euLI.Key1604.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid pet12 End-Dialog	
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				
+				Actor sid Deacon End-Actor
+				Dialog sid euLI.Key1605.text End-Dialog	
+				Actor sid People End-Actor
+				Dialog sid res03 End-Dialog
+				
+				Rubric sid li.rubric.crossantimensiongospel End-Rubric
+				Actor sid Priest End-Actor
+				Para role inaudible sid euLI.Key1606.text End-Para
+				Dialog sid euLI.Key1607.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+			End-Section
+			
+			Section dismissal
+				Title sid euLI.Key1700.title End-Title
+				
+				Actor sid Priest End-Actor
+				Dialog sid euLI.Key1701.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid li.lordsname End-Dialog
+				Actor sid Deacon End-Actor
+				Dialog sid pet00 End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res01 End-Dialog
+				Rubric sid li.rubric.ambonprayer End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid euLI.Key1702.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+				
+				Actor sid People End-Actor
+				Hymn sid psa112.v2alt1.text <r> sid Thrice </> End-Hymn
+				
+				Rubric sid li.rubric.pliromanomou End-Rubric
+				Actor sid Priest End-Actor 
+				Para role inaudible sid euLI.Key1704.text End-Para
+			End-Section
+			
+			Section finalblessing
+				Title sid li.finalblessing.title End-Title
+				
+				Rubric sid li.rubric.evlogiakyriou End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid pet37 End-Dialog	
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
+				
+				Actor sid Priest End-Actor
+				Dialog sid DoxaSoiChriste2 End-Dialog
+				
+				Actor sid People End-Actor
+				Dialog sid doxapatrikainyn sid res06 sid res13 End-Dialog
+				
+				Rubric sid li.rubric.dismissal End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid dis01 sid li.dis.oanastas sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid li.dis.fathersmothers sid li.dis.ofsaint <r> sid li.dis.oftemple </> sid li.dis.chrysostom sid dis09 sid li.dis.ofsaint <r> sid li.dis.ofday </> sid li.dis.memory sid dis10 sid dis88 End-Dialog 
 			End-Section
 		End-Section
 	End-Section
