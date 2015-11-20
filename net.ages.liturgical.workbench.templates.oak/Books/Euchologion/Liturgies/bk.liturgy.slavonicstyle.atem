@@ -1348,7 +1348,13 @@ import client_gr_GR_cog.*
 				
 				Rubric sid li.rubric.dismissal End-Rubric
 				Actor sid Priest End-Actor
-				Dialog sid dis01 sid li.dis.oanastas sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid li.dis.fathersmothers sid li.dis.ofsaint <r> sid li.dis.oftemple </> sid li.dis.chrysostom sid dis09 sid li.dis.ofsaint <r> sid li.dis.ofday </> sid li.dis.memory sid dis10 sid dis88 End-Dialog 
+				Dialog sid dis01 sid dis00.resurrection sid dis02 sid dis06 sid li.dis.chrysostom sid li.dis.ofsaint sid dis09 sid dis10 sid dis88 End-Dialog
+				
+				Rubric sid li.rubric.finalblessing End-Rubric
+				Actor sid Priest End-Actor
+				Dialog sid DiEfchonPateron.text End-Dialog
+				Actor sid People End-Actor
+				Dialog sid res04 End-Dialog
 			End-Section
 		End-Section
 	End-Section
