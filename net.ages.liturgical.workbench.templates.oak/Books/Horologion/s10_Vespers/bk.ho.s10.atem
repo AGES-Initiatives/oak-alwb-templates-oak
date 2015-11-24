@@ -35,26 +35,6 @@ Status Review
 	Actor sid People End-Actor
 	Dialog sid res04 End-Dialog
 	
-	Section trisagion
-		Actor sid Priest End-Actor
-		Dialog sid DoxaSoiKyrie End-Dialog
-		Dialog sid VasilefOuranie.text End-Dialog
-	
-		Actor sid Reader End-Actor
-		Dialog sid res04 sid AgiosOTheos.text <r> sid Thrice </> End-Dialog
-		Dialog sid doxapatrikainyn End-Dialog
-		Dialog sid PanagiaTrias.text End-Dialog
-		Dialog sid res01 <r> sid Thrice </> End-Dialog
-		Dialog sid doxapatrikainyn End-Dialog
-		Dialog sid PaterImon.text End-Dialog
-	
-		Actor sid Priest End-Actor
-		Dialog sid exc20 End-Dialog
-	
-		Actor sid People End-Actor
-		Dialog sid res04 End-Dialog
-	End-Section
-	
 	Section vesperspsalm	
 		Actor sid Reader End-Actor
 		Dialog sid DefteProskinisomen1 End-Dialog
