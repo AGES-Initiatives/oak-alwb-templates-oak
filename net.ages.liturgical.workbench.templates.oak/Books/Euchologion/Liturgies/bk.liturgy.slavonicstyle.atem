@@ -22,7 +22,7 @@ import client_gr_GR_cog.*
 	import rubrical_gr_GR_cog.*
 	import template.titles_gr_GR_cog.*
 	import titles_gr_GR_cog.*
-	import ps_gr_GR_cog.*
+	import ps_gr_KE_oak.*
 	import dismissals_gr_GR_cog.*
 	import le.go.os_gr_GR_cog.*
 	import poets_gr_GR_cog.*
@@ -939,7 +939,7 @@ import client_gr_GR_cog.*
 				Hymn sid euLI.Key1205.text End-Hymn
 				
 				Rubric sid li.rubric.agapwse End-Rubric
-				Para role inaudible sid psa17.v2.text sid psa17.v3a.text <r> sid Thrice </> End-Para
+				Para role inaudible sid psa17.v2alt.text sid psa17.v3aalt.text <r> sid Thrice </> End-Para
 				Rubric sid li.rubric.kissofpeace End-Rubric
 				Dialog sid li.christmidst1 End-Dialog
 				Dialog sid li.christmidst2 End-Dialog
