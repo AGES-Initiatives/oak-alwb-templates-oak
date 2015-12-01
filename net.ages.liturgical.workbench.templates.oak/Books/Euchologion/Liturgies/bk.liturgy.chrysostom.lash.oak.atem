@@ -304,7 +304,7 @@ Status Review
 		Rubric sid li.rubric.censeholytable End-Rubric
 		Dialog sid oc.m4.d1_gr_GR_cog.ocMA.OdeS1C12.text End-Dialog
 		Rubric sid li.rubric.psalm50 End-Rubric
-		Dialog sid psa50.text End-Dialog
+		Dialog sid psa50alt.text End-Dialog
 		Rubric sid li.rubric.censeall End-Rubric
 		
 		Break line
@@ -887,7 +887,7 @@ Status Review
 		Rubric sid li.rubric.wearaer End-Rubric
 		Dialog sid psa133.v2alt.text <r> sid li.rubric.psa133.v2.fullattribution </> End-Dialog
 		Rubric sid li.rubric.takegifts End-Rubric
-		Dialog sid psa47.v5.text End-Dialog
+		Dialog sid psa46.v6alt.text End-Dialog
 		
 		Break line End_Break
 		

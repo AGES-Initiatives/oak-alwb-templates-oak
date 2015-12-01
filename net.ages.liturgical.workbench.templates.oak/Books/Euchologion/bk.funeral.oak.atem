@@ -9,7 +9,7 @@ Status Review
 	import ho.s10_gr_GR_cog.*	
 	import le.ep.va.deceased_gr_GR_cog.*
 	import le.go.va.deceased_gr_GR_cog.*
-	import ps_gr_GR_cog.*
+	import ps_gr_KE_oak.*
 	import misc_gr_GR_cog.*
 
 	//Templates
@@ -249,7 +249,7 @@ End_Head
 	End-Section //Litany01
 	
 	Title role desig sid psa50.title End-Title
-	Reading sid psa50.text End-Reading
+	Reading sid psa50alt.text End-Reading
 	
 	Title role desig sid euFUN.Key0800.title End-Title
 	Title role chapverse sid euFUN.Key0800.poet End-Title

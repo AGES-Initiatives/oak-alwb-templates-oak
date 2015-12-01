@@ -356,7 +356,7 @@ import client_gr_GR_cog.*
 			Actor sid Priest End-Actor
 			Dialog sid oc.m4.d1_gr_GR_cog.ocMA.OdeS1C12.text End-Dialog
 			Rubric sid li.rubric.cense2 End-Rubric
-			Reading sid psa50.text End-Reading
+			Reading sid psa50alt.text End-Reading
 			
 			Title sid li.altar.title End-Title
 			Rubric sid li.rubric.heavenlyking End-Rubric

@@ -11,7 +11,7 @@ Status Review
 	import ho.s12_gr_GR_cog.*
 	import actors_gr_GR_cog.*
 	import actors_gr_KE_oak.*
-	import ps_gr_GR_cog.*
+	import ps_gr_KE_oak.*
 	import ho.s21_gr_GR_cog.*
 	import dismissals_gr_GR_cog.*
 	import oc.m1.d2_gr_GR_cog.*
@@ -347,7 +347,7 @@ Status Review
 		
 		Title sid psa50.title End-Title
 		Title sid prbk.title.repentance End-Title
-		Reading sid psa50.text End-Reading
+		Reading sid psa50alt.text End-Reading
 	End-Section
 	
 	Section beatitudes
@@ -559,7 +559,7 @@ Status Review
 				
 				Section psalm50
 					Title sid psa50.title End-Title
-					Reading sid psa50.text End-Reading
+					Reading sid psa50alt.text End-Reading
 				End-Section
 				
 			Rubric sid prbk.rubric.thentroparion2 End-Rubric

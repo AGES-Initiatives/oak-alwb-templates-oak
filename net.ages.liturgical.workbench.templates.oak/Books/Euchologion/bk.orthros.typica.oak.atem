@@ -420,7 +420,7 @@ import client_gr_GR_cog.*
 			Actor sid Reader End-Actor
 			Reading sid hoMA.SunPostGospel.text End-Reading
 			Actor sid People End-Actor
-			Reading sid psa50.text End-Reading
+			Reading sid psa50alt.text End-Reading
 			Reading sid DoxaPatri.text End-Reading
 			Reading sid hoMA.PostGospelApostles.text End-Reading
 			Reading sid KaiNynKaiAei.text End-Reading
