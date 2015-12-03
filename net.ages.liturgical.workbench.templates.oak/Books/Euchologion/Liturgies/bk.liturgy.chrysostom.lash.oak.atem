@@ -1337,7 +1337,7 @@ Status Review
 		Para role inaudible sid euLI.Key1601.text End-Para
 		Rubric sid li.rubric.censeexalt End-Rubric	
 		Actor sid Priest End-Actor 
-		Para role inaudible sid psa56.v6.text <r> sid Thrice </> End-Para
+		Para role inaudible sid psa56.v6alt.text <r> sid Thrice </> End-Para
 		Rubric sid li.rubric.showcoversstar End-Rubric
 		Rubric sid li.rubric.blessed End-Rubric
 		Para role inaudible sid EvlogitosOTheosImon.text End-Para

@@ -1269,7 +1269,7 @@ import client_gr_GR_cog.*
 				Para role inaudible sid euLI.Key1525.text End-Para
 				Rubric sid li.rubric.censeexalt End-Rubric
 				Actor sid Priest End-Actor 
-				Para role inaudible sid psa56.v6.text End-Para
+				Para role inaudible sid psa56.v6alt.text End-Para
 				Rubric sid li.rubric.showcoversstar End-Rubric
 				Actor sid Priest End-Actor 
 				Para role inaudible sid EvlogitosOTheosImon.text End-Para
