@@ -326,7 +326,7 @@ import client_gr_GR_cog.*
 		Dialog sid hoMA.DoxologyVerse08.text End-Dialog
 		Dialog sid hoMA.DoxologyVerse09.text End-Dialog
 		Dialog sid psa32.v22.text End-Dialog
-		Dialog sid psa118.v12.text <r> sid Thrice </> End-Dialog
+		Dialog sid psa118.v12alt.text <r> sid Thrice </> End-Dialog
 		Dialog sid psa89.v1.text sid psa40.v5.text End-Dialog
 		Dialog sid psa142.v10alt.text End-Dialog
 		Dialog sid psa35.v10.text End-Dialog

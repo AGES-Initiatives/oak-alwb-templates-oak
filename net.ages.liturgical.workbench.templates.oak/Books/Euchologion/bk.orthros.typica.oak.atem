@@ -225,32 +225,32 @@ import client_gr_GR_cog.*
 			Title sid hoMA.ResEvlog.title1 End-Title
 			
 			Actor sid People End-Actor
-			Hymn sid psa118.v12.text End-Hymn
+			Hymn sid psa118.v12alt.text End-Hymn
 			Actor sid Reader End-Actor
 			Hymn sid hoMA.ResEvlog1.text End-Hymn
 			
 			Actor sid People End-Actor
-			Hymn sid psa118.v12.text End-Hymn
+			Hymn sid psa118.v12alt.text End-Hymn
 			Actor sid Reader End-Actor
 			Hymn sid hoMA.ResEvlog2.text End-Hymn
 			
 			Actor sid People End-Actor
-			Hymn sid psa118.v12.text End-Hymn
+			Hymn sid psa118.v12alt.text End-Hymn
 			Actor sid Reader End-Actor
 			Hymn sid hoMA.ResEvlog3.text End-Hymn
 			
 			Actor sid People End-Actor
-			Hymn sid psa118.v12.text End-Hymn
+			Hymn sid psa118.v12alt.text End-Hymn
 			Actor sid Reader End-Actor
 			Hymn sid hoMA.ResEvlog4.text End-Hymn
 			
 			Actor sid People End-Actor
-			Hymn sid psa118.v12.text End-Hymn
+			Hymn sid psa118.v12alt.text End-Hymn
 			Actor sid Reader End-Actor
 			Hymn sid hoMA.ResEvlog5.text End-Hymn
 			
 			Actor sid People End-Actor
-			Hymn sid psa118.v12.text End-Hymn
+			Hymn sid psa118.v12alt.text End-Hymn
 			Actor sid Reader End-Actor
 			Hymn sid hoMA.ResEvlog6.text End-Hymn
 			

@@ -72,7 +72,7 @@ End_Head
 	Title role mode sid euFUN.Key0300.mode End-Title
 	Media sid euFUN.Key0300.text End-Media
 	Para role chant sid psa118.v0.text sid Allilouia End-Para
-	Para role chant sid psa118.v12.text sid Allilouia End-Para
+	Para role chant sid psa118.v12alt.text sid Allilouia End-Para
 	Para role chant sid psa118.v20.text sid Allilouia  End-Para
 	Para role chant sid psa118.v28.text sid Allilouia  End-Para
 	Para role chant sid psa118.v36.text sid Allilouia  End-Para

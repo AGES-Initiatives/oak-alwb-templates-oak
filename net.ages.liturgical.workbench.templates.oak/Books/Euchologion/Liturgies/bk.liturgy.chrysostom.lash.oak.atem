@@ -359,7 +359,7 @@ Status Review
 		Dialog sid hoMA.DoxologyVerse08.text End-Dialog
 		Dialog sid hoMA.DoxologyVerse09.text End-Dialog
 		Dialog sid psa32.v22.text End-Dialog
-		Dialog sid psa118.v12.text <r> sid Thrice </> End-Dialog
+		Dialog sid psa118.v12alt.text <r> sid Thrice </> End-Dialog
 		Dialog sid psa89.v1.text sid psa40.v5.text End-Dialog
 		Dialog sid psa142.v10alt.text End-Dialog
 		Dialog sid psa35.v10.text End-Dialog
@@ -1988,17 +1988,17 @@ Status Review
 		Title role melody sid li.evlogitariadeparted.title End-Title
 		
 		Rubric sid Mode5 End-Rubric
-		Dialog sid psa118.v12.text End-Dialog
+		Dialog sid psa118.v12alt.text End-Dialog
 		Rubric sid li.rubric.beginning2 End-Rubric
 		Dialog sid hoMA.FuneralEvlog1.text End-Dialog
 		
-		Dialog sid psa118.v12.text End-Dialog
+		Dialog sid psa118.v12alt.text End-Dialog
 		Dialog sid hoMA.FuneralEvlog4.text End-Dialog
 		
-		Dialog sid psa118.v12.text End-Dialog
+		Dialog sid psa118.v12alt.text End-Dialog
 		Dialog sid hoMA.FuneralEvlog5.text End-Dialog
 		
-		Dialog sid psa118.v12.text End-Dialog
+		Dialog sid psa118.v12alt.text End-Dialog
 		Dialog sid hoMA.FuneralEvlog6.text End-Dialog
 		
 		Dialog sid DoxaPatri.text <r> sid Triadikon </> End-Dialog
