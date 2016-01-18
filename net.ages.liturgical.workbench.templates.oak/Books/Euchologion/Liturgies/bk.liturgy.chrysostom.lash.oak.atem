@@ -885,7 +885,7 @@ Status Review
 	    Rubric sid li.rubric.eparon End-Rubric
 	    Dialog sid li.eparon End-Dialog
 		Rubric sid li.rubric.wearaer End-Rubric
-		Dialog sid psa133.v2alt.text <r> sid li.rubric.psa133.v2.fullattribution </> End-Dialog
+		Dialog sid psa133.v2alt2.text <r> sid li.rubric.psa133.v2.fullattribution </> End-Dialog
 		Rubric sid li.rubric.takegifts End-Rubric
 		Dialog sid psa46.v6alt.text End-Dialog
 		

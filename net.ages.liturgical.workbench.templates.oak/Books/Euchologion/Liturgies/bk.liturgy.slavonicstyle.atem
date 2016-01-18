@@ -826,7 +826,7 @@ import client_gr_GR_cog.*
 				Actor sid Deacon End-Actor
 				Para role inaudible sid li.eparon End-Para
 				Actor sid Priest End-Actor
-				Para role inaudible sid psa133.v2alt.text End-Para
+				Para role inaudible sid psa133.v2alt2.text End-Para
 			End-Section
 			
 			Section greatentrance
