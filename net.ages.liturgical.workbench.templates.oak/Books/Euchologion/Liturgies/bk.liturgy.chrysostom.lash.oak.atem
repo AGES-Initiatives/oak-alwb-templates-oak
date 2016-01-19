@@ -1214,7 +1214,7 @@ Status Review
 	Section Section27
 		Rubric sid li.rubric.communionhymn End-Rubric
 		Rubric sid li.rubric.communionhymnsunday End-Rubric
-		Hymn sid psa148.v1.text sid Allilouia3.text <r> sid li.rubric.communionhymnfullattribution </> End-Hymn
+		Hymn sid psa148.v1alt.text sid Allilouia3.text <r> sid li.rubric.communionhymnfullattribution </> End-Hymn
 		Rubric sid li.rubric.communionhymnotherdays End-Rubric
 		Break line End_Break
 	End-Section

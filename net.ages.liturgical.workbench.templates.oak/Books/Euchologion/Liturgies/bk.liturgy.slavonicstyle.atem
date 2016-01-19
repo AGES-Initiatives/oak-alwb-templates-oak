@@ -1221,7 +1221,7 @@ import client_gr_GR_cog.*
 				
 				Rubric sid li.rubric.communionhymn End-Rubric
 				Actor sid People End-Actor
-				Hymn sid psa148.v1.text sid Allilouia3.text <r> sid Thrice </> End-Hymn
+				Hymn sid psa148.v1alt.text sid Allilouia3.text <r> sid Thrice </> End-Hymn
 				
 				Rubric sid li.rubric.seepage End-Rubric
 				Reading sid hoPCPrayer.PistevoKyrie.text End-Reading

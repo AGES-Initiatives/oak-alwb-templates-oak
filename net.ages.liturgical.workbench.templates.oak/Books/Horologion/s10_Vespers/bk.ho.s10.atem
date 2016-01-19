@@ -5,7 +5,7 @@ Status Review
 	import client_gr_GR_cog.*
 	import eu.lichrysbasil_gr_GR_cog.*
 	import ho.s10_gr_GR_cog.*
-	import ps_gr_GR_cog.*
+	import ps_gr_KE_oak.*
 	import hi.s01_gr_GR_cog.*
 	
 	import da.*
@@ -144,7 +144,7 @@ Status Review
 	Title sid psa140.title End-Title
 	Actor sid People End-Actor
 	Reading sid psa140.v1alt.text End-Reading
-	Reading sid psa140.v2.text sid psa140.v0.text End-Reading
+	Reading sid psa140.v2alt.text sid psa140.v0.text End-Reading
 	
 	Title sid psa141.title End-Title
 	Actor sid Reader End-Actor
