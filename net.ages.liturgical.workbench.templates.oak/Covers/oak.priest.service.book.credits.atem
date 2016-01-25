@@ -2,7 +2,7 @@ Template oak.priest.service.book.credits
 
 Status Final
 
-	import properties_en_US_alwb.*
+	import properties_en_KE_oak.*
 
 	import iTags.*
 	import bTags.*
