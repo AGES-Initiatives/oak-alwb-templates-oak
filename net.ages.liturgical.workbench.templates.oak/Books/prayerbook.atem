@@ -595,6 +595,8 @@ Status Review
 			Actor sid Priest End-Actor
 			Reading sid prbk.confessionprayer4 End-Reading
 			Reading sid DiEfchonPateron.text End-Reading
+			Actor sid Penitent End-Actor
+			Dialog sid res04 End-Dialog
 			
 			Title sid prbk.confessionprayer5.title End-Title
 			Title sid prbk.confessionprayer5.title.b End-Title

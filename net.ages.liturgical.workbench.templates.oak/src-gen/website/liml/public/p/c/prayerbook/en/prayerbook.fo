@@ -1,0 +1,5392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="'Palatino Linotype', 'Palatino Linotype Italic', 'Palatino Linotype Bold', 'Palatino Linotype Bold Italic'" font-size="10pt" text-align="justify" line-height="normal" font-selection-strategy="character-by-character" line-height-shift-adjustment="disregard-shifts" writing-mode="lr-tb" language="en">
+   <fo:layout-master-set>
+    <fo:simple-page-master master-name="preface-master"
+      page-height="11in" page-width="8.5in"
+      margin-top=".5in" margin-bottom=".5in"
+      margin-left=".75in" margin-right=".75in">
+      <fo:region-body margin-top=".3in" margin-bottom=".1in"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="even"
+      page-height="11in" page-width="8.5in"
+      margin-top=".5in" margin-bottom=".5in"
+      margin-left=".75in" margin-right=".75in">
+      <fo:region-body margin-top=".3in" margin-bottom=".1in" />
+      <fo:region-before region-name="header-even" extent="0in"/>
+      <fo:region-after region-name="footer-even" extent="0in"/>
+    </fo:simple-page-master>
+    <fo:simple-page-master master-name="odd"
+      page-height="11in" page-width="8.5in"
+      margin-top=".5in" margin-bottom=".5in"
+      margin-left=".75in" margin-right=".75in">
+      <fo:region-body margin-top=".3in" margin-bottom=".1in" />
+      <fo:region-before region-name="header-odd" extent="0in"/>
+      <fo:region-after region-name="footer-odd" extent="0in"/>
+    </fo:simple-page-master>
+    <fo:page-sequence-master master-name="document">
+      <fo:repeatable-page-master-alternatives>
+        <fo:conditional-page-master-reference odd-or-even="even"
+          master-reference="even"/>
+        <fo:conditional-page-master-reference odd-or-even="odd"
+          master-reference="odd"/>
+      </fo:repeatable-page-master-alternatives>
+    </fo:page-sequence-master>
+  </fo:layout-master-set> 
+<fo:page-sequence master-reference='document' initial-page-number='1'>
+    <fo:flow flow-name='xsl-region-body' text-align='left'>	
+<fo:table 
+border-collapse='collapse' 
+margin='0 0 pt' 
+padding='0'>		
+<fo:table-body>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+<fo:table-row>
+<fo:table-cell 
+padding-left='0px' 
+padding-right='0px' 
+vertical-align='top'><fo:block 
+font-size='12pt' 
+line-height='150%' 
+padding-after='6px' 
+text-align='left' 
+text-indent='.3in'> </fo:block></fo:table-cell>
+</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'>The Trisagion Prayers </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>  Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Heavenly King, Advocate, Spirit of truth, present everywhere, filling all things, Treasury of blessings and Giver of life, come and dwell in us, cleanse us from every stain, and, O Good One, save our souls. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Holy God, Holy Strong, Holy Immortal, have mercy on us. (three times). </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>All-holy Trinity, have mercy on us. Lord, cleanse us from our sins. Master, pardon our iniquities. Holy One, visit and heal our infirmities for your name’s sake. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. (three times). </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Our Father, in heaven, may your name be sanctified, your kingdom come; your will be done on earth as in heaven. Give us today our daily bread, and forgive us our debts, as we forgive our debtors, and do not lead us into temptation, but deliver us from the evil one. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>For yours is the kingdom, the power and the glory, Father, Son and Holy Spirit, now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. (twelve times). </fo:block></fo:table-cell>
+		</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'>THE CREED </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>I believe in one God, * Father, Almighty,* Maker of heaven and earth,* and of all things visible and invisible. And in one Lord, Jesus Christ,* the only-begotten Son of God, * begotten from the Father * before all ages, * Light from Light, * true God from true God, * begotten * not made, * consubstantial with the Father,* through him all things were made. * For our sake and for our salvation * he came down from heaven, * and was incarnate from the Holy Spirit * and the Virgin Mary * and became man. * He was crucified also for us under Pontius Pilate,* and suffered and was buried; * he rose again on the third day, * in accordance with the Scriptures, * and ascended into heaven * and is seated at the right hand of the Father. * He is coming again in glory * to judge the living and the dead, * and his kingdom will have no end. And in the Holy Spirit, * the Lord, * the Giver of life, * who proceeds from the Father, * who together with Father and Son is worshipped * and together glorified; * who spoke through the Prophets. * In one, Holy, * Catholic and Apostolic Church. * I confess one Baptism * for the forgiveness of sins. * I await the resurrection of the dead * and the life of the age to come. Amen. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy upon us. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy upon us. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. (twelve times). </fo:block></fo:table-cell>
+		</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy upon us. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, now lettest thou thy servant depart in peace, according to thy word; for mine eyes have seen thy salvation which thou hast prepared in the presence of all peoples, a light for revelation to the Gentiles, and for glory to thy people Israel. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>As you are source of compassion, grant us pity, Mother of God. Look on a people who have sinned, and show your power as always; for hoping in you we cry, ‘Hail’, as once Gabriel did, the chief Captain of the Bodiless Powers. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>It is truly right to call you blessed, who gave birth to God, ever-blessed and most pure, and Mother of our God. Greater in honour than the Cherubim and beyond compare more glorious than the Seraphim, without corruption you gave birth to God the Word; truly the Mother of God, we magnify you. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>Hail! Mary, full of grace, the Lord is with you, O Mother of God: blessed are you among all women, and blessed is the fruit of your womb, Jesus, for you gave birth to the Savior of our souls. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>The Father is my hope, the Son is my refuge, the Holy Spirit is my shelter. Holy Trinity, glory to you. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PEOPLE </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> Amen. Our Father, in heaven, may your name be sanctified, your kingdom come; your will be done on earth as in heaven. Give us today our daily bread, and forgive us our debts, as we forgive our debtors, and do not lead us into temptation, but deliver us from the evil one. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>For yours is the kingdom, the power and the glory, Father, Son and Holy Spirit, now and for ever, and to the ages of ages. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PEOPLE </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. Lord, have mercy. (three times). </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PEOPLE </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>Or </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>Or </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>  Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Heavenly King, Advocate, Spirit of truth, present everywhere, filling all things, Treasury of blessings and Giver of life, come and dwell in us, cleanse us from every stain, and, O Good One, save our souls. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Holy God, Holy Strong, Holy Immortal, have mercy on us. (three times). </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>All-holy Trinity, have mercy on us. Lord, cleanse us from our sins. Master, pardon our iniquities. Holy One, visit and heal our infirmities for your name’s sake. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. (three times). </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Our Father, in heaven, may your name be sanctified, your kingdom come; your will be done on earth as in heaven. Give us today our daily bread, and forgive us our debts, as we forgive our debtors, and do not lead us into temptation, but deliver us from the evil one. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy upon us. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. (twelve times). </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'>Ψαλμὸς ΚΒʹ (22). </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Κύριος ποιμαίνει με καὶ οὐδέν με ὑστερήσει. Εἰς τόπον χλόης, ἐκεῖ με κατεσκήνωσεν, ἐπὶ ὕδατος ἀναπαύσεως ἐξέθρεψέ με, τὴν ψυχήν μου ἐπέστρεψεν. Ὡδήγησέ με ἐπὶ τρίβους δικαιοσύνης ἕνεκεν τοῦ ὀνόματος αὐτοῦ. Ἐὰν γὰρ καὶ πορευθῶ ἐν μέσῳ σκιᾶς θανάτου, οὐ φοβηθήσομαι κακά, ὅτι σὺ μετ' ἐμοῦ εἶ· ἡ ράβδος σου καὶ ἡ βακτηρία σου, αὗταί με παρεκάλεσαν. Ἡτοίμασας ἐνώπιόν μου τράπεζαν, ἐξεναντίας τῶν θλιβόντων με· ἐλίπανας ἐν ἐλαίῳ τὴν κεφαλήν μου, καὶ τὸ ποτήριόν σου μεθύσκον με ὡσεὶ κράτιστον. Καὶ τὸ ἔλεός σου καταδιώξει με πάσας τὰς ἡμέρας τῆς ζωῆς μου, καὶ τὸ κατοικεῖν με ἐν οἴκῳ Κυρίου εἰς μακρότητα ἡμερῶν. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'>Ψαλμὸς ΚΓʹ (23). </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Τοῦ Κυρίου ἡ γῆ καὶ τὸ πλήρωμα αὐτῆς, ἡ οἰκουμένη καὶ πάντες οἱ κατοικοῦντες ἐν αὐτῇ. Αὐτὸς ἐπὶ θαλασσῶν ἐθεμελίωσεν αὐτὴν καὶ ἐπὶ ποταμῶν ἡτοίμασεν αὐτήν. Τίς ἀναβήσεται εἰς τὸ ὄρος τοῦ Κυρίου καὶ τίς στήσεται ἐν τόπῳ ἁγίῳ αὐτοῦ; ἀθῷος χερσὶ καὶ καθαρὸς τῇ καρδίᾳ, ὃς οὐκ ἔλαβεν ἐπὶ ματαίῳ τὴν ψυχὴν αὐτοῦ καὶ οὐκ ὤμοσεν ἐπὶ δόλῳ τῷ πλησίον αὐτοῦ. Οὗτος λήψεται εὐλογίαν παρὰ Κυρίου καὶ ἐλεημοσύνην παρὰ θεοῦ σωτῆρος αὐτοῦ. Αὕτη ἡ γενεὰ ζητούντων τὸν Κύριον, ζητούντων τὸ πρόσωπον τοῦ θεοῦ Ἰακώβ. Ἄρατε πύλας, οἱ ἄρχοντες ὑμῶν, καὶ ἐπάρθητε, πύλαι αἰώνιοι, καὶ εἰσελεύσεται ὁ βασιλεὺς τῆς δόξης. Τίς ἐστιν οὗτος ὁ βασιλεὺς τῆς δόξης; Κύριος κραταιὸς καὶ δυνατός, Κύριος δυνατὸς ἐν πολέμῳ. Ἄρατε πύλας, οἱ ἄρχοντες ὑμῶν, καὶ ἐπάρθητε, πύλαι αἰώνιοι, καὶ εἰσελεύσεται ὁ βασιλεὺς τῆς δόξης. Τίς ἐστιν οὗτος ὁ βασιλεὺς τῆς δόξης; Κύριος τῶν δυνάμεων αὐτός ἐστιν ὁ βασιλεὺς τῆς δόξης. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'>Ψαλμὸς ΡΙΕʹ (115). </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Ἐπίτευσα, διὸ ἐλάλησα· ἐγὼ δὲ ἐταπεινώθην σφόδρα. Ἐγὼ δὲ εἶπα ἐν τῇ ἐκστάσει μου· πᾶς ἄνθρωπος ψεύστης. Τί ἀνταποδώσω τῷ Κυρίῳ περὶ πάντων, ὧν ἀνταπέδωκέ μοι; ποτήριον σωτηρίου λήψομαι καὶ τὸ ὄνομα Κυρίου ἐπικαλέσομαι. Τὰς εὐχάς μου τῷ Κυρίῳ ἀποδώσω ἐναντίον παντὸς τοῦ λαοῦ αὐτοῦ. Τίμιος ἐναντίον Κυρίου ὁ θάνατος τῶν ὁσίων αὐτοῦ. Ὦ Κύριε, ἐγὼ δοῦλος σός, ἐγὼ δοῦλος σὸς καὶ υἱὸς τῆς παιδίσκης σου. Διέρρηξας τοὺς δεσμούς μου, σοὶ θύσω θυσίαν αἰνέσεως καὶ ἐν ὀνόματι Κυρίου ἐπικαλέσομαι. Τὰς εὐχάς μου τῷ Κυρίῳ ἀποδώσω ἐναντίον παντὸς τοῦ λαοῦ αὐτοῦ, ἐν αὐλαῖς οἴκου Κυρίου ἐν μέσῳ σου, Ἱερουσαλήμ. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>Both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>Lord, have mercy.  </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Of your mystical Supper, Son of God, receive me today as a communicant; for I will not tell of the Mystery to your enemies; I will not give you a kiss, like Judas; but like the Thief I confess you: Remember me, Lord, in your Kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>You see the deifying Blood: have fear.
+	It is a coal consuming the unworthy.
+	God’s Body deifies and nourishes
+	Me strangely; both my spirit and my mind. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>You have smitten me with longing, O Christ, and changed me by your divine love; but with your immaterial fire burn up my sins and count me worthy to be filled with delight in you, that as I leap for joy, O Good One, I may magnify your first and second Comings. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>How shall I, the unworthy, enter among the splendours of your Saints? For if I dare to enter with them into the bridal chamber, my dress convicts me, for it is not a wedding garment, and I shall be bound and cast out by the Angels. Cleanse the stain of my soul, Lord, and save me, as you love humankind. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Master, lover of humankind, Lord Jesus Christ, my God, do not let these holy Mysteries be for my condemnation because I am unworthy, but rather for the cleansing and sanctification of both soul and body and as a pledge of the life and kingdom to come. It is good for me to cleave to God, to place in the Lord the hope of my salvation. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>And again: </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Of your mystical Supper, Son of God, receive me today as a communicant; for I will not tell of the Mystery to your enemies; I will not give you a kiss, like Judas; but like the Thief I confess you: Remember me, Lord, in your Kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy upon us. </fo:block></fo:table-cell>
+		</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'>Ψαλμὸς Nʹ (50). </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Ἐλέησόν με, ὁ Θεός, κατὰ τὸ μέγα ἔλεός σου, καὶ κατὰ τὸ πλῆθος τῶν οἰκτιρμῶν σου ἐξάλειψον τὸ ἀνόμημά μου. Ἐπὶ πλεῖον πλῦνόν με ἀπὸ τῆς ἀνομίας μου, καὶ απὸ τῆς ἁμαρτίας μου καθάρισόν με. Ὅτι τὴν ἀνομίαν μου ἐγὼ γινώσκω, καὶ ἡ ἁμαρτία μου ἐνώπιόν μού ἐστι διὰ παντός. Σοὶ μόνῳ ἥμαρτον καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα, ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε. Ἰδοὺ γὰρ ἐν ἀνομίαις συνελήφθην, καὶ ἐν ἁμαρτίαις ἐκίσσησέ με ἡ μήτηρ μου. Ἰδοὺ γὰρ ἀλήθειαν ἠγάπησας, τὰ ἄδηλα καὶ τὰ κρύφια τῆς σοφίας σου ἐδήλωσάς μοι. Ραντιεῖς με ὑσσώπῳ, καὶ καθαρισθήσομαι, πλυνεῖς με, καὶ ὑπὲρ χιόνα λευκανθήσομαι. Ἀκουτιεῖς μοι ἀγαλλίασιν καὶ εὐφροσύνην· ἀγαλλιάσονται ὀστέα τεταπεινωμένα. Ἀπόστρεψον τὸ πρόσωπόν σου ἀπὸ τῶν ἁμαρτιῶν μου καὶ πάσας τὰς ἀνομίας μου ἐξάλειψον. Καρδίαν καθαρὰν κτίσον ἐν ἐμοί, ὁ Θεός, καὶ πνεῦμα εὐθὲς ἐγκαίνισον ἐν τοῖς ἐγκάτοις μου. Μὴ ἀπορρίψῃς με ἀπὸ τοῦ προσώπου σου καὶ το Πνεῦμά σου τὸ ἅγιον μὴ ἀντανέλῃς ἀπ' ἐμοῦ. Ἀπόδος μοι τὴν ἀγαλλίασιν τοῦ σωτηρίου σου καὶ πνεύματι ἡγεμονικῷ στήριξόν με. Διδάξω ἀνόμους τὰς ὁδούς σου, καὶ ἀσεβεῖς ἐπὶ σὲ ἐπιστρέψουσι. Ρῦσαί με ἐξ αἱμάτων, ὁ Θεὸς, ὁ Θεὸς τῆς σωτηρίας μου· ἀγαλλιάσεται ἡ γλῶσσά μου τὴν δικαιοσύνην σου. Κύριε, τὰ χείλη μου ἀνοίξεις, καὶ τὸ στόμα μου ἀναγγελεῖ τὴν αἴνεσίν σου. Ὅτι εἰ ἠθέλησας θυσίαν, ἔδωκα ἄν· ὁλοκαυτώματα οὐκ εὐδοκήσεις. Θυσία τῷ Θεῷ πνεῦμα συντετριμμένον, καρδίαν συντετριμμένην καὶ τεταπεινωμένην ὁ Θεὸς οὐκ ἐξουδενώσει. Ἀγάθυνον, Κύριε, ἐν τῇ εὐδοκίᾳ σου τὴν Σιών, καὶ οἰκοδομηθήτω τὰ τείχη Ἱερουσαλήμ. Τότε εὐδοκήσεις θυσίαν δικαιοσύνης, ἀναφορὰν καὶ ὁλοκαυτώματα. Τότε ἀνοίσουσιν ἐπὶ τὸ θυσιαστήριόν σου μόσχους. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'>THE BEATITUDES </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>In Your kingdom. Remember us, O Lord, when You come in Your kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Blessed are the poor in spirit, for theirs is the kingdom of heaven </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>In Your kingdom. Remember us, O Lord, when You come in Your kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Blessed are those who mourn, for they shall be comforted. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>In Your kingdom. Remember us, O Lord, when You come in Your kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Blessed are the meek, for they shall inherit the earth. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>In Your kingdom. Remember us, O Lord, when You come in Your kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Blessed are those who hunger and thirst for righteousness, for they shall be satisfied. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>In Your kingdom. Remember us, O Lord, when You come in Your kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Blessed are the merciful, for they shall obtain mercy. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>In Your kingdom. Remember us, O Lord, when You come in Your kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Blessed are the pure in heart, for they shall see God. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>In Your kingdom. Remember us, O Lord, when You come in Your kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Blessed are the peacemakers, for they shall be called sons of God. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>In Your kingdom. Remember us, O Lord, when You come in Your kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Blessed are those who are persecuted for righteousness' sake, for theirs is the kingdom of heaven. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>In Your kingdom. Remember us, O Lord, when You come in Your kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Blessed are you when men revile you and persecute you and utter all kinds of evil against you falsely on my account. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>In Your kingdom. Remember us, O Lord, when You come in Your kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Rejoice and be glad, for your reward is great in heaven. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='130%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>In Your kingdom. Remember us, O Lord, when You come in Your kingdom. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Blessed is our God, always, now and for ever, and to the ages of ages. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Holy God, Holy Strong, Holy Immortal, have mercy on us. (three times). </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>All-holy Trinity, have mercy on us. Lord, cleanse us from our sins. Master, pardon our iniquities. Holy One, visit and heal our infirmities for your name’s sake. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. (three times). </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Our Father, in heaven, may your name be sanctified, your kingdom come; your will be done on earth as in heaven. Give us today our daily bread, and forgive us our debts, as we forgive our debtors, and do not lead us into temptation, but deliver us from the evil one. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>For yours is the kingdom, the power and the glory, Father, Son and Holy Spirit, now and for ever, and to the ages of ages. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Let us pray to the Lord. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to you, Christ God, our hope, glory to you. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Christ, our true God,  through the prayers of his most pure and holy Mother, by the power of the precious and life-giving Cross, through the protection of the honoured, Bodiless Powers of heaven, through the intercessions of the honoured, glorious Prophet, Forerunner and Baptist, John, of the holy, glorious and all-praised Apostles, of the holy, glorious and triumphant Martyrs, of our venerable and God-bearing fathers, of the holy and righteous forebears of God, Joachim and Anna, and of all the Saints,  </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy upon us. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Blessed is our God, always, now and for ever, and to the ages of ages. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Holy God, Holy Strong, Holy Immortal, have mercy on us. (three times). </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>All-holy Trinity, have mercy on us. Lord, cleanse us from our sins. Master, pardon our iniquities. Holy One, visit and heal our infirmities for your name’s sake. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. (three times). </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Our Father, in heaven, may your name be sanctified, your kingdom come; your will be done on earth as in heaven. Give us today our daily bread, and forgive us our debts, as we forgive our debtors, and do not lead us into temptation, but deliver us from the evil one. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>For yours is the kingdom, the power and the glory, Father, Son and Holy Spirit, now and for ever, and to the ages of ages. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>At the intercession, Lord, of all the Saints and of the Mother of God, give us your peace and have mercy on us, as you alone are full of pity. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Let us pray to the Lord. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Through the grace and compassion and love towards mankind of your only-begotten Son, with whom you are blessed, together with your all-holy, good and life-giving Spirit, now and for ever, and to the ages of ages.
+		</fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Hail, full of grace, Virgin Mother of God, for from you there dawned the Sun of righteousness, Christ our God, who enlightens those in darkness. Be glad too, righteous Elder, for you received in your embrace the Liberator of our souls, who grants us also resurrection. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>At the intercession, Lord, of all the Saints and of the Mother of God, give us your peace and have mercy on us, as you alone are full of pity. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'> </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Let us pray to the Lord. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Blessed is our God, always, now and for ever, and to the ages of ages. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>In peace, let us pray to the Lord. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>For the peace from on high and for the salvation of our souls, let us pray to the Lord. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Help us, save us, have mercy on us, and keep us, O God, by your grace. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Commemorating our all-holy, pure, most blessed and glorious Lady, Mother of God and Ever-Virgin Mary, with all the Saints, let us entrust ourselves and one another and our whole life to Christ our God. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>To you, O Lord. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>For to you belong all glory, honour and worship, Father, Son and Holy Spirit, now and for ever, and to the ages of ages. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Let us pray to the Lord. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+			<fo:table-row>
+			<fo:table-cell 
+			padding-left='0px' 
+			padding-right='0px' 
+			vertical-align='top'><fo:block 
+			font-size='12pt' 
+			line-height='130%' 
+			padding-bottom='6px' 
+			text-align='left' 
+			text-indent='.3in'>Holy God, Holy Strong, Holy Immortal, have mercy on us. (three times). </fo:block></fo:table-cell>
+			</fo:table-row>
+			<fo:table-row>
+			<fo:table-cell 
+			padding-left='0px' 
+			padding-right='0px' 
+			vertical-align='top'><fo:block 
+			font-size='12pt' 
+			line-height='130%' 
+			padding-bottom='6px' 
+			text-align='left' 
+			text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+			</fo:table-row>
+			<fo:table-row>
+			<fo:table-cell 
+			padding-left='0px' 
+			padding-right='0px' 
+			vertical-align='top'><fo:block 
+			font-size='12pt' 
+			line-height='130%' 
+			padding-bottom='6px' 
+			text-align='left' 
+			text-indent='.3in'>All-holy Trinity, have mercy on us. Lord, cleanse us from our sins. Master, pardon our iniquities. Holy One, visit and heal our infirmities for your name’s sake. </fo:block></fo:table-cell>
+			</fo:table-row>
+			<fo:table-row>
+			<fo:table-cell 
+			padding-left='0px' 
+			padding-right='0px' 
+			vertical-align='top'><fo:block 
+			font-size='12pt' 
+			line-height='130%' 
+			padding-bottom='6px' 
+			text-align='left' 
+			text-indent='.3in'>Lord, have mercy. (three times). </fo:block></fo:table-cell>
+			</fo:table-row>
+			<fo:table-row>
+			<fo:table-cell 
+			padding-left='0px' 
+			padding-right='0px' 
+			vertical-align='top'><fo:block 
+			font-size='12pt' 
+			line-height='130%' 
+			padding-bottom='6px' 
+			text-align='left' 
+			text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit; both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+			</fo:table-row>
+			<fo:table-row>
+			<fo:table-cell 
+			padding-left='0px' 
+			padding-right='0px' 
+			vertical-align='top'><fo:block 
+			font-size='12pt' 
+			line-height='130%' 
+			padding-bottom='6px' 
+			text-align='left' 
+			text-indent='.3in'>Our Father, in heaven, may your name be sanctified, your kingdom come; your will be done on earth as in heaven. Give us today our daily bread, and forgive us our debts, as we forgive our debtors, and do not lead us into temptation, but deliver us from the evil one. </fo:block></fo:table-cell>
+			</fo:table-row>
+			<fo:table-row>
+			<fo:table-cell 
+			padding-left='0px' 
+			padding-right='0px' 
+			vertical-align='top'><fo:block 
+			font-size='12pt' 
+			line-height='130%' 
+			padding-bottom='6px' 
+			text-align='left' 
+			text-indent='.3in'>For yours is the kingdom, the power and the glory, Father, Son and Holy Spirit, now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+			</fo:table-row>
+			<fo:table-row>
+			<fo:table-cell 
+			padding-left='0px' 
+			padding-right='0px' 
+			vertical-align='top'>
+			<fo:block keep-with-next.within-page='always' 
+			font-size='12pt' 
+			font-style='normal' 
+			font-weight='normal' 
+			padding-after='3px' 
+			text-align='center'>Ψαλμὸς Nʹ (50). </fo:block>
+			</fo:table-cell>
+			</fo:table-row>
+			<fo:table-row>
+			<fo:table-cell 
+			padding-left='0px' 
+			padding-right='0px' 
+			vertical-align='top'><fo:block 
+			font-size='12pt' 
+			line-height='150%' 
+			padding-after='6px' 
+			text-align='left' 
+			text-indent='.3in'>Ἐλέησόν με, ὁ Θεός, κατὰ τὸ μέγα ἔλεός σου, καὶ κατὰ τὸ πλῆθος τῶν οἰκτιρμῶν σου ἐξάλειψον τὸ ἀνόμημά μου. Ἐπὶ πλεῖον πλῦνόν με ἀπὸ τῆς ἀνομίας μου, καὶ απὸ τῆς ἁμαρτίας μου καθάρισόν με. Ὅτι τὴν ἀνομίαν μου ἐγὼ γινώσκω, καὶ ἡ ἁμαρτία μου ἐνώπιόν μού ἐστι διὰ παντός. Σοὶ μόνῳ ἥμαρτον καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα, ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε. Ἰδοὺ γὰρ ἐν ἀνομίαις συνελήφθην, καὶ ἐν ἁμαρτίαις ἐκίσσησέ με ἡ μήτηρ μου. Ἰδοὺ γὰρ ἀλήθειαν ἠγάπησας, τὰ ἄδηλα καὶ τὰ κρύφια τῆς σοφίας σου ἐδήλωσάς μοι. Ραντιεῖς με ὑσσώπῳ, καὶ καθαρισθήσομαι, πλυνεῖς με, καὶ ὑπὲρ χιόνα λευκανθήσομαι. Ἀκουτιεῖς μοι ἀγαλλίασιν καὶ εὐφροσύνην· ἀγαλλιάσονται ὀστέα τεταπεινωμένα. Ἀπόστρεψον τὸ πρόσωπόν σου ἀπὸ τῶν ἁμαρτιῶν μου καὶ πάσας τὰς ἀνομίας μου ἐξάλειψον. Καρδίαν καθαρὰν κτίσον ἐν ἐμοί, ὁ Θεός, καὶ πνεῦμα εὐθὲς ἐγκαίνισον ἐν τοῖς ἐγκάτοις μου. Μὴ ἀπορρίψῃς με ἀπὸ τοῦ προσώπου σου καὶ το Πνεῦμά σου τὸ ἅγιον μὴ ἀντανέλῃς ἀπ' ἐμοῦ. Ἀπόδος μοι τὴν ἀγαλλίασιν τοῦ σωτηρίου σου καὶ πνεύματι ἡγεμονικῷ στήριξόν με. Διδάξω ἀνόμους τὰς ὁδούς σου, καὶ ἀσεβεῖς ἐπὶ σὲ ἐπιστρέψουσι. Ρῦσαί με ἐξ αἱμάτων, ὁ Θεὸς, ὁ Θεὸς τῆς σωτηρίας μου· ἀγαλλιάσεται ἡ γλῶσσά μου τὴν δικαιοσύνην σου. Κύριε, τὰ χείλη μου ἀνοίξεις, καὶ τὸ στόμα μου ἀναγγελεῖ τὴν αἴνεσίν σου. Ὅτι εἰ ἠθέλησας θυσίαν, ἔδωκα ἄν· ὁλοκαυτώματα οὐκ εὐδοκήσεις. Θυσία τῷ Θεῷ πνεῦμα συντετριμμένον, καρδίαν συντετριμμένην καὶ τεταπεινωμένην ὁ Θεὸς οὐκ ἐξουδενώσει. Ἀγάθυνον, Κύριε, ἐν τῇ εὐδοκίᾳ σου τὴν Σιών, καὶ οἰκοδομηθήτω τὰ τείχη Ἱερουσαλήμ. Τότε εὐδοκήσεις θυσίαν δικαιοσύνης, ἀναφορὰν καὶ ὁλοκαυτώματα. Τότε ἀνοίσουσιν ἐπὶ τὸ θυσιαστήριόν σου μόσχους. </fo:block></fo:table-cell>
+			</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>Have mercy on us, Lord, have mercy on us; for we sinners, lacking all defence, offer you, as our Master, this supplication: have mercy on us. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Glory to the Father, and to the Son, and to the Holy Spirit. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy on us, for in you we have put our trust. Do not be very angry with us, nor remember our iniquities. But look on us now, as you are compassionate, and rescue us from our enemies. For you are our God, and we are your people; we are all the work of your hands, and we have called on your name.
+		</fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Both now and for ever, and to the ages of ages. Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Let us pray to the Lord. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Lord, have mercy. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>For to you belong all glory, honour and worship, Father, Son and Holy Spirit, now and for ever, and to the ages of ages. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Amen. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		color='red' 
+		font-size='10pt' 
+		font-style='italic' 
+		font-weight='normal' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'>PRIEST </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy upon us. </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'>
+		<fo:block keep-with-next.within-page='always' 
+		font-size='12pt' 
+		font-style='normal' 
+		font-weight='normal' 
+		padding-after='3px' 
+		text-align='center'> </fo:block>
+		</fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'> </fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='150%' 
+		padding-after='6px' 
+		text-align='left' 
+		text-indent='.3in'>For you, O God, are good and love mankind, and to you we give glory, Father, Son and Holy Spirit, now and for ever, and to the ages of ages. </fo:block></fo:table-cell>
+		</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'>APOLYTIKIA OF THE RESURRECTION </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'>
+	<fo:block keep-with-next.within-page='always' 
+	font-size='12pt' 
+	font-style='normal' 
+	font-weight='normal' 
+	padding-after='3px' 
+	text-align='center'>IN THE EIGHT MODES </fo:block>
+	</fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Mode 1. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>When the stone had been sealed by the Jews, and while soldiers were guarding your most pure Body, you rose, O Saviour, on the third day, giving life to the world; therefore the heavenly Powers cried out to you, Giver of life: Glory to your Resurrection, O Christ! Glory to your Kingdom! Glory to your dispensation, only lover of mankind! </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Mode 2. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>When you went down to death, O immortal life, then you slew Hades with the lightning flash of your Godhead; but when from the depths below the earth you raised the dead, all the Powers beyond the heavens cried out: Giver of life, Christ our God, glory to you! </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Mode 3. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>Let everything in heaven rejoice, let everything on earth be glad, for the Lord has shown strength with his arm; by death he has trampled on death; he has become the first-born from the dead; from the bowels of Hades he has delivered us, and granted to the world his great mercy. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Mode 4. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>When the women Disciples of the Lord had learnt from the Angel the joyful message of the Resurrection, casting away the ancestral condemnation, triumphantly they said to the Apostles: Death has been despoiled, Christ God has been raised, granting the world his great mercy. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Mode 1 Plagal. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>The Word without beginning with Father and with Spirit, born from a Virgin for our salvation, let us believers praise and let us worship him; for he was well pleased to ascend the Cross in the flesh and undergo death, and to raise those who had died, by his glorious Resurrection. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Mode 2 Plagal. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>Angelic Powers were at your grave, and those who guarded it became as dead, and Mary stood by the tomb, seeking your most pure Body. You despoiled Hades and emerged unscathed; you met the Virgin and granted life. Lord, risen from the dead, glory to you! </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Grave Mode. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>You abolished death by your Cross, you opened Paradise to the Thief, you transformed the Myrrhbearers’ lament, and ordered your Apostles to proclaim that you had risen, O Christ God, granting the world your great mercy. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	color='red' 
+	font-size='10pt' 
+	font-style='italic' 
+	font-weight='normal' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'>Mode 4 Plagal. </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-bottom='6px' 
+	text-align='left' 
+	text-indent='.3in'>You came down from above, O Compassionate, you accepted burial for three days, that you might free us from the passions. Our life and resurrection, Lord, glory to you! </fo:block></fo:table-cell>
+	</fo:table-row>
+	<fo:table-row>
+	<fo:table-cell 
+	padding-left='0px' 
+	padding-right='0px' 
+	vertical-align='top'><fo:block 
+	font-size='12pt' 
+	line-height='150%' 
+	padding-after='6px' 
+	text-align='left' 
+	text-indent='.3in'> </fo:block></fo:table-cell>
+	</fo:table-row>
+	</fo:table-body>
+</fo:table>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>
