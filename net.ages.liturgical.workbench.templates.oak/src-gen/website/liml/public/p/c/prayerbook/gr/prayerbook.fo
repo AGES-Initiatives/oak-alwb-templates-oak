@@ -5290,6 +5290,33 @@ text-indent='.3in'></fo:block></fo:table-cell>
 		<fo:table-cell 
 		padding-left='0px' 
 		padding-right='0px' 
+		vertical-align='top'><fo:block keep-with-next.within-page='always' 
+		color='red' 
+		font-family='Palatino Linotype Bold' 
+		font-size='11pt' 
+		font-variant='normal' 
+		font-weight='bold' 
+		padding-after='3px' 
+		padding-before='3px' 
+		text-align='left' 
+		text-indent='0px'></fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
+		vertical-align='top'><fo:block 
+		font-size='12pt' 
+		line-height='130%' 
+		padding-bottom='6px' 
+		text-align='left' 
+		text-indent='.3in'>Ἀμήν. 
+		</fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+		<fo:table-cell 
+		padding-left='0px' 
+		padding-right='0px' 
 		vertical-align='top'>
 		<fo:block keep-with-next.within-page='always' 
 		font-size='12pt' 
